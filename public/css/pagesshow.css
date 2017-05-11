@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700,800,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,800,900|Noto+Sans:400,700|Open+Sans:300,400,700,800|PT+Sans|Roboto:300,400,500,700,900&subset=cyrillic');
+body {
+    color: black;
+}
+
+.a, .a:hover, .a:active, .a:visited {
+    text-decoration:none !important;
+}
+
+.font {
+    font-family: "Exo 2" !important;
+    font-weight: 300 !important;
+}
+
+.f-s-17 {
+    font-size: 17px !important;
+}
+
+.font-pt-sans {
+    font-family: "PT Sans" !important;
+}
+
+.black {
+    color: black !important;
+}
+
+.bg-img {
+    background: url("/files/images/beautykitchen/bg.jpg") no-repeat top center;
+    background-size: cover;
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+    min-height: 100%;
+}
+
+.sw {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.btn-circle {
+    border-radius: 2rem !important;
+}
+
+.weight-700 {
+    font-weight: 700 !important;
+}
+
+.bullets {
+    font-size: 1.25rem !important;
+}
