@@ -23,12 +23,12 @@
                 min-height: 100%;
             }
         </style>
-                            <style>
-                body {
-                    background-color: white !important;
-                }
-            </style>
-                <script>
+        <style>
+            body {
+                background-color: white !important;
+            }
+        </style>
+        <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -37,7 +37,8 @@
             ga('create', 'UA-97200678-1', 'auto');
             ga('send', 'pageview');
         </script>
-                <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37005;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>    </head>
+        <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37005;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
+    </head>
     <body>
         <div class="bg-img">
             <div class="bg-overlay">
@@ -47,20 +48,23 @@
                             <span class="h1 text-uppercase font">
                                  FEMAS
                             </span><br>
-                            <span class="descriptor">Шкафы-купе на заказ</span>
+                            <span class="descriptor">Мебельная фабрика</span>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
                             <div class="hidden-md-up">
                                 <br>
                             </div>
-                                                                                                <span class="lptracker_phone">79992459855</span><br>                                                                                                                        <a href="mailto:info@lpkit.ru" class="text-info a">info@lpkit.ru</a><br>
-                                                                                        СПб, ул. Потапова 2
-                                                    </div>
+                            <span class="lptracker_phone">79992459855</span>
+                            <br>
+                            <a href="mailto:info@lpkit.ru" class="text-info a">info@lpkit.ru</a><br>
+                            СПб, ул. Потапова 2 лит М
+                        </div>
                     </div>
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
                             <h1 class="text-center my-0 weight-700">
-                                Шкафы-купе на заказ от производителя<br> по индивидуальным размерам за 7 дней<br>  в Санкт-Петербурге <br> Цены ниже салонов на 30%                            </h1>
+                                Шкафы-купе на заказ от производителя по индивидуальным размерам за 7 дней в Санкт-Петербурге Цены ниже салонов на 30%
+                            </h1>
                         </div>
                     </div>
                     <div class="row pt-5">
@@ -68,10 +72,11 @@
                             <div class="my-0 text-center">
                                 <p class="font bullets">
                                     Делаем корпусные, встроенные, угловые, гардеробные, радиусные, прихожие<br>
-Огромный выбор наполнения дверей и фурнитуры<br>
-Расширенная гарантия 5 лет. Рассрочка 0% от 3 до 12 месяцев<br>
-Вызов дизайнера с образцами материалов и каталогом бесплатно<br>
-Дизайн проект бесплатно. Приглашаем на экскурсию на наше производство<br>                                </p>
+                                    Огромный выбор наполнения дверей и фурнитуры<br>
+                                    Расширенная гарантия 5 лет. Рассрочка 0% от 3 до 12 месяцев<br>
+                                    Вызов дизайнера с образцами материалов и каталогом бесплатно<br>
+                                    Дизайн проект бесплатно. Приглашаем на экскурсию на наше производство<br>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -87,7 +92,7 @@
                                     <br>
                                 </div>
                                 <h3 class="pb-3 text-center weight-700">
-                                    Узнайте стоимость вашего шкафа-купе прямо сейчас
+                                    Получите расчет цены шкафа-купе по вашим размерам или эскизу
                                 </h3>
                                 <form action="/leads" method="POST">
                                     <input type="hidden" name="_token" value="GofZGX1C3NBBP8kypeA1aHh1KvdNOZs8TUOstRa2">
@@ -193,7 +198,7 @@
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/lp/files/shkaf-kupe-zakaz/9.jpg" class="img-fluid sw">
+                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-zerkala.jpg" class="img-fluid sw" alt="Шкаф-купе с зеркалами от 52 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Зеркала от 52 000 р.
                         </h5>
@@ -201,19 +206,19 @@
                 </div>
                 <div class="row pt-5 pb-5">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/lp/files/shkaf-kupe-zakaz/10.jpg" class="img-fluid sw">
+                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-fotopechat.jpg" class="img-fluid sw" alt="Шкаф-купе с фотопечатью от 54 000р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Фотопечать от 54 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/lp/files/shkaf-kupe-zakaz/11.jpg" class="img-fluid sw">
+                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-peskostrujnyj-risunok.jpg" class="img-fluid sw" alt="Шкаф-купе с пескоструйным рисунком от 54 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Пескоструйный рисунок от 54 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/lp/files/shkaf-kupe-zakaz/12.jpg" class="img-fluid sw">
+                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-cvetnoe-steklo.jpg" class="img-fluid sw" alt="Шкаф-купе с цветным стеклом от 85 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Цветное стекло от 85 000 р.
                         </h5>
@@ -234,10 +239,10 @@
                         </div>
                     </div>
                     <div class="container-fluid hidden-sm-up px-0">
-                        <img src="/files/12/slide_image_1.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
+                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
                     </div>
                     <div class="container hidden-xs-down px-0">
-                        <img src="/files/12/slide_image_1.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
+                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
                     </div>
                     <div class="container pb-5">
                         <div class="row">
@@ -263,10 +268,10 @@
                         </div>
                     </div>
                     <div class="container-fluid hidden-sm-up px-0">
-                        <img src="/files/12/slide_image_2.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
+                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
                     </div>
                     <div class="container hidden-xs-down px-0">
-                        <img src="/files/12/slide_image_2.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
+                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
                     </div>
                     <div class="container pb-5">
                         <div class="row">
