@@ -406,19 +406,50 @@
             </div>
         </div>
 
-        <div class="container py-5 font">
+        <div class="container pt-5">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                    @ 2017 shkaf-kupe.lpio.ru Все права защищены
+                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
+                    <h2 class="text-center my-0 weight-700 font-pt-sans">
+                        Оставьте размеры или эскиз вашего шкафа и мы рассчитаем стоимость
+                    </h2>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    <div class="hidden-md-up">
-                        <br>
-                    </div>
-                    <span class="lptracker_phone">79992459855</span>
+            </div>
+        </div>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-xs-12 offset-xl-1">
+                    <div class="pt-3" id="mc-container"></div>
                     <br>
-                    <a href="mailto:info@lpkit.ru" class="a">info@lpkit.ru</a><br>
-                    СПб, ул. Потапова 2 лит М
+                    <script type="text/javascript">
+                        cackle_widget = window.cackle_widget || [];
+                        cackle_widget.push({widget: 'Comment', id: 49982});
+                        (function() {
+                            var mc = document.createElement('script');
+                            mc.type = 'text/javascript';
+                            mc.async = true;
+                            mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+                        })();
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-faded">
+            <div class="container py-5 font">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
+                        &#169; 2017 shkaf-kupe.lpio.ru Все права защищены
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
+                        <div class="hidden-md-up">
+                            <br>
+                        </div>
+                        <span class="lptracker_phone">79992459855</span>
+                        <br>
+                        <a href="mailto:info@lpkit.ru" class="a">info@lpkit.ru</a><br>
+                        СПб, ул. Потапова 2 лит М
+                    </div>
                 </div>
             </div>
         </div>
