@@ -2,7 +2,7 @@
 @section('content')
     <style>
         html {
-            background: url(/files/) no-repeat center center fixed;
+            background: url(/files/thanks/thanks.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;

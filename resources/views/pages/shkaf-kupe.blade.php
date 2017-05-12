@@ -14,6 +14,7 @@
         <style>
             body {
                 background-color: white !important;
+                padding-top: 54px;
             }
             .bg-img {
                 background: url("/files/shkaf-kupe/shkaf-kupe-fon.jpg") no-repeat;
@@ -38,6 +39,32 @@
         <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37005;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
     </head>
     <body>
+
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse sw" role="navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <a class="navbar-brand font" href="#">Шкаф-купе</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link font" href="#">Видео</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font" href="#">Типы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font" href="#">Двери</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font" href="#">Комментарии</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="bg-img">
             <div class="bg-overlay">
                 <div class="container font">
