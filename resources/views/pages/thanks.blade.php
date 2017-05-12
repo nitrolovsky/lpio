@@ -2,7 +2,7 @@
 @section('content')
     <style>
         html {
-            background: url(/files/{{ $page->id }}/{{ $page->background_image }}) no-repeat center center fixed;
+            background: url(/files/) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;

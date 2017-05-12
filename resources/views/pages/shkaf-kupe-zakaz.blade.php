@@ -93,8 +93,8 @@
                                     Получите расчет цены шкафа-купе по вашим размерам или эскизу
                                 </h3>
                                 <form action="/leads" method="POST">
-                                    <input type="hidden" name="_token" value="GofZGX1C3NBBP8kypeA1aHh1KvdNOZs8TUOstRa2">
-                                    <input type="hidden" name="page_id" value="12">
+                                    {{ csrf_field() }}
+                                    <input type="hidden" name="source" value="shkaf-kupe-zakaz">
                                     <div class="form-group">
                                         <input type="text" class="font black sw btn-circle form-control" id="name" placeholder="Имя" name="name">
                                     </div>
@@ -105,7 +105,9 @@
                                         <input type="text" class="font black sw btn-circle form-control" id="phone" placeholder="Телефон" name="phone" required="required">
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="font sw btn-circle btn btn-primary btn-block" role="button"  >Получить расчет цены</button>
+                                        <button type="submit" class="font sw btn-circle btn btn-primary btn-block" role="button">
+                                            Получить расчет цены
+                                        </button>
                                     </div>
                                 </form>
                             </div>
