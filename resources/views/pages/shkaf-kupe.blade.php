@@ -16,7 +16,7 @@
                 background-color: white !important;
             }
             .bg-img {
-                background: url("/files/shkaf-kupe-zakaz/shkaf-kupe-fon.jpg") no-repeat;
+                background: url("/files/shkaf-kupe/shkaf-kupe-fon.jpg") no-repeat;
                 background-size: cover;
             }
             .bg-overlay {
@@ -94,7 +94,7 @@
                                 </h3>
                                 <form action="/leads" method="POST">
                                     {{ csrf_field() }}
-                                    <input type="hidden" name="source" value="shkaf-kupe-zakaz">
+                                    <input type="hidden" name="source" value="shkaf-kupe">
                                     <div class="form-group">
                                         <input type="text" class="font black sw btn-circle form-control" id="name" placeholder="Имя" name="name">
                                     </div>
@@ -130,19 +130,19 @@
             <div class="container-fluid px-5">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-v-prihozhuyu.jpg" class="img-fluid sw" alt="Шкаф-купе в прихожую от 45 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-v-prihozhuyu.jpg" class="img-fluid sw" alt="Шкаф-купе в прихожую от 45 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Шкаф-купе в прихожую от 45 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/vstroennyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Встроенный шкаф-купе от 35 000 р.">
+                        <img src="/files/shkaf-kupe/vstroennyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Встроенный шкаф-купе от 35 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Встроенный шкаф-купе от 35 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/uglovoj-shkaf-kupe.jpg" class="img-fluid sw" alt="Угловой шкаф-купе от 40 000 р.">
+                        <img src="/files/shkaf-kupe/uglovoj-shkaf-kupe.jpg" class="img-fluid sw" alt="Угловой шкаф-купе от 40 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Угловой шкаф-купе от 40 000 р.
                         </h5>
@@ -150,19 +150,19 @@
                 </div>
                 <div class="row pt-5 pb-5">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-v-garderobnuyu-komnatu.jpg" class="img-fluid sw" alt="Шкаф-купе в гардеробную комнату от 40 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-v-garderobnuyu-komnatu.jpg" class="img-fluid sw" alt="Шкаф-купе в гардеробную комнату от 40 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Шкаф-купе в гардеробную комнату от 40 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/korpusnyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Корпусный шкаф-купе от 35 000 р.">
+                        <img src="/files/shkaf-kupe/korpusnyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Корпусный шкаф-купе от 35 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Корпусный шкаф-купе от 35 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/radiusnyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Радиусный шкаф-купе от 75 000 р.">
+                        <img src="/files/shkaf-kupe/radiusnyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Радиусный шкаф-купе от 75 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Радиусный шкаф-купе от 75 000 р.
                         </h5>
@@ -184,19 +184,19 @@
             <div class="container-fluid px-5">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-ldsp.jpg" class="img-fluid sw" alt="Шкаф-купе ЛДСП от 60 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-ldsp.jpg" class="img-fluid sw" alt="Шкаф-купе ЛДСП от 60 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             ЛДСП от 60 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-mdf.jpg" class="img-fluid sw" alt="Шкаф-купе МДФ от 68 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-mdf.jpg" class="img-fluid sw" alt="Шкаф-купе МДФ от 68 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             МДФ от 68 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-zerkala.jpg" class="img-fluid sw" alt="Шкаф-купе с зеркалами от 52 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-zerkala.jpg" class="img-fluid sw" alt="Шкаф-купе с зеркалами от 52 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Зеркала от 52 000 р.
                         </h5>
@@ -204,19 +204,19 @@
                 </div>
                 <div class="row pt-5 pb-5">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-fotopechat.jpg" class="img-fluid sw" alt="Шкаф-купе с фотопечатью от 54 000р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-fotopechat.jpg" class="img-fluid sw" alt="Шкаф-купе с фотопечатью от 54 000р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Фотопечать от 54 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-peskostrujnyj-risunok.jpg" class="img-fluid sw" alt="Шкаф-купе с пескоструйным рисунком от 54 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-peskostrujnyj-risunok.jpg" class="img-fluid sw" alt="Шкаф-купе с пескоструйным рисунком от 54 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Пескоструйный рисунок от 54 000 р.
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-cvetnoe-steklo.jpg" class="img-fluid sw" alt="Шкаф-купе с цветным стеклом от 85 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-cvetnoe-steklo.jpg" class="img-fluid sw" alt="Шкаф-купе с цветным стеклом от 85 000 р.">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
                             Цветное стекло от 85 000 р.
                         </h5>
@@ -236,10 +236,10 @@
                 </div>
             </div>
             <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
+                <img src="/files/shkaf-kupe/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
             </div>
             <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
+                <img src="/files/shkaf-kupe/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
             </div>
             <div class="container pb-5">
                 <div class="row">
@@ -266,10 +266,10 @@
                 </div>
             </div>
             <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
+                <img src="/files/shkaf-kupe/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
             </div>
             <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
+                <img src="/files/shkaf-kupe/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
             </div>
             <div class="container pb-5">
                 <div class="row">
@@ -296,10 +296,10 @@
                 </div>
             </div>
             <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
+                <img src="/files/shkaf-kupe/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
             </div>
             <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe-zakaz/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
+                <img src="/files/shkaf-kupe/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
             </div>
             <div class="container pb-5">
                 <div class="row">
@@ -326,10 +326,10 @@
                 </div>
             </div>
             <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe-zakaz/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
+                <img src="/files/shkaf-kupe/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
             </div>
             <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe-zakaz/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
+                <img src="/files/shkaf-kupe/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
             </div>
             <div class="container pb-5">
                 <div class="row">
@@ -357,10 +357,10 @@
                 </div>
             </div>
             <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe-zakaz/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
+                <img src="/files/shkaf-kupe/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
             </div>
             <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe-zakaz/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
+                <img src="/files/shkaf-kupe/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
             </div>
             <div class="container pb-5">
                 <div class="row">
@@ -387,10 +387,10 @@
                 </div>
             </div>
             <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe-zakaz/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
+                <img src="/files/shkaf-kupe/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
             </div>
             <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe-zakaz/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
+                <img src="/files/shkaf-kupe/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
             </div>
             <div class="container pb-5">
                 <div class="row">
@@ -409,7 +409,7 @@
         <div class="container py-5 font">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                    @ 2017 shkaf-kupe-zakaz.lpio.ru Все права защищены
+                    @ 2017 shkaf-kupe.lpio.ru Все права защищены
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
                     <div class="hidden-md-up">
@@ -418,7 +418,7 @@
                     <span class="lptracker_phone">79992459855</span>
                     <br>
                     <a href="mailto:info@lpkit.ru" class="a">info@lpkit.ru</a><br>
-                    СПб, ул. Потапова 2
+                    СПб, ул. Потапова 2 лит М
                 </div>
             </div>
         </div>

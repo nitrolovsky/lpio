@@ -36,7 +36,7 @@ class LeadController extends Controller
      */
     public function store(Request $request)
     {
-        if (Request::get("source") == "shkaf-kupe-zakaz") {
+        if (Request::get("source") == "shkaf-kupe") {
             $data = array(
                 'source' => Request::server("HTTP_REFERER"),
 
