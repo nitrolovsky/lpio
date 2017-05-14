@@ -69,7 +69,7 @@
                     <div class="row pt-4">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                             <span class="h1 text-uppercase font">
-                                 FEMAS
+                                 ФЭМАС
                             </span><br>
                             <span class="descriptor">Мебельная фабрика</span>
                         </div>
@@ -79,14 +79,14 @@
                             </div>
                             <span class="lptracker_phone">79992459855</span>
                             <br>
-                            <a href="mailto:info@lpkit.ru" class="text-info a">info@lpkit.ru</a><br>
+                            <a href="mailto:info.lpio.ru@gmail.com" class="text-info a">info.lpio.ru@gmail.com</a><br>
                             СПб, ул. Потапова 2 лит М
                         </div>
                     </div>
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
                             <h1 class="text-center my-0 weight-700">
-                                Шкаф-купе на заказ напрямую от мебельной фабрики FEMAS выгоднее салона на 20%
+                                Шкаф-купе по индивидуальным размерам напрямую от мебельной фабрики "ФЭМАС" от 34 900 р.
                             </h1>
                         </div>
                     </div>
@@ -472,7 +472,7 @@
                         </div>
                         <span class="lptracker_phone">79992459855</span>
                         <br>
-                        <a href="mailto:info@lpkit.ru" class="a">info@lpkit.ru</a><br>
+                        <a href="mailto:info.lpio.ru@gmail.com" class="a">info.lpio.ru@gmail.com</a><br>
                         СПб, ул. Потапова 2 лит М
                     </div>
                 </div>
