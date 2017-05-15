@@ -9,9 +9,9 @@
         Телефон - {{ $phone or ""}}<br>
     @endif
     @if (isset($source))
-        Источник - {{ $source or ""}}<br><br>
+        Источник - {{ $source or ""}}<br>
     @endif
     @if (isset($cta))
-        Источник - {{ $cta or ""}}<br><br>
+        Кнопка призыва к действию - {{ $cta or ""}}<br><br>
     @endif
 </body>
