@@ -39,6 +39,7 @@ class LeadController extends Controller
         if (Request::get("source") == "shkaf-kupe") {
             $data = array(
                 'source' => Request::server("HTTP_REFERER"),
+                'cta' => Request::get('cta');
 
                 'name' => Request::get('name'),
                 'email' => Request::get('email'),
@@ -53,8 +54,8 @@ class LeadController extends Controller
             DB::table('wardrobes')->insert($data);
 
             Mail::send("emails.lead", $data, function ($message) use ($data) {
-                $message->from("info@lpio.ru", "lpio.ru");
-                $message->to("info@lpio.ru");
+                $message->from("info.lpio.ru@gmail.com", "lpio.ru");
+                $message->to("info.lpio.ru@gmail.com");
                 $message->subject("Заявка от " . $data['source'] . " в " . date ("Y.m.d H:m:s"));
             });
 

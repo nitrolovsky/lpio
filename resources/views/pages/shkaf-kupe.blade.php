@@ -48,16 +48,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link font" href="#">Видео</a>
+                        <a class="nav-link font" href="#video">Видео</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font" href="#">Типы</a>
+                        <a class="nav-link font" href="#type">Типы</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font" href="#">Двери</a>
+                        <a class="nav-link font" href="#doors">Двери</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font" href="#">Комментарии</a>
+                        <a class="nav-link font" href="#comments">Комментарии</a>
                     </li>
                 </ul>
             </div>
@@ -86,7 +86,7 @@
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
                             <h1 class="text-center my-0 weight-700">
-                                Шкаф-купе по индивидуальным размерам напрямую от мебельной фабрики "ФЭМАС" от 34 900 р.
+                                Шкаф-купе по итальянским технологиям и индивидуальным размерам напрямую от мебельной фабрики
                             </h1>
                         </div>
                     </div>
@@ -94,11 +94,9 @@
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
                             <div class="my-0 text-center">
                                 <p class="font bullets">
-                                    Делаем корпусные, встроенные, угловые, гардеробные, радиусные, прихожие<br>
-                                    Огромный выбор наполнения дверей и фурнитуры<br>
-                                    Расширенная гарантия 5 лет. Рассрочка 0% от 3 до 12 месяцев<br>
-                                    Вызов дизайнера с образцами материалов и каталогом бесплатно<br>
-                                    Дизайн проект бесплатно. Приглашаем на экскурсию на наше производство<br>
+                                    Вместимость до 20% больше стандартных шкафов<br>
+                                    Подойдут под любой интерьер<br>
+                                    Без салонной наценки напрямую с производства<br>
                                 </p>
                             </div>
                         </div>
@@ -142,17 +140,19 @@
             </div>
         </div>
 
+        <div id="type"></div>
+
         <div class="white">
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
                         <h2 class="text-center my-0 weight-700 font-pt-sans">
-                            Изготавливаем любые типы шкафов-купе
+                            Изготавливаем все возможные типы шкафов-купе
                         </h2>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid px-5">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-v-prihozhuyu.jpg" class="img-fluid sw" alt="Шкаф-купе в прихожую от 45 000 р.">
@@ -192,59 +192,131 @@
                             Радиусный шкаф-купе от 75 000 р.
                         </h5>
                     </div>
+                    <div class="mx-auto d-block pt-5">
+                        <button class="font btn-circle btn btn-primary" role="button"  data-toggle="modal" data-target="#typeFormModal">
+                            Получить консультацию по типам шкафов
+                        </button>
+                        <div class="modal fade" id="typeFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
+                                            Заполните форму
+                                        </h5>
+                                        <form action="/leads" method="POST">
+                                            {{ csrf_field() }}
+                                            <input type="hidden" name="source" value="shkaf-kupe">
+                                            <input type="hidden" name="cta" value="Получить консультацию по типам шкафов">
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="name" placeholder="Имя" name="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="email" placeholder="Email" name="email" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="phone" placeholder="Телефон" name="phone" required="required">
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <button type="submit" class="font btn-circle btn btn-primary btn-block" role="button">
+                                                    Получить консультацию по типам шкафов
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <div id="doors"></div>
+
         <div class="bg-faded">
             <div class="container pt-5 pb-5">
                 <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
+                    <div class="col-xl-12 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-0 offset-lg-2">
                         <h2 class="text-center my-0 weight-700 font-pt-sans">
                             Фасады и двери для шкафа-купе на ваш выбор
                         </h2>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid px-5">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-ldsp.jpg" class="img-fluid sw" alt="Шкаф-купе ЛДСП от 60 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-ldsp.jpg" class="img-fluid sw" alt="Шкаф-купе ЛДСП">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
-                            ЛДСП от 60 000 р.
+                            ЛДСП
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-mdf.jpg" class="img-fluid sw" alt="Шкаф-купе МДФ от 68 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-mdf.jpg" class="img-fluid sw" alt="Шкаф-купе МДФ">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
-                            МДФ от 68 000 р.
+                            МДФ
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-zerkala.jpg" class="img-fluid sw" alt="Шкаф-купе с зеркалами от 52 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-zerkala.jpg" class="img-fluid sw" alt="Шкаф-купе с зеркалами">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
-                            Зеркала от 52 000 р.
+                            Зеркала
                         </h5>
                     </div>
                 </div>
                 <div class="row pt-5 pb-5">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-fotopechat.jpg" class="img-fluid sw" alt="Шкаф-купе с фотопечатью от 54 000р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-fotopechat.jpg" class="img-fluid sw" alt="Шкаф-купе с фотопечатью">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
-                            Фотопечать от 54 000 р.
+                            Фотопечать
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-peskostrujnyj-risunok.jpg" class="img-fluid sw" alt="Шкаф-купе с пескоструйным рисунком от 54 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-peskostrujnyj-risunok.jpg" class="img-fluid sw" alt="Шкаф-купе с пескоструйным рисунком">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
-                            Пескоструйный рисунок от 54 000 р.
+                            Пескоструйный рисунок
                         </h5>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-cvetnoe-steklo.jpg" class="img-fluid sw" alt="Шкаф-купе с цветным стеклом от 85 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-cvetnoe-steklo.jpg" class="img-fluid sw" alt="Шкаф-купе с цветным стеклом">
                         <h5 class="font py-4 my-0 weight-700 font-pt-sans text-center">
-                            Цветное стекло от 85 000 р.
+                            Цветное стекло
                         </h5>
+                    </div>
+                    <div class="mx-auto d-block pt-5">
+                        <button class="font btn-circle btn btn-primary" role="button"  data-toggle="modal" data-target="#fasadFormModal">
+                            Получить консультацию по фасадам шкафов
+                        </button>
+                        <div class="modal fade" id="fasadFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
+                                            Заполните форму
+                                        </h5>
+                                        <form action="/leads" method="POST">
+                                            {{ csrf_field() }}
+                                            <input type="hidden" name="source" value="shkaf-kupe">
+                                            <input type="hidden" name="cta" value="Получить консультацию по фасадам шкафов">
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="name" placeholder="Имя" name="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="email" placeholder="Email" name="email" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="phone" placeholder="Телефон" name="phone" required="required">
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <button type="submit" class="font btn-circle btn btn-primary btn-block" role="button">
+                                                    Получить консультацию по фасадам шкафов
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -274,6 +346,41 @@
                         </h4>
                         <div class="pt-4 font-pt-sans f-s-17">
                             Вы можете посетить производственных цех, на котором будет изготавливаться ваш шкаф по адресу Санкт-Петербург, улица Потапова, дом 2, литера М. Двухэтажное здании мебельной фабрики ФЭМАС.
+                        </div>
+                    </div>
+                    <div class="mx-auto d-block pt-5">
+                        <button class="font btn-circle btn btn-primary" role="button"  data-toggle="modal" data-target="#designerFormModal">
+                            Бесплатно вызвать дизайнера
+                        </button>
+                        <div class="modal fade" id="designerFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
+                                            Заполните форму
+                                        </h5>
+                                        <form action="/leads" method="POST">
+                                            {{ csrf_field() }}
+                                            <input type="hidden" name="source" value="shkaf-kupe">
+                                            <input type="hidden" name="cta" value="Бесплатный выезд дизайнера">
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="name" placeholder="Имя" name="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="email" placeholder="Email" name="email" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="phone" placeholder="Телефон" name="phone" required="required">
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <button type="submit" class="font btn-circle btn btn-primary btn-block" role="button">
+                                                    Бесплатно вызвать дизайнера
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -367,6 +474,41 @@
 6 вариантов шкафов: корпусные, встроенные, угловые, гардеробные, радиусные, прихожие. 6 видов фасадов: ЛСДП, МДФ, зеркала, фотопечать, пескоструйный рисунок, цветное стекло.
                         </div>
                     </div>
+                    <div class="mx-auto d-block pt-5">
+                        <button class="font btn-circle btn btn-primary" role="button"  data-toggle="modal" data-target="#designerFormModal">
+                            Бесплатно вызвать дизайнера
+                        </button>
+                        <div class="modal fade" id="designerFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
+                                            Заполните форму
+                                        </h5>
+                                        <form action="/leads" method="POST">
+                                            {{ csrf_field() }}
+                                            <input type="hidden" name="source" value="shkaf-kupe">
+                                            <input type="hidden" name="cta" value="Бесплатный выезд дизайнера 2">
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="name" placeholder="Имя" name="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="email" placeholder="Email" name="email" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black btn-circle form-control" id="phone" placeholder="Телефон" name="phone" required="required">
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <button type="submit" class="font btn-circle btn btn-primary btn-block" role="button">
+                                                    Бесплатно вызвать дизайнера
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -430,6 +572,8 @@
                 </div>
             </div>
         </div>
+
+        <div id="comments"></div>
 
         <div class="container pt-5">
             <div class="row">

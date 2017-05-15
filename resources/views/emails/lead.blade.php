@@ -11,4 +11,7 @@
     @if (isset($source))
         Источник - {{ $source or ""}}<br><br>
     @endif
+    @if (isset($cta))
+        Источник - {{ $cta or ""}}<br><br>
+    @endif
 </body>
