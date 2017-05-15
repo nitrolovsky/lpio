@@ -56,9 +56,7 @@
                     <li class="nav-item">
                         <a class="nav-link font" href="#doors">Двери</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link font" href="#comments">Комментарии</a>
-                    </li>
+                    
                 </ul>
             </div>
         </nav>
