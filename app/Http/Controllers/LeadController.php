@@ -39,7 +39,7 @@ class LeadController extends Controller
         if (Request::get("source") == "shkaf-kupe") {
             $data = array(
                 'source' => Request::server("HTTP_REFERER"),
-                'cta' => Request::get('cta');
+                'cta' => Request::get('cta'),
 
                 'name' => Request::get('name'),
                 'email' => Request::get('email'),
