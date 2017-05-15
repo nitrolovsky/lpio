@@ -56,7 +56,7 @@
                     <li class="nav-item">
                         <a class="nav-link font" href="#doors">Двери</a>
                     </li>
-                    
+
                 </ul>
             </div>
         </nav>
@@ -75,7 +75,7 @@
                             <div class="hidden-md-up">
                                 <br>
                             </div>
-                            <span class="lptracker_phone">79992459855</span>
+                            <a href="tel:+78124269298" class="text-info a">+7 (812) 426-92-98</a>
                             <br>
                             <a href="mailto:info.lpio.ru@gmail.com" class="text-info a">info.lpio.ru@gmail.com</a><br>
                             СПб, ул. Потапова 2 лит М
@@ -613,7 +613,7 @@
                         <div class="hidden-md-up">
                             <br>
                         </div>
-                        <span class="lptracker_phone">79992459855</span>
+                        <a href="tel:+78124269298" class="a">+7 (812) 426-92-98</a>
                         <br>
                         <a href="mailto:info.lpio.ru@gmail.com" class="a">info.lpio.ru@gmail.com</a><br>
                         СПб, ул. Потапова 2 лит М
