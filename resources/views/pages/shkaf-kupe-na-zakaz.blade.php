@@ -41,13 +41,13 @@
 
         <div class="container font">
             <div class="row pt-4">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                    <span class="h1 text-uppercase font">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center font-pt-sans">
+                    <span class="h1 text-uppercase font-pt-sans">
                          ФЭМАС
                     </span><br>
                     <span class="descriptor">Мебельная фабрика</span>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center font-pt-sans">
                     <div class="hidden-md-up">
                         <br>
                     </div>
@@ -61,33 +61,33 @@
 
         <div class="container font">
             <div class="row pt-5">
-                <div class="col-xl-8 col-lg-6">
+                <div class="col-xl-8">
                     <div class="embed-responsive embed-responsive-16by9" id="video">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="col-xl-4">
                     <div class="container">
                         <div class="hidden-lg-up">
                             <br>
                         </div>
-                        <h4 class="pb-3 text-center weight-700 font-pt-sans">
+                        <h1 class="h4 weight-700 font-pt-sans">
                             Получите расчет цены шкафа-купе по вашим размерам
-                        </h4>
-                        <form action="/leads" method="POST">
+                        </h1>
+                        <form action="/leads" method="POST" class="pt-3">
                             {{ csrf_field() }}
                             <input type="hidden" name="source" value="shkaf-kupe">
                             <div class="form-group">
-                                <input type="text" class="font black form-control" id="email" placeholder="Email" name="email">
+                                <input type="text" class="form-control font-pt-sans black" id="email" placeholder="Email" name="email">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="font black form-control" id="phone" placeholder="Телефон*" name="phone" required="required">
+                                <input type="text" class="form-control font-pt-sans black" id="phone" placeholder="Телефон*" name="phone" required="required">
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control font black" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="font btn btn-primary btn-block" role="button">
+                                <button type="submit" class="btn btn-primary btn-block font-pt-sans" role="button">
                                     Получить расчет цены
                                 </button>
                             </div>
@@ -100,9 +100,9 @@
         <div class="container">
             <div class="row pt-5">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="text-center my-0 weight-700 font-pt-sans">
+                    <h4 class="text-center my-0 weight-700 font-pt-sans">
                         Изготавливаем все возможные типы шкафов-купе
-                    </h2>
+                    </h4>
                 </div>
             </div>
         </div>
@@ -139,7 +139,7 @@
             </div>
         </div>
 
-        <div class="container pt-5 pb-4 font">
+        <div class="container pt-5 pb-4 font-pt-sans">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                     Copyright &#169; 2017 "ФЭМАС". Все права защищены.
