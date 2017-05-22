@@ -63,7 +63,7 @@
             <div class="row pt-5">
                 <div class="col-xl-8">
                     <div class="embed-responsive embed-responsive-16by9" id="video">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mfh1-Kva_VM?rel=0&showinfo=0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9sUpjofMZcE?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-xl-4">
@@ -110,7 +110,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-4">
                     <div class="embed-responsive embed-responsive-16by9" id="video">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mfh1-Kva_VM?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
                         Встроенный шкаф-купе с зеркалами<br>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-4">
                     <div class="embed-responsive embed-responsive-16by9" id="video">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8oBoUMlo3N8?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
                         Шкаф-купе в гардеробную<br>
