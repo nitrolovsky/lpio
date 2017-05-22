@@ -63,16 +63,16 @@
             <div class="row pt-5">
                 <div class="col-xl-8">
                     <div class="embed-responsive embed-responsive-16by9" id="video">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mfh1-Kva_VM?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-xl-4">
-                    <div class="container">
+                    <div class="container px-0">
                         <div class="hidden-lg-up">
                             <br>
                         </div>
                         <h1 class="h4 weight-700 font-pt-sans">
-                            Получите расчет цены шкафа-купе по вашим размерам
+                            Получите расчет цены шкафа-купе по вашим размерам и бесплатный 3D дизайн-проект красивого и удобного шкафа
                         </h1>
                         <form action="/leads" method="POST" class="pt-3">
                             {{ csrf_field() }}
@@ -99,23 +99,13 @@
 
         <div class="container">
             <div class="row pt-5">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="text-center my-0 weight-700 font-pt-sans">
-                        Изготавливаем все возможные типы шкафов-купе
-                    </h4>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row pt-5">
                 <div class="col-xl-4 col-lg-4">
                     <div class="embed-responsive embed-responsive-16by9" id="video">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
-                        Шкаф-купе в гардеробную комнату<br>
-                        от 40 000 р.
+                        Угловой шкаф-купе<br>
+                        от 37 000 р.
                     </h5>
                 </div>
                 <div class="col-xl-4 col-lg-4">
@@ -123,7 +113,7 @@
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
-                        Корпусный шкаф-купе<br>
+                        Встроенный шкаф-купе с зеркалами<br>
                         от 35 000 р.
                     </h5>
                 </div>
@@ -132,8 +122,8 @@
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
-                        Радиусный шкаф-купе<br>
-                        от 75 000 р.
+                        Шкаф-купе в гардеробную<br>
+                        от 40 000 р.
                     </h5>
                 </div>
             </div>
@@ -141,17 +131,8 @@
 
         <div class="container pt-5 pb-4 font-pt-sans">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                    Copyright &#169; 2017 "ФЭМАС". Все права защищены.
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    <div class="hidden-md-up">
-                        <br>
-                    </div>
-                    <a href="tel:+78124269298" class="a">+7 (812) 426-92-98</a>
-                    <br>
-                    <a href="mailto:info.lpio.ru@gmail.com" class="a">info.lpio.ru@gmail.com</a><br>
-                    СПб, ул. Потапова 2 лит М
+                <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
+                    <small>Copyright &#169; 2017 "ФЭМАС". Все права защищены.</small>
                 </div>
             </div>
         </div>
