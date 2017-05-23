@@ -47,12 +47,12 @@
 
         <div class="container font">
             <div class="row pt-5">
-                <div class="col-xl-8">
+                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="embed-responsive embed-responsive-16by9" id="video">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9sUpjofMZcE?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="container px-0">
                         <div class="hidden-lg-up">
                             <br>
@@ -89,7 +89,7 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
-                    <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
+                    <h5 class="font pt-4 pb-5 my-0 weight-700 font-pt-sans text-center">
                         Все виды шкафов-купе от 34 900 р.
                     </h5>
                 </div>
@@ -97,7 +97,7 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mfh1-Kva_VM?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
-                    <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
+                    <h5 class="font pt-4 pb-5 my-0 weight-700 font-pt-sans text-center">
                         Напрямую от производства без салонных наценок
                     </h5>
                 </div>
@@ -105,14 +105,14 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8oBoUMlo3N8?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
-                    <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
+                    <h5 class="font pt-4 pb-5 my-0 weight-700 font-pt-sans text-center">
                         Бесплатный выезд дизайнера
                     </h5>
                 </div>
             </div>
         </div>
 
-        <div class="container pt-5 pb-4 font-pt-sans">
+        <div class="container pb-4 font-pt-sans">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                     <small>Copyright &#169; 2017 "ФЭМАС". Все права защищены.</small>
