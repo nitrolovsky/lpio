@@ -104,8 +104,7 @@
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
-                        Угловой шкаф-купе<br>
-                        от 37 000 р.
+                        Все виды шкафов-купе от 34 900 р.
                     </h5>
                 </div>
                 <div class="col-xl-4 col-lg-4">
@@ -113,8 +112,7 @@
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mfh1-Kva_VM?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
-                        Встроенный шкаф-купе с зеркалами<br>
-                        от 35 000 р.
+                        Напрямую от производства без салонных наценок
                     </h5>
                 </div>
                 <div class="col-xl-4 col-lg-4">
@@ -122,8 +120,7 @@
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8oBoUMlo3N8?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
-                        Шкаф-купе в гардеробную<br>
-                        от 40 000 р.
+                        Бесплатный выезд дизайнера
                     </h5>
                 </div>
             </div>
