@@ -8,6 +8,9 @@
     @if (isset($phone))
         Телефон - {{ $phone or ""}}<br>
     @endif
+    @if (isset($comment))
+        Комментарий - {{ $comment or ""}}<br>
+    @endif
     @if (isset($source))
         Источник - {{ $source or ""}}<br>
     @endif

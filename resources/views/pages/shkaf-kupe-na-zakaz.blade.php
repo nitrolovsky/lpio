@@ -9,31 +9,17 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/page.css">
         <title>
-            Шкаф-купе на заказ напрямую от мебельной фабрики FEMAS по Санкт-Петербургу и Ленинградской области
+            Шкаф-купе на заказ напрямую от мебельной фабрики ФЭМАС по Санкт-Петербургу и Ленинградской области
         </title>
-        <style>
-            body {
-                background-color: white !important;
-            }
-            .bg-img {
-                background: url("/files/shkaf-kupe/shkaf-kupe-fon.jpg") no-repeat;
-                background-size: cover;
-            }
-            .bg-overlay {
-                background-color: rgba(0, 0, 0, 0.5);
-                color: white;
-                height: 100%;
-                min-height: 100%;
-            }
-        </style>
         <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-97200678-1', 'auto');
-            ga('send', 'pageview');
+          ga('create', 'UA-99764557-1', 'auto');
+          ga('send', 'pageview');
+
         </script>
         <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37005;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
     </head>
@@ -84,7 +70,7 @@
                                 <input type="text" class="form-control font-pt-sans black" id="phone" placeholder="Телефон*" name="phone" required="required">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control font black" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
+                                <textarea class="form-control font black" id="comment" rows="3" name="comment" placeholder="Размеры или комментарий"></textarea>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary btn-block font-pt-sans" role="button">
@@ -100,7 +86,7 @@
         <div class="container">
             <div class="row pt-5">
                 <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9" id="video">
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
@@ -108,7 +94,7 @@
                     </h5>
                 </div>
                 <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9" id="video">
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mfh1-Kva_VM?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
@@ -116,7 +102,7 @@
                     </h5>
                 </div>
                 <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9" id="video">
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8oBoUMlo3N8?rel=0&showinfo=0" allowfullscreen></iframe>
                     </div>
                     <h5 class="font pt-4 my-0 weight-700 font-pt-sans text-center">
@@ -142,14 +128,13 @@
             (function (d, w, c) {
                 (w[c] = w[c] || []).push(function() {
                     try {
-                        w.yaCounter44126189 = new Ya.Metrika({
-                            id:44126189,
+                        w.yaCounter44736544 = new Ya.Metrika({
+                            id:44736544,
                             clickmap:true,
                             trackLinks:true,
                             accurateTrackBounce:true,
                             webvisor:true,
-                            trackHash:true,
-                            ecommerce:"dataLayer"
+                            trackHash:true
                         });
                     } catch(e) { }
                 });
@@ -166,7 +151,7 @@
                 } else { f(); }
             })(document, window, "yandex_metrika_callbacks");
         </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/44126189" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <noscript><div><img src="https://mc.yandex.ru/watch/44736544" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
     </body>
 </html>
