@@ -67,37 +67,32 @@
                 <div class="container font">
                     <div class="row pt-4">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                            <span class="h1 text-uppercase font">
-                                 ФЭМАС
-                            </span><br>
-                            <span class="descriptor">Мебельная фабрика</span>
+                            <span class="h1 w-3">ФЭМАС</span><br>
+                            <span class="w-3">Мебельная фабрика</span>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
                             <div class="hidden-md-up">
                                 <br>
                             </div>
-                            <a href="tel:+78124269298" class="text-info a">+7 (812) 426-92-98</a>
-                            <br>
+                            <a href="tel:+78124269298" class="text-info a">+7 (812) 426-92-98</a><br>
                             <a href="mailto:info.lpio.ru@gmail.com" class="text-info a">info.lpio.ru@gmail.com</a><br>
                             СПб, ул. Потапова 2 лит М
                         </div>
                     </div>
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
-                            <h1 class=" my-0 weight-700">
+                            <h1 class="my-0 w-9">
                                 Шкаф-купе по итальянским технологиям и индивидуальным размерам напрямую от мебельной фабрики
                             </h1>
                         </div>
                     </div>
                     <div class="row pt-4">
-                        <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
-                            <div class="my-0">
-                                <p class="font bullets">
-                                    Вместимость до 20% больше стандартных шкафов<br>
-                                    Подойдут под любой интерьер<br>
-                                    Без салонной наценки напрямую с производства<br>
-                                </p>
-                            </div>
+                        <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1 my-0">
+                            <h4 class="w-9">
+                                Вместимость на 20% больше стандартных шкафов<br>
+                                Подбираем дизайн под любой интерьер<br>
+                                Без салонной наценки напрямую с производства
+                            </h4>
                         </div>
                     </div>
                     <div class="row py-5">
@@ -111,10 +106,10 @@
                                 <div class="hidden-lg-up">
                                     <br>
                                 </div>
-                                <h3 class="pb-3 weight-700">
+                                <h4 class="w-9">
                                     Получите расчет цены шкафа-купе по вашим размерам или эскизу
-                                </h3>
-                                <form action="/leads" method="POST">
+                                </h4>
+                                <form action="/leads" method="POST" class="pt-3">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="source" value="shkaf-kupe">
                                     <div class="form-group">
@@ -145,7 +140,7 @@
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h2 class="text-center my-0 weight-700 font-pt-sans">
+                        <h2 class="text-center my-0  font-pt-sans">
                             Изготавливаем все возможные типы шкафов-купе
                         </h2>
                     </div>

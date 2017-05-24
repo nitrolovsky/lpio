@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700,800,900&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,800,900|Noto+Sans:400,700|Open+Sans:300,400,700,800|PT+Sans|Roboto:300,400,500,700,900&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&subset=cyrillic');
+
 .a, .a:hover, .a:active, .a:visited {
     text-decoration:none !important;
 }
 
 .font {
-    font-family: "Exo 2" !important;
-    font-weight: 300 !important;
+    font-family: "Roboto" !important;
 }
 
 .f-s-17 {
@@ -14,7 +16,7 @@
 }
 
 .font-pt-sans {
-    font-family: "PT Sans" !important;
+    font-family: "Roboto" !important;
 }
 
 .black {
@@ -38,6 +40,26 @@
 
 .weight-700 {
     font-weight: 700 !important;
+}
+
+.w-3 {
+    font-weight: 300 !important;
+}
+
+.w-4 {
+    font-weight: 400 !important;
+}
+
+.w-5 {
+    font-weight: 500 !important;
+}
+
+.w-7 {
+    font-weight: 700 !important;
+}
+
+.w-9 {
+    font-weight: 900 !important;
 }
 
 .bullets {
