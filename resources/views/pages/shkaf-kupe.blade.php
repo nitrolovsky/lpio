@@ -81,14 +81,14 @@
                     </div>
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
-                            <h1 class="my-0 w-9">
+                            <h1 class="my-0 w-5">
                                 Шкаф-купе по итальянским технологиям и индивидуальным размерам напрямую от мебельной фабрики
                             </h1>
                         </div>
                     </div>
                     <div class="row pt-4">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1 my-0">
-                            <h4 class="w-9">
+                            <h4 class="w-5">
                                 Вместимость на 20% больше стандартных шкафов<br>
                                 Подбираем дизайн под любой интерьер<br>
                                 Без салонной наценки напрямую с производства
@@ -106,7 +106,7 @@
                                 <div class="hidden-lg-up">
                                     <br>
                                 </div>
-                                <h4 class="w-9">
+                                <h4 class="w-5">
                                     Получите расчет цены шкафа-купе по вашим размерам или эскизу
                                 </h4>
                                 <form action="/leads" method="POST" class="pt-3">
