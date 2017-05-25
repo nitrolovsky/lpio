@@ -150,20 +150,20 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-v-prihozhuyu.jpg" class="img-fluid sw" alt="Шкаф-купе в прихожую от 45 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-v-prihozhuyu.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в прихожую от 45 000 р.">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Шкаф-купе в прихожую от 45 000 р.
                         </h4>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/vstroennyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Встроенный шкаф-купе от 35 000 р.">
+                        <img src="/files/shkaf-kupe/vstroennyj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Встроенный шкаф-купе от 35 000 р.">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Встроенный шкаф-купе от 35 000 р.
                         </h4>
                     </div>
                     <div class="col-xl-4 col-lg-4">
                         <div class="sw2">
-                        <img src="/files/shkaf-kupe/uglovoj-shkaf-kupe.jpg" class="img-fluid sw" alt="Угловой шкаф-купе от 40 000 р.">
+                        <img src="/files/shkaf-kupe/uglovoj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Угловой шкаф-купе от 40 000 р.">
                     </div>
                         <h4 class="py-4 my-0 text-center black w-3">
                             Угловой шкаф-купе от 40 000 р.
@@ -172,19 +172,19 @@
                 </div>
                 <div class="row pt-5 pb-5">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-v-garderobnuyu-komnatu.jpg" class="img-fluid sw" alt="Шкаф-купе в гардеробную комнату от 40 000 р.">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-v-garderobnuyu-komnatu.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в гардеробную комнату от 40 000 р.">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Шкаф-купе в гардеробную комнату от 40 000 р.
                         </h4>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/korpusnyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Корпусный шкаф-купе от 35 000 р.">
+                        <img src="/files/shkaf-kupe/korpusnyj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Корпусный шкаф-купе от 35 000 р.">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Корпусный шкаф-купе от 35 000 р.
                         </h4>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/radiusnyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Радиусный шкаф-купе от 75 000 р.">
+                        <img src="/files/shkaf-kupe/radiusnyj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Радиусный шкаф-купе от 75 000 р.">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Радиусный шкаф-купе от 75 000 р.
                         </h4>
@@ -241,19 +241,19 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-ldsp.jpg" class="img-fluid sw" alt="Шкаф-купе ЛДСП">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-ldsp.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе ЛДСП">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Ламинированное ДСП
                         </h4>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-mdf.jpg" class="img-fluid sw" alt="Шкаф-купе МДФ">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-mdf.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе МДФ">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Панели МДФ
                         </h4>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-zerkala.jpg" class="img-fluid sw" alt="Шкаф-купе с зеркалами">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-zerkala.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе с зеркалами">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Зеркала
                         </h4>
@@ -261,19 +261,19 @@
                 </div>
                 <div class="row pt-5 pb-5">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-fotopechat.jpg" class="img-fluid sw" alt="Шкаф-купе с фотопечатью">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-fotopechat.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе с фотопечатью">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Фотопечать
                         </h4>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-peskostrujnyj-risunok.jpg" class="img-fluid sw" alt="Шкаф-купе с пескоструйным рисунком">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-peskostrujnyj-risunok.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе с пескоструйным рисунком">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Пескоструйный рисунок
                         </h4>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-cvetnoe-steklo.jpg" class="img-fluid sw" alt="Шкаф-купе с цветным стеклом">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-cvetnoe-steklo.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе с цветным стеклом">
                         <h4 class="py-4 my-0 text-center black w-3">
                             Цветное стекло
                         </h4>
