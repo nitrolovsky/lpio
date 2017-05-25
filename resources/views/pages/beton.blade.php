@@ -16,7 +16,7 @@
                 padding-top: 54px;
             }
             .bg-img {
-                background: url("/files/shkaf-kupe/shkaf-kupe-fon-3.jpg") no-repeat;
+                background: url("/files/beton/beton-background.jpg") no-repeat;
                 background-size: cover;
             }
             .bg-overlay {
@@ -36,7 +36,7 @@
           ga('send', 'pageview');
 
         </script>
-        <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37005;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
+        <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37003;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
     </head>
     <body>
 
@@ -66,8 +66,8 @@
                 <div class="container font">
                     <div class="row pt-4">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                            <span class="h1 w-3">ФЭМАС</span><br>
-                            <span class="w-4">Мебельная фабрика</span>
+                            <span class="h1 w-3">ЛЕНИНГРАДСКИЙ БЕТОННЫЙ ЗАВОД</span><br>
+                            <span class="w-4">Сеть бетонных заводов</span>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center w-4">
                             <div class="hidden-md-up">
@@ -75,13 +75,13 @@
                             </div>
                             <a href="tel:+78124269298" class="text-info a">+7 (812) 426-92-98</a><br>
                             <a href="mailto:info.lpio.ru@gmail.com" class="text-info a">info.lpio.ru@gmail.com</a><br>
-                            СПб, ул. Потапова 2 лит М
+                            п. Янино
                         </div>
                     </div>
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
                             <h1 class="my-0 w-8">
-                                Красивый и удобный шкаф-купе напрямую от мебельной фабрики без салонной наценки
+                                Товарный бетон/раствор для стройки от завода производителя с доставкой до вашего объекта
                             </h1>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                     <div class="row py-5">
                         <div class="col-xl-8 col-lg-8">
                             <div class="embed-responsive embed-responsive-16by9 sw" id="video">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZU9gXDDXyeI?rel=0&showinfo=0" allowfullscreen></iframe>
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YKsEeME2zb4?rel=0&showinfo=0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 offset-xl-0 offset-lg-0 offset-md-3">
