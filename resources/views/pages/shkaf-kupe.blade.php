@@ -141,7 +141,7 @@
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="text-center my-0 w-8 black">
+                        <h2 class="text-center my-0 w-7 black">
                             Изготавливаем все возможные типы шкафов-купе
                         </h2>
                     </div>
@@ -151,23 +151,36 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-v-prihozhuyu.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в прихожую от 45 000 р.">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Шкаф-купе в прихожую от 45 000 р.
-                        </h4>
+                        <div class="p-5">
+                            <h4 class="black w-7">
+                                Шкаф-купе в прихожую от 45 000 р.
+                            </h4>
+                            <div class="s-17">
+                                Компактный размер. Выглядит лучше вешалок и комодов. Вместительный и удобный при узком коридоре. Изделие делается шириной от 40 до 60 см. Установка торцевой штанги позволяет вешать одежду передом, а не боком, поэтому получается добиться экономии пространства.
+                            </div>
+                        </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/vstroennyj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Встроенный шкаф-купе от 35 000 р.">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Встроенный шкаф-купе от 35 000 р.
-                        </h4>
+                        <div class="p-5">
+                            <h4 class="black w-7">
+                                Встроенный шкаф-купе от 35 000 р.
+                            </h4>
+                            <div class="s-17">
+                                Встроенные шкафы не имеют боковой, задней стенки, дна и потолка. Встроенные шкафы-купе обладают большим полезным объёмом за счёт отсутствия части конструкции. Из-за визуального отсутствия лишних деталей корпуса дизайн шкафа-купе кажется красивей.
+                            </div>
+                        </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <div class="sw2">
                         <img src="/files/shkaf-kupe/uglovoj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Угловой шкаф-купе от 40 000 р.">
-                    </div>
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Угловой шкаф-купе от 40 000 р.
-                        </h4>
+                        <div class="p-5">
+                            <h4 class="black w-7">
+                                Угловой шкаф-купе от 40 000 р.
+                            </h4>
+                            <div class="s-17">
+                                Для того, чтобы выбрать угловой шкаф-купе необходимо определить, в каком месте он будет находиться. Главное отличие шкафа-купе от обычной корпусной мебели – это невозможность переноса. Любой корпусной шкафчик можно переставить, угловой шкаф-купе переставить невозможно.
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row pt-5 pb-5">
