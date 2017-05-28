@@ -409,30 +409,84 @@
             </div>
         </div>
 
-        <div class="white">
+        <div class="font">
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="text-center my-0 w-8 black">
-                            Работаем по Санкт-Петербургу и Ленинградской области
+                        <h2 class="text-center my-0 w-7 black">
+                            Изготавливаем все возможные типы шкафов-купе
                         </h2>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
-            </div>
-            <div class="container pb-5">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Вы можете посетить производственных цех, на котором будет изготавливаться ваш шкаф по адресу Санкт-Петербург, улица Потапова, дом 2, литера М. Двухэтажное здании мебельной фабрики ФЭМАС.
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
+                        <div class="p-5">
+                            <h4 class="black w-7">
+                                Работаем по Санкт-Петербургу и Ленинградской области
+                            </h4>
+                            <div class="s-17">
+                                Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу. Вы можете посетить производственных цех, на котором будет изготавливаться ваш шкаф по адресу Санкт-Петербург, улица Потапова, дом 2, литера М. Двухэтажное здании мебельной фабрики ФЭМАС.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
+                        <div class="p-5">
+                            <h4 class="black w-7">
+                                Гарантия на 200 000 циклов открываний механизмов
+                            </h4>
+                            <div class="s-17">
+                                Установка за 1 день. Итальянские станки класса А+ SKM обеспечивают европейскую точность допусков при обработке мебельных заготовок. Поэтому панели и полки получаются ровными и шкаф-купе устанавливаются за 1 день. Каждое изделие проверяется отделом технического контроля перед отгрузкой.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/shkaf-kupe/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
+                        <div class="p-5">
+                            <h4 class="black w-7">
+                                Цена ниже на 30%, чем в салонах
+                            </h4>
+                            <div class="s-17">
+                                Рассрочка без первого взноса. Предоставляем рассрочку 0% на срок до 12 месяцев без первого взноса. Принимаем к оплате банковские карты и электронные переводы. Цена шкафа-купе в зависимости от конфигурации 34 900 до 500 000 рублей. Продажа напрямую от производителя в Санкт-Петербурге, поэтому цены ниже на 30%, чем в салонах.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/shkaf-kupe/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
+                        <div class="p-5">
+                            <h4 class="black w-7">
+                                Бесплатный 3D дизайн-проект
+                            </h4>
+                            <div class="s-17">
+                                Наглядная демонстрация вашего шкафа-купе. Дизайнер-проектировщик подскажет какое функциональное наполнение подойдет в вашем случае в зависимости от предпочитаемой одежды. Проектирование 1 день. Изготовление 3-14 дней. Доставка и сборка 1 день. 6 вариантов шкафов: корпусные, встроенные, угловые, гардеробные, радиусные, прихожие. 6 видов фасадов: ЛСДП, МДФ, зеркала, фотопечать, пескоструйный рисунок, цветное стекло.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/shkaf-kupe/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
+                        <div class="p-5">
+                            <h4 class="black w-7">
+                                Гарантия 5 лет
+                            </h4>
+                            <div class="s-17">
+                                Бесплатный ремонт в течении 2 дней. Надежная оригинальная фурнитура, механизмы и комплектующие Blum (Произведено в Австрии) и Hettich (Произведено в Германии). Если с изделием что-то произойдет, то к вам в течении 1-2 дней, приедет мастер по рекламации, который все исправит и при необходимости заменит вышедшие из строя детали.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/shkaf-kupe/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
+                        <div class="p-5">
+                            <h4 class="black w-7">
+                                Опыт работы дизайнеров-проектировщиков 10 лет
+                            </h4>
+                            <div class="s-17">
+                                28 000 шкафов-купе произвели и установили за 18 лет работы. Каждый месяц изготавливаем и устанавливаем 150+ шкафов-купе всех видов. Дизайнер-проектировщик замерит помещение. Поможет с выбором шкафа-купе и покажет в чем отличие между разными моделями. Продемонстрирует образцы материалов и каталог готовых изделий. Сделает для вас 3D дизайн-проект по вашим пожеланиям. Добавит любые нестандартные решения в конструкцию и внешнему виду. Правильно спроектирует, чтобы им было удобно пользоваться, в него поместились все ваши вещи и шкаф-купе получился красивым.
+                            </div>
                         </div>
                     </div>
                     <div class="mx-auto d-block pt-5">
@@ -474,191 +528,6 @@
             </div>
         </div>
 
-        <div class="bg-faded">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Гарантия на 30 000 циклов открываний механизмов
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Установка за 1 день
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Итальянские станки класса А+ SKM обеспечивают европейскую точность допусков при обработке мебельных заготовок. Поэтому панели и полки получаются ровными и шкаф-купе устанавливаются за 1 день. Каждое изделие проверяется отделом технического контроля перед отгрузкой.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="white">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Цена ниже на 30%, чем в салонах
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Рассрочка без первого взноса
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Предоставляем рассрочку 0% на срок до 12 месяцев без первого взноса. Принимаем к оплате банковские карты и электронные переводы. Цена шкафа-купе в зависимости от конфигурации 34 900 до 500 000 рублей. Продажа напрямую от производителя в Санкт-Петербурге, поэтому цены ниже на 30%, чем в салонах.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-faded">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Бесплатный 3D дизайн-проект
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Наглядная демонстрация вашего шкафа-купе
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Дизайнер-проектировщик подскажет какое функциональное наполнение подойдет в вашем случае в зависимости от предпочитаемой одежды. Проектирование 1 день. Изготовление 3-14 дней. Доставка и сборка 1 день. 6 вариантов шкафов: корпусные, встроенные, угловые, гардеробные, радиусные, прихожие. 6 видов фасадов: ЛСДП, МДФ, зеркала, фотопечать, пескоструйный рисунок, цветное стекло.
-                        </div>
-                    </div>
-                    <div class="mx-auto d-block pt-5">
-                        <button class="btn btn-primary font btn-circle w-3" role="button"  data-toggle="modal" data-target="#designerFormModal">
-                            Бесплатно вызвать дизайнера
-                        </button>
-                        <div class="modal fade" id="designerFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
-                                            Заполните форму
-                                        </h5>
-                                        <form action="/leads" method="POST">
-                                            {{ csrf_field() }}
-                                            <input type="hidden" name="source" value="shkaf-kupe">
-                                            <input type="hidden" name="cta" value="Бесплатный выезд дизайнера 2">
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="name" placeholder="Имя" name="name">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="email" placeholder="Email" name="email" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="phone" placeholder="Телефон" name="phone" required="required">
-                                            </div>
-                                            <div class="form-group mb-0">
-                                                <button type="submit" class="font btn-circle btn btn-primary btn-block" role="button">
-                                                    Бесплатно вызвать дизайнера
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="white">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Гарантия 5 лет
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Бесплатный ремонт в течении 2 дней
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Надежная оригинальная фурнитура, механизмы и комплектующие Blum (Произведено в Австрии) и Hettich (Произведено в Германии). Если с изделием что-то произойдет, то к вам в течении 1-2 дней, приедет мастер по рекламации, который все исправит и при необходимости заменит вышедшие из строя детали.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-faded">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Опыт работы дизайнеров-проектировщиков 10 лет
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            28000 шкафов-купе произвели и установили за 18 лет работы
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Каждый месяц изготавливаем и устанавливаем 150+ шкафов-купе всех видов. Дизайнер-проектировщик замерит помещение. Поможет с выбором шкафа-купе и покажет в чем отличие между разными моделями. Продемонстрирует образцы материалов и каталог готовых изделий. Сделает для вас 3D дизайн-проект по вашим пожеланиям. Добавит любые нестандартные решения в конструкцию и внешнему виду. Правильно спроектирует, чтобы им было удобно пользоваться, в него поместились все ваши вещи и шкаф-купе получился красивым.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
 <!---
         <div id="comments"></div>
 
@@ -691,7 +560,7 @@
             </div>
         </div>
 --->
-        <div class="">
+        <div class="bg-faded">
             <div class="container py-5 font w-4">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
