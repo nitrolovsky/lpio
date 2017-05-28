@@ -414,7 +414,7 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <h2 class="text-center my-0 w-7 black">
-                            Изготавливаем все возможные типы шкафов-купе
+                            Преимущества работы с нами
                         </h2>
                     </div>
                 </div>
