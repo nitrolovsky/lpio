@@ -56,10 +56,44 @@
                     <li class="nav-item">
                         <a class="nav-link font" href="#doors">Двери</a>
                     </li>
+                    <form class="form-inline">
+                        <button class="btn btn-primary font w-3" type="button" role="button" data-toggle="modal" data-target="#callDesignerModal">Вызвать дизайнера</button>
 
+                    </form>
                 </ul>
             </div>
         </nav>
+
+        <div class="modal fade" id="callDesignerModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
+                            Заполните форму
+                        </h5>
+                        <form action="/leads" method="POST">
+                            {{ csrf_field() }}
+                            <input type="hidden" name="source" value="shkaf-kupe">
+                            <input type="hidden" name="cta" value="Вызвать дизайнера">
+                            <div class="form-group">
+                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Размеры и комментарий"></textarea>
+                            </div>
+                            <div class="form-group mb-0">
+                                <button type="submit" class="font btn btn-primary btn-block" role="button">
+                                    Вызвать дизайнера
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="bg-img sw">
             <div class="bg-overlay">
