@@ -289,7 +289,7 @@
             </div>
         </div>
 
-        <div class="bg-faded" id="doors">
+        <div class="bg-faded font" id="doors">
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-12 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-0 offset-lg-2">
@@ -559,8 +559,8 @@
             </div>
         </div>
 --->
-        <div class="bg-faded">
-            <div class="container py-5 font w-4">
+        <div class="bg-faded font">
+            <div class="container py-5 w-4">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                         &#169; 2017 shkaf-kupe.lpio.ru Все права защищены
