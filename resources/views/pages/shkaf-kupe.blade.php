@@ -57,7 +57,7 @@
                         <a class="nav-link font" href="#doors">Двери</a>
                     </li>
                     <form class="form-inline">
-                        <button class="btn btn-primary font w-3" type="button" role="button" data-toggle="modal" data-target="#callDesignerModal">Вызвать дизайнера</button>
+                        <button class="btn btn-primary font w-4" type="button" role="button" data-toggle="modal" data-target="#callDesignerModal">Вызвать дизайнера</button>
                     </form>
                 </ul>
             </div>
@@ -84,7 +84,7 @@
                                 <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Размеры и комментарий"></textarea>
                             </div>
                             <div class="form-group mb-0">
-                                <button type="submit" class="font btn btn-primary btn-block" role="button">
+                                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
                                     Вызвать дизайнера
                                 </button>
                             </div>
@@ -113,7 +113,7 @@
                     </div>
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
-                            <h1 class="my-0 w-8">
+                            <h1 class="my-0 w-5">
                                 Изготовим шкаф-купе за 7-14 дней напрямую с мебельной фабрики от 34 900 р.
                             </h1>
                         </div>
@@ -140,23 +140,23 @@
                                 <div class="hidden-lg-up">
                                     <br>
                                 </div>
-                                <h4 class="w-8">
+                                <h4 class="w-5">
                                     Получите расчет цены шкафа-купе по вашим размерам или эскизу
                                 </h4>
                                 <form action="/leads" method="POST" class="pt-3">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="source" value="shkaf-kupe">
                                     <div class="form-group">
-                                        <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email" required="required">
+                                        <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
+                                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
                                     </div>
                                     <div class="form-group">
                                         <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Размеры и комментарий"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="font sw btn btn-primary btn-block w-3" role="button">
+                                        <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
                                             Получить расчет цены
                                         </button>
                                     </div>
@@ -174,7 +174,7 @@
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="text-center my-0 w-7 black">
+                        <h2 class="text-center my-0 w-5 black">
                             Изготавливаем все возможные типы шкафов-купе
                         </h2>
                     </div>
@@ -185,7 +185,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-v-prihozhuyu.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в прихожую от 45 000 р.">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Шкаф-купе в прихожую от 45 000 р.
                             </h4>
                             <div class="s-17">
@@ -196,7 +196,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/vstroennyj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Встроенный шкаф-купе от 35 000 р.">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Встроенный шкаф-купе от 35 000 р.
                             </h4>
                             <div class="s-17">
@@ -207,7 +207,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/uglovoj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Угловой шкаф-купе от 40 000 р.">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Угловой шкаф-купе от 40 000 р.
                             </h4>
                             <div class="s-17">
@@ -220,7 +220,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-v-garderobnuyu-komnatu.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в гардеробную комнату от 40 000 р.">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Шкаф-купе для гардеробной от 40 000 р.
                             </h4>
                             <div class="s-17">
@@ -231,7 +231,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/korpusnyj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Корпусный шкаф-купе от 35 000 р.">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Корпусный шкаф-купе от 35 000 р.
                             </h4>
                             <div class="s-17">
@@ -242,7 +242,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/radiusnyj-shkaf-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Радиусный шкаф-купе от 75 000 р.">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Радиусный шкаф-купе от 75 000 р.
                             </h4>
                             <div class="s-17">
@@ -251,7 +251,7 @@
                         </div>
                     </div>
                     <div class="mx-auto d-block pt-5">
-                        <button class="font btn-circle btn btn-primary w-3" role="button"  data-toggle="modal" data-target="#typeFormModal">
+                        <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#typeFormModal">
                             Получить консультацию по типам шкафов
                         </button>
                         <div class="modal fade" id="typeFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
@@ -293,7 +293,7 @@
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-12 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-0 offset-lg-2">
-                        <h2 class="text-center my-0 black w-7">
+                        <h2 class="text-center my-0 black w-5">
                             Фасады и двери для шкафа-купе на ваш выбор
                         </h2>
                     </div>
@@ -304,7 +304,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-ldsp.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе ЛДСП">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Ламинированное ДСП
                             </h4>
                             <div class="s-17">
@@ -315,7 +315,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-mdf.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе МДФ">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Панели МДФ
                             </h4>
                             <div class="s-17">
@@ -326,7 +326,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-zerkala.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе с зеркалами">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Зеркала
                             </h4>
                             <div class="s-17">
@@ -339,7 +339,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-fotopechat.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе с фотопечатью">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Фотопечать
                             </h4>
                             <div class="s-17">
@@ -350,7 +350,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-peskostrujnyj-risunok.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе с пескоструйным рисунком">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Пескоструйный рисунок
                             </h4>
                             <div class="s-17">
@@ -361,7 +361,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-cvetnoe-steklo.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе с цветным стеклом">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Цветное стекло
                             </h4>
                             <div class="s-17">
@@ -370,7 +370,7 @@
                         </div>
                     </div>
                     <div class="mx-auto d-block pt-5">
-                        <button class="font btn-circle btn btn-primary w-3" role="button"  data-toggle="modal" data-target="#fasadFormModal">
+                        <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#fasadFormModal">
                             Получить консультацию по фасадам шкафов
                         </button>
                         <div class="modal fade" id="fasadFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
@@ -412,7 +412,7 @@
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="text-center my-0 w-7 black">
+                        <h2 class="text-center my-0 w-5 black">
                             Преимущества работы с нами
                         </h2>
                     </div>
@@ -423,7 +423,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Работаем по Санкт-Петербургу и Ленинградской области
                             </h4>
                             <div class="s-17">
@@ -434,7 +434,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Гарантия на 200 000 циклов открываний механизмов
                             </h4>
                             <div class="s-17">
@@ -445,7 +445,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Цена ниже на 30%, чем в салонах
                             </h4>
                             <div class="s-17">
@@ -458,7 +458,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Бесплатный 3D дизайн-проект
                             </h4>
                             <div class="s-17">
@@ -469,7 +469,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Гарантия 5 лет
                             </h4>
                             <div class="s-17">
@@ -480,7 +480,7 @@
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/shkaf-kupe/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
                         <div class="p-5">
-                            <h4 class="black w-7">
+                            <h4 class="black w-5">
                                 Опыт работы дизайнеров-проектировщиков 10 лет
                             </h4>
                             <div class="s-17">
@@ -489,7 +489,7 @@
                         </div>
                     </div>
                     <div class="mx-auto d-block pt-5">
-                        <button class="btn btn-primary font btn-circle w-3" role="button"  data-toggle="modal" data-target="#designerFormModal">
+                        <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#designerFormModal">
                             Бесплатно вызвать дизайнера
                         </button>
                         <div class="modal fade" id="designerFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
