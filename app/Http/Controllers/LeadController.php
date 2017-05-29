@@ -61,6 +61,32 @@ class LeadController extends Controller
 
             return redirect('pages/thanks');
         }
+
+        if (Request::get("source") == "concrete") {
+            $data = array(
+                'source' => Request::server("HTTP_REFERER"),
+                'cta' => Request::get('cta'),
+
+                'name' => Request::get('name'),
+                'email' => Request::get('email'),
+                'phone' => Request::get('phone'),
+
+                'comment' => Request::get('comment'),
+
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now()
+            );
+
+            DB::table('concrete_leads')->insert($data);
+
+            Mail::send("emails.lead", $data, function ($message) use ($data) {
+                $message->from("info.lpio.ru@gmail.com", "lpio.ru");
+                $message->to("info.lpio.ru@gmail.com");
+                $message->subject("Заявка от " . $data['source'] . " в " . date ("Y.m.d H:m:s"));
+            });
+
+            return redirect('pages/thanks');
+        }
     }
 
     /**

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/page.css">
         <title>
-            Шкаф-купе на заказ напрямую от мебельной фабрики ФЭМАС по Санкт-Петербургу и Ленинградской области
+            Бетон купить в Санкт-Петербурге от бетонного завода
         </title>
         <style>
             body {
@@ -16,7 +16,7 @@
                 padding-top: 54px;
             }
             .bg-img {
-                background: url("/files/beton/beton-background.jpg") no-repeat;
+                background: url("/files/beton/bg.jpg") no-repeat;
                 background-size: cover;
             }
             .bg-overlay {
@@ -44,54 +44,84 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand font" href="{{ url()->current() }}">Шкаф-купе</a>
+            <a class="navbar-brand font" href="{{ url()->current() }}">Бетон</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link font" href="#video">Видео</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font" href="#type">Типы</a>
+                        <a class="nav-link font" href="#benefit">Преимущества</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link font" href="#doors">Двери</a>
-                    </li>
-
+                    <form class="form-inline">
+                        <button class="btn btn-primary font w-4" type="button" role="button" data-toggle="modal" data-target="#navModal">Рассчитать смету с доставкой</button>
+                    </form>
                 </ul>
             </div>
         </nav>
+
+        <div class="modal fade" id="navModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h4 class="my-0 pt-2 pb-4 text-center font w-5">
+                            Заполните форму
+                        </h4>
+                        <form action="/leads" method="POST">
+                            {{ csrf_field() }}
+                            <input type="hidden" name="source" value="concrete">
+                            <input type="hidden" name="cta" value="Всплывающия форма навигации">
+                            <div class="form-group">
+                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
+                            </div>
+                            <div class="form-group mb-0">
+                                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
+                                    Рассчитать смету с доставкой
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="bg-img sw">
             <div class="bg-overlay">
                 <div class="container font">
                     <div class="row pt-4">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                            <span class="h1 w-3">ЛЕНИНГРАДСКИЙ БЕТОННЫЙ ЗАВОД</span><br>
+                            <span class="h1 w-3">ООО "ЛБЗ"</span><br>
                             <span class="w-4">Сеть бетонных заводов</span>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center w-4">
                             <div class="hidden-md-up">
                                 <br>
                             </div>
-                            <a href="tel:+78124269298" class="text-info a">+7 (812) 426-92-98</a><br>
+                            <a href="tel:+78124269277" class="text-info a">+7 (812) 426-92-77</a><br>
                             <a href="mailto:info.lpio.ru@gmail.com" class="text-info a">info.lpio.ru@gmail.com</a><br>
-                            п. Янино
+                            Доставка 24/7 по СПБ и ЛО
                         </div>
                     </div>
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
-                            <h1 class="my-0 w-8">
-                                Товарный бетон/раствор для стройки от завода производителя с доставкой до вашего объекта
+                            <h1 class="my-0 w-5">
+                                 Бетон/раствор напрямую от завода с доставкой по СПб и Ленобласти
                             </h1>
                         </div>
                     </div>
                     <div class="row pt-4">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1 my-0">
-                            <h4 class="w-3">
-                                <ul>
-                                    <li>Вместимость на 20% больше стандартных шкафов<br>
-                                    <li>Подбираем дизайн под любой интерьер<br>
-                                    <li>Без салонной наценки напрямую с производства
+                            <h4>
+                                <ul class="w-3">
+                                    <li>Качественный товарный бетон и раствор оптом и в розницу</li>
+                                    <li class="pt-1">Для частных и жилых домов, коммерческих и промышленных объектов</li>
+                                    <li class="pt-1">Бесплатный выезд специалиста для расчета точного объема</li>
                                 </ul>
                             </h4>
                         </div>
@@ -107,24 +137,25 @@
                                 <div class="hidden-lg-up">
                                     <br>
                                 </div>
-                                <h4 class="w-8">
-                                    Получите расчет цены шкафа-купе по вашим размерам или эскизу
+                                <h4 class="w-5">
+                                    Получите прайс-лист и расчет сметы по сезонным ценам
                                 </h4>
                                 <form action="/leads" method="POST" class="pt-3">
                                     {{ csrf_field() }}
-                                    <input type="hidden" name="source" value="shkaf-kupe">
+                                    <input type="hidden" name="source" value="concrete">
+                                    <input type="hidden" name="cta" value="Форма с видео">
                                     <div class="form-group">
-                                        <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email" required="required">
+                                        <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
+                                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Размеры и комментарий"></textarea>
+                                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="font sw btn btn-primary btn-block w-3" role="button">
-                                            Получить расчет цены
+                                        <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
+                                            Рассчитать смету с доставкой
                                         </button>
                                     </div>
                                 </form>
@@ -135,14 +166,12 @@
             </div>
         </div>
 
-        <div id="type"></div>
-
-        <div class="font">
+        <div class="font" id="benefit">
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="text-center my-0 w-8 black">
-                            Изготавливаем все возможные типы шкафов-купе
+                        <h2 class="text-center my-0 w-5 black">
+                            Преимущества работы с нами
                         </h2>
                     </div>
                 </div>
@@ -150,417 +179,135 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-v-prihozhuyu.jpg" class="img-fluid sw" alt="Шкаф-купе в прихожую от 45 000 р.">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Шкаф-купе в прихожую от 45 000 р.
-                        </h4>
+                        <img src="/files/beton/1.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в прихожую от 45 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Крупнейший производитель бетона в Петербурге и Ленобласти
+                            </h4>
+                            <div class="s-17">
+                                Производим и доставляем качественный товарный бетон и раствор оптом и в розницу. Для частных и многоквартирных домов, коммерческих и промышленных объектов. Бесплатный выезд специалиста для расчета точного объема.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/vstroennyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Встроенный шкаф-купе от 35 000 р.">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Встроенный шкаф-купе от 35 000 р.
-                        </h4>
+                        <img src="/files/beton/2.jpg" class="img-fluid mx-auto d-block sw" alt="Встроенный шкаф-купе от 35 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Работаем с 2007 года. За 10 лет залили более 10 000 объектов
+                            </h4>
+                            <div class="s-17">
+                                Работаем с застройщиками, строительными организациям и частными заказчиками. Ежемесячно отгружаем 35 000 м3. Круглосуточная доставка 7 дней в неделю точно в срок по Петербургу и Ленинградской области.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <div class="sw2">
-                        <img src="/files/shkaf-kupe/uglovoj-shkaf-kupe.jpg" class="img-fluid sw" alt="Угловой шкаф-купе от 40 000 р.">
-                    </div>
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Угловой шкаф-купе от 40 000 р.
-                        </h4>
+                        <img src="/files/beton/3.jpg" class="img-fluid mx-auto d-block sw" alt="Угловой шкаф-купе от 40 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                40 машин спецтехники готовы к выполнению работ
+                            </h4>
+                            <div class="s-17">
+                                 Близкое расположение заводов к объектам. Заводы в Сертолово Индустриальная 15, Янино-1 литер А, Парголово Штурманская 26. Выгодные оптовые цены напрямую от производителя.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
                     </div>
                 </div>
-                <div class="row pt-5 pb-5">
+                <div class="hidden-md-down">
+                    <br>
+                    <br>
+                </div>
+                <div class="row pb-5">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-v-garderobnuyu-komnatu.jpg" class="img-fluid sw" alt="Шкаф-купе в гардеробную комнату от 40 000 р.">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Шкаф-купе в гардеробную комнату от 40 000 р.
-                        </h4>
+                        <img src="/files/beton/4.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в гардеробную комнату от 40 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Минимальный заказ 0.5 м3, доставим в удобное время
+                            </h4>
+                            <div class="s-17">
+                                 Специальные условия для крупных заказчиков, прорабов, снабженцев. При заказе от 100 м3 возвращаем 10% от суммы. Гарантия качества бетона и раствора по ГОСТу. Выдаем сертификаты и паспорт качества при каждой поставке. Заполните форму и получите прайс-лист с сезонными оптовыми ценами.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/korpusnyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Корпусный шкаф-купе от 35 000 р.">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Корпусный шкаф-купе от 35 000 р.
-                        </h4>
+                        <img src="/files/beton/5.jpg" class="img-fluid mx-auto d-block sw" alt="Корпусный шкаф-купе от 35 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Неограниченное количество бетона
+                            </h4>
+                            <div class="s-17">
+                                У нас огромные мощности завода. Мы привезем Вам столько, сколько нужно в минимальные сроки. Никаких посредников, мы-завод. Для Вас самые выгодные цены на бетон.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/radiusnyj-shkaf-kupe.jpg" class="img-fluid sw" alt="Радиусный шкаф-купе от 75 000 р.">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Радиусный шкаф-купе от 75 000 р.
-                        </h4>
+                        <img src="/files/beton/6.jpg" class="img-fluid mx-auto d-block sw" alt="Радиусный шкаф-купе от 75 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Отгрузка 1 к 1
+                            </h4>
+                            <div class="s-17">
+                                Мы отгружаем бетона столько и именно той марки, которую Вы заказываете. У Вас вопрос по строительной теме или нужна помощь? Звоните, мы с радостью Вам поможем.
+                            </div>
+                        </div>
                     </div>
                     <div class="mx-auto d-block pt-5">
-                        <button class="font btn-circle btn btn-primary w-3" role="button"  data-toggle="modal" data-target="#typeFormModal">
-                            Получить консультацию по типам шкафов
+                        <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#benefitModal">
+                            Рассчитать смету с доставкой
                         </button>
-                        <div class="modal fade" id="typeFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                        <div class="modal fade" id="benefitModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-body">
-                                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
+                                        <h5 class="my-0 pt-2 pb-4 text-center font w-5">
                                             Заполните форму
                                         </h5>
                                         <form action="/leads" method="POST">
                                             {{ csrf_field() }}
-                                            <input type="hidden" name="source" value="shkaf-kupe">
-                                            <input type="hidden" name="cta" value="Получить консультацию по типам шкафов">
+                                            <input type="hidden" name="source" value="concrete">
+                                            <input type="hidden" name="cta" value="Всплывающая форма блока преимуществ">
                                             <div class="form-group">
-                                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email" required="required">
+                                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email">
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
+                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
                                             </div>
                                             <div class="form-group">
-                                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Размеры и комментарий"></textarea>
+                                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
                                             </div>
                                             <div class="form-group mb-0">
                                                 <button type="submit" class="font btn btn-primary btn-block" role="button">
-                                                    Получить консультацию по типам шкафов
+                                                    Рассчитать смету с доставкой
                                                 </button>
                                             </div>
                                         </form>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-faded" id="doors">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-0 offset-lg-2">
-                        <h2 class="text-center my-0 black w-8">
-                            Фасады и двери для шкафа-купе на ваш выбор
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-ldsp.jpg" class="img-fluid sw" alt="Шкаф-купе ЛДСП">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Ламинированное ДСП
-                        </h4>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-mdf.jpg" class="img-fluid sw" alt="Шкаф-купе МДФ">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Панели МДФ
-                        </h4>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-zerkala.jpg" class="img-fluid sw" alt="Шкаф-купе с зеркалами">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Зеркала
-                        </h4>
-                    </div>
-                </div>
-                <div class="row pt-5 pb-5">
-                    <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-fotopechat.jpg" class="img-fluid sw" alt="Шкаф-купе с фотопечатью">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Фотопечать
-                        </h4>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-peskostrujnyj-risunok.jpg" class="img-fluid sw" alt="Шкаф-купе с пескоструйным рисунком">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Пескоструйный рисунок
-                        </h4>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <img src="/files/shkaf-kupe/shkaf-kupe-cvetnoe-steklo.jpg" class="img-fluid sw" alt="Шкаф-купе с цветным стеклом">
-                        <h4 class="py-4 my-0 text-center black w-3">
-                            Цветное стекло
-                        </h4>
-                    </div>
-                    <div class="mx-auto d-block pt-5">
-                        <button class="font btn-circle btn btn-primary w-3" role="button"  data-toggle="modal" data-target="#fasadFormModal">
-                            Получить консультацию по фасадам шкафов
-                        </button>
-                        <div class="modal fade" id="fasadFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
-                                            Заполните форму
-                                        </h5>
-                                        <form action="/leads" method="POST">
-                                            {{ csrf_field() }}
-                                            <input type="hidden" name="source" value="shkaf-kupe">
-                                            <input type="hidden" name="cta" value="Получить консультацию по фасадам шкафов">
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="name" placeholder="Имя" name="name">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="email" placeholder="Email" name="email" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="phone" placeholder="Телефон" name="phone" required="required">
-                                            </div>
-                                            <div class="form-group mb-0">
-                                                <button type="submit" class="font btn-circle btn btn-primary btn-block" role="button">
-                                                    Получить консультацию по фасадам шкафов
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="white">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="text-center my-0 w-8 black">
-                            Работаем по Санкт-Петербургу и Ленинградской области
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-besplatnyj-vyezd-dizajnera-proektirovshchika-po-sankt-peterburgu.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Бесплатный выезд дизайнера-проектировщика по Санкт-Петербургу
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Вы можете посетить производственных цех, на котором будет изготавливаться ваш шкаф по адресу Санкт-Петербург, улица Потапова, дом 2, литера М. Двухэтажное здании мебельной фабрики ФЭМАС.
-                        </div>
-                    </div>
-                    <div class="mx-auto d-block pt-5">
-                        <button class="btn btn-primary font btn-circle w-3" role="button"  data-toggle="modal" data-target="#designerFormModal">
-                            Бесплатно вызвать дизайнера
-                        </button>
-                        <div class="modal fade" id="designerFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
-                                            Заполните форму
-                                        </h5>
-                                        <form action="/leads" method="POST">
-                                            {{ csrf_field() }}
-                                            <input type="hidden" name="source" value="shkaf-kupe">
-                                            <input type="hidden" name="cta" value="Бесплатный выезд дизайнера">
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="name" placeholder="Имя" name="name">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="email" placeholder="Email" name="email" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="phone" placeholder="Телефон" name="phone" required="required">
-                                            </div>
-                                            <div class="form-group mb-0">
-                                                <button type="submit" class="font btn-circle btn btn-primary btn-block" role="button">
-                                                    Бесплатно вызвать дизайнера
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-faded">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Гарантия на 30 000 циклов открываний механизмов
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-ustanovka-za-1-den.jpg" class="img-fluid mx-auto d-block sw" alt="Установка за 1 день">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Установка за 1 день
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Итальянские станки класса А+ SKM обеспечивают европейскую точность допусков при обработке мебельных заготовок. Поэтому панели и полки получаются ровными и шкаф-купе устанавливаются за 1 день. Каждое изделие проверяется отделом технического контроля перед отгрузкой.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="white">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Цена ниже на 30%, чем в салонах
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/shkaf-kupe-c-rassrochkoj-bez-pervogo-vznosa.jpg" class="img-fluid mx-auto d-block sw" alt="Рассрочка без первого взноса">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Рассрочка без первого взноса
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Предоставляем рассрочку 0% на срок до 12 месяцев без первого взноса. Принимаем к оплате банковские карты и электронные переводы. Цена шкафа-купе в зависимости от конфигурации 34 900 до 500 000 рублей. Продажа напрямую от производителя в Санкт-Петербурге, поэтому цены ниже на 30%, чем в салонах.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-faded">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Бесплатный 3D дизайн-проект
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/besplatnyj-3d-dizajn-proekt-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Наглядная демонстрация вашего шкафа-купе">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Наглядная демонстрация вашего шкафа-купе
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Дизайнер-проектировщик подскажет какое функциональное наполнение подойдет в вашем случае в зависимости от предпочитаемой одежды. Проектирование 1 день. Изготовление 3-14 дней. Доставка и сборка 1 день. 6 вариантов шкафов: корпусные, встроенные, угловые, гардеробные, радиусные, прихожие. 6 видов фасадов: ЛСДП, МДФ, зеркала, фотопечать, пескоструйный рисунок, цветное стекло.
-                        </div>
-                    </div>
-                    <div class="mx-auto d-block pt-5">
-                        <button class="btn btn-primary font btn-circle w-3" role="button"  data-toggle="modal" data-target="#designerFormModal">
-                            Бесплатно вызвать дизайнера
-                        </button>
-                        <div class="modal fade" id="designerFormModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <h5 class="font pt-2 pb-4 my-0 weight-700 font-pt-sans text-center">
-                                            Заполните форму
-                                        </h5>
-                                        <form action="/leads" method="POST">
-                                            {{ csrf_field() }}
-                                            <input type="hidden" name="source" value="shkaf-kupe">
-                                            <input type="hidden" name="cta" value="Бесплатный выезд дизайнера 2">
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="name" placeholder="Имя" name="name">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="email" placeholder="Email" name="email" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black btn-circle form-control" id="phone" placeholder="Телефон" name="phone" required="required">
-                                            </div>
-                                            <div class="form-group mb-0">
-                                                <button type="submit" class="font btn-circle btn btn-primary btn-block" role="button">
-                                                    Бесплатно вызвать дизайнера
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="white">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Гарантия 5 лет
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/besplatnyj-remont-v-techenii-2-dnej-shkafa-kupe.jpg" class="img-fluid mx-auto d-block sw" alt="Бесплатный ремонт в течении 2 дней">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            Бесплатный ремонт в течении 2 дней
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Надежная оригинальная фурнитура, механизмы и комплектующие Blum (Произведено в Австрии) и Hettich (Произведено в Германии). Если с изделием что-то произойдет, то к вам в течении 1-2 дней, приедет мастер по рекламации, который все исправит и при необходимости заменит вышедшие из строя детали.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-faded">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="my-0 text-center w-8 black">
-                            Опыт работы дизайнеров-проектировщиков 10 лет
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid hidden-sm-up px-0">
-                <img src="/files/shkaf-kupe/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
-            </div>
-            <div class="container hidden-xs-down px-0">
-                <img src="/files/shkaf-kupe/opyt-raboty-dizajnerov-proektirovshchikov-shkafov-kupe-10-let.jpg" class="img-fluid mx-auto d-block sw" alt="28000 шкафов-купе произвели и установили за 18 лет работы">
-            </div>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 offset-xl-2 offset-lg-2">
-                        <h4 class="my-0 pt-5 w-8 black">
-                            28000 шкафов-купе произвели и установили за 18 лет работы
-                        </h4>
-                        <div class="pt-4 s-17 black">
-                            Каждый месяц изготавливаем и устанавливаем 150+ шкафов-купе всех видов. Дизайнер-проектировщик замерит помещение. Поможет с выбором шкафа-купе и покажет в чем отличие между разными моделями. Продемонстрирует образцы материалов и каталог готовых изделий. Сделает для вас 3D дизайн-проект по вашим пожеланиям. Добавит любые нестандартные решения в конструкцию и внешнему виду. Правильно спроектирует, чтобы им было удобно пользоваться, в него поместились все ваши вещи и шкаф-купе получился красивым.
                         </div>
                     </div>
                 </div>
@@ -599,20 +346,20 @@
             </div>
         </div>
 --->
-        <div class="">
-            <div class="container py-5 font w-4">
+        <div class="bg-faded font">
+            <div class="container py-5 w-4">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                        &#169; 2017 shkaf-kupe.lpio.ru Все права защищены
+                        &#169; 2017 beton.lpio.ru Все права защищены
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
                         <div class="hidden-md-up">
                             <br>
                         </div>
-                        <a href="tel:+78124269298" class="a">+7 (812) 426-92-98</a>
+                        <a href="tel:+78124269277" class="a">+7 (812) 426-92-77</a>
                         <br>
                         <a href="mailto:info.lpio.ru@gmail.com" class="a">info.lpio.ru@gmail.com</a><br>
-                        СПб, ул. Потапова 2 лит М
+                        Доставка 24/7 по СПб и ЛО
                     </div>
                 </div>
             </div>
