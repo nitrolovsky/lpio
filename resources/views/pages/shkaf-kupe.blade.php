@@ -140,12 +140,13 @@
                                 <div class="hidden-lg-up">
                                     <br>
                                 </div>
-                                <h4 class="w-5">
-                                    Получите расчет цены шкафа-купе по вашим размерам или эскизу
+                                <h4 class="w-4">
+                                    Вызовите дизайнера для замера, рассчета стоимости, демонстрации образцов и каталога
                                 </h4>
                                 <form action="/leads" method="POST" class="pt-3">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="source" value="shkaf-kupe">
+                                    <input type="hidden" name="cta" value="Форма с видео">
                                     <div class="form-group">
                                         <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email">
                                     </div>
@@ -153,11 +154,11 @@
                                         <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Размеры и комментарий"></textarea>
+                                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
-                                            Получить расчет цены
+                                            Бесплатно вызвать дизайнера
                                         </button>
                                     </div>
                                 </form>
