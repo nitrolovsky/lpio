@@ -120,7 +120,7 @@
                     </div>
                     <div class="row pt-4">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1 my-0">
-                            <h4 class="w-3">
+                            <h4 class="w-4">
                                 <ul>
                                     <li>Вместимость на 20% больше стандартных шкафов<br>
                                     <li>Подбираем дизайн под любой интерьер<br>
