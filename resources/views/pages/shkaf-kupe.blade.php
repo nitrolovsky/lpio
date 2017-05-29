@@ -58,7 +58,6 @@
                     </li>
                     <form class="form-inline">
                         <button class="btn btn-primary font w-3" type="button" role="button" data-toggle="modal" data-target="#callDesignerModal">Вызвать дизайнера</button>
-
                     </form>
                 </ul>
             </div>
@@ -115,7 +114,7 @@
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
                             <h1 class="my-0 w-8">
-                                Красивый и удобный шкаф-купе напрямую от мебельной фабрики без салонной наценки
+                                Изготовим шкаф-купе за 7-14 дней напрямую с мебельной фабрики от 34 900 р.
                             </h1>
                         </div>
                     </div>
