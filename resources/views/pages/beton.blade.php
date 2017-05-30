@@ -127,7 +127,7 @@
                     <div class="row pt-5">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
                             <h1 class="my-0 w-5">
-                                 Бетон/раствор напрямую от завода с доставкой по СПб и Ленобласти
+                                 Товарный бетон со спецтехникой напрямую с заводов ООО "ЛБЗ"
                             </h1>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1 my-0">
                             <h4>
                                 <ul class="w-3">
-                                    <li>Качественный товарный бетон и раствор оптом и в розницу</li>
+                                    <li>Паспорт качества с каждой поставкой</li>
                                     <li class="pt-1">Для частных и жилых домов, коммерческих и промышленных объектов</li>
                                     <li class="pt-1">Бесплатный выезд специалиста для расчета точного объема</li>
                                 </ul>
@@ -563,7 +563,12 @@
             <div class="container py-5 w-4">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                        &#169; 2017 beton.lpio.ru Все права защищены
+                        Copyright &#169; 2017 beton.lpio.ru Все права защищены<br>
+                        ИНН 7802602468<br>
+                        КПП 780201001<br>
+                        р/сч 40702810903000013545 в АО "Райффайзенбанк"<br>
+                        к/сч 30101810100000000723<br>
+                        БИК 044030723
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
                         <div class="hidden-md-up">
