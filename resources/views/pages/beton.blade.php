@@ -354,7 +354,7 @@
                                         <form action="/leads" method="POST">
                                             {{ csrf_field() }}
                                             <input type="hidden" name="source" value="concrete">
-                                            <input type="hidden" name="cta" value="Всплывающая форма блока цены">
+                                            <input type="hidden" name="cta" value="Всплывающая форма блока цены на получение прайс-листа">
                                             <div class="form-group">
                                                 <input type="email" class="font black form-control w-3" id="email" placeholder="Email*" name="email" required="required">
                                             </div>
