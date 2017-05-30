@@ -342,7 +342,7 @@
                     </div>
                     <div class="mx-auto d-block pt-5">
                         <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#benefitModal">
-                            Получить прайс-лист
+                            Получить подробный прайс-лист
                         </button>
                         <div class="modal fade" id="benefitModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
                             <div class="modal-dialog" role="document">
