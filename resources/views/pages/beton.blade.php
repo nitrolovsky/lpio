@@ -51,6 +51,9 @@
                         <a class="nav-link font" href="#video">Видео</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link font" href="#price">Цены</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link font" href="#benefit">Преимущества</a>
                     </li>
                     <form class="form-inline">
@@ -138,7 +141,7 @@
                                     <br>
                                 </div>
                                 <h4 class="w-5">
-                                    Получите прайс-лист и расчет сметы по сезонным ценам
+                                    Узнайте расчет сметы по сезонным ценам с учетом доставки до объекта и скидки за объем
                                 </h4>
                                 <form action="/leads" method="POST" class="pt-3">
                                     {{ csrf_field() }}
@@ -166,7 +169,155 @@
             </div>
         </div>
 
-        <div class="font" id="benefit">
+        <div class="font" id="price">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2 class="text-center my-0 w-5 black">
+                            Цена на товарный бетон и спецтехнику
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/beton/beton-m100-v7-5.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в прихожую от 45 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Бетон М100 В7.5 - 2550 р.
+                            </h4>
+                            <div class="s-17">
+                                Используется для подбетонки. Подбетонка - это основание для основного фундамента.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/beton/beton-m150-v12-5.jpg" class="img-fluid mx-auto d-block sw" alt="Встроенный шкаф-купе от 35 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Бетон М150 В12.5 - 2650 р.
+                            </h4>
+                            <div class="s-17">
+                                Для заливки конструкций не несущих серьезную нагрузку: стяжка полов, заборы, парковка легковых машин, перед заливкой фундамента и монтаж поребриков.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/beton/beton-m200-v15.jpg" class="img-fluid mx-auto d-block sw" alt="Угловой шкаф-купе от 40 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Бетон М200 В15 - 2750 р.
+                            </h4>
+                            <div class="s-17">
+                                 Для заливки конструкций не несущих серьезную нагрузку: полы, заборы, парковка легковых машин. Иногда используется для заливки фундаменты под небольшие строения.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-md-down">
+                    <br>
+                    <br>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/beton/beton-m250-v20.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в гардеробную комнату от 40 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Бетон М250 В20 - 2920 р.
+                            </h4>
+                            <div class="s-17">
+                                Альтернатива М200 с дополнительным запасом прочности. Используется для заливки заборов и фундаментов небольших домов.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/beton/beton-m300-v22-5.jpg" class="img-fluid mx-auto d-block sw" alt="Корпусный шкаф-купе от 35 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Бетон М300 В22.5 - 3050 р.
+                            </h4>
+                            <div class="s-17">
+                                Самый распространенный бетон. Применяется для монолитного строительство загородных домов и заливки фундаментов.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/beton/beton-m350-v25.jpg" class="img-fluid mx-auto d-block sw" alt="Радиусный шкаф-купе от 75 000 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Бетон М350 В25 - 3150 р.
+                            </h4>
+                            <div class="s-17">
+                                Используется для заливки фундаментов и плит перекрытия.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mx-auto d-block pt-5">
+                        <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#benefitModal">
+                            Рассчитать смету с доставкой
+                        </button>
+                        <div class="modal fade" id="benefitModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <h5 class="my-0 pt-2 pb-4 text-center font w-5">
+                                            Заполните форму
+                                        </h5>
+                                        <form action="/leads" method="POST">
+                                            {{ csrf_field() }}
+                                            <input type="hidden" name="source" value="concrete">
+                                            <input type="hidden" name="cta" value="Всплывающая форма блока цены">
+                                            <div class="form-group">
+                                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <button type="submit" class="font btn btn-primary btn-block" role="button">
+                                                    Рассчитать смету с доставкой
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-faded font" id="benefit">
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -346,7 +497,7 @@
             </div>
         </div>
 --->
-        <div class="bg-faded font">
+        <div class="font">
             <div class="container py-5 w-4">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-xs-6 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
