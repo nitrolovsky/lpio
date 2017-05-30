@@ -243,10 +243,12 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="hidden-md-down">
                     <br>
                     <br>
                 </div>
+
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
                         <img src="/files/beton/beton-m250-v20.jpg" class="img-fluid mx-auto d-block sw" alt="Бетон М250 В20 - 2920 р.">
@@ -289,6 +291,11 @@
                             <div class="s-17">
                                 Используется для заливки фундаментов и плит перекрытия.
                             </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
                         </div>
                     </div>
                 </div>
