@@ -44,7 +44,17 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand font" href="{{ url()->current() }}">Бетон</a>
+
+            <div class="hidden-sm-down">
+                <a class="navbar-brand font" href="{{ url()->current() }}">Бетон</a>
+            </div>
+
+            <div class="hidden-md-up">
+                <form class="form-inline">
+                    <button class="btn btn-primary font w-4" type="button" role="button" data-toggle="modal" data-target="#navModal">Рассчитать смету с доставкой</button>
+                </form>
+            </div>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -56,11 +66,14 @@
                     <li class="nav-item">
                         <a class="nav-link font" href="#benefit">Преимущества</a>
                     </li>
-                    <form class="form-inline">
-                        <button class="btn btn-primary font w-4" type="button" role="button" data-toggle="modal" data-target="#navModal">Рассчитать смету с доставкой</button>
-                    </form>
+                    <div class="hidden-sm-down">
+                        <form class="form-inline">
+                            <button class="btn btn-primary font w-4" type="button" role="button" data-toggle="modal" data-target="#navModal">Рассчитать смету с доставкой</button>
+                        </form>
+                    </div>
                 </ul>
             </div>
+
         </nav>
 
         <div class="modal fade" id="navModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
