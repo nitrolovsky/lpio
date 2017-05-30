@@ -195,7 +195,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/beton/beton-m100-v7-5.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в прихожую от 45 000 р.">
+                        <img src="/files/beton/beton-m100-v7-5.jpg" class="img-fluid mx-auto d-block sw" alt="Бетон М100 В7.5 - 2550 р.">
                         <div class="pt-5 px-4">
                             <h4 class="black w-5">
                                 Бетон М100 В7.5 - 2550 р.
@@ -211,7 +211,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/beton/beton-m150-v12-5.jpg" class="img-fluid mx-auto d-block sw" alt="Встроенный шкаф-купе от 35 000 р.">
+                        <img src="/files/beton/beton-m150-v12-5.jpg" class="img-fluid mx-auto d-block sw" alt="Бетон М150 В12.5 - 2650 р.">
                         <div class="pt-5 px-4">
                             <h4 class="black w-5">
                                 Бетон М150 В12.5 - 2650 р.
@@ -227,7 +227,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/beton/beton-m200-v15.jpg" class="img-fluid mx-auto d-block sw" alt="Угловой шкаф-купе от 40 000 р.">
+                        <img src="/files/beton/beton-m200-v15.jpg" class="img-fluid mx-auto d-block sw" alt="Бетон М200 В15 - 2750 р.">
                         <div class="pt-5 px-4">
                             <h4 class="black w-5">
                                 Бетон М200 В15 - 2750 р.
@@ -247,9 +247,9 @@
                     <br>
                     <br>
                 </div>
-                <div class="row pb-5">
+                <div class="row">
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/beton/beton-m250-v20.jpg" class="img-fluid mx-auto d-block sw" alt="Шкаф-купе в гардеробную комнату от 40 000 р.">
+                        <img src="/files/beton/beton-m250-v20.jpg" class="img-fluid mx-auto d-block sw" alt="Бетон М250 В20 - 2920 р.">
                         <div class="pt-5 px-4">
                             <h4 class="black w-5">
                                 Бетон М250 В20 - 2920 р.
@@ -265,7 +265,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/beton/beton-m300-v22-5.jpg" class="img-fluid mx-auto d-block sw" alt="Корпусный шкаф-купе от 35 000 р.">
+                        <img src="/files/beton/beton-m300-v22-5.jpg" class="img-fluid mx-auto d-block sw" alt="Бетон М300 В22.5 - 3050 р.">
                         <div class="pt-5 px-4">
                             <h4 class="black w-5">
                                 Бетон М300 В22.5 - 3050 р.
@@ -281,13 +281,62 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
-                        <img src="/files/beton/beton-m350-v25.jpg" class="img-fluid mx-auto d-block sw" alt="Радиусный шкаф-купе от 75 000 р.">
+                        <img src="/files/beton/beton-m350-v25.jpg" class="img-fluid mx-auto d-block sw" alt="Бетон М350 В25 - 3150 р.">
                         <div class="pt-5 px-4">
                             <h4 class="black w-5">
                                 Бетон М350 В25 - 3150 р.
                             </h4>
                             <div class="s-17">
                                 Используется для заливки фундаментов и плит перекрытия.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-md-down">
+                    <br>
+                    <br>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/beton/beton-m400-v30.jpg" class="img-fluid mx-auto d-block sw" alt="Бетон М400 В30 - 3350 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Бетон М400 В30 - 3350 р.
+                            </h4>
+                            <div class="s-17">
+                                Используется для заливки фундаментов, плит перекрытия, колон и конструкция подверженных большой нагрузке. Применяется при строительстве монолитных многоквартирных домов.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/beton/keramzitobeton.jpg" class="img-fluid mx-auto d-block sw" alt="Керамзитобетон - 2900 р.">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Керамзитобетон - 2900 р.
+                            </h4>
+                            <div class="s-17">
+                                Используется для легких конструкций. Классифицируется как легкий бетон. Применяется для заливки полов (теплый пол). Керамзит хорошо держит тепло. В основном заливают паркинги.
+                            </div>
+                        </div>
+                        <div class="hidden-lg-up">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <img src="/files/beton/avtobetonosmesitel-i-avtobetononasos.jpg" class="img-fluid mx-auto d-block sw" alt="Автобетоносмеситель (АБС) и автобетононасос (АБН)">
+                        <div class="pt-5 px-4">
+                            <h4 class="black w-5">
+                                Автобетоносмеситель (АБС) и автобетононасос (АБН)
+                            </h4>
+                            <div class="s-17">
+                                Время бесплатной разгрузки АБС - 60 минут. АБС от 6 м3 до 12 м3. АБН от 16 м до 52 м. АБС с транспортерной лентой - 550 р./м3. Подача гидролотком 6-10 м - 2000р.
                             </div>
                         </div>
                     </div>
