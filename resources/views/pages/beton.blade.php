@@ -342,7 +342,7 @@
                     </div>
                     <div class="mx-auto d-block pt-5">
                         <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#benefitModal">
-                            Рассчитать смету с доставкой
+                            Получить прайс-лист
                         </button>
                         <div class="modal fade" id="benefitModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
                             <div class="modal-dialog" role="document">
@@ -356,7 +356,7 @@
                                             <input type="hidden" name="source" value="concrete">
                                             <input type="hidden" name="cta" value="Всплывающая форма блока цены">
                                             <div class="form-group">
-                                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email">
+                                                <input type="email" class="font black form-control w-3" id="email" placeholder="Email*" name="email" required="required">
                                             </div>
                                             <div class="form-group">
                                                 <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
@@ -366,7 +366,7 @@
                                             </div>
                                             <div class="form-group mb-0">
                                                 <button type="submit" class="font btn btn-primary btn-block" role="button">
-                                                    Рассчитать смету с доставкой
+                                                    Получить прайс-лист
                                                 </button>
                                             </div>
                                         </form>
