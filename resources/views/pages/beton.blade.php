@@ -73,7 +73,6 @@
                     </div>
                 </ul>
             </div>
-
         </nav>
 
         <div class="modal fade" id="navModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
