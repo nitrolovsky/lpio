@@ -54,20 +54,17 @@
                 </h4>
                 <form action="/leads" method="POST">
                     {{ csrf_field() }}
-                    <input type="hidden" name="source" value="concrete">
+                    <input type="hidden" name="source" value="ashmedia">
                     <input type="hidden" name="cta" value="Всплывающия форма навигации">
                     <div class="form-group">
-                        <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email">
+                        <input type="text" class="font black form-control w-3" id="name" placeholder="Имя" name="name">
                     </div>
                     <div class="form-group">
                         <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
                     </div>
-                    <div class="form-group">
-                        <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
-                    </div>
                     <div class="form-group mb-0">
                         <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                            Рассчитать смету с доставкой
+                            Получить расчет
                         </button>
                     </div>
                 </form>
@@ -221,7 +218,7 @@
                             Отзыв клиента для Good Mebell
                         @endslot
                         @slot('details')
-                            Красивая и удобная мебель. 
+                            Красивая и удобная мебель.
                         @endslot
                     @endcomponent
                 </div>
@@ -229,7 +226,7 @@
                 <div class="row pt-5 pb-5">
                     <div class="mx-auto d-block">
                         <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#benefitModal">
-                            Получить подробный прайс-лист
+                            Получить расчет
                         </button>
                         <div class="modal fade" id="benefitModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
                             <div class="modal-dialog" role="document">
@@ -240,20 +237,17 @@
                                         </h5>
                                         <form action="/leads" method="POST">
                                             {{ csrf_field() }}
-                                            <input type="hidden" name="source" value="concrete">
-                                            <input type="hidden" name="cta" value="Всплывающая форма блока цены на получение прайс-листа">
+                                            <input type="hidden" name="source" value="ashmedia">
+                                            <input type="hidden" name="cta" value="Всплывающая форма блока примеров">
                                             <div class="form-group">
-                                                <input type="email" class="font black form-control w-3" id="email" placeholder="Email*" name="email" required="required">
+                                                <input type="text" class="font black form-control w-3" id="name" placeholder="Имя" name="name">
                                             </div>
                                             <div class="form-group">
                                                 <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
                                             </div>
-                                            <div class="form-group">
-                                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
-                                            </div>
                                             <div class="form-group mb-0">
                                                 <button type="submit" class="font btn btn-primary btn-block" role="button">
-                                                    Получить прайс-лист
+                                                    Получить расчет
                                                 </button>
                                             </div>
                                         </form>
@@ -271,7 +265,7 @@
                 bg-faded
             @endslot
             @slot('title')
-                Задайте вопросы, менеджер ответит в течение 1 минуты
+                Оставьте комментарий, отзыв или вопрос
             @endslot
             @slot('cackle')
                 <script type="text/javascript">
