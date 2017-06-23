@@ -87,13 +87,7 @@
                             <input type="hidden" name="source" value="concrete">
                             <input type="hidden" name="cta" value="Всплывающия форма навигации">
                             <div class="form-group">
-                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
+                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
                             </div>
                             <div class="form-group mb-0">
                                 <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
@@ -160,13 +154,7 @@
                                     <input type="hidden" name="source" value="concrete">
                                     <input type="hidden" name="cta" value="Форма с видео">
                                     <div class="form-group">
-                                        <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
+                                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
@@ -362,13 +350,10 @@
                                             <input type="hidden" name="source" value="concrete">
                                             <input type="hidden" name="cta" value="Всплывающая форма блока цены на получение прайс-листа">
                                             <div class="form-group">
-                                                <input type="email" class="font black form-control w-3" id="email" placeholder="Email*" name="email" required="required">
+                                                <input type="email" class="font black form-control w-3" id="email" placeholder="Email" name="email">
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
+                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
                                             </div>
                                             <div class="form-group mb-0">
                                                 <button type="submit" class="font btn btn-primary btn-block" role="button">
@@ -510,13 +495,7 @@
                                             <input type="hidden" name="source" value="concrete">
                                             <input type="hidden" name="cta" value="Всплывающая форма блока преимуществ">
                                             <div class="form-group">
-                                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
+                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
                                             </div>
                                             <div class="form-group mb-0">
                                                 <button type="submit" class="font btn btn-primary btn-block" role="button">
