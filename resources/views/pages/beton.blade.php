@@ -153,7 +153,7 @@
                                     <br>
                                 </div>
                                 <h4 class="w-5">
-                                    Расчет сметы по сезонным ценам с учетом доставки до объекта и скидки за объем
+                                    Узнайте точную цену бетона с учетом доставки до вашего объект по сезонной цене прямо сейчас
                                 </h4>
                                 <form action="/leads" method="POST" class="pt-3">
                                     {{ csrf_field() }}
@@ -170,7 +170,7 @@
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
-                                            Рассчитать смету с доставкой
+                                            Узнать стоимость с учетом доставки
                                         </button>
                                     </div>
                                 </form>
