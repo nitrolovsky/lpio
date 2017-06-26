@@ -85,6 +85,12 @@ class LeadController extends Controller
                 $message->subject("Заявка от " . $data['source'] . " в " . date ("Y.m.d H:m:s"));
             });
 
+            Mail::send("emails.lead", $data, function ($message) use ($data) {
+                $message->from("info.lpio.ru@gmail.com", "lpio.ru");
+                $message->to("saintbeton@gmail.com");
+                $message->subject("Заявка от " . $data['source'] . " в " . date ("Y.m.d H:m:s"));
+            });
+
             return redirect('pages/thanks');
         }
     }
