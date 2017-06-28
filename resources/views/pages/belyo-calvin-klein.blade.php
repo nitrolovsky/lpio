@@ -73,42 +73,42 @@
 
         @component('components.firstscreen')
             @slot('brand')
-                ООО "ЛБЗ"
+                Calvin Klein
             @endslot
             @slot('description')
-                Сеть бетонных заводов
+                Интернет-магазин белья
             @endslot
             @slot('phone')
-                +78124269277
+                +78129672763
             @endslot
             @slot('phone_view')
-                +7 (812) 426 92 77
+                +7 (812) 967 27 63
             @endslot
             @slot('email')
                 info.lpio.ru@gmail.com
             @endslot
             @slot('region')
-                Доставка 24/7 по СПБ и ЛО
+                Санкт-Петербург
             @endslot
             @slot('offer')
                 Комплект женского белья Calvin Klein топ и трусики 1950 рублей
             @endslot
             @slot('bullets')
                 <li>
-                    Состоит из эко хлопка и резинка из эластана
+                    Состоит из хлопка и эластана
                 </li>
                 <li class="pt-1">
                     Сохраняет внешний вид после 100 стирок
                 </li>
                 <li class="pt-1">
-                    Бесплатная доставка курьером по Москве и СПб
+                    Бесплатная доставка курьером по Санкт-Петербургу
                 </li>
             @endslot
             @slot('video')
-                https://www.youtube.com/embed/YKsEeME2zb4
+                https://www.youtube.com/embed/ppYGJTWINDU
             @endslot
             @slot('leadmagnet')
-                Узнайте расчет сметы по сезонным ценам с учетом доставки до объекта и скидки за объем
+                Оформите заказ на комплект женского белья Calvin Klein
             @endslot
             @slot('form')
                 <form action="/leads" method="POST" class="pt-3">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="form-group">
                         <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
-                            Рассчитать смету с доставкой
+                            Оформить заказ
                         </button>
                     </div>
                 </form>
