@@ -23,26 +23,26 @@
             </script>
         @endslot
         @slot('lptracker')
-            <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37003;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
+
         @endslot
     @endcomponent
     <body>
         @component('components.nav')
             @slot('brand')
-                CK
+                lpio
             @endslot
             @slot('ctr')
-                Заказать
+                Купить
             @endslot
             @slot('menu')
                 <li class="nav-item">
                     <a class="nav-link font" href="#video">Видео</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font" href="#price">Цены</a>
+                    <a class="nav-link font" href="#price">Модели</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font" href="#aboutus">О заводах</a>
+                    <a class="nav-link font" href="#comments">Комментарии</a>
                 </li>
             @endslot
             @slot('modal')
@@ -178,7 +178,7 @@
 
                     @component('components.meaning')
                         @slot('image')
-                            {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-serye-slipy.jpg
+                            {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-chernye-slipy.jpg
                         @endslot
                         @slot('description')
                             Белый комплект белья топ и трусики слипы
