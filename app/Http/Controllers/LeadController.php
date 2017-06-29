@@ -62,7 +62,7 @@ class LeadController extends Controller
             return redirect('pages/thanks');
         }
 
-        if (Request::get("source") == "concrete") {
+        if (Request::get("source") == "beton") {
             $data = array(
                 'source' => Request::server("HTTP_REFERER"),
                 'cta' => Request::get('cta'),
