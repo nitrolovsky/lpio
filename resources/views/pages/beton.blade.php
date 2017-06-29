@@ -87,7 +87,13 @@
                             <input type="hidden" name="source" value="concrete">
                             <input type="hidden" name="cta" value="Всплывающия форма навигации">
                             <div class="form-group">
-                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
+                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
                             </div>
                             <div class="form-group mb-0">
                                 <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
@@ -147,18 +153,24 @@
                                     <br>
                                 </div>
                                 <h4 class="w-5">
-                                    Узнайте точную цену бетона с учетом доставки до вашего объект по сезонной цене прямо сейчас
+                                     Расчет сметы по сезонным ценам с учетом доставки до объекта и скидки за объем
                                 </h4>
                                 <form action="/leads" method="POST" class="pt-3">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="source" value="concrete">
                                     <input type="hidden" name="cta" value="Форма с видео">
                                     <div class="form-group">
-                                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
+                                        <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
-                                            Узнать стоимость с учетом доставки
+                                            Рассчитать смету
                                         </button>
                                     </div>
                                 </form>
@@ -481,25 +493,31 @@
                     </div>
                     <div class="mx-auto d-block pt-5">
                         <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#benefitModal">
-                            Рассчитать смету с доставкой
+                            Бесплатно вызвать инженера
                         </button>
                         <div class="modal fade" id="benefitModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-body">
-                                        <h5 class="my-0 pt-2 pb-4 text-center font w-5">
-                                            Заполните форму
+                                        <h5 class="my-0 pb-3 font w-5">
+                                            Бесплатный выезд инженера для расчета точного объема и консультации
                                         </h5>
                                         <form action="/leads" method="POST">
                                             {{ csrf_field() }}
                                             <input type="hidden" name="source" value="concrete">
-                                            <input type="hidden" name="cta" value="Всплывающая форма блока преимуществ">
+                                            <input type="hidden" name="cta" value="Всплывающая форма блока преимуществ Бесплатно вызвать инженера">
                                             <div class="form-group">
-                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
+                                                <input type="text" class="font black form-control w-3" id="email" placeholder="Email (по желанию)" name="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон (укажите для обратной связи)" name="phone" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Комментарий (по желанию)"></textarea>
                                             </div>
                                             <div class="form-group mb-0">
                                                 <button type="submit" class="font btn btn-primary btn-block" role="button">
-                                                    Рассчитать смету с доставкой
+                                                    Бесплатно вызвать инженера
                                                 </button>
                                             </div>
                                         </form>
