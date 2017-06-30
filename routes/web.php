@@ -1,10 +1,16 @@
 <?php
 
 Route::get('/', function () {
-    $env = explode(".", Request::server("HTTP_HOST"));
-    $subdomain = array_shift($env);
-    if (file_exists("../resources/views/pages/$subdomain.blade.php") == true) {
-        return view("pages.$subdomain");
+    $domain = Request::server("HTTP_HOST");
+    $page = str_replace(".", "-", $domain);
+    if (file_exists("../resources/views/pages/$page.blade.php") == true) {
+        return view("pages.$page");
+    } else {
+        $env = explode(".", Request::server("HTTP_HOST"));
+        $subdomain = array_shift($env);
+        if (file_exists("../resources/views/pages/$subdomain.blade.php") == true) {
+            return view("pages.$subdomain");
+        }
     }
 });
 
