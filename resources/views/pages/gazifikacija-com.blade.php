@@ -169,9 +169,10 @@
                         <h5 class="russo text-center pt-2 pb-3">
                             Заказ звонка специалиста
                         </h5>
-                        <form action="/lead" method="POST">
+                        <form action="/leads" method="POST">
                             {{ csrf_field() }}
-                            <input type="hidden" name="source" value="gazifikacija.com Заказ звонка специалиста">
+                            <input type="hidden" name="source" value="gazifikacija">
+                            <input type="hidden" name="cta" value="gazifikacija.com Заказ звонка специалиста">
                             <div class="form-group">
                                 <div class="">
                                     <input type="text" class=" btn-circle form-control" id="name" placeholder="Имя" name="name" required>
@@ -216,7 +217,7 @@
                 </div>
                 <br>
                 <div class="row">
-                    <form class="col-xl-10 offset-xl-1 col-lg-12 col-md-12 col-sm-12 col-12" action="/lead" method="POST">
+                    <form class="col-xl-10 offset-xl-1 col-lg-12 col-md-12 col-sm-12 col-12" action="/leads" method="POST">
                         <div class="tab-content">
                             <div class="tab-pane active" id="truboprovod" role="tabpanel">
                                 <input type="hidden" name="calc" value="Природный магистральный газ">
@@ -495,7 +496,8 @@
 
                         <div class="form-inline">
                             {{ csrf_field() }}
-                            <input type="hidden" name="source" value="gazifikacija.com Получить расчет">
+                            <input type="hidden" name="source" value="gazifikacija">
+                            <input type="hidden" name="cta" value="gazifikacija.com Получить расчет">
                             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                                 <div class="form-group">
                                     <input type="email" class="form-control col-12 btn-circle" id="email" placeholder="Email" name="email" value="" required>
@@ -643,9 +645,10 @@
                         <h5 class="russo text-center pt-2 pb-3">
                             Заказ звонка специалиста банка
                         </h5>
-                        <form action="/lead" method="POST">
+                        <form action="/leads" method="POST">
                             {{ csrf_field() }}
-                            <input type="hidden" name="source" value="gazifikacija.com Получить рассрочку">
+                            <input type="hidden" name="source" value="gazifikacija">
+                            <input type="hidden" name="cta" value="gazifikacija.com Получить рассрочку">
                             <div class="form-group">
                                 <div class="">
                                     <input type="text" class=" btn-circle form-control" id="name" placeholder="Имя" name="name" required>
@@ -793,7 +796,7 @@
 
                             </ul>
                             <br>
-                            
+
                             <br>
                             <div class="text-center">
                                 <button class="btn btn-primary btn-circle" data-toggle="modal" data-target="#zakazIngenerModal" role="button">Заказать выезд инженера</a>
@@ -838,9 +841,10 @@
                         <h5 class="russo text-center pt-2 pb-3">
                             Заказать выезд инженера
                         </h5>
-                        <form action="/lead" method="POST">
+                        <form action="/leadss" method="POST">
                             {{ csrf_field() }}
-                            <input type="hidden" name="source" value="gazifikacija.com Заказать выезд инженера">
+                            <input type="hidden" name="source" value="gazifikacija">
+                            <input type="hidden" name="cta" value="gazifikacija.com Заказать выезд инженера">
                             <div class="form-group">
                                 <div class="">
                                     <input type="text" class=" btn-circle form-control" id="name" placeholder="Имя" name="name" value="" required>
@@ -1307,13 +1311,14 @@
         <div class="container-fluid bg-faded pb-5">
             <div class="container">
                 <div class="row">
-                    <form class="col-xl-10 offset-xl-1 col-lg-12 col-md-12 col-sm-12 col-12" action="/lead" method="POST">
+                    <form class="col-xl-10 offset-xl-1 col-lg-12 col-md-12 col-sm-12 col-12" action="/leads" method="POST">
                         <h4 class="russo pt-5 pb-4 text-center" id="request2">
                             Оставьте заявку на бесплатный выезд инженера <br>и помощь в расчете сметы
                         </h4>
                         <div class="form-inline">
                             {{ csrf_field() }}
-                            <input type="hidden" name="source" value="gazifikacija.com Получить расчет Низ">
+                            <input type="hidden" name="source" value="gazifikacija">
+                            <input type="hidden" name="cta" value="gazifikacija.com Получить расчет Низ">
                             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                                 <div class="form-group">
                                     <input type="email" class="form-control col-12 btn-circle" id="email" placeholder="Email" name="email" value="" required>
