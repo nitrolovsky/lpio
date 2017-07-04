@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('/fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot');
+    src: url('/fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot?iefix') format('eot'),
+        url('/fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.woff') format('woff'),
+        url('/fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('/fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot');
+    src: url('/fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot?iefix') format('eot'),
+        url('/fonts/SegoeUI/SegoeUIBold/SegoeUIBold.woff') format('woff'),
+        url('/fonts/SegoeUI/SegoeUIBold/SegoeUIBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('/fonts/SegoeUI/SegoeUILight/SegoeUILight.eot');
+    src: url('/fonts/SegoeUI/SegoeUILight/SegoeUILight.eot?iefix') format('eot'),
+        url('/fonts/SegoeUI/SegoeUILight/SegoeUILight.woff') format('woff'),
+        url('/fonts/SegoeUI/SegoeUILight/SegoeUILight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans ExtraLight'), local('DejaVuSans-ExtraLight'), url('dejavusansextralight.woff2') format('woff2'), url('dejavusansextralight.woff') format('woff'), url('dejavusansextralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans'), local('DejaVuSans'), url('dejavusans.woff2') format('woff2'), url('dejavusans.woff') format('woff'), url('dejavusans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans Oblique'), local('DejaVuSans-Oblique'), url('dejavusansoblique.woff2') format('woff2'), url('dejavusansoblique.woff') format('woff'), url('dejavusansoblique.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans Bold'), local('DejaVuSans-Bold'), url('dejavusansbold.woff2') format('woff2'), url('dejavusansbold.woff') format('woff'), url('dejavusansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans Bold Oblique'), local('DejaVuSans-BoldOblique'), url('dejavusansboldoblique.woff2') format('woff2'), url('dejavusansboldoblique.woff') format('woff'), url('dejavusansboldoblique.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration:none !important;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+.cm-gallery {
+    opacity: 0.8;
+}
+
+.cm-gallery:hover {
+    opacity: 1;
+}
+
+.sw {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.russo {
+    font-family: "Roboto Slab", sans-serif !important;
+}
+
+.pt {
+      font-family: 'Verdana', sans-serif;
+}
+
+input, button, textarea {
+      font-family: 'Verdana', sans-serif !important;
+}
+
+input, textarea {
+    color: black !important;
+}
+
+.f {
+    font-family: 'Georgia' !important;
+
+}
+
+body {
+    font-family: "DejaVu Sans", "Verdana" !important;
+}
+
+.russo {
+    font-family: "DejaVu Sans", "Verdana" !important;
+}
+
+input, button, textarea {
+      font-family: "DejaVu Sans", "Verdana" !important;
+}
+
+.offer {
+    font-weight: 700;
+}
+
+button {
+
+}

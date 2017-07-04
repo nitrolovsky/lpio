@@ -1,3 +1,6 @@
+@php
+    $path_files = "/files/gazifikacija-com/";
+@endphp
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,9 +9,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/article.css">
-        <link rel="stylesheet" href="/fonts/djsans/djsans.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/gazifikacija-com.css">
         <title>
             Газификация частного дома в Санкт-Петербурге и Ленинградской области
@@ -22,11 +23,91 @@
           ga('require', 'displayfeatures');
           ga('send', 'pageview');
         </script>
+        <style>
+            .bgimage-form-1 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-18.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+
+            }
+            .bgimage-form-2 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-19.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+            .bgimage-form-3 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-20.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+            .bgimage-form-4 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-21.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+            .bgimage-form-5 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-22.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+            .bgimage-form-6 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-23.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+            .bgimage-form-7 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-24.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+            .bgimage-form-8 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-25.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+            .bgimage-form-9 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-26.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+            .bgimage-form-10 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-27.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+            .bgimage-form-11 {
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-28.jpg") no-repeat center center;
+                background-size: cover;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: overlay;
+                color: white;
+            }
+        </style>
     </head>
     <body>
         <style>
         .bgimage-first {
-            background: url(/images/gazifikaciya-3/gazifikaciya-fotografiya-4.jpg) no-repeat bottom center;
+            background: url({{ $path_files }}/gazifikaciya-fotografiya-4.jpg) no-repeat bottom center;
             background-size: cover;
             background-attachment: fixed;
             background-color: rgba(0, 0, 0, 0.5);
@@ -44,7 +125,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                             <div class="row">
                                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                    <img src="/images/gazifikaciya-3/gazifikaciya-logo.png" class="img-fluid">
+                                    <img src="{{ $path_files }}gazifikaciya-logo.png" class="img-fluid">
                                 </div>
                                 <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                     ООО "Альтаир"<br>
@@ -444,7 +525,7 @@
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                    <img src="/images/gazifikaciya-3/gazifikaciya-dom.jpg" class="img-fluid mx-auto d-block">
+                    <img src="{{ $path_files }}gazifikaciya-dom.jpg" class="img-fluid mx-auto d-block">
                     <h3 class="russo text-center pt-3">
                         Частные дома
                     </h3>
@@ -454,7 +535,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                    <img src="/images/gazifikaciya-3/gazifikaciya-mnogokvartirnie.jpg" class="img-fluid mx-auto d-block">
+                    <img src="{{ $path_files }}gazifikaciya-mnogokvartirnie.jpg" class="img-fluid mx-auto d-block">
                     <h3 class="russo text-center pt-3">
                         Многоквартирные дома
                     </h3>
@@ -464,7 +545,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                    <img src="/images/gazifikaciya-3/gazifikaciya-prom.jpg" class="img-fluid mx-auto d-block">
+                    <img src="{{ $path_files }}gazifikaciya-prom.jpg" class="img-fluid mx-auto d-block">
                     <h3 class="russo text-center pt-3">
                         Промышленные объекты
                     </h3>
@@ -478,7 +559,7 @@
             <br>
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 offset-xl-2">
-                    <img src="/images/gazifikaciya-3/gazifikaciya-commercheskie.jpg" class="img-fluid mx-auto d-block">
+                    <img src="{{ $path_files }}gazifikaciya-commercheskie.jpg" class="img-fluid mx-auto d-block">
                     <h3 class="russo text-center pt-3">
                         Коммерческие объекты
                     </h3>
@@ -488,7 +569,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                    <img src="/images/gazifikaciya-3/gazifikaciya-poselki.jpg" class="img-fluid mx-auto d-block">
+                    <img src="{{ $path_files }}gazifikaciya-poselki.jpg" class="img-fluid mx-auto d-block">
                     <h3 class="russo text-center pt-3">
                         Садоводства и поселки
                     </h3>
@@ -502,7 +583,7 @@
 
         <style>
             .bgimage-kredit {
-                background: url("/images/gazifikaciya-3/gazifikaciya-fotografiya-1.jpg") no-repeat center center;
+                background: url("{{ $path_files }}gazifikaciya-fotografiya-1.jpg") no-repeat center center;
                 background-size: cover;
                 background-attachment: fixed;
                 background-color: rgba(0, 0, 0, 0.5);
@@ -522,24 +603,24 @@
                 </h2>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                        <img src="/images/gazifikaciya-3/bank-1.png" class="img-fluid">
+                        <img src="{{ $path_files }}bank-1.png" class="img-fluid">
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                        <img src="/images/gazifikaciya-3/bank-6.png" class="img-fluid">
+                        <img src="{{ $path_files }}bank-6.png" class="img-fluid">
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                        <img src="/images/gazifikaciya-3/bank-3.png" class="img-fluid">
+                        <img src="{{ $path_files }}bank-3.png" class="img-fluid">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                        <img src="/images/gazifikaciya-3/bank-2.png" class="img-fluid">
+                        <img src="{{ $path_files }}bank-2.png" class="img-fluid">
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                        <img src="/images/gazifikaciya-3/bank-4.png" class="img-fluid">
+                        <img src="{{ $path_files }}bank-4.png" class="img-fluid">
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                        <img src="/images/gazifikaciya-3/bank-5.png" class="img-fluid">
+                        <img src="{{ $path_files }}bank-5.png" class="img-fluid">
                     </div>
                 </div>
                 <div class="row pt-5">
@@ -597,7 +678,7 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/gazifikaciya-primer-1.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}gazifikaciya-primer-1.jpg" alt="Card image cap">
                         <div class="card-block">
                             <h5 class="russo pb-3 text-center">
                                 Строительство газовой котельной для Общественно-Делового Центра ювелирной сети «585/Золотой» в д. Скотное
@@ -620,7 +701,7 @@
                         <br>
                     </div>
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/gazifikaciya-primer-2.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}gazifikaciya-primer-2.jpg" alt="Card image cap">
                         <div class="card-block">
                             <h5 class="russo pb-3 text-center">
                                 Газификация д.Колясово и Общественно-Делового Центра ювелирной сети «585/Золотой» в д. Скотное
@@ -647,7 +728,7 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/gazifikaciya-primer-3.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}gazifikaciya-primer-3.jpg" alt="Card image cap">
                         <div class="card-block">
                             <h5 class="russo pb-3 text-center">
                                 Наружное и внутреннее газоснабжение, устройство котельной и индивидуальных тепловых пунктов Многоквартирного жилого комплекса «Полар-Южный» в г. Всеволожске
@@ -672,7 +753,7 @@
                         <br>
                     </div>
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/gazifikaciya-primer-4.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}gazifikaciya-primer-4.jpg" alt="Card image cap">
                         <div class="card-block">
                             <h5 class="russo pb-3 text-center">
                                 Газификация муниципальных объектов Дубровского городского поселения в Ленинградской области
@@ -700,7 +781,7 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/gazifikaciya-primer-5.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}gazifikaciya-primer-5.jpg" alt="Card image cap">
                         <div class="card-block">
                             <h5 class="russo pb-3 text-center">
                                 Реконструкция газопроводов в квартале, ограниченном ул. Ольги Берггольц, пр. Елизарова, ул. Седова и Старопутиловским валом для комитета по энергетике и инженерному обеспечению Правительства СПб
@@ -712,6 +793,7 @@
 
                             </ul>
                             <br>
+                            
                             <br>
                             <div class="text-center">
                                 <button class="btn btn-primary btn-circle" data-toggle="modal" data-target="#zakazIngenerModal" role="button">Заказать выезд инженера</a>
@@ -724,7 +806,7 @@
                         <br>
                     </div>
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/gazifikaciya-primer-6.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}gazifikaciya-primer-6.jpg" alt="Card image cap">
                         <div class="card-block">
                             <h5 class="russo pb-3 text-center">
                                 Комплексное газоснабжение и водоснабжение ДНТ «РОВАМ» массив Проба в Ленинградской Области
@@ -736,8 +818,8 @@
                                 <li>Газификация частных домовладений
 
                             </ul>
-                            <br>
-                            <br>
+
+
 
 
                             <div class="text-center">
@@ -782,7 +864,7 @@
 
         <style>
         .bgimage-stoimost {
-            background: url("/images/gazifikaciya-3/gazifikaciya-fotografiya-9.jpg") no-repeat center center;
+            background: url("{{ $path_files }}gazifikaciya-fotografiya-9.jpg") no-repeat center center;
             background-size: cover;
             background-attachment: fixed;
             background-color: rgba(0, 0, 0, 0.5);
@@ -818,8 +900,8 @@
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <a href="/images/gazifikaciya-3/blago-polar.jpg" target="_blank">
-                        <img src="/images/gazifikaciya-3/blago-polar.jpg" class="img-fluid mx-auto d-block">
+                    <a href="{{ $path_files }}blago-polar.jpg" target="_blank">
+                        <img src="{{ $path_files }}blago-polar.jpg" class="img-fluid mx-auto d-block">
                         <br>
                         <h5 class="russo text-center pt-3">
                             ЗАО "Полар"
@@ -831,8 +913,8 @@
                     </a>
                 </div>
                 <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <a href="/images/gazifikaciya-3/blago-2.pdf" target="_blank">
-                        <img src="/images/gazifikaciya-3/blago-2.jpg" class="img-fluid mx-auto d-block">
+                    <a href="{{ $path_files }}blago-2.pdf" target="_blank">
+                        <img src="{{ $path_files }}blago-2.jpg" class="img-fluid mx-auto d-block">
                         <br>
                         <h5 class="russo text-center pt-3">
                             ООО "ДиДиСи индор энд аутдор"
@@ -844,8 +926,8 @@
                     </a>
                 </div>
                 <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <a href="/images/gazifikaciya-3/blago-5.pdf" target="_blank">
-                        <img src="/images/gazifikaciya-3/blago-5.jpg" class="img-fluid mx-auto d-block">
+                    <a href="{{ $path_files }}blago-5.pdf" target="_blank">
+                        <img src="{{ $path_files }}blago-5.jpg" class="img-fluid mx-auto d-block">
                         <br>
                         <h5 class="russo text-center pt-3">
                             СПб ГКУ "Управление заказчика"
@@ -861,7 +943,7 @@
 
         <style>
         .bgimage-garantiya-srokov {
-            background: url("/images/gazifikaciya2/gazifikaciya-fotografiya-3.jpg") no-repeat center center;
+            background: url("{{ $path_files }}gazifikaciya-fotografiya-3.jpg") no-repeat center center;
             background-size: cover;
             background-attachment: fixed;
             background-color: rgba(0, 0, 0, 0.5);
@@ -898,7 +980,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/tehnika-11.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}tehnika-11.jpg" alt="Card image cap">
                         <div class="card-block text-center">
                             Установка горизонтально-направленного бурения для бестраншейной прокладки
                         </div>
@@ -909,7 +991,7 @@
                         <br>
                     </div>
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/tehnika-12.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}tehnika-12.jpg" alt="Card image cap">
                         <div class="card-block text-center">
                             Мини-экскаватор для работы в стесненных условиях
                         </div>
@@ -921,7 +1003,7 @@
                         <br>
                     </div>
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/tehnika-13.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}tehnika-13.jpg" alt="Card image cap">
                         <div class="card-block text-center">
                             Авто-вышка для проведения высотных работ
                         </div>
@@ -933,7 +1015,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/tehnika-14.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}tehnika-14.jpg" alt="Card image cap">
                         <div class="card-block text-center">
                             Мини-погрузчик для работы в городских условиях
                         </div>
@@ -945,7 +1027,7 @@
                         <br>
                     </div>
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/tehnika-19.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}tehnika-19.jpg" alt="Card image cap">
                         <div class="card-block text-center">
                             Экскаватор-погрузчик для обеспечения нужд при прокладке наружных сетей
                         </div>
@@ -956,7 +1038,7 @@
                         <br>
                     </div>
                     <div class="card sw">
-                        <img class="card-img-top img-fluid mx-auto d-block" src="/images/gazifikaciya-3/tehnika-16.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid mx-auto d-block" src="{{ $path_files }}tehnika-16.jpg" alt="Card image cap">
                         <div class="card-block text-center">
                             Буровая установка для проведения геологических изысканий
                         </div>
@@ -968,7 +1050,7 @@
 
         <style>
         .bgimage-garantiya-dopusk {
-            background: url("/images/gazifikaciya-3/gazifikaciya-fotografiya-12.jpg") no-repeat center center;
+            background: url("{{ $path_files }}gazifikaciya-fotografiya-12.jpg") no-repeat center center;
             background-size: cover;
             background-attachment: fixed;
             background-color: rgba(0, 0, 0, 0.5);
@@ -990,8 +1072,8 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-                        <a href="/images/gazifikaciya-3/dopusk.pdf" target="_blank">
-                            <img src="/images/gazifikaciya-3/dopusk.jpg" class="img-fluid mx-auto d-block">
+                        <a href="{{ $path_files }}dopusk.pdf" target="_blank">
+                            <img src="{{ $path_files }}dopusk.jpg" class="img-fluid mx-auto d-block">
                             <h5 class="russo text-center pt-3 my-0">
                                 Свидетельство о допуске к определенным видам работ Серия ЛО № 0991
                             </h5>
@@ -1002,8 +1084,8 @@
                         </a>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-                        <a href="/images/gazifikaciya-3/sro.pdf" target="_blank">
-                            <img src="/images/gazifikaciya-3/sro.jpg" class="img-fluid mx-auto d-block">
+                        <a href="{{ $path_files }}sro.pdf" target="_blank">
+                            <img src="{{ $path_files }}sro.jpg" class="img-fluid mx-auto d-block">
                             <h5 class="russo text-center pt-3 my-0">
                                 Свидетельство о допуске № СРОСП-П-05542.1-18102016
                             </h5>
@@ -1014,8 +1096,8 @@
                         </a>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-                        <a href="/images/gazifikaciya-3/iso.pdf" target="_blank">
-                            <img src="/images/gazifikaciya-3/iso.jpg" class="img-fluid mx-auto d-block">
+                        <a href="{{ $path_files }}iso.pdf" target="_blank">
+                            <img src="{{ $path_files }}iso.jpg" class="img-fluid mx-auto d-block">
                             <h5 class="russo text-center pt-3 my-0">
                                 Сертификат соответствия № СДС.РТС.РФ.4203
                             </h5>
@@ -1039,7 +1121,7 @@
             </div>
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <img src="/images/gazifikaciya-3/gazifikaciya-partner.jpg" class="img-fluid">
+                    <img src="{{ $path_files }}gazifikaciya-partner.jpg" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -1055,7 +1137,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <img src="/images/gazifikaciya-3/2.jpg" class="img-fluid mx-auto d-block rounded-circle">
+                        <img src="{{ $path_files }}2.jpg" class="img-fluid mx-auto d-block rounded-circle">
                         <p class="text-center pt-3">
                             Главный бухгалтер<br>
                             Лебедева Светлана Владимировна
@@ -1066,7 +1148,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <img src="/images/gazifikaciya-3/1.jpg" class="img-fluid mx-auto d-block rounded-circle">
+                        <img src="{{ $path_files }}1.jpg" class="img-fluid mx-auto d-block rounded-circle">
                         <p class="text-center pt-3">
                             Директор<br>
                             Жучков Филипп Германович
@@ -1077,7 +1159,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <img src="/images/gazifikaciya-3/3.jpg" class="img-fluid mx-auto d-block rounded-circle">
+                        <img src="{{ $path_files }}3.jpg" class="img-fluid mx-auto d-block rounded-circle">
                         <p class="text-center pt-3">
                             Технический директор<br>
                             Шаповалов Дмитрий Александрович
@@ -1092,7 +1174,7 @@
                 <br>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <img src="/images/gazifikaciya-3/5.jpg" class="img-fluid mx-auto d-block rounded-circle">
+                        <img src="{{ $path_files }}5.jpg" class="img-fluid mx-auto d-block rounded-circle">
                         <p class="text-center pt-3">
                             Руководитель отдела продаж<br>
                             Романова Юлия Александрова
@@ -1103,7 +1185,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <img src="/images/gazifikaciya-3/4.jpg" class="img-fluid mx-auto d-block rounded-circle">
+                        <img src="{{ $path_files }}4.jpg" class="img-fluid mx-auto d-block rounded-circle">
                         <p class="text-center pt-3">
                             Производитель работ<br>
                             Хитаришвили Арчил Гурамович
@@ -1114,7 +1196,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <img src="/images/gazifikaciya-3/6.jpg" class="img-fluid mx-auto d-block rounded-circle">
+                        <img src="{{ $path_files }}6.jpg" class="img-fluid mx-auto d-block rounded-circle">
                         <p class="text-center pt-3">
                             Производитель работ<br>
                             Крымов Михаил Сергеевич
@@ -1129,7 +1211,7 @@
                 <br>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <img src="/images/gazifikaciya-3/9.jpg" class="img-fluid mx-auto d-block rounded-circle">
+                        <img src="{{ $path_files }}9.jpg" class="img-fluid mx-auto d-block rounded-circle">
                         <p class="text-center pt-3">
                             Специалист отдела маркетинга<br>
                             Родионов Роман Владимирович
@@ -1140,7 +1222,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <img src="/images/gazifikaciya-3/7.jpg" class="img-fluid mx-auto d-block rounded-circle">
+                        <img src="{{ $path_files }}7.jpg" class="img-fluid mx-auto d-block rounded-circle">
                         <p class="text-center pt-3">
                             Специалист отдела снабжения<br>
                             Михайлов Денис Александрович
@@ -1151,7 +1233,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <img src="/images/gazifikaciya-3/8.jpg" class="img-fluid mx-auto d-block rounded-circle">
+                        <img src="{{ $path_files }}8.jpg" class="img-fluid mx-auto d-block rounded-circle">
                         <p class="text-center pt-3">
                             Юрисконсульт<br>
                             Аракейлян Вазген Ванушевич
@@ -1175,7 +1257,7 @@
             </div>
             <div class="row">
                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1">
-                    <img src="/images/gazifikaciya-3/e-1.png" class="img-fluid d-block mx-auto">
+                    <img src="{{ $path_files }}e-1.png" class="img-fluid d-block mx-auto">
                     <div class="text-center pt-3">
                         ~1 день
                         <br>
@@ -1184,7 +1266,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
-                    <img src="/images/gazifikaciya-3/e-2.png" class="img-fluid d-block mx-auto">
+                    <img src="{{ $path_files }}e-2.png" class="img-fluid d-block mx-auto">
                     <div class="text-center pt-3">
                         ~16 дней
                         <br>
@@ -1193,7 +1275,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
-                    <img src="/images/gazifikaciya-3/e-3.png" class="img-fluid d-block mx-auto">
+                    <img src="{{ $path_files }}e-3.png" class="img-fluid d-block mx-auto">
                     <div class="text-center pt-3">
                         ~14 дней
                         <br>
@@ -1202,7 +1284,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
-                    <img src="/images/gazifikaciya-3/e-5.png" class="img-fluid d-block mx-auto">
+                    <img src="{{ $path_files }}e-5.png" class="img-fluid d-block mx-auto">
                     <div class="text-center pt-3">
                         ~12 дней
                         <br>
@@ -1211,7 +1293,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
-                    <img src="/images/gazifikaciya-3/e-6.png" class="img-fluid d-block mx-auto">
+                    <img src="{{ $path_files }}e-6.png" class="img-fluid d-block mx-auto">
                     <div class="text-center pt-3">
                         ~18 день
                         <br>
@@ -1253,7 +1335,7 @@
 
         <style>
         .bgimage-footer {
-            background: url("/images/gazifikaciya2/gazifikaciya-fotografiya-4.jpg") no-repeat bottom center;
+            background: url("{{ $path_files}}gazifikaciya-fotografiya-4.jpg") no-repeat bottom center;
             background-size: cover;
             background-attachment: fixed;
             background-color: rgba(0, 0, 0, 0.5);
@@ -1271,7 +1353,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                             <div class="row">
                                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                    <img src="/images/gazifikaciya-3/gazifikaciya-logo.png" class="img-fluid">
+                                    <img src="{{ $path_files }}gazifikaciya-logo.png" class="img-fluid">
                                 </div>
                                 <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                     ООО "Альтаир"<br>
@@ -1308,9 +1390,10 @@
             </div>
         </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-        <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
         <script>
             $("form").submit(function(e) {
                 var ref = $(this).find("[required]");
