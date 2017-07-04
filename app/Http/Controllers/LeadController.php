@@ -94,7 +94,7 @@ class LeadController extends Controller
             return redirect('pages/thanks');
         }
         if (Request::get("source") == "gazifikacija") {
-            $lead_last_id = DB::table("leads")->insertGetId([
+            $lead_last_id = DB::table("gazifikacija_leads")->insertGetId([
                 "name" => Request::get("name"),
                 "email" => Request::get("email"),
                 "phone" => Request::get("phone"),
