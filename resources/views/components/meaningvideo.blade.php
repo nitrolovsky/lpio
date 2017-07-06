@@ -2,7 +2,7 @@
     <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="{{ $video }}?rel=0&showinfo=0" allowfullscreen></iframe>
     </div>
-    <div class="pt-5 px-4">
+    <div class="pt-4 px-4">
         <h4 class="black w-5">
             {{ $title }}
         </h4>
