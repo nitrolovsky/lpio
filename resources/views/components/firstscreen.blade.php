@@ -3,7 +3,12 @@
         <div class="container font">
             <div class="row pt-4">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                    <span class="h1 w-3">{{ $brand }}</span><br>
+                    @if (isset($brand))
+                        <span class="h1 w-3">{{ $brand }}</span><br>
+                    @endif
+                    @if (isset($logotype))
+                        <img src="{{ $logotype }}" class="img-fluid col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 px-0"><br>
+                    @endif
                     <span class="w-4">{{ $description }}</span>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center w-4">

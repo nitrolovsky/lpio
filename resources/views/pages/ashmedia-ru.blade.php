@@ -1,5 +1,5 @@
 @php
-    $path_file = "/files/ashmedia/";
+    $path_files = "/files/ashmedia/";
 @endphp
 <!DOCTYPE html>
 <html>
@@ -8,7 +8,7 @@
             Создание видеороликов для бизнеса
         @endslot
         @slot('bg')
-            {{ $path_file }}bg.jpg
+            {{ $path_files }}bg.jpg
         @endslot
         @slot('google_analytics')
             <script>
@@ -72,8 +72,8 @@
         @endcomponent
 
         @component('components.firstscreen')
-            @slot('brand')
-                АШМедиа
+            @slot('logotype')
+                {{ $path_files }}logotype.jpg
             @endslot
             @slot('description')
                 Создание видеороликов для бизнеса
