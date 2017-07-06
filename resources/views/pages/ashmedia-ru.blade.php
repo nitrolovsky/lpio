@@ -5,7 +5,7 @@
 <html>
     @component('components.head')
         @slot('title')
-            Создание видеороликов для бизнеса
+            Создание видеороликов для бизнеса АШмедиа ashmedia.ru
         @endslot
         @slot('bg')
             {{ $path_files }}bg.jpg
