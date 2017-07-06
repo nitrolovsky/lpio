@@ -145,13 +145,13 @@
                 <div class="row">
                     @component('components.meaningvideo')
                         @slot('video')
-                            https://www.youtube.com/embed/E6qjWdrQtqo
+                            https://www.youtube.com/embed/d1FgJJ1Za18
                         @endslot
                         @slot('title')
-                            ANSE Производство и продажа шуб
+                            Кадровое агентство "STAFF PERSONAL"
                         @endslot
                         @slot('details')
-                            Портные цеха имеют высшее специальное образование и 5 лет опыта работы. За счет параллельного выполнения работ мы можем справится с большим объемом в сезонное время. Возможен индивидуальный пошив.
+                            Наша основная услуга - аутсорсинг. Мы нанимаем персонал для гостиничного бизнеса, продуктовых универсамов, а также различных производств. 3 дня - это срок от заявки до вывода рабочей силы на место труда.
                         @endslot
                     @endcomponent
 
@@ -172,7 +172,7 @@
                             https://www.youtube.com/embed/VzGSFv-WDV8
                         @endslot
                         @slot('title')
-                            ГОРТЕСТ Центр сертификации
+                            Центр сертификации "ГОРТЕСТ"
                         @endslot
                         @slot('details')
                             Центр сертификации ГОРТЕСТ оказывает услуги по получению разрешительных документов для импорта, экспорта и реализации товаров на территории России.
@@ -203,10 +203,53 @@
                             https://www.youtube.com/embed/BUtarYML3bQ
                         @endslot
                         @slot('title')
-                            ДИАДЕНТ Медицинский центр
+                            Медицинский центр "ДИАДЕНТ"
                         @endslot
                         @slot('details')
                             Клиника оказывает услуги по направлениям: стоматология, косметология, гинекология, урология и пластическая хирургия.
+                        @endslot
+                    @endcomponent
+
+                    @component('components.meaningvideo')
+                        @slot('video')
+                            https://www.youtube.com/embed/E6qjWdrQtqo
+                        @endslot
+                        @slot('title')
+                            Производство и продажа шуб "ANSE"
+                        @endslot
+                        @slot('details')
+                            Портные цеха имеют высшее специальное образование и 5 лет опыта работы. За счет параллельного выполнения работ мы можем справится с большим объемом в сезонное время. Возможен индивидуальный пошив.
+                        @endslot
+                    @endcomponent
+                </div>
+
+                <div class="hidden-md-down">
+                    <br>
+                    <br>
+                </div>
+
+                <div class="row">
+                    @component('components.meaningvideo')
+                        @slot('video')
+                            https://www.youtube.com/embed/xU7YA2ac5tw
+                        @endslot
+                        @slot('title')
+                            Производство печатной продукции "Titanprint"
+                        @endslot
+                        @slot('details')
+                            Занимаемся изготовлением различных видов рекламной и полиграфической продукции. Центром отдела широкоформатной печати является сольвентный принтер, который печатает в фотокачестве и с высокой точностью передает цвета и оттенки. А изображения устойчивы к влаге и ультрафиолету.
+                        @endslot
+                    @endcomponent
+
+                    @component('components.meaningvideo')
+                        @slot('video')
+                            https://www.youtube.com/embed/tRfm_LSiRek
+                        @endslot
+                        @slot('title')
+                            Производство кухонных фасадов "Омега"
+                        @endslot
+                        @slot('details')
+                            На рынке с 2006 года. 5 заводов - партнеров. 20 крупных фабрик сбыта. 50 обращений ежедневно. Производим: кухонные двери, двери-купе, резку и обработку стекла, пескоструйные рисунки, фотопечать, стеновые панели для кухни, мебельную фурнитуру.
                         @endslot
                     @endcomponent
 
