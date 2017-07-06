@@ -303,9 +303,85 @@
             </div>
         </div>
 
+        <div id="reviews"></div>
+        <div class="bg-faded font">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2 class="text-center my-0 w-5 black">
+                            Отзывы заказчиков о студии АШмедиа
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    @component('components.meaningvideo')
+                        @slot('video')
+                            https://www.youtube.com/embed/TBcozDTro4E
+                        @endslot
+                        @slot('title')
+                            Отзыв "Staff Personal"
+                        @endslot
+                        @slot('details')
+                            Задача: нужен был видеоролик для сайта. Показать офис, персонал, чем занимаемся, основные задачи и функции. Повысить уровень доверия клиентов. На рынке очень много компаний-однодневок и для заказчика высокий риск наткнуться на недобросовестного подрядчика. Мы на рынке с 2005 года.
+                        @endslot
+                    @endcomponent
+
+                    @component('components.meaningvideo')
+                        @slot('video')
+                            https://www.youtube.com/embed/GBxC_eR2UqY
+                        @endslot
+                        @slot('title')
+                            Отзыв "ГОРТЕСТ"
+                        @endslot
+                        @slot('details')
+                            Задача: решить вопрос с кадрам. Для этого снять HR видео.
+                        @endslot
+                    @endcomponent
+
+                </div>
+
+                <div class="row pt-5 pb-5">
+                    <div class="mx-auto d-block">
+                        <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#benefitModal">
+                            Получить консультацию
+                        </button>
+                        <div class="modal fade" id="benefitModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <h5 class="my-0 pt-2 pb-4 text-center font w-5">
+                                            Заполните форму
+                                        </h5>
+                                        <form action="/leads" method="POST">
+                                            {{ csrf_field() }}
+                                            <input type="hidden" name="source" value="ashmedia">
+                                            <input type="hidden" name="cta" value="Всплывающая форма блока отзывов">
+                                            <div class="form-group">
+                                                <input type="text" class="font black form-control w-3" id="name" placeholder="Имя" name="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <button type="submit" class="font btn btn-primary btn-block" role="button">
+                                                    Получить консультацию
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         @component('components.comments')
             @slot('bgcolor')
-                bg-faded
+                bg-white
             @endslot
             @slot('title')
                 Оставьте комментарий, отзыв или вопрос
@@ -326,6 +402,9 @@
         @endcomponent
 
         @component('components.footer')
+            @slot('bgcolor')
+                bg-faded
+            @endslot
             @slot('legal')
                 2017 АШМедиа Все права защищены<br>
                 <a href=https://vk.com/shevtsovpiter class=a target=_blank>Артем Шевцов</a>
