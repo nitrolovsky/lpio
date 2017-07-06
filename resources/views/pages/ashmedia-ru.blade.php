@@ -72,8 +72,8 @@
         @endcomponent
 
         @component('components.firstscreen')
-            @slot('logotype')
-                {{ $path_files }}logotype.jpg
+            @slot('brand')
+                АШмедиа
             @endslot
             @slot('description')
                 Создание видеороликов для бизнеса
