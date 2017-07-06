@@ -255,13 +255,13 @@
 
                     @component('components.meaningvideo')
                         @slot('video')
-                            https://www.youtube.com/embed/Ti9R8fuvr9I
+                            https://www.youtube.com/embed/UWblwq59Nos
                         @endslot
                         @slot('title')
-                            Отзыв клиента для Good Mebell
+                            Производство "Хорошая мебель"
                         @endslot
                         @slot('details')
-                            Красивая и удобная мебель.
+                            Производим офисные стойки ресепшн, барные торговые стойки более 7 лет. С 2009 года реализовали свыше 100 уникальных проектов. Мы прямой производитель поэтому у нас цены ниже на 30%, чем в салонах.
                         @endslot
                     @endcomponent
                 </div>
