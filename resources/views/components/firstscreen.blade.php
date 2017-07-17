@@ -47,10 +47,12 @@
                         <div class="hidden-lg-up">
                             <br>
                         </div>
-                        <h4 class="w-5">
-                            {{ $leadmagnet }}
-                        </h4>
-                        {{ $form }}
+                        <div class="p-3 bg-form">
+                            <h4 class="pb-2 w-5">
+                                {{ $leadmagnet }}
+                            </h4>
+                            {{ $form or '' }}
+                        </div>
                     </div>
                 </div>
             </div>

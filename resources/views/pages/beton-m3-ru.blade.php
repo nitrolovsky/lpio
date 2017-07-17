@@ -35,7 +35,7 @@
                 Бетон
             @endslot
             @slot('ctr')
-                Рассчитать смету с доставкой
+                Расчет цены бетона
             @endslot
             @slot('menu')
                 <li class="nav-item">
@@ -111,25 +111,22 @@
                 https://www.youtube.com/embed/YKsEeME2zb4
             @endslot
             @slot('leadmagnet')
-                Online заказ за 1 минуту и расчет сметы с доставкой
+                Получите расчет стоимости бетона с доставкой до объекта за 1 минуту
             @endslot
             @slot('form')
-                <form action="/leads" method="POST" class="pt-3">
+                <form action="/leads" method="POST">
                     {{ csrf_field() }}
                     <input type="hidden" name="source" value="beton">
                     <input type="hidden" name="cta" value="Форма с видео">
                     <div class="form-group">
-                        <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email">
+                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон*" name="phone" required="required">
+                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Адрес объекта, класс и объем бетона"></textarea>
                     </div>
-                    <div class="form-group">
-                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
-                    </div>
-                    <div class="form-group">
+                    <div class="form-group mb-1">
                         <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
-                            Заказать
+                            Получить расчет с доставкой
                         </button>
                     </div>
                 </form>
