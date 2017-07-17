@@ -27,6 +27,8 @@
             .bgimage-form-1 {
                 background: url("{{ $path_files }}gazifikaciya-fotografiya-18.jpg") no-repeat center center;
                 background-size: cover;
+                background-attachment: fixed;
+                -webkit-background-size: cover
                 background-color: rgba(0, 0, 0, 0.6);
                 background-blend-mode: overlay;
                 color: white;
@@ -588,6 +590,7 @@
                 background: url("{{ $path_files }}gazifikaciya-fotografiya-1.jpg") no-repeat center center;
                 background-size: cover;
                 background-attachment: fixed;
+                -webkit-background-size: cover;
                 background-color: rgba(0, 0, 0, 0.5);
                 background-blend-mode: overlay;
                 color: white;
@@ -871,6 +874,7 @@
             background: url("{{ $path_files }}gazifikaciya-fotografiya-9.jpg") no-repeat center center;
             background-size: cover;
             background-attachment: fixed;
+            -webkit-background-size: cover;
             background-color: rgba(0, 0, 0, 0.5);
             background-blend-mode: overlay;
             color: white;
@@ -950,6 +954,7 @@
             background: url("{{ $path_files }}gazifikaciya-fotografiya-3.jpg") no-repeat center center;
             background-size: cover;
             background-attachment: fixed;
+            -webkit-background-size: cover;
             background-color: rgba(0, 0, 0, 0.5);
             background-blend-mode: overlay;
             color: white;
@@ -1057,6 +1062,7 @@
             background: url("{{ $path_files }}gazifikaciya-fotografiya-12.jpg") no-repeat center center;
             background-size: cover;
             background-attachment: fixed;
+            -webkit-background-size: cover;
             background-color: rgba(0, 0, 0, 0.5);
             background-blend-mode: overlay;
             color: white;
@@ -1343,6 +1349,7 @@
             background: url("{{ $path_files}}gazifikaciya-fotografiya-4.jpg") no-repeat bottom center;
             background-size: cover;
             background-attachment: fixed;
+            -webkit-background-size: cover;
             background-color: rgba(0, 0, 0, 0.5);
             background-blend-mode: overlay;
             color: white;
