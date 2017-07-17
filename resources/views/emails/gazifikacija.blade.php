@@ -1,4 +1,7 @@
 <body style="font-family: Verdana;font-size:17px;">
+    @if ($ip)
+        ip - {{ $ip or "" }}<br>
+    @endif
     @if ($name)
         Имя - {{ $name or "" }}<br>
     @endif

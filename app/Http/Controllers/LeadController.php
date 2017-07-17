@@ -127,6 +127,7 @@ class LeadController extends Controller
                 "email" => Request::get("email"),
                 "phone" => Request::get("phone"),
                 "source" => Request::server("HTTP_REFERER"),
+                "ip" => Request::server("REMOTE_ADDR"),
                 "cta" => Request::get("cta"),
                 "calc" => Request::get("calc"),
                 "nar" => Request::get("nar"),
