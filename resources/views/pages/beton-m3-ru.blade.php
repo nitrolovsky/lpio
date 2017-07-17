@@ -3,7 +3,6 @@
 @endphp
 <!DOCTYPE html>
 <html>
-
     @component('components.head')
         @slot('title')
             Бетон купить в Санкт-Петербурге от бетонного завода
@@ -20,16 +19,13 @@
 
               ga('create', 'UA-99764557-1', 'auto');
               ga('send', 'pageview');
-
             </script>
         @endslot
         @slot('lptracker')
             <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37003;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
         @endslot
     @endcomponent
-
     <body>
-
         @component('components.nav')
             @slot('brand')
                 Бетон
@@ -147,6 +143,9 @@
             <div class="container-fluid">
                 <div class="row">
                     @component('components.meaning')
+                        @slot('button')
+                            Заказать
+                        @endslot
                         @slot('image')
                             {{ $path_file }}beton-m100-v7-5.jpg
                         @endslot
@@ -162,6 +161,9 @@
                     @endcomponent
 
                     @component('components.meaning')
+                        @slot('button')
+                            Заказать
+                        @endslot
                         @slot('image')
                             {{ $path_file }}beton-m150-v12-5.jpg
                         @endslot
@@ -177,6 +179,9 @@
                     @endcomponent
 
                     @component('components.meaning')
+                        @slot('button')
+                            Заказать
+                        @endslot
                         @slot('image')
                             {{ $path_file }}beton-m200-v15.jpg
                         @endslot
@@ -199,6 +204,9 @@
 
                 <div class="row">
                     @component('components.meaning')
+                        @slot('button')
+                            Заказать
+                        @endslot
                         @slot('image')
                             {{ $path_file }}beton-m250-v20.jpg
                         @endslot
@@ -214,6 +222,9 @@
                     @endcomponent
 
                     @component('components.meaning')
+                        @slot('button')
+                            Заказать
+                        @endslot
                         @slot('image')
                             {{ $path_file }}beton-m300-v22-5.jpg
                         @endslot
@@ -229,6 +240,9 @@
                     @endcomponent
 
                     @component('components.meaning')
+                        @slot('button')
+                            Заказать
+                        @endslot
                         @slot('image')
                             {{ $path_file }}beton-m350-v25.jpg
                         @endslot
@@ -249,8 +263,11 @@
                     <br>
                 </div>
 
-                <div class="row">
+                <div class="row pb-5">
                     @component('components.meaning')
+                        @slot('button')
+                            Заказать
+                        @endslot
                         @slot('image')
                             {{ $path_file }}beton-m400-v30.jpg
                         @endslot
@@ -266,6 +283,9 @@
                     @endcomponent
 
                     @component('components.meaning')
+                        @slot('button')
+                            Заказать
+                        @endslot
                         @slot('image')
                             {{ $path_file }}keramzitobeton.jpg
                         @endslot
@@ -281,6 +301,9 @@
                     @endcomponent
 
                     @component('components.meaning')
+                        @slot('button')
+                            Заказать
+                        @endslot
                         @slot('image')
                             {{ $path_file }}avtobetonosmesitel-i-avtobetononasos.jpg
                         @endslot
@@ -296,36 +319,29 @@
                     @endcomponent
                 </div>
 
-                <div class="row pt-5 pb-5">
-                    <div class="mx-auto d-block">
-                        <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#modal1">
-                            Получить подробный прайс-лист
-                        </button>
-                        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <h5 class="my-0 pt-2 pb-4 text-center font w-5">
-                                            Заполните форму
-                                        </h5>
-                                        <form action="/leads" method="POST">
-                                            {{ csrf_field() }}
-                                            <input type="hidden" name="source" value="beton">
-                                            <input type="hidden" name="cta" value="Всплывающая форма блока цены на получение прайс-листа">
-                                            <div class="form-group">
-                                                <input type="email" class="font black form-control w-3" id="email" placeholder="Email" name="email">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
-                                            </div>
-                                            <div class="form-group mb-0">
-                                                <button type="submit" class="font btn btn-primary btn-block" role="button">
-                                                    Получить прайс-лист
-                                                </button>
-                                            </div>
-                                        </form>
+                <div class="modal fade" id="priceModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <h5 class="my-0 pt-2 pb-4 text-center font w-5">
+                                    Заполните форму
+                                </h5>
+                                <form action="/leads" method="POST">
+                                    {{ csrf_field() }}
+                                    <input type="hidden" name="source" value="beton">
+                                    <input type="hidden" name="cta" value="Форма под товаром">
+                                    <div class="form-group">
+                                        <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
                                     </div>
-                                </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Адрес объекта, класс и объем бетона"></textarea>
+                                    </div>
+                                    <div class="form-group mb-0">
+                                        <button type="submit" class="font btn btn-primary btn-block" role="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
