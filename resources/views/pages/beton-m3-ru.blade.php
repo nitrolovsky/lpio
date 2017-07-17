@@ -43,6 +43,9 @@
                 <li class="nav-item">
                     <a class="nav-link font" href="#aboutus">О заводах</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link font" href="#photogallery">Фотогалерея</a>
+                </li>
             @endslot
             @slot('modal')
                 <h4 class="my-0 pt-2 pb-4 text-center font w-5">
@@ -469,7 +472,94 @@
             </div>
         </div>
 
+        <div id="photogallery"></div>
+        <div class="font bg-white">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2 class="text-center my-0 w-5 black">
+                            Фотографии с рабочих объектов
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-21.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-22.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-23.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-24.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-5.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-6.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-7.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-8.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-9.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-10.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-11.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-12.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-13.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-14.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-15.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-16.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-17.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-18.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-19.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-0">
+                        <img src="{{ $path_file }}beton-20.jpg" class="img-fluid" alt="Фотографии объектов в СПБ и ЛО по заказу бетона">
+                    </div>
+                </div>
+            </div>
+
         @component('components.footer')
+            @slot('bgcolor')
+                bg-faded
+            @endslot
             @slot('legal')
                 Copyright &#169; 2017 beton-m3.ru Все права защищены. ИНН 7802602468. КПП 780201001. р/сч 40702810903000013545 в АО "Райффайзенбанк".<br>
                 к/сч 30101810100000000723. БИК 044030723.
