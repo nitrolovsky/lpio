@@ -31,7 +31,7 @@
                 Бетон
             @endslot
             @slot('ctr')
-                Расчет цены бетона
+                Расчёт с доставкой
             @endslot
             @slot('menu')
                 <li class="nav-item">
@@ -52,7 +52,7 @@
             @endslot
             @slot('modal')
                 <h4 class="my-0 pt-2 pb-4 text-center font w-5">
-                    Получите расчет цены бетона с доставкой заполнив форму
+                    Получите расчёт цены бетона с доставкой заполнив форму
                 </h4>
                 <form action="/leads" method="POST">
                     {{ csrf_field() }}
@@ -62,11 +62,11 @@
                         <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Адрес объекта, класс и объем бетона"></textarea>
+                        <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Адрес объекта, марка и объем бетона"></textarea>
                     </div>
                     <div class="form-group mb-0">
                         <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                            Получить расчет
+                            Получить расчёт
                         </button>
                     </div>
                 </form>
@@ -110,7 +110,7 @@
                 https://www.youtube.com/embed/YKsEeME2zb4
             @endslot
             @slot('leadmagnet')
-                Получите расчет стоимости бетона с доставкой до объекта за 1 минуту
+                Получите расчёт стоимости бетона с доставкой до вашего объекта за 1 минуту
             @endslot
             @slot('form')
                 <form action="/leads" method="POST">
@@ -121,11 +121,11 @@
                         <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Адрес объекта, класс и объем бетона"></textarea>
+                        <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Адрес объекта, марка и объем бетона"></textarea>
                     </div>
                     <div class="form-group mb-1">
                         <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
-                            Получить расчет с доставкой
+                            Получить расчёт с доставкой
                         </button>
                     </div>
                 </form>
@@ -147,7 +147,7 @@
                 <div class="row">
                     @component('components.meaning')
                         @slot('button')
-                            Заказать
+                            Расчёт с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m100-v7-5.jpg
@@ -165,7 +165,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Заказать
+                            Расчёт с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m150-v12-5.jpg
@@ -183,7 +183,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Заказать
+                            Расчёт с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m200-v15.jpg
@@ -208,7 +208,7 @@
                 <div class="row">
                     @component('components.meaning')
                         @slot('button')
-                            Заказать
+                            Расчёт с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m250-v20.jpg
@@ -226,7 +226,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Заказать
+                            Расчёт с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m300-v22-5.jpg
@@ -244,7 +244,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Заказать
+                            Расчёт с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m350-v25.jpg
@@ -269,7 +269,7 @@
                 <div class="row pb-5">
                     @component('components.meaning')
                         @slot('button')
-                            Заказать
+                            Расчёт с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m400-v30.jpg
@@ -287,7 +287,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Заказать
+                            Расчёт с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}keramzitobeton.jpg
@@ -305,7 +305,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Заказать
+                            Расчёт с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}avtobetonosmesitel-i-avtobetononasos.jpg
@@ -337,11 +337,11 @@
                                         <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Адрес объекта, класс и объем бетона"></textarea>
+                                        <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Адрес объекта, марка и объем бетона"></textarea>
                                     </div>
                                     <div class="form-group mb-0">
                                         <button type="submit" class="font btn btn-primary btn-block" role="button">
-                                            Заказать
+                                            Получить расчёт
                                         </button>
                                     </div>
                                 </form>
@@ -467,7 +467,7 @@
                 <div class="row pt-5 pb-5">
                     <div class="mx-auto d-block">
                         <button class="btn btn-primary font w-4" role="button"  data-toggle="modal" data-target="#navModal">
-                            Получить расчет с доставкой
+                            Получить расчёт с доставкой
                         </button>
                     </div>
                 </div>
