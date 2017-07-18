@@ -478,7 +478,7 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <h2 class="text-center my-0 w-5 black">
-                            Фотографии с рабочих объектов
+                            Фото с рабочих объектов Ленинградского бетонного Завода
                         </h2>
                     </div>
                 </div>
