@@ -46,6 +46,9 @@
                 <li class="nav-item">
                     <a class="nav-link font" href="#photogallery">Фотогалерея</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link font" href="#reviews">Отзывы</a>
+                </li>
             @endslot
             @slot('modal')
                 <h4 class="my-0 pt-2 pb-4 text-center font w-5">
@@ -555,7 +558,36 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div id="reviews"></div>
+        <div class="font">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2 class="text-center my-0 w-5 black">
+                            Отзывы заказчиков
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row pb-5">
+                    @component('components.meaningvideo')
+                        @slot('video')
+                            https://www.youtube.com/embed/k55SscAI_ls
+                        @endslot
+                        @slot('title')
+
+                        @endslot
+                        @slot('details')
+
+                        @endslot
+                    @endcomponent
+
+                </div>
+            </div>
+        </div>
         @component('components.footer')
             @slot('bgcolor')
                 bg-faded
