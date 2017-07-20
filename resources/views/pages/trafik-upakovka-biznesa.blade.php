@@ -33,7 +33,7 @@
         8 921 967 27 63
     @endslot
     @slot('email')
-        reincontent@gmail.com
+        nitrolovsky@gmail.com
     @endslot
     @slot('address')
         Санкт-Петербург, м. Невский проспект
