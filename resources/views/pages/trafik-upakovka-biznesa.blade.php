@@ -53,7 +53,7 @@
         </li>
     @endslot
     @slot('video')
-        https://www.youtube.com/embed/YKsEeME2zb4
+        https://www.youtube.com/embed/rtcSgvzVC6Q
     @endslot
     @slot('lead_magnet')
         Получите презентацию заполнив форму
