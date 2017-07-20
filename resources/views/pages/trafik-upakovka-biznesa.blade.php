@@ -64,16 +64,13 @@
             <input type="hidden" name="source" value="beton">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black sw form-control w-3" id="name" placeholder="Имя" name="name">
-            </div>
-            <div class="form-group">
                 <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email">
             </div>
             <div class="form-group">
                 <input type="text" class="font black sw form-control w-3" id="phone" placeholder="Телефон" name="phone">
             </div>
             <div class="form-group">
-                <input type="text" class="font black sw form-control w-3" id="comment" placeholder="Сфера деятельности" name="comment">
+                <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Имя и сфера деятельности"></textarea>
             </div>
             <div class="form-group">
                 <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
