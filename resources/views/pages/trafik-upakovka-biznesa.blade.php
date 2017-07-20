@@ -18,7 +18,7 @@
         </script>
     @endslot
     @slot('lptracker')
-        <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37003;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
+
     @endslot
     @slot('brand')
         Павел Рейн
@@ -75,10 +75,18 @@
             <div class="form-group">
                 <input type="text" class="font black sw form-control w-3" id="comment" placeholder="Сфера деятельности" name="comment">
             </div>
-            <div class="form-group pb-0 mb-0">
+            <div class="form-group">
                 <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
                     Получить
                 </button>
+            </div>
+            <div class="form-group mb-0">
+                <div class="form-check mb-0">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" checked>
+                    </label>
+                    Согласен на обработку персональных данных и <a href="/files/trafik-upakovka-biznesa/politic.pdf" class="text-info a" target="_blank">политикой конфиденциальности</a>
+                </div>
             </div>
         </form>
     @endslot
