@@ -1,6 +1,6 @@
 @component('components.onescreen')
     @slot('title')
-        Трафик и упаковка
+        Трафик и упаковка бизнеса
     @endslot
     @slot('bg')
         /files/trafik-upakovka-biznesa/bg.jpg
