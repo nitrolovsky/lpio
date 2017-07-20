@@ -85,7 +85,7 @@
                     <label class="form-check-label">
                         <input type="checkbox" class="form-check-input" checked>
                     </label>
-                    Согласен на обработку персональных данных и <a href="/files/trafik-upakovka-biznesa/politic.pdf" class="text-info a" target="_blank">политикой конфиденциальности</a>
+                    Согласен на обработку персональных данных и <a href="/files/trafik-upakovka-biznesa/politic.pdf" class="text-info a" target="_blank">политику конфиденциальности</a>
                 </div>
             </div>
         </form>
