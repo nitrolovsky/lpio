@@ -46,10 +46,10 @@
             Цель - добиться увеличения прибыли
         </li>
         <li class="pt-1">
-            Увеличить продажи, доверие, рекомендации
+            Увеличить продажи, доверие и рекомендации
         </li>
         <li class="pt-1">
-            Построить ростущую в прибыли систему
+            Привлечь максимум клиентов с помощью видеомаркетинга
         </li>
     @endslot
     @slot('video')
@@ -61,7 +61,7 @@
     @slot('form')
         <form action="/leads" method="POST">
             {{ csrf_field() }}
-            <input type="hidden" name="source" value="beton">
+            <input type="hidden" name="source" value="trafik-upakovka-biznesa">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black sw form-control w-3" id="email" placeholder="Email" name="email">
