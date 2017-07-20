@@ -211,7 +211,7 @@ class LeadController extends Controller
 
             Mail::send("emails.lead", $data, function ($message) use ($data) {
                 $message->from("info.lpio.ru@gmail.com", "lpio.ru");
-                $message->to("info.lpio.ru@gmail.com");
+                $message->to("nitrolovsky@gmail.com");
                 $message->subject("Заявка от " . $data['source'] . " в " . date ("Y.m.d H:m:s"));
             });
 
