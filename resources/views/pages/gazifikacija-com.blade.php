@@ -23,6 +23,7 @@
           ga('require', 'displayfeatures');
           ga('send', 'pageview');
         </script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
         <style>
             .bgimage-form-1 {
                 background: url("{{ $path_files }}gazifikaciya-fotografiya-18.jpg") no-repeat center center;
@@ -190,6 +191,12 @@
                                     <button type="submit" class=" btn-circle btn btn-primary btn-block" role="button">Заказать</button>
                                 </div>
                             </div>
+                            <button
+                                class="g-recaptcha"
+                                data-sitekey="6LfLnykUAAAAAFeLAl8w5rxvtrtcbBpCsJmktJmE"
+                                data-callback="YourOnSubmitFn">
+                                Submit
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -514,6 +521,12 @@
                                 <button type="submit" class="btn btn-primary btn-block btn-circle" role="button"><span class="fa fa-fw fa-calculator" aria-hidden="true"></span>&nbsp;Получить расчет</button>
                             </div>
                         </div>
+                        <button
+                            class="g-recaptcha"
+                            data-sitekey="6LfLnykUAAAAAFeLAl8w5rxvtrtcbBpCsJmktJmE"
+                            data-callback="YourOnSubmitFn">
+                            Submit
+                        </button>
                     </form>
                 </div>
             </div>
@@ -667,6 +680,12 @@
                                     <button type="submit" class=" btn-circle btn btn-primary btn-block" role="button">Заказать</button>
                                 </div>
                             </div>
+                            <button
+                                class="g-recaptcha"
+                                data-sitekey="6LfLnykUAAAAAFeLAl8w5rxvtrtcbBpCsJmktJmE"
+                                data-callback="YourOnSubmitFn">
+                                Submit
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -863,6 +882,12 @@
                                     <button type="submit" class=" btn-circle btn btn-primary btn-block" role="button">Заказать</button>
                                 </div>
                             </div>
+                            <button
+                                class="g-recaptcha"
+                                data-sitekey="6LfLnykUAAAAAFeLAl8w5rxvtrtcbBpCsJmktJmE"
+                                data-callback="YourOnSubmitFn">
+                                Submit
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -1339,6 +1364,12 @@
                                 <button type="submit" class="btn btn-primary btn-block btn-circle"><span class="fa fa-fw fa-calculator" aria-hidden="true" role="button"></span>&nbsp;Получить расчет</button>
                             </div>
                         </div>
+                        <button
+                            class="g-recaptcha"
+                            data-sitekey="6LfLnykUAAAAAFeLAl8w5rxvtrtcbBpCsJmktJmE"
+                            data-callback="YourOnSubmitFn">
+                            Submit
+                        </button>
                     </form>
                 </div>
             </div>

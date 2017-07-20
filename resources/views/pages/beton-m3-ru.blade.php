@@ -64,10 +64,18 @@
                     <div class="form-group">
                         <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Адрес объекта, марка и объем бетона"></textarea>
                     </div>
-                    <div class="form-group mb-0">
+                    <div class="form-group">
                         <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
                             Получить расчёт
                         </button>
+                    </div>
+                    <div class="form-group mb-0">
+                        <div class="form-check mb-0">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" checked>
+                            </label>
+                            Согласен на обработку персональных данных и <a href="{{ $path_file }}politic.pdf" class="a" target="_blank">политикой конфиденциальности</a>
+                        </div>
                     </div>
                 </form>
             @endslot
@@ -123,10 +131,18 @@
                     <div class="form-group">
                         <textarea class="form-control font black w-3 sw" id="comment" rows="3" name="comment" placeholder="Адрес объекта, марка и объем бетона"></textarea>
                     </div>
-                    <div class="form-group mb-1">
+                    <div class="form-group">
                         <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
                             Получить расчёт с доставкой
                         </button>
+                    </div>
+                    <div class="form-group mb-0">
+                        <div class="form-check mb-0">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" checked>
+                            </label>
+                            Согласен на обработку персональных данных и <a href="{{ $path_file }}politic.pdf" class="text-info a" target="_blank">политикой конфиденциальности</a>
+                        </div>
                     </div>
                 </form>
             @endslot
@@ -339,10 +355,18 @@
                                     <div class="form-group">
                                         <textarea class="form-control font black w-3" id="comment" rows="3" name="comment" placeholder="Адрес объекта, марка и объем бетона"></textarea>
                                     </div>
-                                    <div class="form-group mb-0">
+                                    <div class="form-group">
                                         <button type="submit" class="font btn btn-primary btn-block" role="button">
                                             Получить расчёт
                                         </button>
+                                    </div>
+                                    <div class="form-group mb-0 font">
+                                        <div class="form-check mb-0">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input" checked>
+                                            </label>
+                                            Согласен на обработку персональных данных и <a href="{{ $path_file }}politic.pdf" class="a" target="_blank">политикой конфиденциальности</a>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
