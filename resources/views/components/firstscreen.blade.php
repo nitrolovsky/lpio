@@ -47,7 +47,7 @@
                         <div class="hidden-lg-up">
                             <br>
                         </div>
-                        <div class="p-3 bg-form">
+                        <div class="p-3 bg-form sw">
                             <h4 class="pb-2 text-center w-5">
                                 {{ $leadmagnet }}
                             </h4>
