@@ -23,7 +23,7 @@
 
             <div class="row pt-5 pb-5 mt-5">
                 <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-1">
-                    <h1 class="my-0 w-5">
+                    <h1 class="my-0 w-5 text-center">
                         {{ $offer }}
                     </h1>
                 </div>
