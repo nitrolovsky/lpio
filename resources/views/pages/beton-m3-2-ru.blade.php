@@ -163,7 +163,7 @@
                 <div class="row">
                     @component('components.meaning')
                         @slot('button')
-                            Расчёт с доставкой
+                            Рассчитать с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m100-v7-5.jpg
@@ -181,7 +181,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Расчёт с доставкой
+                            Рассчитать с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m150-v12-5.jpg
@@ -199,7 +199,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Расчёт с доставкой
+                            Рассчитать с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m200-v15.jpg
@@ -224,7 +224,7 @@
                 <div class="row">
                     @component('components.meaning')
                         @slot('button')
-                            Расчёт с доставкой
+                            Рассчитать с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m250-v20.jpg
@@ -242,7 +242,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Расчёт с доставкой
+                            Рассчитать с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m300-v22-5.jpg
@@ -260,7 +260,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Расчёт с доставкой
+                            Рассчитать с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m350-v25.jpg
@@ -285,7 +285,7 @@
                 <div class="row pb-5">
                     @component('components.meaning')
                         @slot('button')
-                            Расчёт с доставкой
+                            Рассчитать с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}beton-m400-v30.jpg
@@ -303,7 +303,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Расчёт с доставкой
+                            Рассчитать с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}keramzitobeton.jpg
@@ -321,7 +321,7 @@
 
                     @component('components.meaning')
                         @slot('button')
-                            Расчёт с доставкой
+                            Рассчитать с доставкой
                         @endslot
                         @slot('image')
                             {{ $path_file }}avtobetonosmesitel-i-avtobetononasos.jpg
