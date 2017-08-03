@@ -24,12 +24,21 @@
                 height: 100%;
                 min-height: 100%;
             }
+            #video{
+                position: relative;
+                background: transparent;
+            }
+            .ytplayer-container{
+                position: fixed;
+                top: 0;
+                z-index: -1;
+            }
         </style>
         {{ $google_analytics or '' }}
         {{ $lptracker or '' }}
     </head>
     <body>
-        <div class="sw" data-vide-bg="{{ $video or '' }}" data-vide-options="loop: true, muted: true, position: 0% 0%">
+        <div class="sw" data-vide-options="loop: true, muted: true, position: 0% 0%" id="video">
             <div class="bg-overlay">
                 <div class="container font">
                     <div class="row py-5">
@@ -84,8 +93,13 @@
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <script src="../Vide-0.5.1/dist/jquery.vide.min.js"></script>
+         <script src="../jQuery.YoutubeBackground-master/src/jquery.youtubebackground.js"></script>
+         <script>
+             $('#video').YTPlayer({
+                 videoId: {{ $video or '' }},
+                 mute: true,
+             });
+         </script>
         {{ $yandex or '' }}
-
     </body>
 </html>

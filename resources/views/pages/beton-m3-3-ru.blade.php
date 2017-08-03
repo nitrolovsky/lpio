@@ -20,7 +20,7 @@
     @endslot
 
     @slot('video')
-        ../files/beton/beton.mp4
+        'YKsEeME2zb4'
     @endslot
 
     @slot('brand')
