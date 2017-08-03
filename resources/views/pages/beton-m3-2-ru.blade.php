@@ -148,6 +148,103 @@
             @endslot
         @endcomponent
 
+        <div class="calc"></div>
+        <div class="font bg-white">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2 class="text-center my-0 w-5 black">
+                            Рассчитайте смету онлайн
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="embed-responsive embed-responsive-16by9 sw" id="video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YKsEeME2zb4?rel=0&showinfo=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-6 px-5">
+                        <form action="/leads" method="POST" class="">
+                            {{ csrf_field() }}
+                            <input type="hidden" name="source" value="beton">
+                            <input type="hidden" name="cta" value="Форма под товаром">
+                            <fieldset class="form-group">
+                                <legend>
+                                    Выберите бетон
+                                </legend>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="categoryRadios1" id="categoryRadios1" value="Бетон M100">
+                                      Бетон М100 В7.5 П3 W2 F75 - 2 550 р.
+                                  </label>
+                              </div>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="categoryRadios1" id="optionsRadios2" value="option2">
+                                      Бетон
+                                  </label>
+                              </div>
+                            </fieldset>
+
+                            <div class="form-group row">
+                                <label for="example-number-input" class="col-3 col-form-label">Объем</label>
+                                <div class="col-9">
+                                    <input class="form-control" type="number" value="42" id="example-number-input">
+                                </div>
+                            </div>
+
+                            <fieldset class="form-group">
+                                <legend>
+                                    Подача
+                                </legend>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="categoryRadios1" id="categoryRadios1" value="Бетон M100">
+                                      Лоток длина до 3 м - 0 р.
+                                  </label>
+                              </div>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="categoryRadios1" id="optionsRadios2" value="option2">
+                                      Бетон
+                                  </label>
+                              </div>
+                            </fieldset>
+
+                            <div class="form-group row">
+                              <label for="example-text-input" class="col-3 col-form-label">Адрес доставки</label>
+                              <div class="col-9">
+                                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="font black form-control w-3" id="phone" placeholder="Телефон" name="phone" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="font btn btn-primary" role="button">
+                                    Оформить заказ
+                                </button>
+                            </div>
+                            <div class="form-group mb-0 font">
+                                <div class="form-check mb-0">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" checked>
+                                    </label>
+                                    Согласен на обработку персональных данных и <a href="{{ $path_file }}politic.pdf" class="a" target="_blank">политикой конфиденциальности</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="price"></div>
         <div class="font bg-white">
             <div class="container pt-5 pb-5">
