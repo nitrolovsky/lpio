@@ -20,7 +20,7 @@
     @endslot
 
     @slot('video')
-        'YKsEeME2zb4'
+        '-zfkqqh9DYo'
     @endslot
 
     @slot('brand')
