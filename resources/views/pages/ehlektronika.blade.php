@@ -24,7 +24,7 @@
     @endslot
 
     @slot('brand')
-        AEMTK
+        World Demanded Electronic
     @endslot
 
     @slot('description')
@@ -109,7 +109,7 @@
     @endslot
 
     @slot('legal')
-        Copyright &#169; 2017 ООО "АЭМТК" Все права защищены<br>
+        Copyright &#169; 2017 World Demanded Electronic Все права защищены<br>
         Бесплатный звонок по России <a href="tel:88002342919" class="text-info a">8 800 234 29 19</a><br>
         Email <a href="mailto:info@wdelab.com" class="text-info a">info@wdelab.com</a><br>
         Ген. директор Валушев Сергей Александрович<br>
