@@ -44,18 +44,27 @@
     @endslot
 
     @slot('offer')
-        Бетон с доставкой до вашего объекта за 2 часа. Действующие заводы: Янино-1, Сертолово, Металлострой. 100% отгрузка объема. Работаем 24/7. Заказ от 1 куба. Качество ГОСТ.
+        Производим бетон на заводах в Янино-1, Сертолово, Металлострой и доставляем за 2 часа от 2 550 р / м3
     @endslot
 
     @slot('bullets')
         <li>
-            Оплата по факту отгрузки бетона на объекте
+            Аккредитованная лаборатория на каждом заводе
         </li>
         <li class="pt-1">
-            Гарантия отгрузки 100% объема и соответствие марки
+            Гарантируем соответствие марки и объема
         </li>
         <li class="pt-1">
             Предоставляем паспорт качества с каждой поставкой
+        </li>
+        <li class="pt-1">
+            Круглосуточная работа 24/7
+        </li>
+        <li class="pt-1">
+            Минимальный заказ от 1 куба
+        </li>
+        <li class="pt-1">
+            Автопарк PUMI, АБС 6/8, АБН 32/36/42/47/57  
         </li>
     @endslot
 
@@ -69,10 +78,10 @@
             <input type="hidden" name="source" value="beton">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black sw form-control w-4" id="phone" placeholder="Введите телефон" name="phone" required="required">
+                <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон" name="phone" required="required">
             </div>
             <div class="form-group">
-                <button type="submit" class="font sw btn btn-primary btn-block w-4" role="button">
+                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
                     Получить расчёт с доставкой
                 </button>
             </div>
@@ -81,7 +90,7 @@
                     <label class="form-check-label">
                         <input type="checkbox" class="form-check-input" checked>
                     </label>
-                    Согласен на обработку персональных данных и <a href="../files/beton/politic.pdf" class="text-info a" target="_blank">политикой конфиденциальности</a>
+                    Согласен на обработку персональных данных и <a href="../files/beton/politic.pdf" class="text-primary a" target="_blank">политикой конфиденциальности</a>
                 </div>
             </div>
         </form>
@@ -126,5 +135,4 @@
         <noscript><div><img src="https://mc.yandex.ru/watch/44736544" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
     @endslot
-
 @endcomponent

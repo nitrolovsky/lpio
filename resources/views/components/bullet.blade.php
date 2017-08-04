@@ -19,7 +19,7 @@
                 background-size: cover;
             }
             .bg-overlay {
-                background-color: rgba(0, 0, 0, 0.5);
+                background-color: rgba(0, 0, 0, 0.6);
                 color: white;
                 height: 100%;
                 min-height: 100%;
@@ -32,6 +32,11 @@
                 position: fixed;
                 top: 0;
                 z-index: -1;
+            }
+            .bg-form {
+                background-color: rgba(255, 255, 255, 1);
+                border-radius: .25rem;
+                color: black;
             }
         </style>
         {{ $google_analytics or '' }}
@@ -66,16 +71,14 @@
                             </h4>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 offset-xl-0 offset-lg-0 offset-md-3">
-                            <div class="container">
-                                <div class="hidden-lg-up">
-                                    <br>
-                                </div>
-                                <div class="p-3 bg-form sw">
-                                    <h4 class="pb-2 w-5">
-                                        {{ $leadmagnet or '' }}
-                                    </h4>
-                                    {{ $form or '' }}
-                                </div>
+                            <div class="hidden-lg-up">
+                                <br>
+                            </div>
+                            <div class="p-4 bg-form sw">
+                                <h4 class="pb-2 w-5">
+                                    {{ $leadmagnet or '' }}
+                                </h4>
+                                {{ $form or '' }}
                             </div>
                         </div>
                     </div>
