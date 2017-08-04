@@ -114,8 +114,8 @@
         Email <a href="mailto:info@wdelab.com" class="text-info a">info@wdelab.com</a><br>
         Ген. директор Валушев Сергей Александрович<br>
         ОГРН 5167746367850<br>
-        ИНН7714960760<br>
-        КПП771401001<br>
+        ИНН 7714960760<br>
+        КПП 771401001<br>
     @endslot
 
     @slot('yandex')
