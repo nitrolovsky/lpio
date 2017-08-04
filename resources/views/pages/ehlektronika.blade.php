@@ -1,6 +1,6 @@
 @component('components.bullet')
     @slot('title')
-        Бетон купить в Санкт-Петербурге от бетонного завода
+        Производство бытовых электрических приборов, электрического оборудования, компьютеров и периферийного оборудования, коммуникационного оборудования, элементов электронной аппаратуры, электронных печатных плат, бытовой электроники
     @endslot
 
     @slot('google_analytics')
@@ -16,60 +16,63 @@
     @endslot
 
     @slot('lptracker')
-        <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37003;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
+
     @endslot
 
     @slot('video')
-        'YKsEeME2zb4'
+        '-dsLGkBeV_I'
     @endslot
 
     @slot('brand')
-        Ленинградский бетонный завод
+        AEMTK
     @endslot
 
     @slot('description')
-        Сеть бетонных заводов
+        Контрактное производство электроники
     @endslot
 
     @slot('phone')
-        +78124269277
+        88002342919
     @endslot
 
     @slot('phone_view')
-        +7 (812) 426 92 77
+        8 800 234 29 19
     @endslot
 
     @slot('email')
-        info.lpio.ru@gmail.com
+         info@wdelab.com
     @endslot
 
     @slot('offer')
-        Производим бетон на заводах в Янино-1, Сертолово, Металлострой и доставляем за 2 часа от 2 550 р / м3
+        Контрактное производство
     @endslot
 
     @slot('bullets')
         <li>
-            Аккредитованная лаборатория на каждом заводе
+            Бытовых электрических приборов
         </li>
         <li class="pt-1">
-            Гарантируем соответствие марки и объема
+            Электрического оборудования
         </li>
         <li class="pt-1">
-            Предоставляем паспорт качества с каждой поставкой
+            Компьютеров и периферийного оборудования
         </li>
         <li class="pt-1">
-            Круглосуточная работа 24/7
+            Коммуникационного оборудования
         </li>
         <li class="pt-1">
-            Минимальный заказ от 1 куба
+            Элементов электронной аппаратуры
         </li>
         <li class="pt-1">
-            Автопарк PUMI, АБС 6/8, АБН 32/36/42/47/57
+            Электронных печатных плат
+        </li>
+        <li class="pt-1">
+            Бытовой электроники
         </li>
     @endslot
 
     @slot('leadmagnet')
-        Получите расчёт стоимости бетона с доставкой до вашего объекта за 1 минуту
+        Получите прайс-лист и расчет вашего заказа
     @endslot
 
     @slot('form')
@@ -78,11 +81,20 @@
             <input type="hidden" name="source" value="beton">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон" name="phone" required="required">
+                <input type="text" class="font black form-control w-4" id="name" placeholder="Имя Фамилия" name="name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4" id="email" placeholder="Email" name="email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone" required="required">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control font black w-4" id="comment" rows="3" name="comment" placeholder="Комментарий"></textarea>
             </div>
             <div class="form-group">
                 <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Получить расчёт с доставкой
+                    Получить
                 </button>
             </div>
             <div class="form-group mb-0">
@@ -97,10 +109,13 @@
     @endslot
 
     @slot('legal')
-        Copyright &#169; 2017<br>
-        <a href="tel:+78124269277" class="text-info a">+7 (812) 426 92 77</a><br>
-        <a href="mailto:beton-m3@ya.ru" class="text-info a">beton-m3@ya.ru</a><br>
-        Адреса заводов: п. Янино-1 складской комплекс Янино-1 лит А, п. Сертолово индустриальная ул. 15, Штурманская ул. 36
+        Copyright &#169; 2017 ООО "АЭМТК" Все права защищены<br>
+        Бесплатный звонок по России <a href="tel:88002342919" class="text-info a">8 800 234 29 19</a><br>
+        Email <a href="mailto:info@wdelab.com" class="text-info a">info@wdelab.com</a><br>
+        Ген. директор Валушев Сергей Александрович<br>
+        ОГРН 5167746367850<br>
+        ИНН7714960760<br>
+        КПП771401001<br>
     @endslot
 
     @slot('yandex')
