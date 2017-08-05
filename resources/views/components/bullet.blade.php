@@ -75,7 +75,7 @@
                                 <br>
                             </div>
                             <div class="p-4 bg-form sw">
-                                <h4 class="pb-2 w-5">
+                                <h4 class="pb-2 w-5 text-center">
                                     {{ $leadmagnet or '' }}
                                 </h4>
                                 {{ $form or '' }}

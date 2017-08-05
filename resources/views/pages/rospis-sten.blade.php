@@ -1,6 +1,6 @@
 @component('components.bullet')
     @slot('title')
-        Бетон купить в Санкт-Петербурге от бетонного завода
+        Художественная роспись стен, фреска, граффити
     @endslot
 
     @slot('google_analytics')
@@ -16,35 +16,35 @@
     @endslot
 
     @slot('lptracker')
-        <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=37003;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
+
     @endslot
 
     @slot('video')
-        '-zfkqqh9DYo'
+        'wW3tplmhGTE'
     @endslot
 
     @slot('brand')
-        Ленинградский бетонный завод
+        МаСтудио
     @endslot
 
     @slot('description')
-        Сеть бетонных заводов
+        Студия художников
     @endslot
 
     @slot('phone')
-        +78124269277
+        +79992459855
     @endslot
 
     @slot('phone_view')
-        +7 (812) 426 92 77
+        +7 (999) 245 98 55
     @endslot
 
     @slot('email')
-        info.lpio.ru@gmail.com
+        magicmagicart@gmail.com
     @endslot
 
     @slot('offer')
-        Производим бетон на заводах в Янино-1, Сертолово, Металлострой. Доставляем за 2 часа от 2 550 р / м3
+        Художественная роспись помещений от 750 р. / м2. Оплата после выполненной работы
     @endslot
 
     @slot('bullets')
@@ -69,7 +69,7 @@
     @endslot
 
     @slot('leadmagnet')
-        Получите расчёт стоимости бетона с доставкой до вашего объекта за 1 минуту
+        Получите расчет стоимости 3 вариантов дизайн-проекта и визуализацию бесплатно, заполнив форму
     @endslot
 
     @slot('form')

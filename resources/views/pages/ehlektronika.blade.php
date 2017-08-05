@@ -78,7 +78,7 @@
     @slot('form')
         <form action="/leads" method="POST">
             {{ csrf_field() }}
-            <input type="hidden" name="source" value="beton">
+            <input type="hidden" name="source" value="ehlektronika">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4" id="name" placeholder="Имя Фамилия" name="name">
