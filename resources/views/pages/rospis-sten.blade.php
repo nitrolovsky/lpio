@@ -32,11 +32,11 @@
     @endslot
 
     @slot('phone')
-        +79992459855
+        +78124269298
     @endslot
 
     @slot('phone_view')
-        +7 (999) 245 98 55
+        +7 (812) 426 92 98
     @endslot
 
     @slot('email')
@@ -96,7 +96,7 @@
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:+79992459855" class="text-info a">+7 (999) 245 98 55</a><br>
+        <a href="tel:+78124269298" class="text-info a">+7 (812) 426 92 98</a><br>
         <a href="mailto:magicmagicart@gmail.com" class="text-info a">magicmagicart@gmail.com</a><br>
         Санкт-Петербург, Греческий переулок 27 офис 16
     @endslot
