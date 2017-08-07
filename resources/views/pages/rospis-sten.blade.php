@@ -89,7 +89,7 @@
                 </button>
             </div>
             <small>
-                <a href="../files/beton/politic.pdf" class="text-primary a" target="_blank">Пользовательское соглашение</a>
+                <a href="" class="text-primary a" data-toggle="modal" data-target="#termsofuse">Пользовательское соглашение</a>
             </small>
         </form>
     @endslot
