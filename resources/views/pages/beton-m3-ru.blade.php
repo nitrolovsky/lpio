@@ -88,14 +88,9 @@
                     Получить расчёт с доставкой
                 </button>
             </div>
-            <div class="form-group mb-0">
-                <div class="form-check mb-0">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input" checked>
-                    </label>
-                    Согласен на обработку персональных данных и <a href="../files/beton/politic.pdf" class="text-primary a" target="_blank">политикой конфиденциальности</a>
-                </div>
-            </div>
+            <small>
+                <a href="" class="text-primary a" data-toggle="modal" data-target="#termsofuse">Пользовательское соглашение</a>
+            </small>
         </form>
     @endslot
 
