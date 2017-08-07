@@ -88,9 +88,11 @@
                     Получить расчёт с доставкой
                 </button>
             </div>
-            <small>
-                <a href="" class="text-primary a" data-toggle="modal" data-target="#termsofuse">Пользовательское соглашение</a>
-            </small>
+            <div class="text-center">
+                <small>
+                    <a href="" class="text-primary  a" data-toggle="modal" data-target="#termsofuse">Пользовательское соглашение</a>
+                </small>
+            </div>
         </form>
     @endslot
 
