@@ -49,22 +49,25 @@
 
     @slot('bullets')
         <li>
-            Аккредитованная лаборатория на каждом заводе
+            Граффити на заказ, роспись стен кистями
         </li>
         <li class="pt-1">
-            Гарантируем соответствие марки и объема
+            Аэрография стен, нанесение фрески
         </li>
         <li class="pt-1">
-            Предоставляем паспорт качества с каждой поставкой
+            Портфолио 200+ дизайн-проектов
         </li>
         <li class="pt-1">
-            Круглосуточная работа 24/7
+            Защищаем рисунки лаком, стены можно мыть
         </li>
         <li class="pt-1">
-            Минимальный заказ от 1 куба
+            13+ лет опыта работы у художников
         </li>
         <li class="pt-1">
-            Автопарк PUMI, АБС 6/8, АБН 32/36/42/47/57
+            2000+ м2 теперь радуют взгляд заказчиков
+        </li>
+        <li class="pt-1">
+            Реализуем вашу задумку лучшим образом!
         </li>
     @endslot
 
@@ -82,25 +85,20 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Получить расчёт с доставкой
+                    Получить расчет дизайн-проекта
                 </button>
             </div>
-            <div class="form-group mb-0">
-                <div class="form-check mb-0">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input" checked>
-                    </label>
-                    Согласен на обработку персональных данных и <a href="../files/beton/politic.pdf" class="text-primary a" target="_blank">политикой конфиденциальности</a>
-                </div>
-            </div>
+            <small>
+                <a href="../files/beton/politic.pdf" class="text-primary a" target="_blank">Пользовательское соглашение</a>
+            </small>
         </form>
     @endslot
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:+78124269277" class="text-info a">+7 (812) 426 92 77</a><br>
-        <a href="mailto:beton-m3@ya.ru" class="text-info a">beton-m3@ya.ru</a><br>
-        Адреса заводов: п. Янино-1 складской комплекс Янино-1 лит А, п. Сертолово индустриальная ул. 15, Штурманская ул. 36
+        <a href="tel:+79992459855" class="text-info a">+7 (999) 245 98 55</a><br>
+        <a href="mailto:magicmagicart@gmail.com" class="text-info a">magicmagicart@gmail.com</a><br>
+        Санкт-Петербург, Греческий переулок 27 офис 16
     @endslot
 
     @slot('yandex')
