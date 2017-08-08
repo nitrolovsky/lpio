@@ -44,35 +44,35 @@
     @endslot
 
     @slot('offer')
-        Подарочный сертификат на прыжок с парашютом в тандеме с инструктором за 5900 р.
+        Подарочный сертификат на прыжок с парашютом в тандеме с инструктором
     @endslot
 
     @slot('bullets')
         <li>
-            Граффити на заказ, роспись стен кистями
+            Высота прыжка 2500 м, 30 секунд свободного падения
         </li>
         <li class="pt-1">
-            Аэрография стен, нанесение фрески
+            Нет очереди
         </li>
         <li class="pt-1">
-            Портфолио 200+ проектов
+            Цены ниже на -20%
         </li>
         <li class="pt-1">
-            Защищаем рисунки лаком, стены можно мыть
+            Инструктор с 13+ годами опыта прыжков
         </li>
         <li class="pt-1">
-            13+ лет опыта работы у художников
+            1300+ прыжков за все время
         </li>
         <li class="pt-1">
-            2000+ м2 теперь радуют взгляд заказчиков
+            Профессиональное оборудование и парашюты
         </li>
         <li class="pt-1">
-            Выполняем срочные заказы в срок
+            Съёмка на профессиональную камеру
         </li>
     @endslot
 
     @slot('leadmagnet')
-        Пообщайся с инструктором перед прыжком, заполнив форму
+        Получи промокод -30% на прыжок с парашютом, заполнив форму
     @endslot
 
     @slot('form')
@@ -81,11 +81,14 @@
             <input type="hidden" name="source" value="beton">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон" name="phone" required="required">
+                <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone" required="required">
             </div>
             <div class="form-group">
                 <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Поговорить
+                    Получить
                 </button>
             </div>
             <div class="text-center">
