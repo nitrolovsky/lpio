@@ -28,7 +28,7 @@
     <body>
         @component('components.nav')
             @slot('brand')
-                Бетон
+                beton-m3.ru
             @endslot
             @slot('ctr')
                 Расчёт с доставкой

@@ -52,13 +52,13 @@
             Высота прыжка 2500 м, 30 секунд свободного падения
         </li>
         <li class="pt-1">
-            Нет очереди
+            Нет очереди на прыжок
         </li>
         <li class="pt-1">
             Цены ниже на -20%
         </li>
         <li class="pt-1">
-            Инструктор с 13+ годами опыта прыжков
+            Инструкторы с 13+ годами опыта прыжков
         </li>
         <li class="pt-1">
             1300+ прыжков за все время
@@ -67,7 +67,7 @@
             Профессиональное оборудование и парашюты
         </li>
         <li class="pt-1">
-            Съёмка на профессиональную камеру
+            Видеосъемка прыжка
         </li>
     @endslot
 
@@ -78,7 +78,8 @@
     @slot('form')
         <form action="/leads" method="POST">
             {{ csrf_field() }}
-            <input type="hidden" name="source" value="beton">
+            <input type="hidden" name="source" value="pryzhok-parashyut">
+            <input type="hidden" name="to" value="magicmagicart@gmail.com">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
@@ -103,7 +104,7 @@
         Copyright &#169; 2017<br>
         <a href="tel:+78124269298" class="text-info a">+7 (812) 426 92 98</a><br>
         <a href="mailto:magicmagicart@gmail.com" class="text-info a">magicmagicart@gmail.com</a><br>
-        Санкт-Петербург, Греческий переулок 27 офис 16
+
     @endslot
 
     @slot('yandex')
