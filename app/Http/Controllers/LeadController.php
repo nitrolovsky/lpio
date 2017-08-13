@@ -186,22 +186,19 @@ class LeadController extends Controller
             return redirect('pages/thanks');
         }
 
-        if (Request::get("source") == "trafik-upakovka-biznesa") {
+        if (Request::get("source") == "pryzhok-parashyut") {
             $data = array(
                 'source' => Request::server("HTTP_REFERER"),
                 'cta' => Request::get('cta'),
 
-                'name' => Request::get('name'),
                 'email' => Request::get('email'),
                 'phone' => Request::get('phone'),
-
-                'comment' => Request::get('comment'),
 
                 'created_at' => \Carbon\Carbon::now(),
                 'updated_at' => \Carbon\Carbon::now()
             );
 
-            DB::table('trafik_leads')->insert($data);
+            DB::table('parashyut_leads')->insert($data);
 
             Mail::send("emails.lead", $data, function ($message) use ($data) {
                 $message->from("info.lpio.ru@gmail.com", "lpio.ru");
