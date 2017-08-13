@@ -1,4 +1,4 @@
-@component('components.bullet')
+@component('components.onescreen')
     @slot('title')
         Прыжок с парашютом
     @endslot
@@ -19,8 +19,12 @@
 
     @endslot
 
-    @slot('video')
-        'Wyl5hEcPig4'
+    @slot('bg_video')
+        '../files/pryzhok-parashyut/pryzhok-parashyut-bg-video.mp4'
+    @endslot
+
+    @slot('bg_poster')
+        '../files/pryzhok-parashyut/pryzhok-parashyut-bg-image.jpg'
     @endslot
 
     @slot('brand')
@@ -28,19 +32,23 @@
     @endslot
 
     @slot('description')
-        Прыжки с парашютом в СПб
+        Прыжки с парашютом
     @endslot
 
     @slot('phone')
-        +79219672763
+        +79818273335
     @endslot
 
     @slot('phone_view')
-        +7 921 967 27 63
+        8 981 827 33 35
     @endslot
 
     @slot('email')
-        magicmagicart@gmail.com
+        pryzhok-parashyut@ya.ru
+    @endslot
+
+    @slot('address')
+        Санкт-Петербург
     @endslot
 
     @slot('offer')
@@ -52,26 +60,24 @@
             Высота прыжка 2500 м, 30 секунд свободного падения
         </li>
         <li class="pt-1">
-            Нет очереди на прыжок
-        </li>
-        <li class="pt-1">
-            Цены ниже на -20%
-        </li>
-        <li class="pt-1">
-            Инструкторы с 13+ годами опыта прыжков
-        </li>
-        <li class="pt-1">
-            1300+ прыжков за все время
+            Опытные инструктора со стажем 1300+ прыжков
         </li>
         <li class="pt-1">
             Профессиональное оборудование и парашюты
         </li>
         <li class="pt-1">
-            Видеосъемка прыжка
+            Экшн видеосъемка
+        </li>
+        <li class="pt-1">
+            Без очередей на прыжок
         </li>
     @endslot
 
-    @slot('leadmagnet')
+    @slot('video')
+        https://www.youtube.com/embed/Wyl5hEcPig4
+    @endslot
+
+    @slot('lead_magnet')
         Получи промокод -30% на прыжок с парашютом, заполнив форму
     @endslot
 
@@ -102,9 +108,8 @@
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:+78124269298" class="text-info a">+7 (812) 426 92 98</a><br>
-        <a href="mailto:magicmagicart@gmail.com" class="text-info a">magicmagicart@gmail.com</a><br>
-
+        <a href="tel:+79818273335" class="text-info a">8 981 827 33 35</a><br>
+        <a href="mailto:pryzhok-parashyut@ya.ru" class="text-info a">pryzhok-parashyut@ya.ru</a><br>
     @endslot
 
     @slot('yandex')
