@@ -82,7 +82,7 @@
                     </div>
                     <div class="row pb-5">
                         <div class="col-12">
-                            <small>{{ $legal or '' }}</small>
+                            {{ $legal or '' }}
                         </div>
                     </div>
                 </div>
