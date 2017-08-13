@@ -69,16 +69,14 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 offset-xl-0 offset-lg-0 offset-md-3">
-                            <div class="container">
-                                <div class="hidden-lg-up">
-                                    <br>
-                                </div>
-                                <div class="p-4 bg-form">
-                                    <h4 class="pb-2 text-center w-5">
-                                        {{ $lead_magnet or '' }}
-                                    </h4>
-                                    {{ $form or '' }}
-                                </div>
+                            <div class="hidden-lg-up">
+                                <br>
+                            </div>
+                            <div class="p-4 bg-form">
+                                <h4 class="pb-2 text-center w-5">
+                                    {{ $lead_magnet or '' }}
+                                </h4>
+                                {{ $form or '' }}
                             </div>
                         </div>
                     </div>
