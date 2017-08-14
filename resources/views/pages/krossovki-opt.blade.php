@@ -103,7 +103,7 @@
     @slot('legal')
         Copyright &#169; 2017<br>
         <a href="tel:+79219672763" class="text-info a">8 921 967 27 63</a><br>
-        <a href="mailto:pryzhok-parashyut@ya.ru" class="text-info a">pryzhok-parashyut@ya.ru</a><br>
+        <a href="mailto:krossovki-opt@ya.ru" class="text-info a">krossovki-opt@ya.ru</a><br>
     @endslot
 
     @slot('yandex')
