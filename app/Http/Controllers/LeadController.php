@@ -208,6 +208,40 @@ class LeadController extends Controller
 
             return redirect('pages/thanks');
         }
+
+        if (Request::get("source") == "all_leads") {
+            $data = array(
+                'source' => Request::server("HTTP_REFERER"),
+                'cta' => Request::get('cta'),
+
+                'fio' => Request::get('fio'),
+                'name' => Request::get('name'),
+                'email' => Request::get('email'),
+                'phone' => Request::get('phone'),
+                'comment' => Request::get('comment'),
+
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now(),
+
+                'to' => Request::get('to')
+            );
+
+            DB::table('all_leads')->insert($data);
+
+            Mail::send("emails.lead", $data, function ($message) use ($data) {
+                $message->from("info.lpio.ru@gmail.com", "lpio.ru");
+                $message->to("nitrolovsky@gmail.com");
+                $message->subject("Заявка от " . $data['source'] . " в " . date ("Y.m.d H:m:s"));
+            });
+
+            Mail::send("emails.lead", $data, function ($message) use ($data) {
+                $message->from("info.lpio.ru@gmail.com", "lpio.ru");
+                $message->to($data['to']);
+                $message->subject("Заявка от " . $data['source'] . " в " . date ("Y.m.d H:m:s"));
+            });
+
+            return redirect('pages/thanks');
+        }
     }
 
     /**
