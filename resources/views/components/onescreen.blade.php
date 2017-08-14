@@ -21,7 +21,7 @@
                 min-height: 100%;
             }
             .bg-form {
-                background-color: rgba(12, 0, 66, 0.5);
+                background-color: rgba(0, 0, 100, 0.5);
                 border-radius: .25rem;
             }
         </style>
