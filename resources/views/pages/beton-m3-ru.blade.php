@@ -45,7 +45,7 @@
     @endslot
 
     @slot('email')
-        info.lpio.ru@gmail.com
+        beton-m3@ya.ru
     @endslot
 
     @slot('address')
