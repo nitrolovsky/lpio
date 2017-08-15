@@ -20,15 +20,15 @@
     @endslot
 
     @slot('bg_video')
-        '../files/sushenyj-chesnok-opt/sushenyj-chesnok-opt.mp4'
+        '../files/chernyj-perec-opt/chernyj-perec-opt.mp4'
     @endslot
 
     @slot('bg_poster')
-        '../files/sushenyj-chesnok-opt/sushenyj-chesnok-opt.jpg'
+        '../files/chernyj-perec-opt/chernyj-perec-opt.jpg'
     @endslot
 
     @slot('brand')
-        CHESNOKGROUP
+        PEREC OPT
     @endslot
 
     @slot('description')
@@ -71,7 +71,7 @@
     @endslot
 
     @slot('video')
-        https://www.youtube.com/embed/NegBQE5P93k
+        https://www.youtube.com/embed/7iShXpDeLEU
     @endslot
 
     @slot('lead_magnet')
