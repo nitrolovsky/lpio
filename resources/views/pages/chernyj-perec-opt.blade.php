@@ -44,7 +44,7 @@
     @endslot
 
     @slot('email')
-        pryzhok-parashyut@ya.ru
+        chernyj-perec-opt@ya.ru
     @endslot
 
     @slot('address')
@@ -106,7 +106,7 @@
     @slot('legal')
         Copyright &#169; 2017<br>
         <a href="tel:+79219672763" class="text-info a">8 921 967 27 63</a><br>
-        <a href="mailto:pryzhok-parashyut@ya.ru" class="text-info a">pryzhok-parashyut@ya.ru</a><br>
+        <a href="mailto:chernyj-perec-opt@ya.ru" class="text-info a">chernyj-perec-opt@ya.ru</a><br>
     @endslot
 
     @slot('yandex')
