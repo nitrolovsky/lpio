@@ -36,11 +36,11 @@
     @endslot
 
     @slot('phone')
-        +79219672763
+        89602673086
     @endslot
 
     @slot('phone_view')
-        8 921 967 27 63
+        8 960 267 30 86
     @endslot
 
     @slot('email')
@@ -82,7 +82,7 @@
         <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="magicmagicart@gmail.com">
+            <input type="hidden" name="to" value="navigatornit@yandex.ru">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
@@ -105,7 +105,7 @@
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:+79219672763" class="text-info a">8 921 967 27 63</a><br>
+        <a href="tel:896026730863" class="text-info a">8 960 267 30 86</a><br>
         <a href="mailto:chernyj-perec-opt@ya.ru" class="text-info a">chernyj-perec-opt@ya.ru</a><br>
     @endslot
 
