@@ -16,7 +16,7 @@
     @endslot
 
     @slot('lptracker')
-
+        <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=42192;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
     @endslot
 
     @slot('bg_video')
@@ -36,11 +36,11 @@
     @endslot
 
     @slot('phone')
-        +79219672763
+        88123892075
     @endslot
 
     @slot('phone_view')
-        8 921 967 27 63
+        8 (812) 389 20 75
     @endslot
 
     @slot('email')
@@ -52,7 +52,7 @@
     @endslot
 
     @slot('offer')
-        Оптовые поставки кроссовок из Гуанчжоу за 9-12 дней
+        Оптовые поставки кроссовок из Гуанчжоу за 9-12 дней
     @endslot
 
     @slot('bullets')
@@ -102,7 +102,7 @@
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:+79219672763" class="text-info a">8 921 967 27 63</a><br>
+        <a href="tel:88123892075" class="text-info a">8 812 389 20 75</a><br>
         <a href="mailto:krossovki-opt@ya.ru" class="text-info a">krossovki-opt@ya.ru</a><br>
     @endslot
 
