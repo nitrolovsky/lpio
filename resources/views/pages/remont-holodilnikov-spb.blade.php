@@ -20,11 +20,11 @@
     @endslot
 
     @slot('bg_video')
-        '../files/remont-holodilnikov-spb/remont-holodilnikov-spb.mp4'
+        '../files/remont-holodilnikov-doma/remont-holodilnikov-doma.mp4'
     @endslot
 
     @slot('bg_poster')
-        '../files/remont-holodilnikov-spb/remont-holodilnikov-spb.jpg'
+        '../files/remont-holodilnikov-doma/remont-holodilnikov-doma.jpg'
     @endslot
 
     @slot('brand')
