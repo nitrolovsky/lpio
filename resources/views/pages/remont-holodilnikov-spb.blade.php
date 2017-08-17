@@ -20,15 +20,15 @@
     @endslot
 
     @slot('bg_video')
-        '../files/chernyj-perec-opt/chernyj-perec-opt.mp4'
+        '../files/remont-holodilnikov/remont-holodilnikov.mp4'
     @endslot
 
     @slot('bg_poster')
-        '../files/chernyj-perec-opt/chernyj-perec-opt.jpg'
+        '../files/remont-holodilnikov/remont-holodilnikov.jpg'
     @endslot
 
     @slot('brand')
-        РЕМХОЛОД
+        РЕМТЕХНИКАСПБ
     @endslot
 
     @slot('description')
@@ -52,7 +52,7 @@
     @endslot
 
     @slot('offer')
-        Отремонтируем холодильник на дому за 1 час от 500 рублей
+        Отремонтируем холодильник на дому за 1 час от 500 рублей с гарантией 18 месяцев
     @endslot
 
     @slot('bullets')
@@ -60,22 +60,22 @@
             Выезжаем по Санкт-Петербургу и Ленинградской области
         </li>
         <li class="pt-1">
-            Гарантия на ремонт 1.5 года
+            Гарантия на ремонт 18 месяцев
         </li>
         <li class="pt-1">
-            Отсрочка оплаты для постоянных клиентов
+            Устранение неисправностей: не включается, не выключается, покрывается льдом, протекает, не работают индикаторы, шумит, не холодит, неприятный запах, утечка фреона.
         </li>
         <li class="pt-1">
-            Бесплатные образцы товара
+            Стоимость работы мастера от 500 рублей в зависимости от неисправности
         </li>
     @endslot
 
     @slot('video')
-        https://www.youtube.com/embed/7iShXpDeLEU
+        https://www.youtube.com/embed/ybqYC4Fsm2s
     @endslot
 
     @slot('lead_magnet')
-        Получите прайс-лист с оптовыми ценами, заполнив форму
+        Вызовите мастера за 1 минуту, заполнив форму
     @endslot
 
     @slot('form')
@@ -85,14 +85,11 @@
             <input type="hidden" name="to" value="magicmagicart@gmail.com">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
-            </div>
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone" required="required">
+                <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон" name="phone" required="required">
             </div>
             <div class="form-group">
                 <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Получить
+                    Вызвать мастера
                 </button>
             </div>
             <div class="text-center">
