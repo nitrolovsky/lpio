@@ -36,11 +36,11 @@
     @endslot
 
     @slot('phone')
-        +79219672763
+        +79627123172
     @endslot
 
     @slot('phone_view')
-        8 921 967 27 63
+        8 962 712 31 72
     @endslot
 
     @slot('email')
@@ -82,7 +82,7 @@
         <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="magicmagicart@gmail.com">
+            <input type="hidden" name="to" value="dsmelcov11@gmail.com">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон" name="phone" required="required">
@@ -102,7 +102,7 @@
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:+79219672763" class="text-info a">8 921 967 27 63</a><br>
+        <a href="tel:+79627123172" class="text-info a">8 962 712 31 72</a><br>
         <a href="mailto:remont-holodilnikov-doma@ya.ru" class="text-info a">remont-holodilnikov-doma@ya.ru</a><br>
     @endslot
 
