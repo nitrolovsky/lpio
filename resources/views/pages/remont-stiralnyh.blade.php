@@ -44,7 +44,7 @@
     @endslot
 
     @slot('email')
-        remont-stiralnyh@ya.ru
+        remont-stiralnyh-spb@ya.ru
     @endslot
 
     @slot('address')
@@ -103,7 +103,7 @@
     @slot('legal')
         Copyright &#169; 2017<br>
         <a href="tel:+79627123172" class="text-info a">8 962 712 31 72</a><br>
-        <a href="mailto:remont-stiralnyh@ya.ru" class="text-info a">remont-stiralnyh@ya.ru</a><br>
+        <a href="mailto:remont-stiralnyh-spb@ya.ru" class="text-info a">remont-stiralnyh-spb@ya.ru</a><br>
     @endslot
 
     @slot('yandex')

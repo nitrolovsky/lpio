@@ -959,17 +959,7 @@
                     </a>
                 </div>
                 <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <a href="{{ $path_files }}blago-5.pdf" target="_blank">
-                        <img src="{{ $path_files }}blago-5.jpg" class="img-fluid mx-auto d-block">
-                        <br>
-                        <h5 class="russo text-center pt-3">
-                            СПб ГКУ "Управление заказчика"
-                        </h5>
-                        <div class="hidden-xl-up">
-                            <br>
-                            <br>
-                        </div>
-                    </a>
+        
                 </div>
             </div>
         </div>
