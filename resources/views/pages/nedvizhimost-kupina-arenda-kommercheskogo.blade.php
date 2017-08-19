@@ -1,6 +1,6 @@
 @component('components.onescreen')
     @slot('title')
-        Ремонт холодольников СПб
+        Агентство недвижимости Купина, снять коммерческое помещение в аренду
     @endslot
 
     @slot('google_analytics')
@@ -28,23 +28,23 @@
     @endslot
 
     @slot('brand')
-        РЕМТЕХНИКАСПБ
+        KUPINA
     @endslot
 
     @slot('description')
-        Ремонт холодильников СПб
+        Агентство недвижимости Купина
     @endslot
 
     @slot('phone')
-        +79627123172
+        +79650471186
     @endslot
 
     @slot('phone_view')
-        8 962 712 31 72
+        +7 965 047 11 86
     @endslot
 
     @slot('email')
-        remont-holodilnikov-doma@ya.ru
+        nedvizhimost-kupina@ya.ru
     @endslot
 
     @slot('address')
@@ -52,7 +52,7 @@
     @endslot
 
     @slot('offer')
-        Отремонтируем холодильник на дому за 1 час от 500 рублей с гарантией 1 год
+        Подберем в аренду коммерческое помещение
     @endslot
 
     @slot('bullets')
@@ -71,7 +71,7 @@
     @endslot
 
     @slot('video')
-        https://www.youtube.com/embed/ybqYC4Fsm2s
+        https://www.youtube.com/embed/hmdkugHblKQ
     @endslot
 
     @slot('lead_magnet')
@@ -102,8 +102,8 @@
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:+79627123172" class="text-info a">8 962 712 31 72</a><br>
-        <a href="mailto:remont-holodilnikov-doma@ya.ru" class="text-info a">remont-holodilnikov-doma@ya.ru</a><br>
+        <a href="tel:+79650471186" class="text-info a">+7 965 047 11 86</a><br>
+        <a href="mailto:nedvizhimost-kupina@ya.ru" class="text-info a">nedvizhimost-kupina@ya.ru</a><br>
     @endslot
 
     @slot('yandex')
