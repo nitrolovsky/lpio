@@ -75,21 +75,24 @@
     @endslot
 
     @slot('lead_magnet')
-        Вызовите мастера за 1 минуту, заполнив форму
+        Получите 5 лучших помещений по вашим параметрам, заполнив форму
     @endslot
 
     @slot('form')
         <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="dsmelcov11@gmail.com">
+            <input type="hidden" name="to" value="nitrolovsky@gmail.com">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон" name="phone" required="required">
+                <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон*" name="phone" required="required">
+            </div>
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4" id="email" placeholder="Email" name="email">
             </div>
             <div class="form-group">
                 <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Вызвать мастера
+                    Получить
                 </button>
             </div>
             <div class="text-center">
