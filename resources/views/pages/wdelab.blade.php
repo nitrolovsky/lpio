@@ -20,7 +20,7 @@
     @endslot
 
     @slot('video')
-        '-dsLGkBeV_I'
+        '8VAFvyPFG14'
     @endslot
 
     @slot('brand')
@@ -76,27 +76,28 @@
     @endslot
 
     @slot('form')
-        <form id="__vtigerWebForm" name="wdelab " action="http://aemlab.ru/work/run/wdelab/modules/Webforms/capture.php" method="post" accept-charset="utf-8" enctype="multipart/form-data"><input type="hidden" name="__vtrftk" value="sid:f3d7c43eef146aff3ff16ac49988f2452c1dda47,1501662433">
+        <form id="__vtigerWebForm" name="wdelab " action="http://aemlab.ru/work/run/wdelab/modules/Webforms/capture.php" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+            <input type="hidden" name="__vtrftk" value="sid:f3d7c43eef146aff3ff16ac49988f2452c1dda47,1501662433">
             <input type="hidden" name="publicid" value="7a10efb385c7727a6a4d2a4d307c3351">
             <input type="hidden" name="urlencodeenable" value="1">
             <input type="hidden" name="name" value="wdelab ">
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="name" placeholder="Имя*" name="firstname" data-label="" value="" required="">
+                <input type="text" class="font black form-control w-4" placeholder="Имя*" name="firstname" data-label="" value="" required="">
             </div>
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="name" placeholder="Фамилия*" name="lastname" data-label="" value="" required="">
+                <input type="text" class="font black form-control w-4" placeholder="Фамилия*" name="lastname" data-label="" value="" required="">
             </div>
             <div class="form-group">
-                <input type="email" class="font black form-control w-4" id="name" placeholder="Адрес электронной почты*" name="email" data-label="" value="" required="">
+                <input type="email" class="font black form-control w-4" placeholder="Адрес электронной почты*" name="email" data-label="" value="" required="">
             </div>
             <div class="form-group">
-                <input type="email" class="font black form-control w-4" id="name" placeholder="Телефон*" name="phone" data-label="" value="" required="">
+                <input type="text" class="font black form-control w-4" placeholder="Телефон*" name="phone" data-label="" value="" required="">
             </div>
             <div class="form-group">
-                <textarea class="form-control font black w-4" id="comment" rows="3" name="description" placeholder="Описание*" required=""></textarea>
+                <textarea class="form-control font black w-4" rows="3" name="description" placeholder="Описание*" required=""></textarea>
             </div>
             <div class="form-group">
-                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
+                <button type="submit" class="font btn btn-primary btn-block w-4" role="button" value="Submit">
                     Отправить
                 </button>
             </div>
