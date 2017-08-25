@@ -36,11 +36,11 @@
     @endslot
 
     @slot('phone')
-        +79650471186
+        88124267734
     @endslot
 
     @slot('phone_view')
-        +7 965 047 11 86
+        8 (812) 426 77 34
     @endslot
 
     @slot('email')
@@ -102,7 +102,7 @@
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:+79650471186" class="text-info a">+7 965 047 11 86</a><br>
+        <a href="tel:88124267734" class="text-info a">8 (812) 426 77 34</a><br>
         <a href="mailto:nedvizhimost-kupina@ya.ru" class="text-info a">nedvizhimost-kupina@ya.ru</a><br>
     @endslot
 
