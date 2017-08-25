@@ -29,6 +29,7 @@
         {{ $lptracker or '' }}
     </head>
     <body>
+        {{ $roistat or '' }}
         <div class="sw" id="bg_video">
             <div class="bg-overlay">
                 <div class="container font">
