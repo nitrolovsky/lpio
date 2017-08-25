@@ -29,7 +29,7 @@
         })(window, document, 'script', 'cloud.roistat.com', '7fb8a6edcf4799069d4b8ee6b97487fa');
         </script>
     @endslot
-    
+
     @slot('bg_video')
         '../files/nedvizhimost-kupina/kupit-kvartiru-spb-distancionno.mp4'
     @endslot
@@ -93,7 +93,7 @@
         <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="nitrolovsky@gmail.com">
+            <input type="hidden" name="to" value="dima_kupina@mail.ru">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон*" name="phone" required="required">
