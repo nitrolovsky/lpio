@@ -19,6 +19,17 @@
 
     @endslot
 
+    @slot('roistat')
+        <script>
+        (function(w, d, s, h, id) {
+            w.roistatProjectId = id; w.roistatHost = h;
+            var p = d.location.protocol == "https:" ? "https://" : "http://";
+            var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
+            var js = d.createElement(s); js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+        })(window, document, 'script', 'cloud.roistat.com', '7fb8a6edcf4799069d4b8ee6b97487fa');
+        </script>
+    @endslot
+
     @slot('bg_video')
         '../files/chernyj-perec-opt/chernyj-perec-opt.mp4'
     @endslot
@@ -28,11 +39,11 @@
     @endslot
 
     @slot('brand')
-        PEREC OPT
+        blizkaya
     @endslot
 
     @slot('description')
-        Оптовые поставки черного перца
+        Оптовые поставки пряностей и специй
     @endslot
 
     @slot('phone')
@@ -44,7 +55,7 @@
     @endslot
 
     @slot('email')
-        chernyj-perec-opt@ya.ru
+        specii-opt@ya.ru
     @endslot
 
     @slot('address')
@@ -52,7 +63,7 @@
     @endslot
 
     @slot('offer')
-        Оптовые поставки черного перца по всей России со склада в Санкт-Петербурге
+        Оптовые поставки черного перца по всей России с производства Санкт-Петербурга
     @endslot
 
     @slot('bullets')
@@ -63,7 +74,7 @@
             Дополнительно есть пряности и специи 200+ позиций
         </li>
         <li class="pt-1">
-            Прямые поставки из Индии
+            Прямые поставки ингредиентов из Индии
         </li>
         <li class="pt-1">
             Доставка по всей России
@@ -77,7 +88,7 @@
     @endslot
 
     @slot('video')
-        https://www.youtube.com/embed/7iShXpDeLEU
+        https://www.youtube.com/embed/9KvS_QN6vIg
     @endslot
 
     @slot('lead_magnet')
@@ -112,7 +123,7 @@
     @slot('legal')
         Copyright &#169; 2017<br>
         <a href="tel:896026730863" class="text-info a">8 960 267 30 86</a><br>
-        <a href="mailto:chernyj-perec-opt@ya.ru" class="text-info a">chernyj-perec-opt@ya.ru</a><br>
+        <a href="mailto:specii-opt@ya.ru" class="text-info a">specii-opt@ya.ru</a><br>
     @endslot
 
     @slot('yandex')

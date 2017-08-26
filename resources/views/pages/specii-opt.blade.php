@@ -1,6 +1,6 @@
 @component('components.onescreen')
     @slot('title')
-        Сушеный чеснок оптом
+        Оптовые поставки специй и пряностей, специи и пряности оптом
     @endslot
 
     @slot('google_analytics')
@@ -19,32 +19,43 @@
 
     @endslot
 
+    @slot('roistat')
+        <script>
+        (function(w, d, s, h, id) {
+            w.roistatProjectId = id; w.roistatHost = h;
+            var p = d.location.protocol == "https:" ? "https://" : "http://";
+            var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
+            var js = d.createElement(s); js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+        })(window, document, 'script', 'cloud.roistat.com', '7fb8a6edcf4799069d4b8ee6b97487fa');
+        </script>
+    @endslot
+
     @slot('bg_video')
-        '../files/sushenyj-chesnok-opt/sushenyj-chesnok-opt.mp4'
+        '../files/chernyj-perec-opt/chernyj-perec-opt.mp4'
     @endslot
 
     @slot('bg_poster')
-        '../files/sushenyj-chesnok-opt/sushenyj-chesnok-opt.jpg'
+        '../files/chernyj-perec-opt/chernyj-perec-opt.jpg'
     @endslot
 
     @slot('brand')
-        CHESNOKGROUP
+        blizkaya
     @endslot
 
     @slot('description')
-        Оптовые поставки сушеного чеснока
+        Оптовые поставки специй и пряностей
     @endslot
 
     @slot('phone')
-        +79219672763
+        89602673086
     @endslot
 
     @slot('phone_view')
-        8 981 827 33 35
+        8 960 267 30 86
     @endslot
 
     @slot('email')
-        pryzhok-parashyut@ya.ru
+        specii-opt@ya.ru
     @endslot
 
     @slot('address')
@@ -52,29 +63,32 @@
     @endslot
 
     @slot('offer')
-        Оптовые поставки сушеного чеснока по всей России со склада в Санкт-Петербурге
+        Оптовые поставки специй и пряностей по всей России с производства Санкт-Петербурга
     @endslot
 
     @slot('bullets')
         <li>
-            Высота прыжка 2500 м, 30 секунд свободного падения
+            200+ позиций: черный перец, сушенный чеснок, корица, карри... 
         </li>
         <li class="pt-1">
-            Опытные инструктора со стажем 1300+ прыжков
+            Собственный помол
         </li>
         <li class="pt-1">
-            Профессиональное оборудование и парашюты
+            Прямые поставки ингредиентов из Индии
         </li>
         <li class="pt-1">
-            Экшн видеосъемка
+            Доставка по всей России
         </li>
         <li class="pt-1">
-            Без очередей на прыжок
+            Отсрочка оплаты для постоянных клиентов
+        </li>
+        <li class="pt-1">
+            Бесплатные образцы товара
         </li>
     @endslot
 
     @slot('video')
-        https://www.youtube.com/embed/NegBQE5P93k
+        https://www.youtube.com/embed/9KvS_QN6vIg
     @endslot
 
     @slot('lead_magnet')
@@ -85,7 +99,7 @@
         <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="magicmagicart@gmail.com">
+            <input type="hidden" name="to" value="navigatornit@yandex.ru">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
@@ -108,8 +122,8 @@
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:+79219672763" class="text-info a">8 921 967 27 63</a><br>
-        <a href="mailto:pryzhok-parashyut@ya.ru" class="text-info a">pryzhok-parashyut@ya.ru</a><br>
+        <a href="tel:896026730863" class="text-info a">8 960 267 30 86</a><br>
+        <a href="mailto:specii-opt@ya.ru" class="text-info a">specii-opt@ya.ru</a><br>
     @endslot
 
     @slot('yandex')
