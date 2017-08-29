@@ -36,6 +36,8 @@ class LeadController extends Controller
      */
     public function store(Request $request)
     {
+        date_default_timezone_set('Etc/GMT+3');
+        
         if (Request::get("source") == "shkaf-kupe") {
             $data = array(
                 'source' => Request::server("HTTP_REFERER"),
