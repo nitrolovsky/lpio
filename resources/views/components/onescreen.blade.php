@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        {{ $gtm_head or '' }}
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -29,6 +30,7 @@
         {{ $lptracker or '' }}
     </head>
     <body>
+        {{ $gtm_body or '' }}
         {{ $roistat or '' }}
         <div class="sw" id="bg_video">
             <div class="bg-overlay">
