@@ -33,7 +33,7 @@
     @endslot
 
     @slot('lptracker')
-
+        <noindex><script async src="https://stats.lptracker.ru/code/new/42939"></script></noindex>
     @endslot
 
     @slot('roistat')
