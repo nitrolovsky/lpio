@@ -19,7 +19,7 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
     @endslot
-    
+
     @slot('google_analytics')
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -33,7 +33,7 @@
     @endslot
 
     @slot('lptracker')
-
+        <noindex><script async src="https://stats.lptracker.ru/code/new/42912"></script></noindex>
     @endslot
 
     @slot('roistat')
