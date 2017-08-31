@@ -48,7 +48,7 @@
     @endslot
 
     @slot('bg_video')
-        '../files/nedvizhimost-kupina/kupit-kvartiru-spb-distancionno.mp4'
+        ''
     @endslot
 
     @slot('bg_poster')
