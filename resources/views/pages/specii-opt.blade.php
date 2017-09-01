@@ -64,11 +64,11 @@
     @endslot
 
     @slot('phone')
-        89602673086
+        88123894205
     @endslot
 
     @slot('phone_view')
-        8 960 267 30 86
+        8 (812) 389 42 05
     @endslot
 
     @slot('email')
@@ -139,7 +139,7 @@
 
     @slot('legal')
         Copyright &#169; 2017<br>
-        <a href="tel:896026730863" class="text-info a">8 960 267 30 86</a><br>
+        <a href="tel:88123894205" class="text-info a">8 (812) 389 42 05</a><br>
         <a href="mailto:specii-opt@ya.ru" class="text-info a">specii-opt@ya.ru</a><br>
     @endslot
 
