@@ -48,7 +48,7 @@
     @endslot
 
     @slot('bg_video')
-        '../files/chernyj-perec-opt/chernyj-perec-opt.mp4'
+        ''
     @endslot
 
     @slot('bg_poster')
