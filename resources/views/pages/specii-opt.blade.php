@@ -4,7 +4,7 @@
     @endslot
 
     @slot('bg_poster')
-        chernyj-perec-opt.jpg
+        specii-opt.jpg
     @endslot
 
     @slot('brand')
