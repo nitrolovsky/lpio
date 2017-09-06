@@ -1,6 +1,76 @@
-@component('components.onescreen')
+@component('components.offer')
     @slot('title')
-        Агентство недвижимости Купина, купить квартиру в Санкт-Петербурге дистанционно
+            Агентство недвижимости Купина, купить квартиру в Санкт-Петербурге дистанционно
+    @endslot
+
+    @slot('bg_poster')
+        kupit-kvartiru-spb-distancionno.jpg
+    @endslot
+
+    @slot('bg_video')
+
+    @endslot
+
+    @slot('brand')
+        ArtKelen
+    @endslot
+
+    @slot('description')
+        Творческое объединение
+    @endslot
+
+    @slot('phone')
+        +78005006244
+    @endslot
+
+    @slot('phone_view')
+        +7 800 500 62 44
+    @endslot
+
+    @slot('email')
+        festival@etoile.ru
+    @endslot
+
+    @slot('offer')
+        Получите 20 идеальных вариантов квартир по вашим параметрам и просмотром в реальном времени по видеосвязи
+    @endslot
+
+    @slot('details')
+        Победитель конкурса выиграет 100 000 рублей. Победитель народного голосования выиграет 50 000 рублей.
+    @endslot
+
+    @slot('form')
+        <form action="/leads" method="POST">
+            {{ csrf_field() }}
+            <input type="hidden" name="source" value="all_leads">
+            <input type="hidden" name="cta" value="Форма с видео">
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4 sw" id="email" placeholder="Введите email" name="email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4 sw" id="phone" placeholder="Телефон" name="phone" required="required">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="font btn btn-success btn-block w-4 sw" role="button">
+                    Забронировать
+                </button>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" checked>
+                    Согласен на обработку персональных данных и <a href="" class="text-info  a" data-toggle="modal" data-target="#termsofuse">политикой конфиденциальности</a>
+                </label>
+            </div>
+        </form>
+    @endslot
+
+    @slot('legal')
+        Copyright &#169; 2017 &laquo;ArtKelen&raquo;<br>
+        Санкт-Петербург, ул. Казанская, д. 31
+    @endslot
+
+    @slot('lptracker')
+
     @endslot
 
     @slot('gtm_head')
@@ -30,111 +100,6 @@
           ga('create', 'UA-99764557-1', 'auto');
           ga('send', 'pageview');
         </script>
-    @endslot
-
-    @slot('lptracker')
-        <noindex><script async src="https://stats.lptracker.ru/code/new/42939"></script></noindex>
-    @endslot
-
-    @slot('roistat')
-        <script>
-        (function(w, d, s, h, id) {
-            w.roistatProjectId = id; w.roistatHost = h;
-            var p = d.location.protocol == "https:" ? "https://" : "http://";
-            var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
-            var js = d.createElement(s); js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
-        })(window, document, 'script', 'cloud.roistat.com', '7fb8a6edcf4799069d4b8ee6b97487fa');
-        </script>
-    @endslot
-
-    @slot('bg_video')
-        ''
-    @endslot
-
-    @slot('bg_poster')
-        '../files/nedvizhimost-kupina/kupit-kvartiru-spb-distancionno.jpg'
-    @endslot
-
-    @slot('brand')
-        KUPINA
-    @endslot
-
-    @slot('description')
-        Агентство недвижимости Купина
-    @endslot
-
-    @slot('phone')
-        88122132039
-    @endslot
-
-    @slot('phone_view')
-        8 (812) 213 20 39
-    @endslot
-
-    @slot('email')
-        nedvizhimost-kupina@ya.ru
-    @endslot
-
-    @slot('address')
-        Санкт-Петербург
-    @endslot
-
-    @slot('offer')
-        Подберем квартиру в Санкт-Петербурге для покупки дистанционно
-    @endslot
-
-    @slot('bullets')
-        <li>
-            Просмотры квартиры в режиме реального времени
-        </li>
-        <li class="pt-1">
-            Видеосвязь по Whatsapp, Facetime, Skype
-        </li>
-        <li class="pt-1">
-            Вторичный рынок и новостройки от застройщиков
-        </li>
-        <li class="pt-1">
-            Проверяем юридическую чистоту квартиры
-        </li>
-    @endslot
-
-    @slot('video')
-        https://www.youtube.com/embed/xIM5jc6n_9g
-    @endslot
-
-    @slot('lead_magnet')
-        Получите 5 лучших вариантов квартир по вашим параметрам, заполнив форму
-    @endslot
-
-    @slot('form')
-        <form action="/leads" method="POST">
-            {{ csrf_field() }}
-            <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="dima_kupina@mail.ru">
-            <input type="hidden" name="cta" value="Форма с видео">
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон*" name="phone" required="required">
-            </div>
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="email" placeholder="Email" name="email">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Получить
-                </button>
-            </div>
-            <div class="text-center">
-                <small>
-                    <a href="" class="text-primary  a" data-toggle="modal" data-target="#termsofuse">Пользовательское соглашение</a>
-                </small>
-            </div>
-        </form>
-    @endslot
-
-    @slot('legal')
-        Copyright &#169; 2017<br>
-        <a href="tel:88122132039" class="text-info a">8 (812) 213 20 39</a><br>
-        <a href="mailto:nedvizhimost-kupina@ya.ru" class="text-info a">nedvizhimost-kupina@ya.ru</a><br>
     @endslot
 
     @slot('yandex')
