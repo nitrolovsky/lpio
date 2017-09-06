@@ -67,7 +67,7 @@
 
     @slot('legal')
         Copyright &#169; 2017 &laquo;МаСтудио&raquo;<br>
-        Санкт-Петербург
+        Санкт-Петербург, Греческий переулок д. 27
     @endslot
 
     @slot('lptracker')
