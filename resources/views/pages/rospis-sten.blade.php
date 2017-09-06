@@ -20,11 +20,11 @@
     @endslot
 
     @slot('phone')
-        88124269298
+        88122132140
     @endslot
 
     @slot('phone_view')
-        8 (812) 426 92 98
+        8 (812) 213 21 40
     @endslot
 
     @slot('email')
@@ -71,7 +71,7 @@
     @endslot
 
     @slot('lptracker')
-        
+
     @endslot
 
     @slot('gtm_head')
