@@ -8,7 +8,7 @@
     @endslot
 
     @slot('bg_video')
-        ../files/offer/rospis-graffiti-ru.mp4
+        
     @endslot
 
     @slot('brand')
