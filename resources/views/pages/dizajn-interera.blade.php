@@ -1,10 +1,10 @@
 @component('components.offer')
     @slot('title')
-        Художественная роспись стен интерьера, фреска, граффити
+        Студия дизайна интерьеров
     @endslot
 
     @slot('bg_poster')
-        rospis-graffiti-ru.jpg
+        dizajn-interera.jpg
     @endslot
 
     @slot('bg_video')
@@ -12,38 +12,37 @@
     @endslot
 
     @slot('brand')
-        МаСтудио
+        ELIZIUM
     @endslot
 
     @slot('description')
-        Студии художников в Санкт-Петербурге и Москве
+        Студия дизайна интерьера
     @endslot
 
     @slot('phone')
-        88124269298
+        88129672763
     @endslot
 
     @slot('phone_view')
-        8 (812) 426 92 98
+        8 (812) 967 27 63
     @endslot
 
     @slot('email')
-        magicmagicart@gmail.com
+        dizajn-interera-spb@ya.ru
     @endslot
 
     @slot('offer')
-        Получите портфолио с 100+ идеями росписи стен и дизайн-проект вашего интерьера с росписью бесплатно
+        Получите портфолио с 50+ идеями элитных дизайнов интерьера и эскиз эргономичной планировки на основе вашего пространства бесплатно
     @endslot
 
     @slot('details')
-        Визуализируем роспись на вашем интерьере в день заявки
+        Элитные дизайны квартир, коттеджей, ресторанов, кафе, баров, салонов красоты и магазинов
     @endslot
 
     @slot('form')
         <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="magicmagicart@gmail.com">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4 sw" id="email" placeholder="Введите email" name="email">
@@ -66,12 +65,12 @@
     @endslot
 
     @slot('legal')
-        Copyright &#169; 2017 &laquo;МаСтудио&raquo;<br>
-        Санкт-Петербург, Греческий переулок д. 27
+        Copyright &#169; 2017 &laquo;Элизиум&raquo;<br>
+        Санкт-Петербург, Индустриальный проспект д. 44, БЦ Охта Хаус, офис 337а
     @endslot
 
     @slot('lptracker')
-        
+
     @endslot
 
     @slot('gtm_head')
