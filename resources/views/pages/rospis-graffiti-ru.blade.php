@@ -1,6 +1,6 @@
 @component('components.offer')
     @slot('title')
-        Роспись стен
+        Художественная роспись стен интерьера, фреска, граффити
     @endslot
 
     @slot('bg_poster')
