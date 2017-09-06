@@ -12,23 +12,23 @@
     @endslot
 
     @slot('description')
-        Роспись стен
+        Студии художников в Санкт-Петербурге и Москве
     @endslot
 
     @slot('phone')
-        88123894205
+        88124269298
     @endslot
 
     @slot('phone_view')
-        8 (812) 389 42 05
+        8 (812) 426 92 98
     @endslot
 
     @slot('email')
-        rospis-sten@ya.ru
+        magicmagicart@gmail.com
     @endslot
 
     @slot('offer')
-        Получите портфолио с 100+ идеями росписи стен и дизайн-проект вашего интерьера с росписью бесплатно 
+        Получите портфолио с 100+ идеями росписи стен и дизайн-проект вашего интерьера с росписью бесплатно
     @endslot
 
     @slot('details')
@@ -39,7 +39,7 @@
         <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="navigatornit@yandex.ru">
+            <input type="hidden" name="to" value="magicmagicart@gmail.com">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4 sw" id="email" placeholder="Введите email" name="email">
@@ -62,7 +62,7 @@
     @endslot
 
     @slot('legal')
-        Copyright &#169; 2017 &laquo;blizkaya&raquo;<br>
+        Copyright &#169; 2017 &laquo;МаСтудио&raquo;<br>
         Санкт-Петербург
     @endslot
 
