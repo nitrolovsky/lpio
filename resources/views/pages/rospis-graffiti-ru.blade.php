@@ -7,6 +7,10 @@
         rospis-graffiti-ru.jpg
     @endslot
 
+    @slot('bg_video')
+        ../files/offer/rospis-graffiti-ru.mp4
+    @endslot
+
     @slot('brand')
         МаСтудио
     @endslot
@@ -68,10 +72,6 @@
 
     @slot('lptracker')
         <noindex><script async src="https://stats.lptracker.ru/code/new/42912"></script></noindex>
-    @endslot
-
-    @slot('bg_video')
-
     @endslot
 
     @slot('gtm_head')
