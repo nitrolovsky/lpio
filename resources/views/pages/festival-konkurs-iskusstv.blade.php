@@ -52,7 +52,7 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="font btn btn-success btn-block w-4 sw" role="button">
-                    Получить
+                    Забронировать
                 </button>
             </div>
             <div class="form-check">
