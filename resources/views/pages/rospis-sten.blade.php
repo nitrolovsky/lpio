@@ -71,7 +71,7 @@
     @endslot
 
     @slot('lptracker')
-        <noindex><script async src="https://stats.lptracker.ru/code/new/42912"></script></noindex>
+        
     @endslot
 
     @slot('gtm_head')
