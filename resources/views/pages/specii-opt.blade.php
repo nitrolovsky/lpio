@@ -1,6 +1,73 @@
-@component('components.onescreen')
+@component('components.offer')
     @slot('title')
         Оптовые поставки специй и пряностей, специи и пряности оптом
+    @endslot
+
+    @slot('bg_poster')
+        chernyj-perec-opt.jpg
+    @endslot
+
+    @slot('brand')
+        blizkaya
+    @endslot
+
+    @slot('description')
+        Оптовые поставки специй и пряностей по России
+    @endslot
+
+    @slot('phone')
+        88123894205
+    @endslot
+
+    @slot('phone_view')
+        8 (812) 389 42 05
+    @endslot
+
+    @slot('email')
+        specii-opt@ya.ru
+    @endslot
+
+    @slot('offer')
+        Получите оптовый прайс-лист, бесплатные образцы специй и скидку 5 000 рублей при первом заказе
+    @endslot
+
+    @slot('details')
+        Отправим образцы в день заявки с производства собственного помола в Санкт-Петербурге из индийских ингридиентов
+    @endslot
+
+    @slot('form')
+        <form action="/leads" method="POST">
+            {{ csrf_field() }}
+            <input type="hidden" name="source" value="all_leads">
+            <input type="hidden" name="to" value="navigatornit@yandex.ru">
+            <input type="hidden" name="cta" value="Форма с видео">
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4 sw" id="email" placeholder="Введите email" name="email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4 sw" id="phone" placeholder="Телефон" name="phone" required="required">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="font btn btn-success btn-block w-4 sw" role="button">
+                    Получить
+                </button>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" checked>
+                    Согласен на обработку персональных данных и <a href="" class="text-info  a" data-toggle="modal" data-target="#termsofuse">политикой конфиденциальности</a>
+                </label>
+            </div>
+        </form>
+    @endslot
+
+    @slot('legal')
+        Copyright &#169; 2017 &laquo;blizkaya&raquo;<br>
+        Санкт-Петербург
+    @endslot
+
+    @slot('bg_video')
+
     @endslot
 
     @slot('gtm_head')
@@ -34,113 +101,6 @@
 
     @slot('lptracker')
         <noindex><script async src="https://stats.lptracker.ru/code/new/42912"></script></noindex>
-    @endslot
-
-    @slot('roistat')
-        <script>
-        (function(w, d, s, h, id) {
-            w.roistatProjectId = id; w.roistatHost = h;
-            var p = d.location.protocol == "https:" ? "https://" : "http://";
-            var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
-            var js = d.createElement(s); js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
-        })(window, document, 'script', 'cloud.roistat.com', '7fb8a6edcf4799069d4b8ee6b97487fa');
-        </script>
-    @endslot
-
-    @slot('bg_video')
-        ''
-    @endslot
-
-    @slot('bg_poster')
-        '../files/chernyj-perec-opt/chernyj-perec-opt.jpg'
-    @endslot
-
-    @slot('brand')
-        blizkaya
-    @endslot
-
-    @slot('description')
-        Оптовые поставки специй и пряностей
-    @endslot
-
-    @slot('phone')
-        88123894205
-    @endslot
-
-    @slot('phone_view')
-        8 (812) 389 42 05
-    @endslot
-
-    @slot('email')
-        specii-opt@ya.ru
-    @endslot
-
-    @slot('address')
-        Санкт-Петербург
-    @endslot
-
-    @slot('offer')
-        Оптовые поставки специй и пряностей по всей России с производства Санкт-Петербурга
-    @endslot
-
-    @slot('bullets')
-        <li>
-            200+ позиций: черный перец, сушенный чеснок, корица, карри...
-        </li>
-        <li class="pt-1">
-            Собственный помол
-        </li>
-        <li class="pt-1">
-            Прямые поставки ингредиентов из Индии
-        </li>
-        <li class="pt-1">
-            Доставка по всей России
-        </li>
-        <li class="pt-1">
-            Отсрочка оплаты для постоянных клиентов
-        </li>
-        <li class="pt-1">
-            Бесплатные образцы товара
-        </li>
-    @endslot
-
-    @slot('video')
-        https://www.youtube.com/embed/9KvS_QN6vIg
-    @endslot
-
-    @slot('lead_magnet')
-        Получите прайс-лист с оптовыми ценами, заполнив форму
-    @endslot
-
-    @slot('form')
-        <form action="/leads" method="POST">
-            {{ csrf_field() }}
-            <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="navigatornit@yandex.ru">
-            <input type="hidden" name="cta" value="Форма с видео">
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
-            </div>
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone" required="required">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Получить
-                </button>
-            </div>
-            <div class="text-center">
-                <small>
-                    <a href="" class="text-primary  a" data-toggle="modal" data-target="#termsofuse">Пользовательское соглашение</a>
-                </small>
-            </div>
-        </form>
-    @endslot
-
-    @slot('legal')
-        Copyright &#169; 2017<br>
-        <a href="tel:88123894205" class="text-info a">8 (812) 389 42 05</a><br>
-        <a href="mailto:specii-opt@ya.ru" class="text-info a">specii-opt@ya.ru</a><br>
     @endslot
 
     @slot('yandex')

@@ -1,6 +1,94 @@
-@component('components.onescreen')
+@component('components.offer')
     @slot('title')
-        Художественная роспись стен, фреска, граффити
+        Роспись стен
+    @endslot
+
+    @slot('bg_poster')
+        rospis-graffiti-ru.jpg
+    @endslot
+
+    @slot('brand')
+        МаСтудио
+    @endslot
+
+    @slot('description')
+        Роспись стен
+    @endslot
+
+    @slot('phone')
+        88123894205
+    @endslot
+
+    @slot('phone_view')
+        8 (812) 389 42 05
+    @endslot
+
+    @slot('email')
+        rospis-sten@ya.ru
+    @endslot
+
+    @slot('offer')
+        Получите портфолио с 100+ идеями росписи стен и дизайн-проект вашего интерьера с росписью бесплатно 
+    @endslot
+
+    @slot('details')
+        Визуализируем роспись на вашем интерьере в день заявки
+    @endslot
+
+    @slot('form')
+        <form action="/leads" method="POST">
+            {{ csrf_field() }}
+            <input type="hidden" name="source" value="all_leads">
+            <input type="hidden" name="to" value="navigatornit@yandex.ru">
+            <input type="hidden" name="cta" value="Форма с видео">
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4 sw" id="email" placeholder="Введите email" name="email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="font black form-control w-4 sw" id="phone" placeholder="Телефон" name="phone" required="required">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="font btn btn-success btn-block w-4 sw" role="button">
+                    Получить
+                </button>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" checked>
+                    Согласен на обработку персональных данных и <a href="" class="text-info  a" data-toggle="modal" data-target="#termsofuse">политикой конфиденциальности</a>
+                </label>
+            </div>
+        </form>
+    @endslot
+
+    @slot('legal')
+        Copyright &#169; 2017 &laquo;blizkaya&raquo;<br>
+        Санкт-Петербург
+    @endslot
+
+    @slot('lptracker')
+        <noindex><script async src="https://stats.lptracker.ru/code/new/42912"></script></noindex>
+    @endslot
+
+    @slot('bg_video')
+
+    @endslot
+
+    @slot('gtm_head')
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-56WTNTG');</script>
+        <!-- End Google Tag Manager -->
+    @endslot
+
+    @slot('gtm_body')
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56WTNTG"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
     @endslot
 
     @slot('google_analytics')
@@ -13,107 +101,6 @@
           ga('create', 'UA-99764557-1', 'auto');
           ga('send', 'pageview');
         </script>
-    @endslot
-
-    @slot('lptracker')
-        <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=42192;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
-    @endslot
-
-    @slot('bg_video')
-        '../files/rospis-graffiti-ru/rospis-graffiti-ru.mp4'
-    @endslot
-
-    @slot('bg_poster')
-        '../files/rospis-graffiti-ru/rospis-graffiti-ru.jpg'
-    @endslot
-
-    @slot('brand')
-        МаСтудио
-    @endslot
-
-    @slot('description')
-        Студия художников Санкт-Петербург и Москва
-    @endslot
-
-    @slot('phone')
-        88124269298
-    @endslot
-
-    @slot('phone_view')
-        8 (812) 426 92 98
-    @endslot
-
-    @slot('email')
-        magicmagicart@gmail.com
-    @endslot
-
-    @slot('address')
-
-    @endslot
-
-    @slot('offer')
-        Художественная роспись стен интерьеров от 1500р/м2. Cначала рисуем. Оплата после выполненной работы
-    @endslot
-
-    @slot('bullets')
-        <li>
-            Граффити на заказ, роспись кистями
-        </li>
-        <li class="pt-1">
-            Аэрография, нанесение фрески
-        </li>
-        <li class="pt-1">
-            15 художников с образованием и чувством стиля
-        </li>
-        <li class="pt-1">
-            200 работ в портфолио, делаем эксклюзив
-        </li>
-        <li class="pt-1">
-            От 5 лет, опыт каждого художника
-        </li>
-        <li class="pt-1">
-            2000+ м2 теперь радуют взгляд заказчиков
-        </li>
-    @endslot
-
-    @slot('video')
-        https://www.youtube.com/embed/5PsoGwqhMjs
-    @endslot
-
-    @slot('lead_magnet')
-        Получите крутейшее портфолио, заполнив форму
-    @endslot
-
-    @slot('form')
-        <form action="/leads" method="POST">
-            {{ csrf_field() }}
-            <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="magicmagicart@gmail.com">
-            <input type="hidden" name="cta" value="Форма с видео">
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
-            </div>
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone" required="required">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Получить
-                </button>
-            </div>
-            <div class="text-center">
-                <small>
-                    <a href="" class="text-primary  a" data-toggle="modal" data-target="#termsofuse">Пользовательское соглашение</a>
-                </small>
-            </div>
-        </form>
-    @endslot
-
-    @slot('legal')
-        Copyright &#169; 2017<br>
-        <a href="tel:+78124269298" class="text-info a">+7 (812) 426 92 98</a><br>
-        <a href="mailto:magicmagicart@gmail.com" class="text-info a">magicmagicart@gmail.com</a><br>
-        Санкт-Петербург, Греческий переулок 27 офис 16
     @endslot
 
     @slot('yandex')
