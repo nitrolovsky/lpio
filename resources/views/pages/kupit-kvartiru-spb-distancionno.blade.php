@@ -20,11 +20,11 @@
     @endslot
 
     @slot('phone')
-        88129672763
+        88122132039
     @endslot
 
     @slot('phone_view')
-        8 (812) 967 27 63
+        8 (812) 213 20 39
     @endslot
 
     @slot('email')
@@ -43,6 +43,7 @@
         <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
+            <input type="hidden" name="to" value="dima_kupina@mail.ru">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4 sw" id="email" placeholder="Введите email" name="email">
@@ -70,7 +71,7 @@
     @endslot
 
     @slot('lptracker')
-
+        <noindex><script async src="https://stats.lptracker.ru/code/new/42939"></script></noindex>
     @endslot
 
     @slot('gtm_head')
