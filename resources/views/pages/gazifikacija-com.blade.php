@@ -23,7 +23,6 @@
           ga('require', 'displayfeatures');
           ga('send', 'pageview');
         </script>
-        <script src='https://www.google.com/recaptcha/api.js'></script>
         <style>
             .bgimage-form-1 {
                 background: url("{{ $path_files }}gazifikaciya-fotografiya-18.jpg") no-repeat center center;
@@ -959,7 +958,7 @@
                     </a>
                 </div>
                 <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
-        
+
                 </div>
             </div>
         </div>
