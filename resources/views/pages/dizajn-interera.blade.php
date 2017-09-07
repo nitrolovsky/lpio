@@ -28,7 +28,7 @@
     @endslot
 
     @slot('email')
-        dizajn-interera-spb@ya.ru
+        info.lpio@ya.ru
     @endslot
 
     @slot('offer')

@@ -16,15 +16,15 @@
     @endslot
 
     @slot('phone')
-        88123894205
+        88129672763
     @endslot
 
     @slot('phone_view')
-        8 (812) 389 42 05
+        8 (812) 967 27 63
     @endslot
 
     @slot('email')
-        specii-opt@ya.ru
+        info.lpio@ya.ru
     @endslot
 
     @slot('offer')

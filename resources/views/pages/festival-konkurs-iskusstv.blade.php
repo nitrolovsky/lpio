@@ -28,7 +28,7 @@
     @endslot
 
     @slot('email')
-        festival@etoile.ru
+        info.lpio@ya.ru
     @endslot
 
     @slot('offer')

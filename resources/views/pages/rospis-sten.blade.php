@@ -20,15 +20,15 @@
     @endslot
 
     @slot('phone')
-        88122132140
+        88129672763
     @endslot
 
     @slot('phone_view')
-        8 (812) 213 21 40
+        8 (812) 967 27 63
     @endslot
 
     @slot('email')
-        magicmagicart@gmail.com
+        info.lpio@ya.ru
     @endslot
 
     @slot('offer')
