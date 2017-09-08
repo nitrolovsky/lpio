@@ -36,7 +36,7 @@
     @endslot
 
     @slot('details')
-        На основе опыта более 230 заказчиков. Сохранено в общей сумме более 164 миллионов рублей и 47 месяцев времени переделок.
+        На основе опыта более 230 заказчиков. Сохранено в общей сумме более 164 миллионов рублей и 47 месяцев работы на переделки.
     @endslot
 
     @slot('form')
@@ -52,7 +52,7 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="font btn btn-success btn-block w-4 sw" role="button">
-                    Пройти тест
+                    Получить бесплатно
                 </button>
             </div>
             <div class="form-check">
