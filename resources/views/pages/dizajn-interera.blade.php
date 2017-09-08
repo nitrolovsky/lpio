@@ -52,7 +52,7 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="font btn btn-success btn-block w-4 sw" role="button">
-                    Получить бесплатно
+                    Получить инструкцию бесплатно
                 </button>
             </div>
             <div class="form-check">
