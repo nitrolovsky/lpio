@@ -20,11 +20,11 @@
     @endslot
 
     @slot('phone')
-        88129672763
+        88122132146
     @endslot
 
     @slot('phone_view')
-        8 (812) 967 27 63
+        8 (812) 213 21 46
     @endslot
 
     @slot('email')
@@ -71,7 +71,7 @@
     @endslot
 
     @slot('lptracker')
-
+        <noindex><script async src="https://stats.lptracker.ru/code/new/43381"></script></noindex>
     @endslot
 
     @slot('gtm_head')
