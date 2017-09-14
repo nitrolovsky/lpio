@@ -13,10 +13,10 @@
     </head>
     <body>
         <div class="container-fluid font">
-            <h1 class="h3 pt-3 my-0 text-center">
+            <h1 class="h3 pt-5 my-0 text-center">
                 Центральный район - Иватьо Алексей Иванович
             </h1>
-            <div class="row pt-3">
+            <div class="row pt-5">
                 <div class="col-xl-3">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="http://domdiplomat.ru/veb-translyaciya/" allowfullscreen></iframe>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-xl-3">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="http://webcam.exdesign.ru/russian-house-1" allowfullscreen></iframe>
                     </div>
                     <form class="py-2">
                         <div class="input-group">
