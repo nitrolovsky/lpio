@@ -60,7 +60,7 @@
 
                     <div class="row pt-5 pb-5">
                         <div class="col-xl-6 col-lg-10 col-md-12 col-sm-12 col-12 offset-xl-3 offest-lg-1">
-                            <h4 class="text-center w-7">
+                            <h4 class="text-center w-4">
                                 {{ $details or '' }}
                             </h4>
                         </div>

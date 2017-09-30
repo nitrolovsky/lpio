@@ -340,6 +340,18 @@
                         @endslot
                     @endcomponent
 
+                    @component('components.meaningvideo')
+                        @slot('video')
+                            https://www.youtube.com/embed/Z8AaFDtnX1c
+                        @endslot
+                        @slot('title')
+                            Отзыв "Gidrotech"
+                        @endslot
+                        @slot('details')
+                            Задача: Презентовать компанию.
+                        @endslot
+                    @endcomponent
+
                 </div>
 
                 <div class="row pt-5 pb-5">
