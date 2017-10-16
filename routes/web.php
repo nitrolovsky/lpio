@@ -1,5 +1,5 @@
 <?php
-
+use Google\Cloud\Speech\SpeechClient;
 Route::get('/', function () {
     $domain = Request::server("HTTP_HOST");
     $page = str_replace(".", "-", $domain);
@@ -14,6 +14,24 @@ Route::get('/', function () {
     }
 });
 
+Route::get('pages/audiototext', function() {
+
+  $speech = new SpeechClient([
+      'projectId' => 'my_project',
+      'languageCode' => 'ru-RU'
+  ]);
+
+  // Recognize the speech in an audio file.
+  $results = $speech->recognize(
+      fopen('../public/files/audiototext/1.mp3', 'r')
+  );
+
+  foreach ($results as $result) {
+      echo $result->topAlternative()['transcript'] . "\n";
+  }
+
+});
+
 Route::get('pages/{url}', function ($url) {
     if (file_exists("../resources/views/pages/$url.blade.php") == true) {
         return view("pages.$url");
@@ -23,5 +41,7 @@ Route::get('pages/{url}', function ($url) {
 Route::get('pages/thanks', function() {
     return view('pages.thanks');
 });
+
+
 
 Route::resource('leads', 'LeadController');

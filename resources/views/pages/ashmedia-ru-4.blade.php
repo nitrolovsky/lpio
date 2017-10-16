@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/page.css">
         <title>
-            {{ $title }}
+            Создание видеороликов для бизнеса АШмедиа ashmedia.ru
         </title>
     </head>
     <body>
@@ -16,14 +16,14 @@
         <div class="container-fluid font">
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                    <span class="h1 w-3">{{ $brand }}</span><br>
-                    <span class="w-4">{{ $description }}</span>
+                    <span class="h1 w-3">АШмедиа</span><br>
+                    <span class="w-4">Создание видеороликов для бизнеса</span>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center w-4">
 
-                    <a href="tel:{{ $phone }}" class="a">{{ $phone_view }}</a><br>
-                    <a href="mailto:{{ $email }}" class="a">{{ $email }}</a><br>
-                    {{ $address }}
+                    <a href="tel:+79522193383" class="a">8 952 219 33 83</a><br>
+                    <a href="mailto:ashmedia@mail.ru" class="a">ashmedia@mail.ru</a><br>
+                    Санкт-Петербург, м. Горьковская
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
         <div class="container-fluid bg-light sw">
             <div class="row align-items-center">
                 <div class="col-xl-6 px-0">
-                    <img src="{{ $presentation }}" class="img-fluid ">
+                    <img src="../files/ashmedia/bg.jpg" class="img-fluid ">
                 </div>
                 <div class="col-xl-6 px-0">
                     <div class=" p-5 ">
@@ -39,27 +39,51 @@
                             <br>
                         </div>
                         <h1 class="my-0 w-7">
-                            {{ $lead_magnet }}
+                            Получите бесплатно 3 продающих концепции сценария видеоролика и расчет стоимости услуги
                         </h1>
                         <h4 class="pb-2 pt-4 w-5">
-                            {{ $details }}
+                            Объясним ценность вашего продукта с помощью продающего видеоролика
                         </h4>
                         <div class="col-lg-6 px-0">
-                            {{ $form }}
+                            <form action="/leads" method="POST" class="pt-3">
+                                {{ csrf_field() }}
+                                <input type="hidden" name="source" value="ashmedia">
+                                <input type="hidden" name="cta" value="Форма с видео">
+                                <div class="form-group">
+                                    <input type="text" class="font black form-control w-4" id="name" placeholder="Введите имя" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="font btn btn-primary btn-block w-4 " >
+                                        Получить
+                                    </button>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label small">
+                                        <input type="checkbox" class="form-check-input" checked>
+                                        Согласен на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" class="text-info  a" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
+                                    </label>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid">
-            <div class="row pt-5 pb-5 font">
+        <div class="container pt-5 pb-5 font">
+            <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h2 class="text-center my-0 w-5 black">
                         Посмотрите примеры наших видеороликов
                     </h2>
                 </div>
             </div>
+        </div>
+
+        <div class="container-fluid">
             <div class="row">
 
                 <div class="col-xl-4 col-lg-4">
@@ -243,11 +267,6 @@
                         <div class="s-17">
                             Производим офисные стойки ресепшн, барные торговые стойки более 7 лет. С 2009 года реализовали свыше 100 уникальных проектов. Мы прямой производитель поэтому у нас цены ниже на 30%, чем в салонах.
                         </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
                     </div>
                 </div>
 
