@@ -28,23 +28,30 @@
             </div>
         </div>
 
-        <div class="container-fluid bg-light sw">
+        <div class="container-fluid bg-light ">
             <div class="row align-items-center">
                 <div class="col-xl-6 px-0">
-                    <img src="{{ $presentation }}" class="img-fluid ">
+                    @if (isset($presentation))
+                        <img src="{{ $presentation or '' }}" class="img-fluid ">
+                    @endif
+                    @if (isset($presentation_video))
+                        <div class="embed-responsive embed-responsive-16by9 m-0 p-0">
+                            <iframe class="embed-responsive-item" src="{{ $presentation_video }}?rel=0&showinfo=0" allowfullscreen></iframe>
+                        </div>
+                    @endif
                 </div>
                 <div class="col-xl-6 px-0">
-                    <div class=" p-5 ">
+                    <div class="px-5 ">
                         <div class="hidden-lg-up">
                             <br>
                         </div>
-                        <h1 class="my-0 w-7">
+                        <h1 class="my-0 w-7 font">
                             {{ $lead_magnet }}
                         </h1>
-                        <h4 class="pb-2 pt-4 w-5">
+                        <h4 class="pb-2 pt-4 my-0 w-4 font">
                             {{ $details }}
                         </h4>
-                        <div class="col-lg-6 px-0">
+                        <div class="col-lg-6 px-0 font">
                             {{ $form }}
                         </div>
                     </div>
@@ -52,290 +59,19 @@
             </div>
         </div>
 
-        <div class="container-fluid">
-            <div class="row pt-5 pb-5 font">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="text-center my-0 w-5 black">
-                        Посмотрите примеры наших видеороликов
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
+        {{ $portfolio or '' }}
 
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/d1FgJJ1Za18?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Кадровое агентство "STAFF PERSONAL"
-                        </h4>
-                        <div class="s-17">
-                            Наша основная услуга - аутсорсинг. Мы нанимаем персонал для гостиничного бизнеса, продуктовых универсамов, а также различных производств. 3 дня - это срок от заявки до вывода рабочей силы на место труда.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
+        {{ $reviews or '' }}
 
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wCBFBCe-GMo?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            404 // антикафе
-                        </h4>
-                        <div class="s-17">
-                            Вы сможете поработать в уютной атмосфере, отдохнуть после трудового дня и приятно провести время с друзьями. 404 станет отличным местом, чтобы встретится с деловым партнером. К вашим услугам ксерокс, сканер и принтер.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VzGSFv-WDV8?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Центр сертификации "ГОРТЕСТ"
-                        </h4>
-                        <div class="s-17">
-                            Центр сертификации ГОРТЕСТ оказывает услуги по получению разрешительных документов для импорта, экспорта и реализации товаров на территории России.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="hidden-md-down">
-                <br>
-                <br>
-            </div>
-
-            <div class="row">
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9f-CMh6rubE?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Производство турок
-                        </h4>
-                        <div class="s-17">
-                            Уникальное производство. 26 лет опыта работы. Продукт не имеющий аналогов по качеству и стилю в мире. Доставка по всей России. Вы можете получить продукт с символикой компании.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BUtarYML3bQ?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Медицинский центр "ДИАДЕНТ"
-                        </h4>
-                        <div class="s-17">
-                            Клиника оказывает услуги по направлениям: стоматология, косметология, гинекология, урология и пластическая хирургия.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E6qjWdrQtqo?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Производство и продажа шуб "ANSE"
-                        </h4>
-                        <div class="s-17">
-                            Портные цеха имеют высшее специальное образование и 5 лет опыта работы. За счет параллельного выполнения работ мы можем справится с большим объемом в сезонное время. Возможен индивидуальный пошив.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="hidden-md-down">
-                <br>
-                <br>
-            </div>
-
-            <div class="row">
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xU7YA2ac5tw?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Производство печатной продукции "Titanprint"
-                        </h4>
-                        <div class="s-17">
-                            Занимаемся изготовлением различных видов рекламной и полиграфической продукции. Центром отдела широкоформатной печати является сольвентный принтер, который печатает в фотокачестве и с высокой точностью передает цвета и оттенки. А изображения устойчивы к влаге и ультрафиолету.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tRfm_LSiRek?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Производство кухонных фасадов "Омега"
-                        </h4>
-                        <div class="s-17">
-                            На рынке с 2006 года. 5 заводов - партнеров. 20 крупных фабрик сбыта. 50 обращений ежедневно. Производим: кухонные двери, двери-купе, резку и обработку стекла, пескоструйные рисунки, фотопечать, стеновые панели для кухни, мебельную фурнитуру.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UWblwq59Nos?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Производство "Хорошая мебель"
-                        </h4>
-                        <div class="s-17">
-                            Производим офисные стойки ресепшн, барные торговые стойки более 7 лет. С 2009 года реализовали свыше 100 уникальных проектов. Мы прямой производитель поэтому у нас цены ниже на 30%, чем в салонах.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="container-fluid bg-light">
-            <div class="row pt-5 pb-5 font">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="text-center my-0 w-5 black">
-                        Отзывы заказчиков о студии АШмедиа
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TBcozDTro4E?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Отзыв "Staff Personal"
-                        </h4>
-                        <div class="s-17">
-                            Задача: нужен был видеоролик для сайта. Показать офис, персонал, чем занимаемся, основные задачи и функции. Повысить уровень доверия клиентов. На рынке очень много компаний-однодневок и для заказчика высокий риск наткнуться на недобросовестного подрядчика. Мы на рынке с 2005 года.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GBxC_eR2UqY?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Отзыв "ГОРТЕСТ"
-                        </h4>
-                        <div class="s-17">
-                            Задача: решить вопрос с кадрам. Для этого снять HR видео.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z8AaFDtnX1c?rel=0&showinfo=0" allowfullscreen></iframe>
-                    </div>
-                    <div class="pt-4 px-4">
-                        <h4 class="black w-5">
-                            Отзыв "Gidrotech"
-                        </h4>
-                        <div class="s-17">
-                            Задача: Презентовать компанию.
-                        </div>
-                    </div>
-                    <div class="hidden-lg-up">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container-fluid font">
+        <div class="container-fluid font {{ $footer_bg or '' }}">
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                    2017 АШМедиа Все права защищены<br>
-                    <a href=https://vk.com/shevtsovpiter class=a target=_blank>Артем Шевцов</a>
+                    {{ $footer }}
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center w-4">
-
-                    <a href="tel:+79522193383" class="a">8 952 219 33 83</a><br>
-                    <a href="mailto:ashmedia@mail.ru" class="a">ashmedia@mail.ru</a><br>
-                    Санкт-Петербург, м. Горьковская
+                    <a href="tel:{{ $phone }}" class="a">{{ $phone_view }}</a><br>
+                    <a href="mailto:{{ $email }}" class="a">{{ $email }}</a><br>
+                    {{ $address }}
                 </div>
             </div>
         </div>

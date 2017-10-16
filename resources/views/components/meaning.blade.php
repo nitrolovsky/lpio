@@ -1,5 +1,5 @@
 <div class="col-xl-4 col-lg-4">
-    <img src="{{ $image }}" class="img-fluid mx-auto d-block sw" alt="{{ $description }}">
+    <img src="{{ $image }}" class="img-fluid mx-auto d-block" alt="{{ $description }}">
     <div class="pt-4 px-4">
 
         <h4 class="black w-5">
@@ -16,7 +16,7 @@
             </div>
         @endif
     </div>
-    <div class="hidden-lg-up">
+    <div class="d-lg-none">
         <br>
         <br>
         <br>
