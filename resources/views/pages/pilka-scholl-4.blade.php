@@ -35,11 +35,11 @@
     @endslot
 
     @slot('lead_magnet')
-        Получите купон скидку 500 рублей на роликовую пилку Scholl Wet & Dry
+        Получите купон-скидку 500 рублей на роликовую пилку Scholl Wet & Dry
     @endslot
 
     @slot('details')
-        Объясним ценность вашего продукта с помощью продающего видеоролика
+        Для ухода за кожей стоп. Через 2 недели ваши ноги станут бархатными.
     @endslot
 
     @slot('form')
@@ -55,7 +55,7 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Получить
+                    Получить бесплатно
                 </button>
             </div>
             <div class="form-check">
@@ -177,7 +177,7 @@
                 <br>
                 <br>
             </div>
-            
+
         </div>
     @endslot
 

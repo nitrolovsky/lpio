@@ -109,7 +109,7 @@
                 @endcomponent
             </div>
 
-            <div class="hidden-md-down">
+            <div class="d-none d-lg-block">
                 <br>
                 <br>
             </div>
@@ -152,7 +152,7 @@
                 @endcomponent
             </div>
 
-            <div class="hidden-md-down">
+            <div class="d-none d-lg-block">
                 <br>
                 <br>
             </div>
