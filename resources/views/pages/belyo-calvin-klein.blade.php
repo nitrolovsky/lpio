@@ -45,7 +45,7 @@
     @slot('form')
         <form action="/leads" method="POST" class="pt-3">
             {{ csrf_field() }}
-            <input type="hidden" name="source" value="belyo-calvin-klein-2">
+            <input type="hidden" name="source" value="belyo-calvin-klein">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
                 <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
