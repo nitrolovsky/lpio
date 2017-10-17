@@ -10,7 +10,7 @@
             {{ $details }}
         </div>
     </div>
-    <div class="hidden-lg-up">
+    <div class="d-lg-none">
         <br>
         <br>
         <br>

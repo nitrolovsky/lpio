@@ -198,7 +198,7 @@
     @endslot
 
     @slot('reviews')
-        <div class="container-fluid bg-light">
+        <div class="container-fluid">
             @component('components.header')
                 @slot('title')
                     Отзывы заказчиков о студии АШмедиа
@@ -241,6 +241,12 @@
                     @endslot
                 @endcomponent
             </div>
+
+            <div class="d-none d-lg-block">
+                <br>
+                <br>
+            </div>
+            
         </div>
     @endslot
 

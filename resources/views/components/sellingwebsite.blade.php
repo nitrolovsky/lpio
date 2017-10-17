@@ -28,9 +28,9 @@
             </div>
         </div>
 
-        <div class="container-fluid bg-light ">
+        <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-xl-6 px-0">
+                <div class="col-xl-6">
                     @if (isset($presentation))
                         <img src="{{ $presentation or '' }}" class="img-fluid ">
                     @endif
@@ -40,8 +40,8 @@
                         </div>
                     @endif
                 </div>
-                <div class="col-xl-6 px-0">
-                    <div class="px-5 ">
+                <div class="col-xl-6">
+                    <div class="px-5">
                         <div class="hidden-lg-up">
                             <br>
                         </div>
@@ -63,7 +63,9 @@
 
         {{ $reviews or '' }}
 
-        <div class="container-fluid font {{ $footer_bg or '' }}">
+
+        <div class="container-fluid font ">
+            <hr class="my-0">
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                     {{ $footer }}

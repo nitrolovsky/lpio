@@ -39,7 +39,7 @@
     @endslot
 
     @slot('details')
-        Для ухода за кожей стоп. Через 2 недели ваши ноги станут бархатными.
+        Для ухода за кожей стоп. Через месяц применения курсом ваши ноги станут бархатными.
     @endslot
 
     @slot('form')
@@ -48,7 +48,7 @@
             <input type="hidden" name="source" value="pilka-scholl">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="email" placeholder="Email" name="email">
+                <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
             </div>
             <div class="form-group">
                 <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone">
