@@ -200,7 +200,7 @@
     @endslot
 
     @slot('reviews')
-        <div class="container-fluid">
+        <div class="container-fluid font">
             @component('components.header')
                 @slot('title')
                     Отзывы заказчиков о студии АШмедиа
