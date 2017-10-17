@@ -45,10 +45,10 @@
                         <div class="hidden-lg-up">
                             <br>
                         </div>
-                        <h1 class="my-0 w-7 font">
+                        <h1 class="my-0 w-8 font">
                             {{ $lead_magnet }}
                         </h1>
-                        <h4 class="pb-2 pt-4 my-0 w-4 font">
+                        <h4 class="pb-2 pt-4 my-0 w-5 font">
                             {{ $details }}
                         </h4>
                         <div class="col-lg-6 px-0 font">
