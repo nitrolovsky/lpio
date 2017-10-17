@@ -12,11 +12,11 @@
     @endslot
 
     @slot('phone')
-        +79522193383
+        89522193383
     @endslot
 
     @slot('phone_view')
-        8 (812) 967 27 63
+        8 952 219 33 83
     @endslot
 
     @slot('email')
