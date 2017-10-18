@@ -1,7 +1,7 @@
 @php
     $path_file = "/files/pilka-scholl/";
 @endphp
-@component('components.sellingwebsite')
+@component('components.landing-page')
     @slot('title')
         Роликовая пилка Scholl Wet & Dry
     @endslot

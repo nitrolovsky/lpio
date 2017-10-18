@@ -1,7 +1,7 @@
 @php
     $path_file = "/files/belyo-calvin-klein/";
 @endphp
-@component('components.sellingwebsite')
+@component('components.landing-page')
     @slot('title')
         Женское белье Calvin Klein
     @endslot

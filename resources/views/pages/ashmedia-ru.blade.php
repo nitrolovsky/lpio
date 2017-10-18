@@ -1,4 +1,4 @@
-@component('components.sellingwebsite')
+@component('components.landing-page')
     @slot('title')
         Создание видеороликов для бизнеса АШмедиа ashmedia.ru
     @endslot
