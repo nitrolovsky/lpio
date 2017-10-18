@@ -28,7 +28,7 @@
     @endslot
 
     @slot('presentation')
-        ../files/ashmedia/bg.jpg
+        ../files/ashmedia/bg1.jpg
     @endslot
 
     @slot('lead_magnet')
