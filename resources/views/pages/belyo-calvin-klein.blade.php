@@ -43,39 +43,39 @@
     @endslot
 
     @slot('form')
-        <form action="/leads" method="POST" class="pt-3">
+        <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="belyo-calvin-klein">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
+                <input type="text" class="form-control" id="email" placeholder="Введите email" name="email">
             </div>
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone">
+                <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone">
             </div>
             <div class="form-group">
-                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
+                <button type="submit" class="btn btn-primary btn-block" role="button">
                     Получить бесплатно
                 </button>
             </div>
             <div class="form-check">
                 <label class="form-check-label small">
                     <input type="checkbox" class="form-check-input" checked>
-                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" class="text-info  a" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
+                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
                 </label>
             </div>
         </form>
     @endslot
 
     @slot('portfolio')
-        <div class="container-fluid font">
+        <div class="container-fluid">
             @component('components.header')
                 @slot('title')
                     Выберите модель и цвет
                 @endslot
             @endcomponent
             <div class="row">
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-belye-slipy.jpg
                     @endslot
@@ -90,7 +90,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-serye-slipy.jpg
                     @endslot
@@ -105,7 +105,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-chernye-slipy.jpg
                     @endslot
@@ -127,7 +127,7 @@
             </div>
 
             <div class="row">
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-belye-stringi.jpg
                     @endslot
@@ -142,7 +142,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-serye-stringi.jpg
                     @endslot
@@ -157,7 +157,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-chernye-stringi.jpg
                     @endslot

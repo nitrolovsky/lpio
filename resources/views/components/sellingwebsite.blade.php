@@ -6,23 +6,22 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/page.css">
+        <link rel="stylesheet" href="/css/sellingwebsite.css">
         <title>
             {{ $title }}
         </title>
     </head>
     <body>
 
-        <div class="container-fluid font">
+        <div class="container-fluid">
             <div class="row p-5">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                    <span class="h1 w-3">{{ $brand }}</span><br>
-                    <span class="w-4">{{ $description }}</span>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
+                    <span class="h1 regular">{{ $brand }}</span><br>
+                    <span>{{ $description }}</span>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center w-4">
-
-                    <a href="tel:{{ $phone }}" class="a">{{ $phone_view }}</a><br>
-                    <a href="mailto:{{ $email }}" class="a">{{ $email }}</a><br>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
+                    <a href="tel:{{ $phone }}">{{ $phone_view }}</a><br>
+                    <a href="mailto:{{ $email }}">{{ $email }}</a><br>
                     {{ $address }}
                 </div>
             </div>
@@ -30,29 +29,31 @@
 
         <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                     @if (isset($presentation))
-                        <img src="{{ $presentation or '' }}" class="img-fluid ">
+                        <img src="{{ $presentation or '' }}" class="img-fluid">
                     @endif
                     @if (isset($presentation_video))
-                        <div class="embed-responsive embed-responsive-16by9 m-0 p-0">
+                        <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="{{ $presentation_video }}?rel=0&showinfo=0" allowfullscreen></iframe>
                         </div>
                     @endif
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="px-5">
-                        <div class="hidden-lg-up">
+                        <div class="d-lg-none">
                             <br>
                         </div>
-                        <h1 class="my-0 w-8 font">
+                        <h1>
                             {{ $lead_magnet }}
                         </h1>
-                        <h4 class="pb-2 pt-4 my-0 w-5 font">
+                        <h4 class="py-3 regular">
                             {{ $details }}
                         </h4>
-                        <div class="col-lg-6 px-0 font">
-                            {{ $form }}
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                {{ $form }}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -63,22 +64,21 @@
 
         {{ $reviews or '' }}
 
-
-        <div class="container-fluid font ">
+        <div class="container-fluid">
             <hr class="my-0">
             <div class="row p-5">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                     {{ $footer }}
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-right text-sm-center text-center w-4">
-                    <a href="tel:{{ $phone }}" class="a">{{ $phone_view }}</a><br>
-                    <a href="mailto:{{ $email }}" class="a">{{ $email }}</a><br>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
+                    <a href="tel:{{ $phone }}">{{ $phone_view }}</a><br>
+                    <a href="mailto:{{ $email }}">{{ $email }}</a><br>
                     {{ $address }}
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="termsofuse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal" id="termsofuse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">

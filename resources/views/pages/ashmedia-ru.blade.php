@@ -40,32 +40,32 @@
     @endslot
 
     @slot('form')
-        <form action="/leads" method="POST" class="pt-3">
+        <form action="/leads" method="POST">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="ashmedia">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="name" placeholder="Введите имя" name="name">
+                <input type="text" class="form-control" id="name" placeholder="Введите имя" name="name">
             </div>
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone">
+                <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone">
             </div>
             <div class="form-group">
-                <button type="submit" class="font btn btn-primary btn-block w-4 " >
+                <button type="submit" class="btn btn-primary btn-block" >
                     Получить
                 </button>
             </div>
             <div class="form-check">
                 <label class="form-check-label small">
                     <input type="checkbox" class="form-check-input" checked>
-                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" class="text-info  a" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
+                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
                 </label>
             </div>
         </form>
     @endslot
 
     @slot('portfolio')
-        <div class="container-fluid font">
+        <div class="container-fluid ">
 
             @component('components.header')
                 @slot('title')
@@ -74,7 +74,7 @@
             @endcomponent
 
             <div class="row">
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/d1FgJJ1Za18
                     @endslot
@@ -86,7 +86,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/wCBFBCe-GMo
                     @endslot
@@ -98,7 +98,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/VzGSFv-WDV8
                     @endslot
@@ -117,7 +117,7 @@
             </div>
 
             <div class="row">
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/9f-CMh6rubE
                     @endslot
@@ -129,7 +129,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/BUtarYML3bQ
                     @endslot
@@ -141,7 +141,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/E6qjWdrQtqo
                     @endslot
@@ -160,7 +160,7 @@
             </div>
 
             <div class="row">
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/xU7YA2ac5tw
                     @endslot
@@ -172,7 +172,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/tRfm_LSiRek
                     @endslot
@@ -184,7 +184,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/UWblwq59Nos
                     @endslot
@@ -200,14 +200,14 @@
     @endslot
 
     @slot('reviews')
-        <div class="container-fluid font">
+        <div class="container-fluid">
             @component('components.header')
                 @slot('title')
                     Отзывы заказчиков о студии АШмедиа
                 @endslot
             @endcomponent
             <div class="row">
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/TBcozDTro4E
                     @endslot
@@ -219,7 +219,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/GBxC_eR2UqY
                     @endslot
@@ -231,7 +231,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaningvideo')
+                @component('components.card-video')
                     @slot('video')
                         https://www.youtube.com/embed/Z8AaFDtnX1c
                     @endslot
@@ -254,7 +254,7 @@
 
     @slot('footer')
         2017 АШМедиа Все права защищены<br>
-        <a href=https://vk.com/shevtsovpiter class=a target=_blank>Артем Шевцов</a>
+        <a href=https://vk.com/shevtsovpiter target="_blank">Артем Шевцов</a>
     @endslot
 
 @endcomponent

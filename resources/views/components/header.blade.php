@@ -1,7 +1,7 @@
-<div class="row pt-5 pb-5 font">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2 class="text-center my-0 w-4 black">
+<div class="row pt-5 pb-5">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <h4 class="text-center my-0">
             {{ $title }}
-        </h2>
+        </h4>
     </div>
 </div>
