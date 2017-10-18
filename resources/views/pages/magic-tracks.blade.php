@@ -75,7 +75,7 @@
                 @endslot
             @endcomponent
             <div class="row">
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_images }}magic-tracks-1.jpg
                     @endslot
@@ -90,7 +90,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_images }}magic-tracks-2.jpg
                     @endslot
@@ -105,7 +105,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_images }}magic-tracks-3.jpg
                     @endslot
@@ -127,7 +127,7 @@
             </div>
 
             <div class="row">
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_images }}magic-tracks-4.jpg
                     @endslot
@@ -142,7 +142,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_images }}magic-tracks-5.jpg
                     @endslot
@@ -157,7 +157,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.meaning')
+                @component('components.card')
                     @slot('image')
                         {{ $path_images }}magic-tracks-6.jpg
                     @endslot
