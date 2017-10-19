@@ -43,6 +43,7 @@
                     <div class="px-5">
                         <div class="d-lg-none">
                             <br>
+                            <br>
                         </div>
                         <h1>
                             {{ $lead_magnet }}
