@@ -69,7 +69,7 @@
         <div class="container-fluid">
             @component('components.header')
                 @slot('title')
-
+                    Наши основные преимущества
                 @endslot
             @endcomponent
             <div class="row">
