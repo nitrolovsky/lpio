@@ -35,11 +35,12 @@
     @endslot
 
     @slot('lead_magnet')
-        Получите купон-скидку 500 рублей на гоночную трассу Magic Tracks 220
+        <div>Конструктор гоночная трасса Magic Tracks</div>
+        <div class="pt-3 text-danger">1950 &#8381;</div>
     @endslot
 
     @slot('details')
-        Популярный конструктор для детей.
+        Гибкие и светящиеся элементы трассы.
     @endslot
 
     @slot('form')
@@ -55,7 +56,7 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block" role="button">
-                    Получить бесплатно
+                    Заказать в 1 клик
                 </button>
             </div>
             <div class="form-check">
