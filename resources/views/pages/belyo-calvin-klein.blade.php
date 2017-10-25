@@ -35,7 +35,8 @@
     @endslot
 
     @slot('lead_magnet')
-        Получите купон-скидку 500 рублей на комплект женского белья Calvin Klein
+        <div>Комплект женского белья Calvin Klein</div>
+        <div class="pt-3 text-danger">1950 &#8381;</div>
     @endslot
 
     @slot('details')
@@ -55,7 +56,7 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block" role="button">
-                    Получить бесплатно
+                    Заказать
                 </button>
             </div>
             <div class="form-check">
