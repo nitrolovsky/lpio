@@ -11,7 +11,7 @@
             {{ $title }}
         </title>
     </head>
-    <body>
+    <body class="bg-light">
 
         <div class="container-fluid">
             <div class="row p-5">
