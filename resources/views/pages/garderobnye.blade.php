@@ -20,21 +20,24 @@
     @endslot
 
     @slot('lead_magnet')
-        Получите 10 примеров стильных дизайнов гардеробных и расчет цены по вашим размерам помещения
+        Пройдите тест из 10 вопросов и узнайте стоимость гардеробной
     @endslot
 
     @slot('details')
-        Дизайнер приедет показать каталог и образцы бесплатно на замер бесплатно в удобное для вас время. Показывает каталог и образцы материалов.
+        В подарок получите 3D дизайн-проект, расчет сметы и каталог
     @endslot
 
     @slot('form_inputs')
         <div class="form-group">
-            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone">
+            <input type="text" class="form-control" id="email" placeholder="Введите email" name="Email">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone">
         </div>
     @endslot
 
     @slot('form_cta')
-        Вызвать дизайнера бесплатно
+        Пройти тест
     @endslot
 
     @slot('portfolio')
@@ -43,7 +46,7 @@
             @component('components.header')
 
                 @slot('title')
-                    Спроектируем и изготовим гардеробную любого типа, формы и конфигурации
+                    Гардеробные, изготовленные для наших клиентов в стиле от классики до hi-tech
                 @endslot
 
             @endcomponent
