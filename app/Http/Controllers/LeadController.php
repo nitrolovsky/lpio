@@ -236,11 +236,14 @@ class LeadController extends Controller
                 $message->subject("Заявка от " . $data['source'] . " в " . $data['created_at']);
             });
 
-            Mail::send("emails.lead", $data, function ($message) use ($data) {
-                $message->from("info.lpio.ru@gmail.com", "lpio.ru");
-                $message->to($data['to']);
-                $message->subject("Заявка от " . $data['source'] . " в " . $data['created_at']);
-            });
+            if ($data['to']) {
+                Mail::send("emails.lead", $data, function ($message) use ($data) {
+                    $message->from("info.lpio.ru@gmail.com", "lpio.ru");
+                    $message->to($data['to']);
+                    $message->subject("Заявка от " . $data['source'] . " в " . $data['created_at']);
+                });
+            }
+
 
             return redirect('pages/thanks');
         }
