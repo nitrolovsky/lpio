@@ -85,7 +85,7 @@
 
                     <div class="row py-5">
                         <div class="col-12 text-center">
-                            Copyright &#169; 2017 blizkaya.lpio.ru
+                            Copyright &#169; 2017 {{ $legal }}
                         </div>
                     </div>
 
