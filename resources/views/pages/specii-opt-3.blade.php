@@ -1,15 +1,15 @@
 @component('components.landing-page-bullet')
 
     @slot('bg_image')
-        /files/garderobnye/garderobnye-0.jpg
+        /files/chernyj-perec-opt/chernyj-perec-opt.jpg
     @endslot
 
     @slot('brand')
-        GARDER
+        blizkaya
     @endslot
 
     @slot('description')
-        Гардеробные на заказ в Санкт-Петербурге
+        Оптовые поставки специй и пряностей по России
     @endslot
 
     @slot('phone')
@@ -25,11 +25,11 @@
     @endslot
 
     @slot('offer')
-        Получите руководство "Как обустроить удобную гардеробную своей мечты"
+        Получите прайс-лист специй и пряностей с оптовыми ценами и бесплатные образцы
     @endslot
 
     @slot('details')
-        Вы узнаете какие бывают дизайны, как спроектировать удобно с учетом вашего количества одежды и вещей, как оценить качество изготовленной гардеробной.
+        Отправим образцы в день заявки с производства собственного помола в Санкт-Петербурге из индийских ингридиентов
     @endslot
 
     @slot('form_inputs')
@@ -46,7 +46,7 @@
     @endslot
 
     @slot('legal')
-        garderobnye.lpio.ru
+        blizkay.lpio.ru
     @endslot
 
     @slot('google')
