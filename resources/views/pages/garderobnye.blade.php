@@ -37,7 +37,7 @@
             <input type="text" class="form-control" id="email" placeholder="Введите email" name="email">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone">
+            <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone" required>
         </div>
     @endslot
 
