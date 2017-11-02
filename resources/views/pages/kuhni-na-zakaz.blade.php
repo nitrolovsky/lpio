@@ -1,18 +1,15 @@
-@component('components.offer')
-    @slot('title')
-        Кухни на заказ
-    @endslot
+@component('components.landing-page-bullet')
 
-    @slot('bg_poster')
-        kuhni-na-zakaz.jpg
+    @slot('bg_image')
+        /files/kuhni-na-zakaz/kuhni-na-zakaz.jpg
     @endslot
 
     @slot('brand')
-        Livewooddesign
+        ПАВЕЛ РЕЙН
     @endslot
 
     @slot('description')
-        Дизайнерские кухни на заказ
+        Кухни на заказ в Петербурге
     @endslot
 
     @slot('phone')
@@ -28,65 +25,31 @@
     @endslot
 
     @slot('offer')
-        Хотите увидеть свою будущую кухню? Получите бесплатный дизайн-проект от "Livewooddesign"
+        Получите расчет стоимости кухни и 3D дизайн-проект
     @endslot
 
     @slot('details')
-        Получите бесплатный дизайн-проект в 3 клика
+        Проект с удобной планировкой шкафов и наполнения. Бесплатный выезд дизайнера.
     @endslot
 
-    @slot('form')
-        <form action="/leads" method="POST">
-            {{ csrf_field() }}
-            <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="cta" value="Форма с видео">
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4 sw" id="email" placeholder="Введите email" name="email">
-            </div>
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4 sw" id="phone" placeholder="Телефон" name="phone" required="required">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="font btn btn-success btn-block w-4 sw" role="button">
-                    Получить
-                </button>
-            </div>
-            <div class="form-check">
-                <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" checked>
-                    Согласен на обработку персональных данных и <a href="" class="text-info  a" data-toggle="modal" data-target="#termsofuse">политикой конфиденциальности</a>
-                </label>
-            </div>
-        </form>
+    @slot('form_inputs')
+        <div class="form-group">
+            <input type="text" class="form-control" id="email" placeholder="Введите email" name="email">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone" required>
+        </div>
+    @endslot
+
+    @slot('form_cta')
+        Получить бесплатно
     @endslot
 
     @slot('legal')
-        Copyright &#169; 2017 &laquo;blizkaya&raquo;<br>
-        Санкт-Петербург
+        kuhni-na-zakaz.lpio.ru
     @endslot
 
-    @slot('bg_video')
-
-    @endslot
-
-    @slot('gtm_head')
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-56WTNTG');</script>
-        <!-- End Google Tag Manager -->
-    @endslot
-
-    @slot('gtm_body')
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56WTNTG"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-    @endslot
-
-    @slot('google_analytics')
+    @slot('google')
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -96,10 +59,6 @@
           ga('create', 'UA-99764557-1', 'auto');
           ga('send', 'pageview');
         </script>
-    @endslot
-
-    @slot('lptracker')
-        
     @endslot
 
     @slot('yandex')
@@ -134,4 +93,5 @@
         <noscript><div><img src="https://mc.yandex.ru/watch/44736544" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
     @endslot
+
 @endcomponent
