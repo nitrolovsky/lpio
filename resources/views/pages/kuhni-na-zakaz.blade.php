@@ -5,7 +5,7 @@
     @endslot
 
     @slot('brand')
-        ПАВЕЛ РЕЙН
+        ECOIN
     @endslot
 
     @slot('description')
@@ -25,7 +25,7 @@
     @endslot
 
     @slot('offer')
-        Получите расчет стоимости кухни и 3D дизайн-проект
+        Получите 3D дизайн-проект вашей кухни и расчет стоимости для разных материалов
     @endslot
 
     @slot('details')
