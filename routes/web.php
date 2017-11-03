@@ -1,5 +1,8 @@
 <?php
+
 use Google\Cloud\Speech\SpeechClient;
+
+
 Route::get('/', function () {
     $domain = Request::server("HTTP_HOST");
     $page = str_replace(".", "-", $domain);
@@ -12,6 +15,26 @@ Route::get('/', function () {
             return view("pages.$subdomain");
         }
     }
+});
+
+Route::get('all', function() {
+    $files = scandir('../resources/views/pages');
+
+    $key = array_search('.', $files);
+    unset($files[$key]);
+
+    $key = array_search('..', $files);
+    unset($files[$key]);
+
+    foreach($files as $key => $file) {
+        $files[$key] = stristr($file, '.', true);
+    }
+
+    $key = array_search('all', $files);
+    unset($files[$key]);
+
+    return view('pages.all')
+        ->with('files', $files);
 });
 
 Route::get('pages/audiototext', function() {
