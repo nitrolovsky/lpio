@@ -5,7 +5,7 @@
     @endslot
 
     @slot('brand')
-        ИП Павел Рейн
+        REIN
     @endslot
 
     @slot('description')

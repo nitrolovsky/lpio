@@ -5,7 +5,7 @@
     @endslot
 
     @slot('brand')
-        ПАВЕЛ РЕЙН
+        REIN
     @endslot
 
     @slot('description')

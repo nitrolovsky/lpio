@@ -5,7 +5,7 @@
     @endslot
 
     @slot('brand')
-        ECOIN
+        REIN
     @endslot
 
     @slot('description')
