@@ -16,7 +16,7 @@
                 background-size: cover;
             }
             .bg-overlay {
-                background-color: rgba(0, 0, 0, 0.6);
+                background-color: rgba(0, 0, 0, 0.5);
                 color: white;
                 height: 100%;
                 min-height: 100%;
