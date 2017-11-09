@@ -39,8 +39,8 @@
                             <div class="d-md-none">
                                 <br>
                             </div>
-                            <a href="tel:{{ $phone or '' }}" class="text-info h1 regular">{{ $phone_view or '' }}</a><br>
-                            <a href="mailto:{{ $email or '' }}" class="text-info h5 regular">{{ $email or '' }}</a><br>
+                            <a href="tel:{{ $phone or '' }}" class="text-primary h1 regular">{{ $phone_view or '' }}</a><br>
+                            <a href="mailto:{{ $email or '' }}" class="text-primary h5 regular">{{ $email or '' }}</a><br>
                         </div>
                     </div>
 
@@ -75,7 +75,7 @@
                                 <div class="form-check">
                                     <label class="form-check-label small">
                                         <input type="checkbox" class="form-check-input" checked>
-                                        Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse" class="text-info">политики конфиденциальности</a>
+                                        Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse" class="text-a">политики конфиденциальности</a>
                                     </label>
                                 </div>
                             </form>
