@@ -11,8 +11,7 @@
             {{ $title }}
         </title>
     </head>
-    <body class="bg-light">
-
+    <body>
         <div class="container-fluid">
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
@@ -20,7 +19,7 @@
                     <span>{{ $description }}</span>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    <a href="tel:{{ $phone }}">{{ $phone_view }}</a><br>
+                    <a href="tel:{{ $phone }}" class="h1-a regular">{{ $phone_view }}</a><br>
                     <a href="mailto:{{ $email }}">{{ $email }}</a><br>
                     {{ $address }}
                 </div>
@@ -29,7 +28,7 @@
 
         <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-0">
                     @if (isset($presentation))
                         <img src="{{ $presentation or '' }}" class="img-fluid">
                     @endif

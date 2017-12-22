@@ -12,7 +12,7 @@
     @endslot
 
     @slot('description')
-        Ремонт холодильников
+        Ремонт холодильников в Санкт-Петербурге
     @endslot
 
     @slot('phone')
@@ -28,7 +28,7 @@
     @endslot
 
     @slot('address')
-        Санкт-Петербург
+
     @endslot
 
     @slot('presentation')
@@ -44,7 +44,7 @@
     @endslot
 
     @slot('form')
-        <form action="/leads" method="POST">
+        <form action="/leads" method="POST" class="border border-primary p-4">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
             <input type="hidden" name="cta" value="Форма с видео">
@@ -56,7 +56,7 @@
                     Вызвать мастера бесплатно
                 </button>
             </div>
-            <div class="form-check">
+            <div class="form-check mb-0">
                 <label class="form-check-label small">
                     <input type="checkbox" class="form-check-input" checked>
                     Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>

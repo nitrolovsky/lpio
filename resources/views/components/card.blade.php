@@ -1,4 +1,4 @@
-<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 px-0">
 
     <img src="{{ $image }}" class="img-fluid mx-auto d-block" alt="{{ $description }}">
 
