@@ -56,7 +56,7 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block" role="button">
-                    Познакомиться
+                    Узнать условия
                 </button>
             </div>
             <div class="form-check mb-0">
