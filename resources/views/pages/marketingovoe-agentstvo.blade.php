@@ -1,22 +1,22 @@
 @php
-    $name = 'remont-holodilnikov-spb';
-    $image_path = "/files/remont-holodilnikov-spb/remont-holodilnikov-spb";
+    $name = 'marketingovoe-agentstvo';
+    $image_path = "/files/marketingovoe-agentstvo/marketingovoe-agentstvo";
 @endphp
 @component('components.landing-page')
     @slot('title')
-        Ремонт холодильников Санкт-Петербург {{ $name }}.lpio.ru
+        Маркетинговое агентство {{ $name }}.lpio.ru
     @endslot
 
     @slot('brand')
-        ХОЛОДОВИЧКОВ
+        lpio
     @endslot
 
     @slot('description')
-        Ремонт холодильников в Санкт-Петербурге
+        Маркетинговое агентство
     @endslot
 
     @slot('phone')
-        88219672763
+        88129672763
     @endslot
 
     @slot('phone_view')
@@ -28,7 +28,7 @@
     @endslot
 
     @slot('address')
-
+        Санкт-Петербург
     @endslot
 
     @slot('presentation')
@@ -36,11 +36,11 @@
     @endslot
 
     @slot('lead_magnet')
-        Отремонтируем холодильник на дому в срочном порядке от 500 рублей с гарантией 1 год
+        Увеличим прибыль и продажи с помощью маркетинга на результат
     @endslot
 
     @slot('details')
-        Выезжаем на дом в течении 1 часа с момента обращения. Работаем по всем районам Санкт-Петербурга. Вы можете узнать причину поломки стоимость ремонта по телефону.
+        Маркетинг на результат - это ваша гарантия того, что деньги, которые вы тратите на рекламу и продвижение в итоге приносят вам прибыль. Мы связываем оплату своей работы с достижением конкретных цифр в воронке продаж бизнеса.
     @endslot
 
     @slot('form')
@@ -49,11 +49,14 @@
             <input type="hidden" name="source" value="all_leads">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone">
+                <input type="text" class="form-control" id="email" placeholder="Введите email" name="email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone">
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block" role="button">
-                    Вызвать мастера бесплатно
+                    Познакомиться
                 </button>
             </div>
             <div class="form-check mb-0">
@@ -204,7 +207,8 @@
     @endslot
 
     @slot('footer')
-        Copyright &#169; 2017 {{ $name }}.lpio.ru Все права защищены. ИНН 7802602468. КПП 780201001. р/сч 40702810903000013545 в АО "Райффайзенбанк". к/сч 30101810100000000723. БИК 044030723.
+        Copyright &#169; 2017 {{ $name }}.lpio.ru Все права защищены. ИНН 7802602468. КПП 780201001. р/сч 40702810903000013545 в АО "Райффайзенбанк".<br>
+        к/сч 30101810100000000723. БИК 044030723.
     @endslot
 
 @endcomponent

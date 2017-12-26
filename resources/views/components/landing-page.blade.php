@@ -28,7 +28,7 @@
 
         <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-0">
+                <div class="col-xl-6 col-lg-12 col-12 px-2">
                     @if (isset($presentation))
                         <img src="{{ $presentation or '' }}" class="img-fluid">
                     @endif
@@ -38,22 +38,20 @@
                         </div>
                     @endif
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="col-xl-6 col-12">
                     <div class="px-5">
-                        <div class="d-lg-none">
+                        <div class="d-xl-none">
                             <br>
                             <br>
                         </div>
-                        <h1>
-                            {{ $lead_magnet }}
-                        </h1>
-                        <h4 class="py-3 regular">
-                            {{ $details }}
-                        </h4>
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                {{ $form }}
-                            </div>
+                        <div class="col-xl-8 col-12">
+                            <h1 class="h2">
+                                {{ $lead_magnet }}
+                            </h1>
+                            <p class="py-3">
+                                {{ $details }}
+                            </p>
+                            {{ $form }}
                         </div>
                     </div>
                 </div>
@@ -64,8 +62,8 @@
 
         {{ $reviews or '' }}
 
-        <div class="container-fluid">
-            <hr class="my-0">
+        <div class="container-fluid bg-light">
+
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                     {{ $footer }}
