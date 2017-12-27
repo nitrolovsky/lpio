@@ -38,21 +38,19 @@
                         </div>
                     @endif
                 </div>
-                <div class="col-xl-6 col-12">
-                    <div class="px-5">
-                        <div class="d-xl-none">
-                            <br>
-                            <br>
-                        </div>
-                        <div class="col-xl-8 col-12">
-                            <h1 class="h2">
-                                {{ $lead_magnet }}
-                            </h1>
-                            <p class="py-3">
-                                {{ $details }}
-                            </p>
-                            {{ $form }}
-                        </div>
+                <div class="col-xl-6 col-12 px-2">
+                    <div class="d-xl-none">
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-xl-8 col-12 mx-auto">
+                        <h1 class="h2">
+                            {{ $lead_magnet }}
+                        </h1>
+                        <p class="py-3">
+                            {{ $details }}
+                        </p>
+                        {{ $form }}
                     </div>
                 </div>
             </div>
@@ -63,7 +61,6 @@
         {{ $reviews or '' }}
 
         <div class="container-fluid bg-light">
-
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                     {{ $footer }}
