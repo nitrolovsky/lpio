@@ -44,7 +44,7 @@
     @endslot
 
     @slot('form')
-        <form action="/leads" method="POST">
+        <form action="/leads" method="POST" class="border bg-light p-4">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
             <input type="hidden" name="cta" value="Форма с видео">
