@@ -183,8 +183,7 @@
     @endslot
 
     @slot('footer')
-        Copyright &#169; 2017 belyo-calvin-klein.lpio.ru Все права защищены. ИНН 7802602468. КПП 780201001. р/сч 40702810903000013545 в АО "Райффайзенбанк".<br>
-        к/сч 30101810100000000723. БИК 044030723.
+        Copyright &#169; 2017 belyo-calvin-klein.lpio.ru
     @endslot
 
 @endcomponent
