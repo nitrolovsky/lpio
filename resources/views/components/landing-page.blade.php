@@ -30,10 +30,10 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-12 col-12 px-2">
                     @if (isset($presentation))
-                        <img src="{{ $presentation or '' }}" class="img-fluid">
+                        <img src="{{ $presentation or '' }}" class="img-fluid sw">
                     @endif
                     @if (isset($presentation_video))
-                        <div class="embed-responsive embed-responsive-16by9">
+                        <div class="embed-responsive embed-responsive-16by9 sw">
                             <iframe class="embed-responsive-item" src="{{ $presentation_video }}?rel=0&showinfo=0" allowfullscreen></iframe>
                         </div>
                     @endif
