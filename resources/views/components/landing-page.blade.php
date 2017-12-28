@@ -12,6 +12,7 @@
         </title>
     </head>
     <body>
+        {{ $navbar or '' }}
         <div class="container-fluid">
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
