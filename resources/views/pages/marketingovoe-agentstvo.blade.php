@@ -16,10 +16,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#uslugi">Услуги</a>
+                        <a class="nav-link" href="#primeri-rabot">Примеры работ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#primeri-rabot">Примеры работ</a>
+                        <a class="nav-link" href="#uslugi">Услуги</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#ostavit-zayavku">Оставить заявку</a>
@@ -54,7 +54,7 @@
     @endslot
 
     @slot('presentation')
-        {{ $image_path }}-0.gif
+        {{ $image_path }}-0.png
     @endslot
 
     @slot('lead_magnet')
@@ -91,12 +91,137 @@
         </form>
     @endslot
 
+    @slot('meat')
+        <div id="primeri-rabot"></div>
+        <div class="container-fluid">
+            @component('components.header')
+                @slot('title')
+                    Примеры работ с прибылью 300 000+ рублей
+                @endslot
+            @endcomponent
+            <div class="row">
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path}}-7.jpg
+                    @endslot
+                    @slot('title')
+                        <a href="http://beton-m3.ru" target="_blank">Бетон</a>
+                    @endslot
+                    @slot('details')
+                        <table class="table table-sm table-hover">
+                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
+                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                        </table>
+                    @endslot
+                @endcomponent
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-8.jpg
+                    @endslot
+                    @slot('title')
+                        <a href="http://specii-opt.lpio.ru/" target="_blank">Специи оптом</a>
+                    @endslot
+                    @slot('details')
+                        <table class="table table-sm table-hover">
+                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
+                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                        </table>
+                    @endslot
+                @endcomponent
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-9.jpg
+                    @endslot
+                    @slot('title')
+                        <a href="http://krossovki-opt.lpio.ru/" target="_blank">Кроссовки оптом</a>
+                    @endslot
+                    @slot('details')
+                        <table class="table table-sm table-hover">
+                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
+                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                        </table>
+                    @endslot
+                @endcomponent
+            </div>
+            <div class="d-none d-lg-block">
+                <br>
+                <br>
+            </div>
+            <div class="row">
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path}}-10.jpg
+                    @endslot
+                    @slot('title')
+                        <a href="http://remont-holodilnikov-spb.lpio.ru/" target="_blank">Ремонт холодильников</a>
+                    @endslot
+                    @slot('details')
+                        <table class="table table-sm table-hover">
+                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
+                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                        </table>
+                    @endslot
+                @endcomponent
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-11.jpg
+                    @endslot
+                    @slot('title')
+                        <a href="http://kupit-kvartiru-spb-distancionno-2.lpio.ru/" target="_blank">Продажа квартир для иногородних</a>
+                    @endslot
+                    @slot('details')
+                        <table class="table table-sm table-hover">
+                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
+                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                        </table>
+                    @endslot
+                @endcomponent
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-12.jpg
+                    @endslot
+                    @slot('title')
+                        <a href="http://gazifikacija.com" target="_blank">Газификация</a>
+                    @endslot
+                    @slot('details')
+                        <table class="table table-sm table-hover">
+                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
+                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                        </table>
+                    @endslot
+                @endcomponent
+            </div>
+            <div class="d-none d-lg-block">
+                <br>
+                <br>
+            </div>
+        </div>
+    @endslot
+
     @slot('portfolio')
         <div id="uslugi"></div>
         <div class="container-fluid">
             @component('components.header')
                 @slot('title')
-                    Как получить клиентов
+                    Наши услуги для привлечение клиентов на результат
                 @endslot
             @endcomponent
             <div class="row">
@@ -185,129 +310,6 @@
                 <br>
             </div>
 
-        </div>
-    @endslot
-
-    @slot('meat')
-        <div id="primeri-rabot"></div>
-        <div class="container-fluid">
-            @component('components.header')
-                @slot('title')
-                    Примеры работ и кейсы
-                @endslot
-            @endcomponent
-            <div class="row">
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path}}-7.jpg
-                    @endslot
-                    @slot('title')
-                        Бетон
-                    @endslot
-                    @slot('details')
-                        <b>Цель:</b> cоздать управляемый поток клиентов в сезон из интернета. Возможность в случае загрузки остановить рекламу и соответственно расходы.<br><br>
-                        <b>Задача:</b> создание продающего сайта. Запись продающего видеоролик на бетонном заводе. Настройка контекстной рекламы Яндекс Директ и Google Adwords.<br><br>
-                        <table class="table table-sm table-bordered table-hover">
-                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
-                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
-                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
-                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
-                        </table>
-                    @endslot
-                @endcomponent
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-8.jpg
-                    @endslot
-                    @slot('title')
-                        Специи оптом
-                    @endslot
-                    @slot('details')
-                        <b>Цель:</b> Привлечь клиентов на оптовые поставки и повторные продажи. Есть магазин торгующий специями в розницу и свой бренд с упаковкой.<br><br>
-                        <b>Задача:</b> создание продающего сайта. Настройка контекстной рекламы Яндекс Директ и Google Adwords.<br><br>
-                        <table class="table table-sm table-bordered table-hover">
-                            <tr><td>Рекламный бюджет</td><td>5 000 р. / месяц</td></tr>
-                            <tr><td>Конверсия сайта</td><td>15 %</td></tr>
-                            <tr><td>Цена заявки</td><td>300 р.</td></tr>
-                        </table>
-                    @endslot
-                @endcomponent
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-9.jpg
-                    @endslot
-                    @slot('title')
-                        Кроссовки оптом
-                    @endslot
-                    @slot('details')
-                        <b>Цель:</b> Привлечь клиентов на оптовые поставки кроссовок из Китая.<br><br>
-                        <b>Задача:</b> создание продающего сайта. Видеомонтаж продающего ролика. Настройка контекстной рекламы Яндекс Директ и Google Adwords.<br><br>
-                        <table class="table table-sm table-bordered table-hover">
-                            <tr><td>Рекламный бюджет</td><td>1 000 р. / месяц</td></tr>
-                            <tr><td>Конверсия сайта</td><td>20 %</td></tr>
-                            <tr><td>Цена заявки</td><td>150 р.</td></tr>
-                        </table>
-                    @endslot
-                @endcomponent
-            </div>
-            <div class="d-none d-lg-block">
-                <br>
-                <br>
-            </div>
-            <div class="row">
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path}}-10.jpg
-                    @endslot
-                    @slot('title')
-                        Ремонт холодильников
-                    @endslot
-                    @slot('details')
-                        <b>Цель:</b> Привлечь клиентов из интернета на ремонт холодильников.<br><br>
-                        <b>Задача:</b> настройка рекламной камнании на звонки в Google Adwords.<br><br>
-                        <table class="table table-sm table-bordered table-hover">
-                            <tr><td>Рекламный бюджет</td><td>2 000 р. / месяц</td></tr>
-                            <tr><td>Цена заявки</td><td>200 р.</td></tr>
-                        </table>
-                    @endslot
-                @endcomponent
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-11.jpg
-                    @endslot
-                    @slot('title')
-                        Продажа квартир для иногородних
-                    @endslot
-                    @slot('details')
-                        <b>Цель:</b> привлечь клиентов и создать у них доверие от лица риэлтора.<br><br>
-                        <b>Задача:</b> запись серии продающих видероликов. Создание посадочной страницы. Настройка контекстной рекламы в Яндекс Директ и Google Adwords.<br><br>
-                        <table class="table table-sm table-bordered table-hover">
-                            <tr><td>Рекламный бюджет</td><td>15 000 р. / месяц</td></tr>
-                            <tr><td>Конверсия сайта</td><td>11 %</td></tr>
-                            <tr><td>Цена заявки</td><td>750 р.</td></tr>
-                        </table>
-                    @endslot
-                @endcomponent
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-12.jpg
-                    @endslot
-                    @slot('title')
-                        Газификация
-                    @endslot
-                    @slot('details')
-                        <b>Цель:</b> повысить продажи через интернет.<br><br>
-                        <b>Задача:</b> создание продающего сайта с калькулятором для расчета стоимости установки газгольдера или подключения к трубе.<br><br>
-                        <table class="table table-sm table-bordered table-hover">
-                            <tr><td>Бюджет</td><td>15 000 р.</td></tr>
-                        </table>
-                    @endslot
-                @endcomponent
-            </div>
-            <div class="d-none d-lg-block">
-                <br>
-                <br>
-            </div>
         </div>
     @endslot
 

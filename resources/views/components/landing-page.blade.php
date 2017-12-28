@@ -31,7 +31,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-12 col-12 px-2 mx-auto">
                     @if (isset($presentation))
-                        <img src="{{ $presentation or '' }}" class="img-fluid sw d-block mx-auto">
+                        <img src="{{ $presentation or '' }}" class="img-fluid d-block mx-auto">
                     @endif
                     @if (isset($presentation_video))
                         <div class="embed-responsive embed-responsive-16by9 sw">
@@ -57,11 +57,13 @@
             </div>
         </div>
 
+        {{ $meat or '' }}
+
         {{ $portfolio or '' }}
 
         {{ $reviews or '' }}
 
-        {{ $meat or '' }}
+
 
         <div class="container-fluid bg-light">
             <div class="row p-5">
