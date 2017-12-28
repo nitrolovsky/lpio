@@ -54,7 +54,7 @@
     @endslot
 
     @slot('presentation')
-        {{ $image_path }}-0.jpg
+        {{ $image_path }}-0.gif
     @endslot
 
     @slot('lead_magnet')

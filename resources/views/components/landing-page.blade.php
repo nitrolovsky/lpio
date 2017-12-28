@@ -29,9 +29,9 @@
 
         <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-12 col-12 px-2">
+                <div class="col-xl-6 col-lg-12 col-12 px-2 mx-auto">
                     @if (isset($presentation))
-                        <img src="{{ $presentation or '' }}" class="img-fluid sw">
+                        <img src="{{ $presentation or '' }}" class="img-fluid sw d-block mx-auto">
                     @endif
                     @if (isset($presentation_video))
                         <div class="embed-responsive embed-responsive-16by9 sw">
