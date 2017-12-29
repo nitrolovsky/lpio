@@ -112,11 +112,11 @@
                     @endslot
                     @slot('details')
                         <table class="table table-sm table-hover">
-                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
-                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
-                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
-                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
-                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                            <tr><td>Рекламный бюджет</td><td>160 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>3 %</td></tr>
+                            <tr><td>Цена заявки</td><td>450 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>4700 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>640 000 р. / месяц</b></td></tr>
                         </table>
                     @endslot
                 @endcomponent
@@ -132,11 +132,11 @@
                     @endslot
                     @slot('details')
                         <table class="table table-sm table-hover">
-                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
-                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
-                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
-                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
-                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                            <tr><td>Рекламный бюджет</td><td>320 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>6 %</td></tr>
+                            <tr><td>Цена заявки</td><td>550 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>11400 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>780 000 р. / месяц</b></td></tr>
                         </table>
                     @endslot
                 @endcomponent
@@ -152,11 +152,11 @@
                     @endslot
                     @slot('details')
                         <table class="table table-sm table-hover">
-                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
-                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
-                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
-                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
-                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                            <tr><td>Рекламный бюджет</td><td>150 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>8 %</td></tr>
+                            <tr><td>Цена заявки</td><td>310 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>1500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>360 000 р. / месяц</b></td></tr>
                         </table>
                     @endslot
                 @endcomponent
@@ -218,11 +218,11 @@
                     @endslot
                     @slot('details')
                         <table class="table table-sm table-hover">
-                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
-                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
-                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
-                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
-                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                            <tr><td>Рекламный бюджет</td><td>470 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>2 %</td></tr>
+                            <tr><td>Цена заявки</td><td>2450 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>23 500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>1 300 000 р. / месяц</b></td></tr>
                         </table>
                     @endslot
                 @endcomponent
