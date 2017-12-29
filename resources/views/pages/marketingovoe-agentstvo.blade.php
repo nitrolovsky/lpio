@@ -102,10 +102,13 @@
             <div class="row">
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path}}-7.jpg
+                        {{ $image_path}}-13.png
+                    @endslot
+                    @slot('link_primer')
+                        http://razvodka-trub.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://beton-m3.ru" target="_blank">Бетон</a>
+                        <a href="http://razvodka-trub.lpio.ru/" target="_blank">Сантехнические работы</a>
                     @endslot
                     @slot('details')
                         <table class="table table-sm table-hover">
@@ -119,10 +122,13 @@
                 @endcomponent
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}-8.jpg
+                        {{ $image_path }}-14.png
+                    @endslot
+                    @slot('link_primer')
+                        http://kuhni-na-zakaz.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://specii-opt.lpio.ru/" target="_blank">Специи оптом</a>
+                        <a href="http://kuhni-na-zakaz.lpio.ru/" target="_blank">Кухни на заказ</a>
                     @endslot
                     @slot('details')
                         <table class="table table-sm table-hover">
@@ -136,10 +142,13 @@
                 @endcomponent
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}-9.jpg
+                        {{ $image_path }}-15.png
+                    @endslot
+                    @slot('link_primer')
+                        https://dostavkadivanov.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://krossovki-opt.lpio.ru/" target="_blank">Кроссовки оптом</a>
+                        <a href="https://dostavkadivanov.ru/" target="_blank">Фабрика диванов</a>
                     @endslot
                     @slot('details')
                         <table class="table table-sm table-hover">
@@ -161,6 +170,9 @@
                     @slot('image')
                         {{ $image_path}}-10.jpg
                     @endslot
+                    @slot('link_primer')
+                        http://remont-holodilnikov-spb.lpio.ru/
+                    @endslot
                     @slot('title')
                         <a href="http://remont-holodilnikov-spb.lpio.ru/" target="_blank">Ремонт холодильников</a>
                     @endslot
@@ -177,6 +189,9 @@
                 @component('components.card')
                     @slot('image')
                         {{ $image_path }}-11.jpg
+                    @endslot
+                    @slot('link_primer')
+                        http://kupit-kvartiru-spb-distancionno-2.lpio.ru/
                     @endslot
                     @slot('title')
                         <a href="http://kupit-kvartiru-spb-distancionno-2.lpio.ru/" target="_blank">Продажа квартир для иногородних</a>
@@ -195,6 +210,9 @@
                     @slot('image')
                         {{ $image_path }}-12.jpg
                     @endslot
+                    @slot('link_primer')
+                        http://gazifikacija.com
+                    @endslot
                     @slot('title')
                         <a href="http://gazifikacija.com" target="_blank">Газификация</a>
                     @endslot
@@ -212,6 +230,68 @@
             <div class="d-none d-lg-block">
                 <br>
                 <br>
+            </div>
+            <div class="row">
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path}}-7.jpg
+                    @endslot
+                    @slot('link_primer')
+                        http://beton-m3.ru
+                    @endslot
+                    @slot('title')
+                        <a href="http://beton-m3.ru" target="_blank">Бетон</a>
+                    @endslot
+                    @slot('details')
+                        <table class="table table-sm table-hover">
+                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
+                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                        </table>
+                    @endslot
+                @endcomponent
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-8.jpg
+                    @endslot
+                    @slot('link_primer')
+                        http://specii-opt.lpio.ru/
+                    @endslot
+                    @slot('title')
+                        <a href="http://specii-opt.lpio.ru/" target="_blank">Специи оптом</a>
+                    @endslot
+                    @slot('details')
+                        <table class="table table-sm table-hover">
+                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
+                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                        </table>
+                    @endslot
+                @endcomponent
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-9.jpg
+                    @endslot
+                    @slot('link_primer')
+                        http://krossovki-opt.lpio.ru/
+                    @endslot
+                    @slot('title')
+                        <a href="http://krossovki-opt.lpio.ru/" target="_blank">Кроссовки оптом</a>
+                    @endslot
+                    @slot('details')
+                        <table class="table table-sm table-hover">
+                            <tr><td>Рекламный бюджет</td><td>30 000 р. / месяц</td></tr>
+                            <tr><td>Конверсия сайта</td><td>5 %</td></tr>
+                            <tr><td>Цена заявки</td><td>650 р.</td></tr>
+                            <tr><td>Цена клиента</td><td>2500 р.</td></tr>
+                            <tr><td>Прибыль</td><td><b>300 000 р. / месяц</b></td></tr>
+                        </table>
+                    @endslot
+                @endcomponent
             </div>
         </div>
     @endslot
