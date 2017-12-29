@@ -16,7 +16,7 @@
                 background-size: cover;
             }
             .bg-overlay {
-                background-color: rgba(0, 0, 0, 0.5);
+                background-color: rgba(0, 0, 0, 0.6);
                 color: white;
                 height: 100%;
                 min-height: 100%;
@@ -31,32 +31,32 @@
 
                     <div class="row py-5">
                         <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-xl-left text-lg-center text-md-center text-sm-center text-center">
-                            <span class="h1 regular">{{ $brand or '' }}</span><br>
-                            <span class="h5 regular">{{ $description or '' }}</span>
+                            <span class="h1 light">{{ $brand or '' }}</span><br>
+                            <span class="h5 light">{{ $description or '' }}</span>
                         </div>
 
                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-xl-right text-lg-center text-md-center text-sm-center text-center w-4">
                             <div class="d-md-none">
                                 <br>
                             </div>
-                            <a href="tel:{{ $phone or '' }}" class="text-primary h1 regular">{{ $phone_view or '' }}</a><br>
-                            <a href="mailto:{{ $email or '' }}" class="text-primary h5 regular">{{ $email or '' }}</a><br>
+                            <a href="tel:{{ $phone or '' }}" class="text-primary h1 light">{{ $phone_view or '' }}</a><br>
+                            <a href="mailto:{{ $email or '' }}" class="text-primary h5 light">{{ $email or '' }}</a><br>
                         </div>
                     </div>
 
-                    <div class="row py-5 mt-5">
-                        <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 mx-auto">
-                            <h1 class="text-center">
+                    <div class="row py-5">
+                        <div class="col-xl-8 col-12 mx-auto">
+                            <h1 class="h1">
                                 {{ $offer or '' }}
                             </h1>
                         </div>
                     </div>
 
                     <div class="row pb-5">
-                        <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12 mx-auto">
-                            <h4 class="text-center">
+                        <div class="col-xl-8 col-12 mx-auto">
+                            <p>
                                 {{ $details or '' }}
-                            </h4>
+                            </p>
                         </div>
                     </div>
 

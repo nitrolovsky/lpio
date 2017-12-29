@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&subset=cyrillic');
 
 a, a:hover, a:active, a:visited {
     text-decoration:none;
@@ -6,7 +6,7 @@ a, a:hover, a:active, a:visited {
 
 body {
     background-color: black !important;
-    font-family: "Open Sans";
+    font-family: "Ubuntu";
     color: black;
 }
 
@@ -23,6 +23,10 @@ h6,
 .h5,
 .h6 {
     font-weight: 700;
+}
+
+.light {
+    font-weight: 300;
 }
 
 .regular {

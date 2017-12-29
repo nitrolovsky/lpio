@@ -16,11 +16,11 @@
         <div class="container-fluid">
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
-                    <span class="h2 regular">{{ $brand }}</span><br>
+                    <span class="h2 light">{{ $brand }}</span><br>
                     <span>{{ $description }}</span>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    <a href="tel:{{ $phone }}" class="h2-a regular">{{ $phone_view }}</a><br>
+                    <a href="tel:{{ $phone }}" class="h2-a light">{{ $phone_view }}</a><br>
                     <a href="mailto:{{ $email }}">{{ $email }}</a><br>
                     {{ $address }}
                 </div>
