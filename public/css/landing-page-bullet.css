@@ -40,3 +40,7 @@ h6,
 .form-control {
     color: black;
 }
+
+.h-text {
+    line-height: 1.5;
+}

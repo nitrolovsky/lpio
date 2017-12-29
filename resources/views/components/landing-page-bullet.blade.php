@@ -54,9 +54,9 @@
 
                     <div class="row pb-5">
                         <div class="col-xl-8 col-12 mx-auto">
-                            <p>
+                            <h5 class="light h-text">
                                 {{ $details or '' }}
-                            </p>
+                            </h5>
                         </div>
                     </div>
 
