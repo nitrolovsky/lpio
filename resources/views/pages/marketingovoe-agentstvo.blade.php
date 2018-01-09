@@ -72,9 +72,6 @@
             <input type="hidden" name="source" value="all_leads">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="form-control" id="email" placeholder="Введите email" name="email">
-            </div>
-            <div class="form-group">
                 <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone">
             </div>
             <div class="form-group">
