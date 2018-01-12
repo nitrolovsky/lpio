@@ -9,15 +9,15 @@
     @endslot
 
     @slot('description')
-        Дизайнерская отделка и ремонт квартиры
+        Дизайнерская отделка и ремонт квартиры в Москве
     @endslot
 
     @slot('phone')
-        88129672763
+        89267231014
     @endslot
 
     @slot('phone_view')
-        8 (812) 967 27 63
+        8 926 723 10 14
     @endslot
 
     @slot('email')
