@@ -45,8 +45,8 @@
                     </div>
 
                     <div class="row py-5">
-                        <div class="col-xl-8 col-12 mx-auto">
-                            <h1 class="h1">
+                        <div class="col-xl-10 col-12 mx-auto">
+                            <h1 class="h1 text-center">
                                 {{ $offer or '' }}
                             </h1>
                         </div>
@@ -54,7 +54,7 @@
 
                     <div class="row pb-5">
                         <div class="col-xl-8 col-12 mx-auto">
-                            <h5 class="light h-text">
+                            <h5 class="light h-text text-center">
                                 {{ $details or '' }}
                             </h5>
                         </div>
