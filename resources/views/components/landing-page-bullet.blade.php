@@ -68,7 +68,7 @@
                                 <input type="hidden" name="cta" value="Форма с видео">
                                 {{ $form_inputs }}
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-success btn-block" role="button">
+                                    <button type="submit" class="btn btn-primary btn-block" role="button">
                                         {{ $form_cta }}
                                     </button>
                                 </div>
