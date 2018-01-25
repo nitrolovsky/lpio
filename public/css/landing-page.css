@@ -24,6 +24,10 @@ h6,
     font-weight: 700;
 }
 
+[role="button"] {
+    cursor: pointer;
+}
+
 .light {
     font-weight: 300;
 }
