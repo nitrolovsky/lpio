@@ -12,6 +12,8 @@
         </title>
     </head>
     <body>
+        {{ $yandex }}
+
         {{ $navbar or '' }}
         <div class="container-fluid">
             <div class="row p-5">
