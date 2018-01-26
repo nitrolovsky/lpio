@@ -12,7 +12,7 @@
         </title>
     </head>
     <body>
-        {{ $yandex }}
+        {{ $yandex or '' }}
 
         {{ $navbar or '' }}
         <div class="container-fluid">
