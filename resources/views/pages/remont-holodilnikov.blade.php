@@ -45,7 +45,7 @@
     @endslot
 
     @slot('form')
-        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter47448577.reachGoal('clickCallToAction'); return true;">
+        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
             Узнать причину и стоимость ремонта
         </button>
         <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -66,7 +66,7 @@
                                 <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone">
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter47448577.reachGoal('clickSendForm'); return true;">
+                                <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
                                     Узнать причину поломки и стомимость ремонта
                                 </button>
                             </div>
@@ -253,8 +253,8 @@
             (function (d, w, c) {
                 (w[c] = w[c] || []).push(function() {
                     try {
-                        w.yaCounter47448577 = new Ya.Metrika2({
-                            id:47448577,
+                        w.yaCounter44736544 = new Ya.Metrika2({
+                            id:44736544,
                             clickmap:true,
                             trackLinks:true,
                             accurateTrackBounce:true,
