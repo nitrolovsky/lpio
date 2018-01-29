@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
         <style>
             a, a:hover, a:active, a:visited {
                 text-decoration:none;
@@ -116,12 +116,12 @@
                         <br>
                     </div>
                     <div class="col-xl-8 col-12 mx-auto">
-                        <h1 class="h2">
+                        <h1 class="h2 mb-0">
                             {{ $lead_magnet }}
                         </h1>
-                        <p class="py-3">
+                        <div class="py-4">
                             {{ $details }}
-                        </p>
+                        </div>
 
                         {{ $button_call_to_action }}
 
@@ -159,7 +159,12 @@
 
         {{ $examples or '' }}
 
-        <div class="container-fluid bg-light">
+        @isset($examples)
+            <div class="container-fluid bg-light">
+        @endisset
+        @empty($examples)
+            <div class="container-fluid">
+        @endempty
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
                     {{ $footer }}
