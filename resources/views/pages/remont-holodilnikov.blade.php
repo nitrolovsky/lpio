@@ -2,7 +2,7 @@
     $name = 'remont-holodilnikov-spb';
     $image_path = "/files/remont-holodilnikov-spb/remont-holodilnikov-spb";
 @endphp
-@component('components.lp-video-with-3-bullets')
+@component('components.lp20180129')
     @slot('title')
         Ремонт холодильников Санкт-Петербург {{ $name }}.lpio.ru
     @endslot
