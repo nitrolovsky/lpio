@@ -91,9 +91,9 @@
                     <span>{{ $description }}</span>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    <a href="tel:{{ $phone }}" class="h4-a light">{{ $phone_view }}</a><br>
-                    <a href="mailto:{{ $email }}">{{ $email }}</a><br>
-                    {{ $address }}
+                    {{ $header_phone }}<br>
+                    {{ $header_email }}<br>
+                    {{ $header_address }}
                 </div>
             </div>
         </div>
@@ -165,9 +165,9 @@
                     {{ $footer }}
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    <a href="tel:{{ $phone }}">{{ $phone_view }}</a><br>
-                    <a href="mailto:{{ $email }}">{{ $email }}</a><br>
-                    {{ $address }}
+                    {{ $footer_phone }}
+                    {{ $footer_email }}
+                    {{ $footer_address }}
                 </div>
             </div>
         </div>

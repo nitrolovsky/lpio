@@ -15,20 +15,16 @@
         Ремонт холодильников в Санкт-Петербурге
     @endslot
 
-    @slot('phone')
-        88219672763
+    @slot('header_phone')
+        <a href="tel:88129672763" class="h4-a light">8 (812) 967 27 63</a>
     @endslot
 
-    @slot('phone_view')
-        8 (812) 967 27 63
+    @slot('header_email')
+        <a href="mailto:info.lpio.ru@gmail.com">info.lpio.ru@gmail.com</a>
     @endslot
 
-    @slot('email')
-        info.lpio.ru@gmail.com
-    @endslot
-
-    @slot('address')
-
+    @slot('header_address')
+        Санкт-Петербург
     @endslot
 
     @slot('presentation_video')
@@ -205,6 +201,18 @@
 
     @slot('footer')
         Copyright &#169; 2017 {{ $name }}.lpio.ru
+    @endslot
+
+    @slot('footer_phone')
+        <a href="tel:88129672763">8 (812) 967 27 63</a><br>
+    @endslot
+
+    @slot('footer_email')
+        <a href="mailto:info.lpio.ru@gmail.com">info.lpio.ru@gmail.com</a><br>
+    @endslot
+
+    @slot('footer_address')
+        Санкт-Петербург
     @endslot
 
     @slot('yandex')
