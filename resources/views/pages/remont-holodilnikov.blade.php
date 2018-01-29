@@ -16,11 +16,11 @@
     @endslot
 
     @slot('header_phone')
-        <a href="tel:88129672763" class="h4-a light">8 (812) 967 27 63</a>
+        <a href="tel:88129672763" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
     @endslot
 
     @slot('header_email')
-        <a href="mailto:info.lpio.ru@gmail.com">info.lpio.ru@gmail.com</a>
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
     @endslot
 
     @slot('header_address')
@@ -204,11 +204,11 @@
     @endslot
 
     @slot('footer_phone')
-        <a href="tel:88129672763">8 (812) 967 27 63</a><br>
+        <a href="tel:88129672763" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a><br>
     @endslot
 
     @slot('footer_email')
-        <a href="mailto:info.lpio.ru@gmail.com">info.lpio.ru@gmail.com</a><br>
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a><br>
     @endslot
 
     @slot('footer_address')
