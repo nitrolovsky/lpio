@@ -1,118 +1,95 @@
-@component('components.onescreen')
+@php
+    $name = 'krossovki-opt';
+    $image_path = "/files/krossovki-opt/krossovki-opt";
+@endphp
+@component('components.lp20180129')
     @slot('title')
-        Оптовые поставки кроссовок, кроссовки оптом
-    @endslot
-
-    @slot('google_analytics')
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-99764557-1', 'auto');
-          ga('send', 'pageview');
-        </script>
-    @endslot
-
-    @slot('lptracker')
-        <script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=42192;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
-    @endslot
-
-    @slot('bg_video')
-        '../files/krossovki-opt/krossovki-opt.mp4'
-    @endslot
-
-    @slot('bg_poster')
-        '../files/krossovki-opt/krossovki-opt.jpg'
+        Оптовые поставки кроссовок из Китая {{ $name }}.lpio.ru
     @endslot
 
     @slot('brand')
-        KROSSOVKI OPT
+        REIN
     @endslot
 
     @slot('description')
-        Оптовые поставки кроссовок
+        Оптовые поставки кроссовок из Китая
     @endslot
 
-    @slot('phone')
-        88123892075
+    @slot('header_phone')
+        <a href="tel:88129672763" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
     @endslot
 
-    @slot('phone_view')
-        8 (812) 389 20 75
+    @slot('header_email')
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
     @endslot
 
-    @slot('email')
-        krossovki-opt@ya.ru
+    @slot('header_address')
+        Склад в СПб
     @endslot
 
-    @slot('address')
-        Санкт-Петербург
-    @endslot
-
-    @slot('offer')
-        Оптовые поставки кроссовок из Гуанчжоу за 9-12 дней
-    @endslot
-
-    @slot('bullets')
-        <li>
-            ADIDAS, REEBOK, ASICS, PUMA, NIKE, NEW BALANCE
-        </li>
-        <li class="pt-1">
-            Минимальная партия от 20 пар
-        </li>
-        <li class="pt-1">
-            Без выкупа размерных рядов
-        </li>
-    @endslot
-
-    @slot('video')
+    @slot('presentation_video')
         https://www.youtube.com/embed/Vt0RVmQgrTE
     @endslot
 
     @slot('lead_magnet')
-        Получите прайс-лист с оптовыми ценами, заполнив форму
+        Получите прайс-лист с оптовыми ценами кроссовок из Гуанчжоу без выкупа размерных рядов
     @endslot
 
-    @slot('form')
-        <form action="/leads" method="POST">
-            {{ csrf_field() }}
-            <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="magicmagicart@gmail.com">
-            <input type="hidden" name="cta" value="Форма с видео">
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="email" placeholder="Введите email" name="email">
-            </div>
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Телефон" name="phone" required="required">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Получить
-                </button>
-            </div>
-            <div class="text-center">
-                <small>
-                    <a href="" class="text-primary  a" data-toggle="modal" data-target="#termsofuse">Пользовательское соглашение</a>
-                </small>
-            </div>
-        </form>
+    @slot('details')
+        <ul class="mb-0">
+            <li>ADIDAS, REEBOK, ASICS, PUMA, NIKE, NEW BALANCE.
+            <li>Минимальная партия от 20 пар.
+            <li>Доставка до 14 дней по всей России.
+        </ul>
     @endslot
 
-    @slot('legal')
-        Copyright &#169; 2017<br>
-        <a href="tel:88123892075" class="text-info a">8 812 389 20 75</a><br>
-        <a href="mailto:krossovki-opt@ya.ru" class="text-info a">krossovki-opt@ya.ru</a><br>
+    @slot('button_call_to_action')
+        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
+            Получить прайс-лист
+        </button>
+    @endslot
+
+    @slot('popup_form_title')
+        Введите email и телефон, чтобы мы отправили вам прайс-лист
+    @endslot
+
+    @slot('popup_form')
+        <div class="form-group">
+            <input type="text" class="form-control" id="email" placeholder="Введите email" name="email" required>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
+                Получить прайс-лист
+            </button>
+        </div>
+    @endslot
+
+    @slot('footer')
+        Copyright &#169; 2017 {{ $name }}.lpio.ru
+    @endslot
+
+    @slot('footer_phone')
+        <a href="tel:88129672763" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a><br>
+    @endslot
+
+    @slot('footer_email')
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a><br>
+    @endslot
+
+    @slot('footer_address')
+        Санкт-Петербург
     @endslot
 
     @slot('yandex')
         <!-- Yandex.Metrika counter -->
-        <script type="text/javascript">
+        <script type="text/javascript" >
             (function (d, w, c) {
                 (w[c] = w[c] || []).push(function() {
                     try {
-                        w.yaCounter44736544 = new Ya.Metrika({
+                        w.yaCounter44736544 = new Ya.Metrika2({
                             id:44736544,
                             clickmap:true,
                             trackLinks:true,
@@ -128,14 +105,14 @@
                     f = function () { n.parentNode.insertBefore(s, n); };
                 s.type = "text/javascript";
                 s.async = true;
-                s.src = "https://mc.yandex.ru/metrika/watch.js";
+                s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js";
 
                 if (w.opera == "[object Opera]") {
                     d.addEventListener("DOMContentLoaded", f, false);
                 } else { f(); }
-            })(document, window, "yandex_metrika_callbacks");
+            })(document, window, "yandex_metrika_callbacks2");
         </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/44736544" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
     @endslot
+
 @endcomponent

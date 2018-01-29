@@ -28,35 +28,34 @@
     @endslot
 
     @slot('presentation_video')
-        https://www.youtube.com/embed/ybqYC4Fsm2s
+        https://www.youtube.com/embed/2G56iiGmm6s
     @endslot
 
     @slot('lead_magnet')
-        Узнайте причину поломки и предварительную стоимость ремонта вашего холодильника по телефону
+        Узнайте как с помощью видеоролика показать ценность и пользу вашего бизнеса
     @endslot
 
     @slot('details')
-        Вас проконсультирует сертифицированный мастер по холодильникам с опытом работы более 10 лет.
-        Выезжаем на дом в течении 1 часа с момента обращения. Работаем по всем районам Санкт-Петербурга. Вы можете узнать причину поломки стоимость ремонта по телефону.
+        Мы покажем в видеоролике вас и насколько ответственно вы занимаетесь свои делом и улучшаете качество продукта.
     @endslot
 
     @slot('button_call_to_action')
         <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
-            Узнать причину и стоимость ремонта
+            Узнать
         </button>
     @endslot
 
     @slot('popup_form_title')
-        Введите телефон, чтобы мастер вам перезвонил и сказал причину поломки и цену
+        Введите телефон и мы пообщаемся как донести преимущества вашей компании
     @endslot
 
     @slot('popup_form')
         <div class="form-group">
-            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone">
+            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                Узнать причину поломки и стоимость ремонта
+                Узнать
             </button>
         </div>
     @endslot
@@ -65,64 +64,34 @@
         <div class="container-fluid">
             @component('components.header')
                 @slot('title')
-                    Распространенные поломки холодильников
+                    Посмотрите примеры видеороликов
                 @endslot
             @endcomponent
             <div class="row">
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path}}-1.jpg
-                    @endslot
-                    @slot('description')
-                        Не морозит
+                @component('components.card-video')
+                    @slot('video')
+                        https://www.youtube.com/embed/Qt_rma1ZMw4
                     @endslot
                     @slot('title')
-                        Не морозит
-                    @endslot
-                    @slot('details')
-                        Проблема может быть в:<br>
-                        — утечке фреона;<br>
-                        — засор трубки системы хладогенерации;<br>
-                        — сломанном компрессоре;<br>
-                        — обмерзшем вентиляторе.
+                        Имиджевый видеоролик
                     @endslot
                 @endcomponent
 
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-2.jpg
-                    @endslot
-                    @slot('description')
-                        Не работает морозилка
+                @component('components.card-video')
+                    @slot('video')
+                        https://www.youtube.com/embed/98iEqKihK4c
                     @endslot
                     @slot('title')
-                        Не работает морозилка
-                    @endslot
-                    @slot('details')
-                        Проблема может быть в:<br>
-                        — износившемся уплотнителе;<br>
-                        — сломанном клапане переключения;<br>
-                        — компрессоре;<br>
-                        — электронном модуле управления.
+                        Видеоролик снимался для проекта свадебных организаторов
                     @endslot
                 @endcomponent
 
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-3.jpg
-                    @endslot
-                    @slot('description')
-                        Шумит, гудит
+                @component('components.card-video')
+                    @slot('video')
+                        https://www.youtube.com/embed/m-rLVXiFvdA
                     @endslot
                     @slot('title')
-                        Шумит, гудит
-                    @endslot
-                    @slot('details')
-                        Проблема может быть в:<br>
-                        — стандартной работе компрессора;<br>
-                        — шумной работе системе NO FROST;<br>
-                        — реле;<br>
-                        — вентиляторе.
+                        Видеоролик снимался к выпуску книги "Вкусные истории - душевные рецепты для теплой компании".
                     @endslot
                 @endcomponent
             </div>
@@ -133,60 +102,64 @@
             </div>
 
             <div class="row">
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path}}-4.jpg
-                    @endslot
-                    @slot('description')
-                        Намерзает лед
+                @component('components.card-video')
+                    @slot('video')
+                        https://www.youtube.com/embed/9GHzbaxl9lg
                     @endslot
                     @slot('title')
-                        Намерзает лед
-                    @endslot
-                    @slot('details')
-                        Проблема может быть в:<br>
-                        — нарушении температурного режима;<br>
-                        — утечке фреона;<br>
-                        — износе уплотнительной резинки;<br>
-                        — датчике разморозки.
+                        Видеоролик про любовь и стиль
                     @endslot
                 @endcomponent
 
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-5.jpg
-                    @endslot
-                    @slot('description')
-                        Протекает
+                @component('components.card-video')
+                    @slot('video')
+                        https://www.youtube.com/embed/I-QiWOdqXLI
                     @endslot
                     @slot('title')
-                        Протекает
-                    @endslot
-                    @slot('details')
-                        Проблема может быть в:<br>
-                        — засоре в дренажном отверстии холодильной или морозильной камеры;<br>
-                        — износе резинового уплотнителя;<br>
-                        — термостате, компрессоре;<br>
-                        — поломке трубки слива.
+                        Видеоролик снимался для декораторов
                     @endslot
                 @endcomponent
 
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-6.jpg
-                    @endslot
-                    @slot('description')
-                        Работает без остановки
+                @component('components.card-video')
+                    @slot('video')
+                        https://www.youtube.com/embed/UFFc46DRs28
                     @endslot
                     @slot('title')
-                        Работает без остановки
+                        Видеоролик снимался для проекта свадебных организаторов
                     @endslot
-                    @slot('details')
-                        Проблема может быть в:<br>
-                        — плохо закрытой дверце;<br>
-                        — неисправности терморегулятора;<br>
-                        — износе резинового уплотнителя;<br>
-                        — утечке фреона, хладагента.
+                @endcomponent
+            </div>
+
+            <div class="d-none d-lg-block">
+                <br>
+                <br>
+            </div>
+
+            <div class="row">
+                @component('components.card-video')
+                    @slot('video')
+                        https://www.youtube.com/embed/_EIBrRzCWOo
+                    @endslot
+                    @slot('title')
+                        Имиджевый видеоролик с демонстрацией товара и стиля
+                    @endslot
+                @endcomponent
+
+                @component('components.card-video')
+                    @slot('video')
+                        https://www.youtube.com/embed/9ef0jWaU0Bk
+                    @endslot
+                    @slot('title')
+                        Fashion видеоролик
+                    @endslot
+                @endcomponent
+
+                @component('components.card-video')
+                    @slot('video')
+                        https://www.youtube.com/embed/ehrImAacM3s
+                    @endslot
+                    @slot('title')
+                        Демонстрация товара
                     @endslot
                 @endcomponent
             </div>
