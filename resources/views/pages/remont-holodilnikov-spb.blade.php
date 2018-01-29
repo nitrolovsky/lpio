@@ -12,7 +12,7 @@
     @endslot
 
     @slot('description')
-        Ремонт холодильников в Санкт-Петербурге
+        Ремонт холодильников с выездом на дом
     @endslot
 
     @slot('header_phone')

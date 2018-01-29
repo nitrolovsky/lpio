@@ -1,8 +1,4 @@
-@php
-    $name = 'ashmedia';
-    $image_path = "/files/ashmedia/ashmedia";
-@endphp
-@component('components.lp20180129')
+@component('components.landing-page')
     @slot('title')
         Создание видеороликов для бизнеса АШмедиа ashmedia.ru
     @endslot
@@ -15,15 +11,19 @@
         Создание видеороликов для бизнеса
     @endslot
 
-    @slot('header_phone')
-        <a href="tel:89522193383" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 952 219 33 83</a>
+    @slot('phone')
+        89522193383
     @endslot
 
-    @slot('header_email')
-        <a href="mailto:ashmedia@mail.ru" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">ashmedia@mail.ru</a>
+    @slot('phone_view')
+        8 952 219 33 83
     @endslot
 
-    @slot('header_address')
+    @slot('email')
+        ashmedia@mail.ru
+    @endslot
+
+    @slot('address')
         Санкт-Петербург, м. Горьковская
     @endslot
 
@@ -36,37 +36,43 @@
     @endslot
 
     @slot('details')
-        Объясним ценность вашего продукта с помощью продающего видеоролика.
+        Объясним ценность вашего продукта с помощью продающего видеоролика
     @endslot
 
-    @slot('button_call_to_action')
-        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
-            Получить бесплатно
-        </button>
+    @slot('form')
+        <form action="/leads" method="POST" class="border bg-light p-4">
+            {{ csrf_field() }}
+            <input type="hidden" name="source" value="ashmedia">
+            <input type="hidden" name="cta" value="Форма с видео">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Введите имя" name="name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block" >
+                    Получить
+                </button>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label small">
+                    <input type="checkbox" class="form-check-input" checked>
+                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
+                </label>
+            </div>
+        </form>
     @endslot
 
-    @slot('popup_form_title')
-        Введите телефон и вы получите 3 концепции видероликов c расчетом стоимости
-    @endslot
+    @slot('portfolio')
+        <div class="container-fluid ">
 
-    @slot('popup_form')
-        <div class="form-group">
-            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
-        </div>
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                Получить бесплатно
-            </button>
-        </div>
-    @endslot
-
-    @slot('examples')
-        <div class="container-fluid">
             @component('components.header')
                 @slot('title')
-                    Посмотрите примеры видеороликов
+                    Посмотрите примеры наших видеороликов
                 @endslot
             @endcomponent
+
             <div class="row">
                 @component('components.card-video')
                     @slot('video')
@@ -190,14 +196,10 @@
                     @endslot
                 @endcomponent
             </div>
-
-            <div class="d-none d-lg-block">
-                <br>
-                <br>
-            </div>
-
         </div>
+    @endslot
 
+    @slot('reviews')
         <div class="container-fluid">
             @component('components.header')
                 @slot('title')
@@ -251,52 +253,8 @@
     @endslot
 
     @slot('footer')
-        Copyright &#169; 2018 АШМедиа<br>
+        2017 АШМедиа Все права защищены<br>
         <a href=https://vk.com/shevtsovpiter target="_blank">Артем Шевцов</a>
-    @endslot
-
-    @slot('footer_phone')
-        <a href="tel:89522193383" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 952 219 33 83</a><br>
-    @endslot
-
-    @slot('footer_email')
-        <a href="mailto:ashmedia@mail.ru" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">ashmedia@mail.ru</a><br>
-    @endslot
-
-    @slot('footer_address')
-        Санкт-Петербург, м. Горьковская
-    @endslot
-
-    @slot('yandex')
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-            (function (d, w, c) {
-                (w[c] = w[c] || []).push(function() {
-                    try {
-                        w.yaCounter44736544 = new Ya.Metrika2({
-                            id:44736544,
-                            clickmap:true,
-                            trackLinks:true,
-                            accurateTrackBounce:true,
-                            webvisor:true,
-                            trackHash:true
-                        });
-                    } catch(e) { }
-                });
-
-                var n = d.getElementsByTagName("script")[0],
-                    s = d.createElement("script"),
-                    f = function () { n.parentNode.insertBefore(s, n); };
-                s.type = "text/javascript";
-                s.async = true;
-                s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js";
-
-                if (w.opera == "[object Opera]") {
-                    d.addEventListener("DOMContentLoaded", f, false);
-                } else { f(); }
-            })(document, window, "yandex_metrika_callbacks2");
-        </script>
-        <!-- /Yandex.Metrika counter -->
     @endslot
 
 @endcomponent
