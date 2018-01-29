@@ -122,8 +122,36 @@
                         <p class="py-3">
                             {{ $details }}
                         </p>
+
                         {{ $button_call_to_action }}
-                        {{ $popup_form }}
+
+                        <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <form action="/leads" method="POST" class="p-2">
+                                            {{ csrf_field() }}
+                                            <input type="hidden" name="source" value="all_leads">
+                                            <input type="hidden" name="cta" value="Форма с видео">
+                                            <div class="form-group">
+                                            <h5 class="my-0">
+                                                {{ $popup_form_title }}
+                                            </h5>
+                                        </div>
+                                            {{ $popup_form }}
+
+                                            <div class="form-check mb-0">
+                                                <label class="form-check-label small">
+                                                    <input type="checkbox" class="form-check-input" checked>
+                                                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
+                                                </label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

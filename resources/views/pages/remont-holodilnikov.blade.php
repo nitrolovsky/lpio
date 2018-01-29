@@ -50,62 +50,19 @@
         </button>
     @endslot
 
-    @slot('popup_form')
-        <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку и мы отправим вам купон скидку 500 рублей на все товары</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form action="/leads" method="POST" class="p-2">
-                            {{ csrf_field() }}
-                            <input type="hidden" name="source" value="all_leads">
-                            <input type="hidden" name="cta" value="Форма с видео">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone">
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                                    Узнать причину поломки и стомимость ремонта
-                                </button>
-                            </div>
-                            <div class="form-check mb-0">
-                                <label class="form-check-label small">
-                                    <input type="checkbox" class="form-check-input" checked>
-                                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
-                                </label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+    @slot('popup_form_title')
+        Введите телефон, чтобы мастер вам перезвонил и сказал причину поломки и цену
     @endslot
 
-    @slot('form_a')
-        <form action="/leads" method="POST" class="border bg-light p-4 sw">
-            {{ csrf_field() }}
-            <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="cta" value="Форма с видео">
-            <div class="form-group">
-                <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block" role="button">
-                    Вызвать мастера бесплатно
-                </button>
-            </div>
-            <div class="form-check mb-0">
-                <label class="form-check-label small">
-                    <input type="checkbox" class="form-check-input" checked>
-                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
-                </label>
-            </div>
-        </form>
+    @slot('popup_form')
+        <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
+                Узнать причину поломки и стоимость ремонта
+            </button>
+        </div>
     @endslot
 
     @slot('examples')
