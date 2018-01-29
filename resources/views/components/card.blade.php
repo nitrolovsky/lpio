@@ -11,7 +11,7 @@
             {{ $title }}
         </h5>
         <p>
-            {{ $details }}
+            {{ $details or '' }}
         </p>
     </div>
 
