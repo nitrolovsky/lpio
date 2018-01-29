@@ -1,18 +1,18 @@
 @php
-    $name = 'krossovki-opt';
-    $image_path = "/files/krossovki-opt/krossovki-opt";
+    $name = 'investicii-nedvizhimost';
+    $image_path = "/files/investicii-nedvizhimost/investicii-nedvizhimost";
 @endphp
 @component('components.lp20180129')
     @slot('title')
-        Оптовые поставки кроссовок из Китая {{ $name }}.lpio.ru
+        Инвестиции в недвижимость {{ $name }}.lpio.ru
     @endslot
 
     @slot('brand')
-        REIN
+        СПб Инвест
     @endslot
 
     @slot('description')
-        Оптовые поставки кроссовок из Китая
+        Консалтинговое агентство
     @endslot
 
     @slot('header_phone')
@@ -24,45 +24,45 @@
     @endslot
 
     @slot('header_address')
-        Санкт-Петербург
+        Санкт-Петербург, Каменноостровский проспект дом 26-28<br>Дом Бенуа
     @endslot
 
     @slot('presentation_video')
-        https://www.youtube.com/embed/Vt0RVmQgrTE
+        https://www.youtube.com/embed/M32KCq5_X6Q
     @endslot
 
     @slot('lead_magnet')
-        Получите прайс-лист с оптовыми ценами кроссовок из Гуанчжоу без выкупа размерных рядов
+        Забронируйте место на бесплатный семинар 21 апреля 2017 в 19:15 "Как заработать на недвижимости в 2017 году" и получите книгу "10 ошибок при инвестициях в квартиру"
     @endslot
 
     @slot('details')
         <ul class="mb-0">
-            <li>ADIDAS, REEBOK, ASICS, PUMA, NIKE, NEW BALANCE.
-            <li>Минимальная партия от 20 пар.
-            <li>Доставка до 14 дней по всей России.
+            <li>Как обойти уловки менеджеров отдела продаж застройщика и купить то, что Вам реально нужно.
+            <li>Разбор конкретных примеров за 2015 и 2016 год с доходностью 58%.<br>
+            <li>Анонсы новых объектов и бронирование на старте продаж.
         </ul>
     @endslot
 
     @slot('button_call_to_action')
         <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
-            Получить прайс-лист
+            Забронировать место
         </button>
     @endslot
 
     @slot('popup_form_title')
-        Введите email и телефон, чтобы мы отправили вам прайс-лист
+        Введите телефон и email, чтобы мы перезвонили и забронировали за вами место в зале. А на почту отправим книгу
     @endslot
 
     @slot('popup_form')
         <div class="form-group">
-            <input type="text" class="form-control" id="email" placeholder="Введите email" name="email" required>
-        </div>
-        <div class="form-group">
             <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
         </div>
         <div class="form-group">
+            <input type="text" class="form-control" id="email" placeholder="Введите email" name="email" required>
+        </div>
+        <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                Получить прайс-лист
+                Забронировать
             </button>
         </div>
     @endslot
@@ -80,7 +80,7 @@
     @endslot
 
     @slot('footer_address')
-        Санкт-Петербург
+        СПб, Загородный проспект 16
     @endslot
 
     @slot('yandex')
