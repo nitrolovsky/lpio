@@ -44,15 +44,18 @@
         Выезжаем на дом в течении 1 часа с момента обращения. Работаем по всем районам Санкт-Петербурга. Вы можете узнать причину поломки стоимость ремонта по телефону.
     @endslot
 
-    @slot('form')
+    @slot('button_call_to_action')
         <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
             Узнать причину и стоимость ремонта
         </button>
+    @endslot
+
+    @slot('popup_form')
         <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Заполните форму</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку и мы отправим вам купон скидку 500 рублей на все товары</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>

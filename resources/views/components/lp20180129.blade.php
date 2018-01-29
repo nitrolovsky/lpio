@@ -6,14 +6,14 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
         <style>
             a, a:hover, a:active, a:visited {
                 text-decoration:none;
             }
 
             body {
-                font-family: "Ubuntu";
+                font-family: "Montserrat";
                 color: black;
             }
 
@@ -122,7 +122,8 @@
                         <p class="py-3">
                             {{ $details }}
                         </p>
-                        {{ $form }}
+                        {{ $button_call_to_action }}
+                        {{ $popup_form }}
                     </div>
                 </div>
             </div>
