@@ -63,7 +63,7 @@
     @endslot
 
     @slot('lead_magnet')
-        Увеличьте количество заявок из интернета с помощью посадочной страницы без отвлекающего от вашего предложения дизайна
+        Увеличьте количество заявок клиентов из интернета с помощью посадочной страницы без отвлекающего от вашего предложения дизайна
     @endslot
 
     @slot('details')
@@ -76,7 +76,7 @@
 
     @slot('button_call_to_action')
         <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
-            Увеличить количество заявок
+            Увеличить количество заявок клиентов
         </button>
     @endslot
 
@@ -90,7 +90,7 @@
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                Увеличить количество заявок
+                Увеличить количество заявок клиентов
             </button>
         </div>
     @endslot
