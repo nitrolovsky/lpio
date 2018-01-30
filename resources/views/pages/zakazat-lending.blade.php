@@ -7,6 +7,37 @@
         Заказать лендинг {{ $name }}.lpio.ru
     @endslot
 
+    @slot('navbar')
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand light" href="#">REIN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#posadochnaya-stranica-uslugi">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#posadochnaya-stranica-tovary">Товары</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#posadochnaya-stranica-opt">Опт</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#posadochnaya-stranica-proizvodstva">Производства</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#posadochnaya-stranica-nedvizhimost">Недвижимость</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#posadochnaya-stranica-kompanii">Компании</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    @endslot
+
     @slot('brand')
         Павел Рейн
     @endslot
@@ -67,10 +98,11 @@
         <div class="container-fluid">
             @component('components.header')
                 @slot('title')
-                    Примеры посадочных страниц (landing page)
+                    Примеры посадочных страниц (landing page) для услуг
                 @endslot
             @endcomponent
             <div class="row">
+
                 @component('components.card')
                     @slot('image')
                         {{ $image_path}}-9.jpg
@@ -106,6 +138,7 @@
                         <a href="https://dostavkadivanov.ru/" target="_blank">Фабрика диванов</a>
                     @endslot
                 @endcomponent
+                
             </div>
 
             <div class="d-none d-lg-block">
