@@ -1,22 +1,22 @@
 @php
-    $name = 'specii-opt';
-    $image_path = "/files/specii-opt/specii-opt";
+    $name = 'kontraktnoe-proizvodstvo-ehlektroniki';
+    $image_path = "/files/kontraktnoe-proizvodstvo-ehlektroniki/kontraktnoe-proizvodstvo-ehlektroniki";
 @endphp
 @component('components.lp20180129')
     @slot('title')
-        Оптовые поставки специй и пряностей, специи и пряности оптом {{ $name }}.lpio.ru
+        Производство бытовых электрических приборов, электрического оборудования, компьютеров и периферийного оборудования, коммуникационного оборудования, элементов электронной аппаратуры, электронных печатных плат, бытовой электроники {{ $name }}.lpio.ru
     @endslot
 
     @slot('brand')
-        blizkaya
+        World Demanded Electronic
     @endslot
 
     @slot('description')
-        Оптовые поставки специй и пряностей по России
+        Контрактное производство электроники
     @endslot
 
     @slot('header_phone')
-        <a href="tel:88129672763" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
+        <a href="tel:88002342919" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 800 234 29 19</a>
     @endslot
 
     @slot('header_email')
@@ -24,48 +24,51 @@
     @endslot
 
     @slot('header_address')
-        Санкт-Петербург
+        Москва
     @endslot
 
     @slot('presentation_video')
-        https://www.youtube.com/embed/9KvS_QN6vIg
+        https://www.youtube.com/embed/8VAFvyPFG14
     @endslot
 
     @slot('lead_magnet')
-        Получите прайс-лист с оптовыми ценами на специи и пряности
+        Узнайте расчет стоимости производства вашего проекта по электронике
     @endslot
 
     @slot('details')
         <ul class="mb-0">
             <li>
-                Собственный помол на производстве в Санкт-Петербурге, ингредиенты поставляются из Индии в скорлупе и защитной оболочке, поэтому сохраняют вкус и аромат;
+                Бытовые электрические приборы
+            </li>
+            <li >
+                Электрическое оборудование
+            </li>
+            <li >
+                Компьютеры и периферийное оборудование
+            </li>
+            <li >
+                Коммуникационное оборудование
+            </li>
+            <li >
+                Элементы электронной аппаратуры
+            </li>
+            <li >
+                Электронные печатные платы
             </li>
             <li>
-                200+ позиций: черный перец, сушенный чеснок, корица, карри...
-            </li>
-            <li>
-                Прямые поставки ингредиентов из Индии;
-            </li>
-            <li>
-                Доставка по всей России;
-            </li>
-            <li>
-                Отсрочка оплаты для постоянных клиентов;
-            </li>
-            <li>
-                Бесплатные образцы товара.
+                Бытовая электроника
             </li>
         </ul>
     @endslot
 
     @slot('button_call_to_action')
         <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
-            Получить прайс-лист
+            Рассчитать стоимость
         </button>
     @endslot
 
     @slot('popup_form_title')
-        Введите телефон и email, чтобы мы отправили вам прайс-лист
+        Введите телефон и email, чтобы мы перезвонили и уточнили детали проекта
     @endslot
 
     @slot('popup_form')
@@ -77,7 +80,7 @@
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                Получить прайс-лист
+                Рассчитать стоимость
             </button>
         </div>
     @endslot
@@ -87,7 +90,7 @@
     @endslot
 
     @slot('footer_phone')
-        <a href="tel:88129672763" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
+        <a href="tel:88002342919" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 800 234 29 19</a>
     @endslot
 
     @slot('footer_email')
@@ -95,7 +98,7 @@
     @endslot
 
     @slot('footer_address')
-        Санкт-Петербург
+        Москва
     @endslot
 
     @slot('yandex')
