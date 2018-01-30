@@ -63,24 +63,25 @@
     @endslot
 
     @slot('lead_magnet')
-        Узнайте как при помощи лендинга с продуманным лид-магнитом для вашей схемы продаж увеличить количество клиентов
+        Увеличьте количество заявок из интернета с помощью посадочной страницы без отвлекающего от вашего предложения дизайна
     @endslot
 
     @slot('details')
         <ul class="mb-0">
-            <li>Срок создания лендинга - от 30 минут в зависимости от наличия контента;
+            <li>Срок создания посадочной страницы (лендинга) - от 30 минут в зависимости от наличия контента;
+            <li>Придумаю привлекательное предложение (офер, лид-магнит) для воронки продаж вашего бизнеса;
             <li>Стоимость - от 2 000 руб.
         </ul>
     @endslot
 
     @slot('button_call_to_action')
         <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
-            Получить бесплатную консультацию
+            Увеличить количество заявок
         </button>
     @endslot
 
     @slot('popup_form_title')
-        Введите телефон, чтобы мастер вам перезвонил и сказал причину поломки и цену
+        Введите телефон, чтобы мы договорились об информации для создания лендинга
     @endslot
 
     @slot('popup_form')
@@ -89,7 +90,7 @@
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                Узнать причину поломки и стоимость ремонта
+                Увеличить количество заявок
             </button>
         </div>
     @endslot
