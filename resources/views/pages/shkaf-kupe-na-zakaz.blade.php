@@ -7,6 +7,28 @@
         Шкаф-купе на заказ напрямую от мебельной фабрики ФЭМАС по Санкт-Петербургу и Ленинградской области {{ $name }}.lpio.ru
     @endslot
 
+    @slot('navbar')
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand light" href="#">ФЭМАС</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tipy-shkafov-kupe">Типы шкафов-купе</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fasady">Фасады</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#preimushchestva-fabriki">Преимущества фабрики</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    @endslot
+
     @slot('brand')
         ФЭМАС
     @endslot
@@ -61,7 +83,8 @@
     @endslot
 
     @slot('examples')
-        <div class="container-fluid">
+
+        <div class="container-fluid" id="tipy-shkafov-kupe">
             @component('components.header')
                 @slot('title')
                     Изготавливаем все возможные типы шкафов-купе
@@ -174,7 +197,7 @@
 
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="fasady">
             @component('components.header')
                 @slot('title')
                     Фасады и двери для шкафа-купе на ваш выбор
@@ -287,7 +310,7 @@
 
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="preimushchestva-fabriki">
             @component('components.header')
                 @slot('title')
                     Преимущества работы с нами
