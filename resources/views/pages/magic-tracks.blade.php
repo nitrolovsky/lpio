@@ -1,9 +1,10 @@
 @php
-    $path_images = "/files/magic-tracks-220-ru/images/";
+    $name = 'magic-tracks';
+    $image_path = "/files/magic-tracks/magic-tracks";
 @endphp
-@component('components.landing-page')
+@component('components.lp20180129')
     @slot('title')
-        Конструктор гоночная трасса Magic Tracks 220 magic-tracks.lpio.ru
+        Конструктор гоночная трасса Magic Tracks 220 {{ $name }}.lpio.ru
     @endslot
 
     @slot('brand')
@@ -11,22 +12,18 @@
     @endslot
 
     @slot('description')
-        Интернет-магазин детский игрушек
+        Интернет-магазин детских игрушек
     @endslot
 
-    @slot('phone')
-        88219672763
+    @slot('header_phone')
+        <a href="tel:88129672763" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
     @endslot
 
-    @slot('phone_view')
-        8 812 967 27 63
+    @slot('header_email')
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
     @endslot
 
-    @slot('email')
-        info.lpio.ru@gmail.com
-    @endslot
-
-    @slot('address')
+    @slot('header_address')
         Санкт-Петербург
     @endslot
 
@@ -35,50 +32,49 @@
     @endslot
 
     @slot('lead_magnet')
-        <div>Конструктор гоночная трасса Magic Tracks</div>
-        <div class="pt-3 text-danger">1950 &#8381;</div>
+        Конструктор гоночная трасса Magic Tracks 220 элементов<br>
+        <span class="text-danger">1950 &#8381;</span>
     @endslot
 
     @slot('details')
-        Гибкие и светящиеся элементы трассы.
+        Подарите детям Magic Tracks и они будут с радостью с ним играть. Можно каждый раз собирать новую трассу и добавлять элементы к уже существующей.
     @endslot
 
-    @slot('form')
-        <form action="/leads" method="POST">
-            {{ csrf_field() }}
-            <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="cta" value="Форма с видео">
-            <div class="form-group">
-                <input type="text" class="form-control" id="email" placeholder="Введите email" name="email">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block" role="button">
-                    Заказать в 1 клик
-                </button>
-            </div>
-            <div class="form-check">
-                <label class="form-check-label small">
-                    <input type="checkbox" class="form-check-input" checked>
-                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
-                </label>
-            </div>
-        </form>
+    @slot('button_call_to_action')
+        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
+            Заказать в 1 клик
+        </button>
     @endslot
 
-    @slot('portfolio')
+    @slot('popup_form_title')
+        Введите телефон и email, чтобы менеджер уточнил детали доставки
+    @endslot
+
+    @slot('popup_form')
+        <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="email" placeholder="Введите email" name="email" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
+                Заказать
+            </button>
+        </div>
+    @endslot
+
+    @slot('examples')
         <div class="container-fluid">
             @component('components.header')
                 @slot('title')
-                    6 ключевых преимуществ конструктора гоночный трассы Magic Tracks 220
+                    Подробности о конструкторе гоночной трассы Magic Tracks 220
                 @endslot
             @endcomponent
             <div class="row">
                 @component('components.card')
                     @slot('image')
-                        {{ $path_images }}magic-tracks-1.jpg
+                        {{ $image_path }}-1.jpg
                     @endslot
                     @slot('description')
                         Соединяющиеся детали
@@ -93,7 +89,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $path_images }}magic-tracks-2.jpg
+                        {{ $image_path }}-2.jpg
                     @endslot
                     @slot('description')
                         Гибкая форма
@@ -108,7 +104,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $path_images }}magic-tracks-3.jpg
+                        {{ $image_path }}-3.jpg
                     @endslot
                     @slot('description')
                         Трансформируйте трассу на 360˚
@@ -130,7 +126,7 @@
             <div class="row">
                 @component('components.card')
                     @slot('image')
-                        {{ $path_images }}magic-tracks-4.jpg
+                        {{ $image_path }}-4.jpg
                     @endslot
                     @slot('description')
                         Светодиодные огни
@@ -145,7 +141,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $path_images }}magic-tracks-5.jpg
+                        {{ $image_path }}-5.jpg
                     @endslot
                     @slot('description')
                         Набор наклеек
@@ -160,7 +156,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $path_images }}magic-tracks-6.jpg
+                        {{ $image_path }}-6.jpg
                     @endslot
                     @slot('description')
                         Легко сворачивается
@@ -183,8 +179,51 @@
     @endslot
 
     @slot('footer')
-        Copyright &#169; 2017 magic-tracks.lpio.ru Все права защищены. ИНН 7802602468. КПП 780201001. р/сч 40702810903000013545 в АО "Райффайзенбанк".<br>
-        к/сч 30101810100000000723. БИК 044030723.
+        Copyright &#169; 2017 {{ $name }}.lpio.ru
+    @endslot
+
+    @slot('footer_phone')
+        <a href="tel:88129672763" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
+    @endslot
+
+    @slot('footer_email')
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
+    @endslot
+
+    @slot('footer_address')
+        Санкт-Петербург
+    @endslot
+
+    @slot('yandex')
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter44736544 = new Ya.Metrika2({
+                            id:44736544,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true,
+                            webvisor:true,
+                            trackHash:true
+                        });
+                    } catch(e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks2");
+        </script>
+        <!-- /Yandex.Metrika counter -->
     @endslot
 
 @endcomponent
