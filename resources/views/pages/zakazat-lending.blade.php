@@ -322,10 +322,10 @@
                         {{ $image_path }}-14.jpg
                     @endslot
                     @slot('link_primer')
-                        http://shkaf-kupe-na-zakaz.lpio.ru/
+                        http://garderobnye-na-zakaz.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://shkaf-kupe-na-zakaz.lpio.ru/" target="_blank">Шкафы купе на заказ</a>
+                        <a href="http://garderobnye-na-zakaz.lpio.ru/" target="_blank">Гардеробные на заказ</a>
                     @endslot
                 @endcomponent
 
@@ -334,10 +334,10 @@
                         {{ $image_path }}-15.jpg
                     @endslot
                     @slot('link_primer')
-                        http://garderobnye-na-zakaz.lpio.ru/
+                        http://shkaf-kupe-na-zakaz.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://garderobnye-na-zakaz.lpio.ru/" target="_blank">Гардеробные на заказ</a>
+                        <a href="http://shkaf-kupe-na-zakaz.lpio.ru/" target="_blank">Шкафы купе на заказ</a>
                     @endslot
                 @endcomponent
 
