@@ -86,7 +86,7 @@
         <div class="container-fluid">
             @component('components.header')
                 @slot('title')
-                    Распространенные поломки холодильников
+                    Преимущества наших заводов
                 @endslot
             @endcomponent
             <div class="row">
