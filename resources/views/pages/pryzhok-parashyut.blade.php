@@ -28,7 +28,7 @@
     @endslot
 
     @slot('brand')
-        Sky Fly SPB
+        Sky Fly SPb
     @endslot
 
     @slot('description')
