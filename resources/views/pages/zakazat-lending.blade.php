@@ -28,10 +28,10 @@
                         <a class="nav-link" href="#posadochnaya-stranica-proizvodstva">Производства</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#posadochnaya-stranica-nedvizhimost">Недвижимость</a>
+                        <a class="nav-link" href="#posadochnaya-stranica-nedvizhimost-rieltor">Недвижимость</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#posadochnaya-stranica-kompanii">Компании</a>
+                        <a class="nav-link" href="#posadochnaya-stranica-drugoe">Другое</a>
                     </li>
                 </ul>
             </div>
@@ -254,7 +254,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path}}-7.jpg
+                        {{ $image_path}}-10.jpg
                     @endslot
                     @slot('link_primer')
                         http://krossovki-opt.lpio.ru/
@@ -266,7 +266,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}-8.jpg
+                        {{ $image_path }}-11.jpg
                     @endslot
                     @slot('link_primer')
                         http://specii-opt.lpio.ru/
@@ -278,7 +278,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}-9.jpg
+                        {{ $image_path }}-12.jpg
                     @endslot
                     @slot('link_primer')
                         http://detskaya-odezhda-opt.lpio.ru/
@@ -307,37 +307,37 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path}}-1.jpg
+                        {{ $image_path}}-13.jpg
                     @endslot
                     @slot('link_primer')
-                        http://ashmedia-ru.lpio.ru/
+                        http://beton-m3.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://ashmedia-ru.lpio.ru/" target="_blank">Создание видеороликов для бизнеса</a>
+                        <a href="http://beton-m3.lpio.ru/" target="_blank">Сеть бетонных заводов</a>
                     @endslot
                 @endcomponent
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}-2.jpg
+                        {{ $image_path }}-14.jpg
                     @endslot
                     @slot('link_primer')
-                        http://zakazat-videorolik.lpio.ru/
+                        http://shkaf-kupe-na-zakaz.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://zakazat-videorolik.lpio.ru/" target="_blank">Сценарии, съемка, монтаж и обработка видеороликов</a>
+                        <a href="http://shkaf-kupe-na-zakaz.lpio.ru/" target="_blank">Шкафы купе на заказ</a>
                     @endslot
                 @endcomponent
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}-3.jpg
+                        {{ $image_path }}-15.jpg
                     @endslot
                     @slot('link_primer')
-                        http://remont-holodilnikov-spb.lpio.ru/
+                        http://garderobnye-na-zakaz.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://remont-holodilnikov-spb.lpio.ru/" target="_blank">Ремонт холодильников в СПб</a>
+                        <a href="http://garderobnye-na-zakaz.lpio.ru/" target="_blank">Гардеробные на заказ</a>
                     @endslot
                 @endcomponent
 
@@ -348,42 +348,105 @@
                 <br>
             </div>
 
+        </div>
+
+        <div class="container-fluid" id="posadochnaya-stranica-nedvizhimost-rieltor">
+            @component('components.header')
+                @slot('title')
+                    Примеры посадочных страниц для недвижимости и риэлторов
+                @endslot
+            @endcomponent
             <div class="row">
+
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path}}-4.jpg
+                        {{ $image_path}}-16.jpg
                     @endslot
                     @slot('link_primer')
-                        http://remont-stiralnyh-spb.lpio.ru/
+                        http://investicii-nedvizhimost.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://remont-stiralnyh-spb.lpio.ru/" target="_blank">Ремонт стиральных машин в СПб</a>
+                        <a href="http://investicii-nedvizhimost.lpio.ru/" target="_blank">Семинар по инвестициям в недвижимость</a>
                     @endslot
                 @endcomponent
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}-5.jpg
+                        {{ $image_path }}-17.jpg
                     @endslot
                     @slot('link_primer')
-                        http://studiya-manikyura.lpio.ru/
+                        http://kupit-kvartiru-spb-distancionno.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://studiya-manikyura.lpio.ru/" target="_blank">Студия маникюра и педикюра</a>
+                        <a href="http://kupit-kvartiru-spb-distancionno.lpio.ru/" target="_blank">Подбор квартиры для иногордних</a>
                     @endslot
                 @endcomponent
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}-6.jpg
+                        {{ $image_path }}-18.jpg
                     @endslot
                     @slot('link_primer')
-                        http://rospis-sten.lpio.ru/
+                        http://nedvizhimost-kupina-arenda-kommercheskogo.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://rospis-sten.lpio.ru/" target="_blank">Роспись стен</a>
+                        <a href="http://nedvizhimost-kupina-arenda-kommercheskogo.lpio.ru/" target="_blank">Подбор коммерческого помещения</a>
                     @endslot
                 @endcomponent
+
+            </div>
+
+            <div class="d-none d-lg-block">
+                <br>
+                <br>
+            </div>
+
+        </div>
+
+        <div class="container-fluid" id="posadochnaya-stranica-drugoe">
+            @component('components.header')
+                @slot('title')
+                    Примеры посадочных страниц для различных тематик
+                @endslot
+            @endcomponent
+            <div class="row">
+
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path}}-19.jpg
+                    @endslot
+                    @slot('link_primer')
+                        http://detoks-programma.lpio.ru/
+                    @endslot
+                    @slot('title')
+                        <a href="http://detoks-programma.lpio.ru/" target="_blank">Обучение детокс программе</a>
+                    @endslot
+                @endcomponent
+
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-20.jpg
+                    @endslot
+                    @slot('link_primer')
+                        http://pryzhki-s-parashyutom-spb.lpio.ru/
+                    @endslot
+                    @slot('title')
+                        <a href="http://pryzhki-s-parashyutom-spb.lpio.ru/" target="_blank">Прыжок с парашютом</a>
+                    @endslot
+                @endcomponent
+
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-21.jpg
+                    @endslot
+                    @slot('link_primer')
+                        http://kontraktnoe-proizvodstvo-ehlektroniki.lpio.ru/
+                    @endslot
+                    @slot('title')
+                        <a href="http://kontraktnoe-proizvodstvo-ehlektroniki.lpio.ru/" target="_blank">Контрактное производство электроники</a>
+                    @endslot
+                @endcomponent
+
             </div>
 
             <div class="d-none d-lg-block">
