@@ -1,29 +1,32 @@
 @php
-    $name = 'belyo-calvin-klein';
-    $image_path = "/files/belyo-calvin-klein/";
+    $path_file = "/files/belyo-calvin-klein/";
 @endphp
-@component('components.lp20180129')
+@component('components.landing-page')
     @slot('title')
-        Комплект женского белья Calvin Klein {{ $name }}.lpio.ru
+        Женское белье Calvin Klein
     @endslot
 
     @slot('brand')
-        IGA BUTIK
+        Calvin Klein
     @endslot
 
     @slot('description')
-        Интернет-магазин нижнего белья
+        Интернет-магазин белья
     @endslot
 
-    @slot('header_phone')
-        <a href="tel:88129672763" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
+    @slot('phone')
+        88129672763
     @endslot
 
-    @slot('header_email')
-        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
+    @slot('phone_view')
+        8 812 967 27 63
     @endslot
 
-    @slot('header_address')
+    @slot('email')
+        info.lpio.ru@gmail.com
+    @endslot
+
+    @slot('address')
         Санкт-Петербург
     @endslot
 
@@ -32,52 +35,50 @@
     @endslot
 
     @slot('lead_magnet')
-        Получите промокод скидку 1000 рублей на комплект женского белья Calvin Klein
+        <div>Комплект женского белья Calvin Klein</div>
+        <div class="pt-3 text-danger">1950 &#8381;</div>
     @endslot
 
     @slot('details')
-        <ul class="mb-0">
-            <li>Состоит из экохлопка и эластана. Натуральные материалы, которые позволят вашей кожи дышать. И минимальное добавление эластана для растягивания и поддержания формы.
-            <li>Сохраняет внешний вид после 100 стирок.
-            <li>Бесплатная доставка курьером по Санкт-Петербургу.
-        <ul>
+        Топ и трусики из экохлопка. Сохраняет внешний вид после 100 стирок.
     @endslot
 
-    @slot('button_call_to_action')
-        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
-            Получить промокод на 1000 рублей
-        </button>
+    @slot('form')
+        <form action="/leads" method="POST" class="border bg-light p-4 sw">
+            {{ csrf_field() }}
+            <input type="hidden" name="source" value="all_leads">
+            <input type="hidden" name="cta" value="Форма с видео">
+            <div class="form-group">
+                <input type="text" class="form-control" id="email" placeholder="Введите email" name="email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block" role="button">
+                    Заказать
+                </button>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label small">
+                    <input type="checkbox" class="form-check-input" checked>
+                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
+                </label>
+            </div>
+        </form>
     @endslot
 
-    @slot('popup_form_title')
-        Введите телефон и email, чтобы мы отправили вам промокод скидку 1000 рублей
-    @endslot
-
-    @slot('popup_form')
-        <div class="form-group">
-            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
-        </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="email" placeholder="Введите email" name="email" required>
-        </div>
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                Получить промокод на 1000 рублей
-            </button>
-        </div>
-    @endslot
-
-    @slot('examples')
+    @slot('portfolio')
         <div class="container-fluid">
             @component('components.header')
                 @slot('title')
-                    Модели и цвета
+                    Выберите модель и цвет
                 @endslot
             @endcomponent
             <div class="row">
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}komplekt-zhenskogo-belya-calvin-klein-belye-slipy.jpg
+                        {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-belye-slipy.jpg
                     @endslot
                     @slot('description')
                         Белый комплект белья топ и трусики слипы
@@ -92,7 +93,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}komplekt-zhenskogo-belya-calvin-klein-serye-slipy.jpg
+                        {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-serye-slipy.jpg
                     @endslot
                     @slot('description')
                         Серый комплект белья топ и трусики слипы
@@ -107,7 +108,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}komplekt-zhenskogo-belya-calvin-klein-chernye-slipy.jpg
+                        {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-chernye-slipy.jpg
                     @endslot
                     @slot('description')
                         Черный комплект белья топ и трусики слипы
@@ -129,7 +130,7 @@
             <div class="row">
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}komplekt-zhenskogo-belya-calvin-klein-belye-stringi.jpg
+                        {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-belye-stringi.jpg
                     @endslot
                     @slot('description')
                         Белый комплект белья топ и трусики стринги
@@ -144,7 +145,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}komplekt-zhenskogo-belya-calvin-klein-serye-stringi.jpg
+                        {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-serye-stringi.jpg
                     @endslot
                     @slot('description')
                         Серый комплект белья топ и трусики стринги
@@ -159,7 +160,7 @@
 
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}komplekt-zhenskogo-belya-calvin-klein-chernye-stringi.jpg
+                        {{ $path_file }}komplekt-zhenskogo-belya-calvin-klein-chernye-stringi.jpg
                     @endslot
                     @slot('description')
                         Черный комплект белья топ и трусики стринги
@@ -182,51 +183,7 @@
     @endslot
 
     @slot('footer')
-        Copyright &#169; 2017 {{ $name }}.lpio.ru
-    @endslot
-
-    @slot('footer_phone')
-        <a href="tel:88129672763" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
-    @endslot
-
-    @slot('footer_email')
-        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
-    @endslot
-
-    @slot('footer_address')
-        Санкт-Петербург
-    @endslot
-
-    @slot('yandex')
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-            (function (d, w, c) {
-                (w[c] = w[c] || []).push(function() {
-                    try {
-                        w.yaCounter44736544 = new Ya.Metrika2({
-                            id:44736544,
-                            clickmap:true,
-                            trackLinks:true,
-                            accurateTrackBounce:true,
-                            webvisor:true,
-                            trackHash:true
-                        });
-                    } catch(e) { }
-                });
-
-                var n = d.getElementsByTagName("script")[0],
-                    s = d.createElement("script"),
-                    f = function () { n.parentNode.insertBefore(s, n); };
-                s.type = "text/javascript";
-                s.async = true;
-                s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js";
-
-                if (w.opera == "[object Opera]") {
-                    d.addEventListener("DOMContentLoaded", f, false);
-                } else { f(); }
-            })(document, window, "yandex_metrika_callbacks2");
-        </script>
-        <!-- /Yandex.Metrika counter -->
+        Copyright &#169; 2017 belyo-calvin-klein.lpio.ru
     @endslot
 
 @endcomponent

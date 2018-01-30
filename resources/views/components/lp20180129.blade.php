@@ -170,8 +170,8 @@
                     {{ $footer }}
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    {{ $footer_phone }}
-                    {{ $footer_email }}
+                    {{ $footer_phone }}<br>
+                    {{ $footer_email }}<br>
                     {{ $footer_address }}
                 </div>
             </div>

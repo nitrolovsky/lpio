@@ -1,141 +1,210 @@
-@component('components.onescreen')
+@php
+    $name = 'remont-holodilnikov-spb';
+    $image_path = "/files/remont-holodilnikov-spb/remont-holodilnikov-spb";
+@endphp
+@component('components.landing-page')
     @slot('title')
-        Ремонт холодольников СПб
-    @endslot
-
-    @slot('google_analytics')
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-99764557-1', 'auto');
-          ga('send', 'pageview');
-        </script>
-    @endslot
-
-    @slot('lptracker')
-
-    @endslot
-
-    @slot('bg_video')
-        '../files/remont-holodilnikov-doma/remont-holodilnikov-doma.mp4'
-    @endslot
-
-    @slot('bg_poster')
-        '../files/remont-holodilnikov-doma/remont-holodilnikov-doma.jpg'
+        Ремонт холодильников Санкт-Петербург {{ $name }}.lpio.ru
     @endslot
 
     @slot('brand')
-        РЕМТЕХНИКАСПБ
+        ХОЛОДОВИЧКОВ
     @endslot
 
     @slot('description')
-        Ремонт холодильников СПб
+        Ремонт холодильников в Санкт-Петербурге
     @endslot
 
     @slot('phone')
-        +79627123172
+        88219672763
     @endslot
 
     @slot('phone_view')
-        8 962 712 31 72
+        8 (812) 967 27 63
     @endslot
 
     @slot('email')
-        remont-holodilnikov-doma@ya.ru
+        info.lpio.ru@gmail.com
     @endslot
 
     @slot('address')
-        Санкт-Петербург
+
     @endslot
 
-    @slot('offer')
-        Отремонтируем холодильник на дому за 1 час от 500 рублей с гарантией 1 год
-    @endslot
-
-    @slot('bullets')
-        <li>
-            Быстрый выезд, мастер в каждом районе Санкт-Петербурга
-        </li>
-        <li class="pt-1">
-            Гарантия на ремонт 1 год
-        </li>
-        <li class="pt-1">
-            Устранение неисправностей: не включается, не выключается, покрывается льдом, протекает, не работают индикаторы, шумит, не холодит, неприятный запах, утечка фреона.
-        </li>
-        <li class="pt-1">
-            Стоимость работы мастера от 500 рублей в зависимости от неисправности
-        </li>
-    @endslot
-
-    @slot('video')
-        https://www.youtube.com/embed/ybqYC4Fsm2s
+    @slot('presentation')
+        {{ $image_path }}-0.jpg
     @endslot
 
     @slot('lead_magnet')
-        Вызовите мастера за 1 минуту, заполнив форму
+        Отремонтируем холодильник на дому в срочном порядке от 500 рублей с гарантией 1 год
+    @endslot
+
+    @slot('details')
+        Выезжаем на дом в течении 1 часа с момента обращения. Работаем по всем районам Санкт-Петербурга. Вы можете узнать причину поломки стоимость ремонта по телефону.
     @endslot
 
     @slot('form')
-        <form action="/leads" method="POST">
+        <form action="/leads" method="POST" class="border bg-light p-4 sw">
             {{ csrf_field() }}
             <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="dsmelcov11@gmail.com">
             <input type="hidden" name="cta" value="Форма с видео">
             <div class="form-group">
-                <input type="text" class="font black form-control w-4" id="phone" placeholder="Введите телефон" name="phone" required="required">
+                <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone">
             </div>
             <div class="form-group">
-                <button type="submit" class="font btn btn-primary btn-block w-4" role="button">
-                    Вызвать мастера
+                <button type="submit" class="btn btn-primary btn-block" role="button">
+                    Вызвать мастера бесплатно
                 </button>
             </div>
-            <div class="text-center">
-                <small>
-                    <a href="" class="text-primary  a" data-toggle="modal" data-target="#termsofuse">Пользовательское соглашение</a>
-                </small>
+            <div class="form-check mb-0">
+                <label class="form-check-label small">
+                    <input type="checkbox" class="form-check-input" checked>
+                    Согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="" data-toggle="modal" data-target="#termsofuse">политики конфиденциальности</a>
+                </label>
             </div>
         </form>
     @endslot
 
-    @slot('legal')
-        Copyright &#169; 2017<br>
-        <a href="tel:+79627123172" class="text-info a">8 962 712 31 72</a><br>
-        <a href="mailto:remont-holodilnikov-doma@ya.ru" class="text-info a">remont-holodilnikov-doma@ya.ru</a><br>
+    @slot('portfolio')
+        <div class="container-fluid">
+            @component('components.header')
+                @slot('title')
+                    Распространенные поломки холодильников
+                @endslot
+            @endcomponent
+            <div class="row">
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path}}-1.jpg
+                    @endslot
+                    @slot('description')
+                        Не морозит
+                    @endslot
+                    @slot('title')
+                        Не морозит
+                    @endslot
+                    @slot('details')
+                        Проблема может быть в:<br>
+                        — утечке фреона;<br>
+                        — засор трубки системы хладогенерации;<br>
+                        — сломанном компрессоре;<br>
+                        — обмерзшем вентиляторе.
+                    @endslot
+                @endcomponent
+
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-2.jpg
+                    @endslot
+                    @slot('description')
+                        Не работает морозилка
+                    @endslot
+                    @slot('title')
+                        Не работает морозилка
+                    @endslot
+                    @slot('details')
+                        Проблема может быть в:<br>
+                        — износившемся уплотнителе;<br>
+                        — сломанном клапане переключения;<br>
+                        — компрессоре;<br>
+                        — электронном модуле управления.
+                    @endslot
+                @endcomponent
+
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-3.jpg
+                    @endslot
+                    @slot('description')
+                        Шумит, гудит
+                    @endslot
+                    @slot('title')
+                        Шумит, гудит
+                    @endslot
+                    @slot('details')
+                        Проблема может быть в:<br>
+                        — стандартной работе компрессора;<br>
+                        — шумной работе системе NO FROST;<br>
+                        — реле;<br>
+                        — вентиляторе.
+                    @endslot
+                @endcomponent
+            </div>
+
+            <div class="d-none d-lg-block">
+                <br>
+                <br>
+            </div>
+
+            <div class="row">
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path}}-4.jpg
+                    @endslot
+                    @slot('description')
+                        Намерзает лед
+                    @endslot
+                    @slot('title')
+                        Намерзает лед
+                    @endslot
+                    @slot('details')
+                        Проблема может быть в:<br>
+                        — нарушении температурного режима;<br>
+                        — утечке фреона;<br>
+                        — износе уплотнительной резинки;<br>
+                        — датчике разморозки.
+                    @endslot
+                @endcomponent
+
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-5.jpg
+                    @endslot
+                    @slot('description')
+                        Протекает
+                    @endslot
+                    @slot('title')
+                        Протекает
+                    @endslot
+                    @slot('details')
+                        Проблема может быть в:<br>
+                        — засоре в дренажном отверстии холодильной или морозильной камеры;<br>
+                        — износе резинового уплотнителя;<br>
+                        — термостате, компрессоре;<br>
+                        — поломке трубки слива.
+                    @endslot
+                @endcomponent
+
+                @component('components.card')
+                    @slot('image')
+                        {{ $image_path }}-6.jpg
+                    @endslot
+                    @slot('description')
+                        Работает без остановки
+                    @endslot
+                    @slot('title')
+                        Работает без остановки
+                    @endslot
+                    @slot('details')
+                        Проблема может быть в:<br>
+                        — плохо закрытой дверце;<br>
+                        — неисправности терморегулятора;<br>
+                        — износе резинового уплотнителя;<br>
+                        — утечке фреона, хладагента.
+                    @endslot
+                @endcomponent
+            </div>
+
+            <div class="d-none d-lg-block">
+                <br>
+                <br>
+            </div>
+
+        </div>
     @endslot
 
-    @slot('yandex')
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript">
-            (function (d, w, c) {
-                (w[c] = w[c] || []).push(function() {
-                    try {
-                        w.yaCounter44736544 = new Ya.Metrika({
-                            id:44736544,
-                            clickmap:true,
-                            trackLinks:true,
-                            accurateTrackBounce:true,
-                            webvisor:true,
-                            trackHash:true
-                        });
-                    } catch(e) { }
-                });
-
-                var n = d.getElementsByTagName("script")[0],
-                    s = d.createElement("script"),
-                    f = function () { n.parentNode.insertBefore(s, n); };
-                s.type = "text/javascript";
-                s.async = true;
-                s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-                if (w.opera == "[object Opera]") {
-                    d.addEventListener("DOMContentLoaded", f, false);
-                } else { f(); }
-            })(document, window, "yandex_metrika_callbacks");
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/44736544" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->
+    @slot('footer')
+        Copyright &#169; 2017 {{ $name }}.lpio.ru
     @endslot
+
 @endcomponent

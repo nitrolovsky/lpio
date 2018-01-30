@@ -256,11 +256,11 @@
     @endslot
 
     @slot('footer_phone')
-        <a href="tel:89522193383" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 952 219 33 83</a><br>
+        <a href="tel:89522193383" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 952 219 33 83</a>
     @endslot
 
     @slot('footer_email')
-        <a href="mailto:ashmedia@mail.ru" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">ashmedia@mail.ru</a><br>
+        <a href="mailto:ashmedia@mail.ru" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">ashmedia@mail.ru</a>
     @endslot
 
     @slot('footer_address')
