@@ -7,7 +7,11 @@
         @foreach($files as $file)
             <div class="row">
                 <div class="col-12">
-                    <a href="/pages/{{ $file }}" target="_blank">{{ $file }}</a>
+                    @if(str_contains(url()->current(), 'dev'))
+                        <a href="/pages/{{ $file }}" target="_blank">{{ $file }}</a>
+                    @elseif(str_contains(url()->current(), 'ru'))
+                        <a href="{{ $file }}.lpio.ru" target="_blank">{{ $file }}</a>
+                    @endif
                 </div>
             </div>
         @endforeach

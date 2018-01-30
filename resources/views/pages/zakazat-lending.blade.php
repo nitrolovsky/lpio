@@ -68,8 +68,8 @@
 
     @slot('details')
         <ul class="mb-0">
-            <li>Срок создания лендинга - 1 час.
-            <li>Стоимость - 2 000 руб.
+            <li>Срок создания лендинга - от 30 минут в зависимости от наличия контента;
+            <li>Стоимость - от 2 000 руб.
         </ul>
     @endslot
 
@@ -138,7 +138,7 @@
                         <a href="https://dostavkadivanov.ru/" target="_blank">Фабрика диванов</a>
                     @endslot
                 @endcomponent
-                
+
             </div>
 
             <div class="d-none d-lg-block">

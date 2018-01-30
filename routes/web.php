@@ -65,6 +65,4 @@ Route::get('pages/thanks', function() {
     return view('pages.thanks');
 });
 
-
-
 Route::resource('leads', 'LeadController');
