@@ -1,14 +1,10 @@
-@component('components.offer')
+@php
+    $name = 'kupit-kvartiru-spb-distancionno';
+    $image_path = "/files/kupit-kvartiru-spb-distancionno/kupit-kvartiru-spb-distancionno";
+@endphp
+@component('components.lp20180129')
     @slot('title')
-        Агентство недвижимости Купина, купить квартиру в Санкт-Петербурге дистанционно
-    @endslot
-
-    @slot('bg_poster')
-        kupit-kvartiru-spb-distancionno.jpg
-    @endslot
-
-    @slot('bg_video')
-
+        Агентство недвижимости Купина, купить квартиру в Санкт-Петербурге дистанционно {{ $name }}.lpio.ru
     @endslot
 
     @slot('brand')
@@ -19,97 +15,87 @@
         Агентство недвижимости Купина
     @endslot
 
-    @slot('phone')
-        88122132039
+    @slot('header_phone')
+        <a href="tel:88129672763" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
     @endslot
 
-    @slot('phone_view')
-        8 (812) 213 20 39
+    @slot('header_email')
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
     @endslot
 
-    @slot('email')
-        info.lpio@ya.ru
-    @endslot
-
-    @slot('offer')
-        Получите 5 идеальных вариантов квартир в Санкт-Петербурге по вашим параметрам и просмотрами в реальном времени по видеосвязи
-    @endslot
-
-    @slot('details')
-        Видеосвязь по Whatsapp, Facetime, Skype, Viber. Вторичный рынок и новостройки от застройщиков.
-    @endslot
-
-    @slot('form')
-        <form action="/leads" method="POST">
-            {{ csrf_field() }}
-            <input type="hidden" name="source" value="all_leads">
-            <input type="hidden" name="to" value="dima_kupina@mail.ru">
-            <input type="hidden" name="cta" value="Форма с видео">
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4 sw" id="email" placeholder="Введите email" name="email">
-            </div>
-            <div class="form-group">
-                <input type="text" class="font black form-control w-4 sw" id="phone" placeholder="Телефон" name="phone" required="required">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="font btn btn-success btn-block w-4 sw" role="button">
-                    Получить
-                </button>
-            </div>
-            <div class="form-check">
-                <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" checked>
-                    Согласен на обработку персональных данных и <a href="" class="text-info  a" data-toggle="modal" data-target="#termsofuse">политикой конфиденциальности</a>
-                </label>
-            </div>
-        </form>
-    @endslot
-
-    @slot('legal')
-        Copyright &#169; 2017 &laquo;KUPINA&raquo;<br>
+    @slot('header_address')
         Санкт-Петербург, Большой Казачий пер., д. 8
     @endslot
 
-    @slot('lptracker')
-        <noindex><script async src="https://stats.lptracker.ru/code/new/42939"></script></noindex>
+    @slot('presentation_video')
+        https://www.youtube.com/embed/xIM5jc6n_9g
     @endslot
 
-    @slot('gtm_head')
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-56WTNTG');</script>
-        <!-- End Google Tag Manager -->
+    @slot('lead_magnet')
+        Получите подбор вариантов квартир в Санкт-Петербурге по вашим параметрам и просмотрами по видеосвязи
     @endslot
 
-    @slot('gtm_body')
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56WTNTG"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
+    @slot('details')
+        <ul class="mb-0">
+            <li>
+                Просмотры квартиры в режиме реального времени для иногородних покупателей;
+            </li>
+            <li>
+                Видеосвязь по Whatsapp, Facetime, Skype;
+            </li>
+            <li>
+                Вторичный рынок и новостройки от застройщиков;
+            </li>
+            <li>
+                Проверяем юридическую чистоту квартиры.
+            </li>
+        </ul>
     @endslot
 
-    @slot('google_analytics')
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    @slot('button_call_to_action')
+        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
+            Получить подбор вариантов
+        </button>
+    @endslot
 
-          ga('create', 'UA-99764557-1', 'auto');
-          ga('send', 'pageview');
-        </script>
+    @slot('popup_form_title')
+        Введите телефон, чтобы мы перезвонили и уточнили параметры квартиры
+    @endslot
+
+    @slot('popup_form')
+        <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
+                Получить подбор вариантов
+            </button>
+        </div>
+    @endslot
+
+    @slot('footer')
+        Copyright &#169; 2017 {{ $name }}.lpio.ru
+    @endslot
+
+    @slot('footer_phone')
+        <a href="tel:88129672763" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
+    @endslot
+
+    @slot('footer_email')
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
+    @endslot
+
+    @slot('footer_address')
+        Санкт-Петербург, Большой Казачий пер., д. 8
     @endslot
 
     @slot('yandex')
         <!-- Yandex.Metrika counter -->
-        <script type="text/javascript">
+        <script type="text/javascript" >
             (function (d, w, c) {
                 (w[c] = w[c] || []).push(function() {
                     try {
-                        w.yaCounter44736544 = new Ya.Metrika({
+                        w.yaCounter44736544 = new Ya.Metrika2({
                             id:44736544,
                             clickmap:true,
                             trackLinks:true,
@@ -125,14 +111,14 @@
                     f = function () { n.parentNode.insertBefore(s, n); };
                 s.type = "text/javascript";
                 s.async = true;
-                s.src = "https://mc.yandex.ru/metrika/watch.js";
+                s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js";
 
                 if (w.opera == "[object Opera]") {
                     d.addEventListener("DOMContentLoaded", f, false);
                 } else { f(); }
-            })(document, window, "yandex_metrika_callbacks");
+            })(document, window, "yandex_metrika_callbacks2");
         </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/44736544" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
     @endslot
+
 @endcomponent

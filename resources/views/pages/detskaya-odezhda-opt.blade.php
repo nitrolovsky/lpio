@@ -67,7 +67,7 @@
             <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="email" placeholder="Введите email" name="email" required>
+            <input type="text" class="form-control" id="email" placeholder="Email" name="email" required>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">

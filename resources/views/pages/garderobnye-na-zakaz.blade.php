@@ -1,18 +1,18 @@
 @php
-    $name = 'magic-tracks';
-    $image_path = "/files/magic-tracks/magic-tracks";
+    $name = 'garderobnye-na-zakaz';
+    $image_path = "/files/garderobnye-na-zakaz/garderobnye-na-zakaz";
 @endphp
 @component('components.lp20180129')
     @slot('title')
-        Конструктор гоночная трасса Magic Tracks 220 {{ $name }}.lpio.ru
+        Гардеробные на заказ в Санкт-Петербурге {{ $name }}.lpio.ru
     @endslot
 
     @slot('brand')
-        Magic Tracks
+        REIN
     @endslot
 
     @slot('description')
-        Интернет-магазин детских игрушек
+        Гардеробные на заказ
     @endslot
 
     @slot('header_phone')
@@ -27,27 +27,26 @@
         Санкт-Петербург
     @endslot
 
-    @slot('presentation_video')
-        https://www.youtube.com/embed/q1rh9cD36vc
+    @slot('presentation')
+        {{ $image_path }}-0.jpg
     @endslot
 
     @slot('lead_magnet')
-        Конструктор гоночная трасса Magic Tracks 220 элементов<br>
-        <span class="text-danger">1950 &#8381;</span>
+        Узнайте как будет выглядить гардеробная вашей мечты с фотореалистичным дизайн-проектом
     @endslot
 
     @slot('details')
-        Подарите детям Magic Tracks и они будут с радостью с ним играть. Можно каждый раз собирать новую трассу и добавлять элементы к уже существующей.
+        3D визуализация позволит понять как будет выглядить ваша гардеробная комната, ее наполнение и на сколько ей будет удобно пользоваться. Расчет стоимости проекта после уточнение размеров и пожеланий к гардеробной комнате. 
     @endslot
 
     @slot('button_call_to_action')
         <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
-            Заказать в 1 клик
+            Получить дизайн-проект
         </button>
     @endslot
 
     @slot('popup_form_title')
-        Введите телефон и email, чтобы менеджер уточнил детали доставки
+        Введите телефон и email, чтобы дизайнер уточнил детали гардеробной комнаты
     @endslot
 
     @slot('popup_form')
@@ -59,7 +58,7 @@
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                Заказать
+                Получить дизайн-проект
             </button>
         </div>
     @endslot
@@ -68,22 +67,24 @@
         <div class="container-fluid">
             @component('components.header')
                 @slot('title')
-                    Подробности о конструкторе гоночной трассы Magic Tracks 220
+                    Гардеробные на заказ, изготовленные для наших клиентов в стиле от классики до hi-tech
                 @endslot
             @endcomponent
             <div class="row">
                 @component('components.card')
                     @slot('image')
-                        {{ $image_path }}-1.jpg
+                        {{ $image_path}}-1.jpg
                     @endslot
                     @slot('description')
-                        Соединяющиеся детали
+                        Фабричный стандарт качества
                     @endslot
                     @slot('title')
-                        Соединяющиеся детали
+                        Фабричный стандарт качества
                     @endslot
                     @slot('details')
-                        Соберите свою собственную трассу за считанные секунды.
+                        Собственное производство в Санкт-Петербурге на оборудовании класса A++ с 2000 года.
+                        Профессиональные дизайнеры-проектировщики с опытом работы от 10 лет.
+                        Каждое изделие проходит отдел технического контроля перед отгрузкой.
                     @endslot
                 @endcomponent
 
@@ -92,13 +93,15 @@
                         {{ $image_path }}-2.jpg
                     @endslot
                     @slot('description')
-                        Гибкая форма
+                        Фирменные механизмы и комплектующие
                     @endslot
                     @slot('title')
-                        Гибкая форма
+                        Фирменные механизмы и комплектующие
                     @endslot
                     @slot('details')
-                        Гоночную трассу Magic Tracks можно поворачивать и сгибать в любом направлении.
+                        Система раздвижных дверей Total Absolut (Польша).
+                        Система раздвижных дверей Hettich (Германия).
+                        Механизмы и фурнитура Blum (Австрия) и Hettich (Германия).
                     @endslot
                 @endcomponent
 
@@ -107,65 +110,15 @@
                         {{ $image_path }}-3.jpg
                     @endslot
                     @slot('description')
-                        Трансформируйте трассу на 360˚
+                        Индивидуальный подход
                     @endslot
                     @slot('title')
-                        Трансформируйте трассу на 360˚
+                        Индивидуальный подход
                     @endslot
                     @slot('details')
-                        Согните трассу в колесо и пустите машину по кругу.
-                    @endslot
-                @endcomponent
-            </div>
-
-            <div class="d-none d-lg-block">
-                <br>
-                <br>
-            </div>
-
-            <div class="row">
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-4.jpg
-                    @endslot
-                    @slot('description')
-                        Светодиодные огни
-                    @endslot
-                    @slot('title')
-                        Светодиодные огни
-                    @endslot
-                    @slot('details')
-                        Гоночная машина оснащена 5 светодиодными огнями, которые освещают ей путь.
-                    @endslot
-                @endcomponent
-
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-5.jpg
-                    @endslot
-                    @slot('description')
-                        Набор наклеек
-                    @endslot
-                    @slot('title')
-                        Набор наклеек
-                    @endslot
-                    @slot('details')
-                        Придайте своей машине оригинальный вид.
-                    @endslot
-                @endcomponent
-
-                @component('components.card')
-                    @slot('image')
-                        {{ $image_path }}-6.jpg
-                    @endslot
-                    @slot('description')
-                        Легко сворачивается
-                    @endslot
-                    @slot('title')
-                        Легко сворачивается
-                    @endslot
-                    @slot('details')
-                        Не занимает места при хранении.
+                        Персональный дизайнер составит для вас проект гардеробной, учитывая ваши потребности и рекомендации.
+                        Любые нестандартные решения по конструктиву и внешнему виду гардеробной.
+                        Все виды гардеробных комнат: угловые, П-образные, в отельной комнате или в спальне и многие другие.
                     @endslot
                 @endcomponent
             </div>
