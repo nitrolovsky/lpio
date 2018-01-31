@@ -2,7 +2,7 @@
     $name = 'marketingovoe-agentstvo';
     $image_path = "/files/marketingovoe-agentstvo/marketingovoe-agentstvo";
 @endphp
-@component('components.landing-page')
+@component('components.lp20180129')
     @slot('title')
         Маркетинговое агентство {{ $name }}.lpio.ru
     @endslot
@@ -37,24 +37,20 @@
         Маркетинговое агентство
     @endslot
 
-    @slot('phone')
-        88129672763
+    @slot('header_phone')
+        <a href="tel:88129672763" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
     @endslot
 
-    @slot('phone_view')
-        8 (812) 967 27 63
+    @slot('header_email')
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
     @endslot
 
-    @slot('email')
-        info.lpio.ru@gmail.com
-    @endslot
-
-    @slot('address')
-        Санкт-Петербург
+    @slot('header_address')
+        Санкт-Петербург, м. Садовая
     @endslot
 
     @slot('presentation')
-        {{ $image_path }}-0.png
+        {{ $image_path }}-0.jpg
     @endslot
 
     @slot('lead_magnet')
@@ -63,6 +59,27 @@
 
     @slot('details')
         Маркетинг на результат - это ваша гарантия того, что деньги, которые вы тратите на рекламу и продвижение в итоге приносят вам прибыль. Мы связываем оплату своей работы с достижением конкретных цифр в воронке продаж бизнеса.
+    @endslot
+
+    @slot('button_call_to_action')
+        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
+            Узнать условия
+        </button>
+    @endslot
+
+    @slot('popup_form_title')
+        Введите телефон, чтобы мы договорились об информации для построения потока клиентов
+    @endslot
+
+    @slot('popup_form')
+        <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
+                Узнать условия
+            </button>
+        </div>
     @endslot
 
     @slot('form')
@@ -88,7 +105,7 @@
         </form>
     @endslot
 
-    @slot('meat')
+    @slot('examples')
         <div id="primeri-rabot"></div>
         <div class="container-fluid">
             @component('components.header')
@@ -291,9 +308,7 @@
                 @endcomponent
             </div>
         </div>
-    @endslot
 
-    @slot('portfolio')
         <div id="uslugi"></div>
         <div class="container-fluid">
             @component('components.header')
@@ -392,6 +407,18 @@
 
     @slot('footer')
         Copyright &#169; 2017 {{ $name }}.lpio.ru
+    @endslot
+
+    @slot('footer_phone')
+        <a href="tel:88129672763" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;">8 (812) 967 27 63</a>
+    @endslot
+
+    @slot('footer_email')
+        <a href="mailto:info.lpio.ru@gmail.com" onclick="yaCounter44736544.reachGoal('clickEmail'); return true;">info.lpio.ru@gmail.com</a>
+    @endslot
+
+    @slot('footer_address')
+        Санкт-Петербург, м. Садовая
     @endslot
 
 @endcomponent
