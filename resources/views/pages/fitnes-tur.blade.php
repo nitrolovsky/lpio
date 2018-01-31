@@ -50,6 +50,7 @@
     @endslot
 
     @slot('popup_form')
+        <input type="hidden" name="to" value="tour@vinylsmiles.studio">
         <div class="form-group">
             <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
         </div>
