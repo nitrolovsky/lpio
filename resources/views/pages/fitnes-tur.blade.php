@@ -134,7 +134,7 @@
 
             <div class="row">
 
-                @component('components.card')
+                @component('components.card-6')
                     @slot('image')
                         {{ $image_path }}-5.jpg
                     @endslot
@@ -149,7 +149,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.card')
+                @component('components.card-6')
                     @slot('image')
                         {{ $image_path }}-6.jpg
                     @endslot
