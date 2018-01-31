@@ -72,12 +72,12 @@
                 @endslot
             @endcomponent
             <div class="row">
-                @component('components.card')
+                @component('components.card-col-3')
                     @slot('image')
                         {{ $image_path}}-1.jpg
                     @endslot
                     @slot('description')
-                        Не морозит
+                        Разнообразные тренировки
                     @endslot
                     @slot('title')
                         Разнообразные тренировки
@@ -87,12 +87,12 @@
                     @endslot
                 @endcomponent
 
-                @component('components.card')
+                @component('components.card-col-3')
                     @slot('image')
                         {{ $image_path }}-2.jpg
                     @endslot
                     @slot('description')
-                        Не работает морозилка
+                        Сбалансированное питание
                     @endslot
                     @slot('title')
                         Сбалансированное питание
@@ -102,12 +102,12 @@
                     @endslot
                 @endcomponent
 
-                @component('components.card')
+                @component('components.card-col-3')
                     @slot('image')
                         {{ $image_path }}-3.jpg
                     @endslot
                     @slot('description')
-                        Шумит, гудит
+                        Увлекательные лекции
                     @endslot
                     @slot('title')
                         Увлекательные лекции
@@ -116,6 +116,22 @@
                         По физиологии похудения. Правильному питанию. Уходу за собой. Мастер-классы по приготовлению натуральных средств для тела. Тренинги мотивации и личностного роста.
                     @endslot
                 @endcomponent
+
+                @component('components.card-col-3')
+                    @slot('image')
+                        {{ $image_path }}-4.jpg
+                    @endslot
+                    @slot('description')
+                        Водопады, дольмены и прогулки на яхте
+                    @endslot
+                    @slot('title')
+                        Водопады, дольмены и прогулки на яхте
+                    @endslot
+                    @slot('details')
+                        Посетим впечатлающие места и красивые виды Черного Моря. Ваши фотографии будут, как из рая. А если устанете от прогулок на территории гостиницы есть круглогодичный подогреваемый бассейн.
+                    @endslot
+                @endcomponent
+
             </div>
 
             <div class="d-none d-lg-block">
@@ -134,7 +150,7 @@
 
             <div class="row">
 
-                @component('components.card-6')
+                @component('components.card-col-6')
                     @slot('image')
                         {{ $image_path }}-5.jpg
                     @endslot
@@ -149,7 +165,7 @@
                     @endslot
                 @endcomponent
 
-                @component('components.card-6')
+                @component('components.card-col-6')
                     @slot('image')
                         {{ $image_path }}-6.jpg
                     @endslot
