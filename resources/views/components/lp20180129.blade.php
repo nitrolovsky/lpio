@@ -84,6 +84,7 @@
         {{ $yandex or '' }}
 
         {{ $navbar or '' }}
+
         <div class="container-fluid">
             <div class="row p-5">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-left text-lg-left text-md-left text-sm-center text-center">
@@ -160,6 +161,14 @@
         {{ $examples or '' }}
 
         @isset($examples)
+            <div class="container-fluid">
+                <div class="row pt-5 pb-5">
+                    <div class="col-xl-4 col-lg-6 col-12 mx-auto">
+                        {{ $button_call_to_action }}
+                    </div>
+                </div>
+            </div>
+
             <div class="container-fluid bg-light">
         @endisset
         @empty($examples)
