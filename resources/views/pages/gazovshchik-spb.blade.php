@@ -8,7 +8,7 @@
     @endslot
 
     @slot('brand')
-        Газовый сервис Петербурга № 1 
+        Газовый сервис Петербурга № 1
     @endslot
 
     @slot('description')
