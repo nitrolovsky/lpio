@@ -93,7 +93,7 @@
                     <span>{{ $description }}</span>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    <a href="tel:88123253909" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;"><span class="lptracker_phone">+7 (812) 325 39 09</span></a><br>
+                    <a href="tel:88129824772" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;"><span class="lptracker_phone">+7 (812) 325 39 09</span></a><br>
                     {{ $header_email }}<br>
                     {{ $header_address }}
                 </div>
@@ -180,7 +180,7 @@
                     {{ $footer }}
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    {{ $footer_phone }}<br>
+                        <a href="tel:88129824772" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;"><span class="lptracker_phone">+7 (812) 325 39 09</span></a><br>
                     {{ $footer_email }}<br>
                     {{ $footer_address }}
                 </div>
