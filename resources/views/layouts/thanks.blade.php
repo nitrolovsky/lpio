@@ -21,6 +21,7 @@
           ga('send', 'pageview');
 
         </script>
+        <noindex><script async src="https://stats.lptracker.ru/code/new/49777"></script></noindex>
     </head>
     <body>
         @yield('content')
