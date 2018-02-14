@@ -5,6 +5,9 @@
     @slot('bg')
         /files/trafik-upakovka-biznesa/bg.jpg
     @endslot
+    @slot('bg_poster')
+        /files/trafik-upakovka-biznesa/bg.jpg
+    @endslot
     @slot('google_analytics')
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,6 +56,9 @@
         </li>
     @endslot
     @slot('video')
+        https://www.youtube.com/embed/rtcSgvzVC6Q
+    @endslot
+    @slot('bg_video')
         https://www.youtube.com/embed/rtcSgvzVC6Q
     @endslot
     @slot('lead_magnet')

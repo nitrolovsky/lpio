@@ -6,7 +6,7 @@
 <html>
     @component('components.head')
         @slot('title')
-            Электрическая роликовая пилка Scholl Wet & Dry
+            Конструктор гоночная трасса Magic Tracks 220
         @endslot
         @slot('bg')
             {{ $path_images }}bg.jpg
@@ -95,18 +95,10 @@
                 Санкт-Петербург
             @endslot
             @slot('offer')
-                Электрическая роликовая пилка Scholl для удаления огрубевшей кожи стоп
+                Конструктор гоночная трасса Magic Tracks 220 элементов
             @endslot
             @slot('bullets')
-                <li>
-                    Бесплатная доставка по Москве и СПб
-                </li>
-                <li class="pt-1">
-                    Подарок к каждой пилке
-                </li>
-                <li class="pt-1">
-                    Бархатная кожа стоп за 2 недели использования
-                </li>
+                Подарите детям Magic Tracks и они будут с радостью с ним играть. Можно каждый раз собирать новую трассу и добавлять элементы к уже существующей.
             @endslot
             @slot('video')
                 https://www.youtube.com/embed/q1rh9cD36vc
