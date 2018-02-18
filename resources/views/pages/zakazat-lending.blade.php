@@ -63,34 +63,45 @@
     @endslot
 
     @slot('lead_magnet')
-        Увеличьте количество заявок клиентов из интернета с помощью посадочной страницы без отвлекающего от вашего предложения дизайна
+        Создам продающий сайт c которого будет заявок в 2 раза больше минимум или без оплаты
     @endslot
 
     @slot('details')
         <ul class="mb-0">
-            <li>Срок создания посадочной страницы (лендинга) - от 1 дня в зависимости от наличия контента;
-            <li>Придумаю привлекательное предложение (офер, лид-магнит) для воронки продаж вашего бизнеса;
-            <li>Стоимость - от 3 000 руб.
+            <li>Стоимость - от 15 000 &#8381;
+            <li>Срок - от 3 дней
+        </ul>
+        <br>
+        <ul class="mb-0">
+            <li>Настроенные счетчики Метрика и Analytics
+            <li>Адаптивная верстка для мобильных устройств
+            <li>Внутренняя SEO оптимизация
+            <li>Копирайтинг в информационном стиле
+            <li>Разработка офера (лид-магнита)
+            <li>Ежемесячные улучшения и корректировка информации
         </ul>
     @endslot
 
     @slot('button_call_to_action')
         <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#formModal"  onclick="yaCounter44736544.reachGoal('clickCallToAction'); return true;">
-            Увеличить количество заявок клиентов
+            Получить презентацию
         </button>
     @endslot
 
     @slot('popup_form_title')
-        Введите телефон, чтобы мы договорились об информации для создания лендинга
+        Введите email и телефон
     @endslot
 
     @slot('popup_form')
         <div class="form-group">
-            <input type="text" class="form-control" id="phone" placeholder="Введите телефон" name="phone" required>
+            <input type="text" class="form-control" id="email" placeholder="Введите email" name="email" required>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone" required>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block" role="button" onclick="yaCounter44736544.reachGoal('clickSendForm'); return true;">
-                Увеличить количество заявок клиентов
+                Получить презентацию
             </button>
         </div>
     @endslot
