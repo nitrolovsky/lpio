@@ -6,40 +6,17 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&subset=cyrillic,cyrillic-ext,latin-ext">
         <style>
-            @font-face {
-                font-family: 'Montserrat';
-                src:    url('/fonts/montserrat/montserratlight.woff') format('woff'),
-                        url('/fonts/montserrat/montserratlight.woff2') format('woff2'),
-                        url('/fonts/montserrat/montserratlight.ttf') format('truetype');
-                font-weight: 300;
-                font-style: normal;
-            }
-                @font-face {
-                font-family: 'Montserrat';
-                src:    url('/fonts/montserrat/montserrat.woff') format('woff'),
-                        url('/fonts/montserrat/montserrat.woff2') format('woff2'),
-                        url('/fonts/montserrat/montserrat.ttf') format('truetype');
-                font-weight: 400;
-                font-style: normal;
-            }
-            @font-face {
-                font-family: 'Montserrat';
-                src:    url('/fonts/montserrat/montserratbold.woff') format('woff'),
-                        url('/fonts/montserrat/montserratbold.woff2') format('woff2'),
-                        url('/fonts/montserrat/montserratbold.ttf') format('truetype');
-                font-weight: 700;
-                font-style: normal;
-            }
-
             a, a:hover, a:active, a:visited {
                 text-decoration:none;
             }
 
             body {
-                font-family: "Montserrat";
+                font-family: "Montserrat", sans-serif;
                 color: #222;
+                font-feature-settings: normal;
+                -ms-font-feature-settings: normal;
             }
 
             h1,
@@ -54,6 +31,7 @@
             .h4,
             .h5,
             .h6 {
+                font-family: "Montserrat", sans-serif;
                 font-weight: 700;
             }
 
