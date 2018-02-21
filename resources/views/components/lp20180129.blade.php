@@ -15,8 +15,6 @@
             body {
                 font-family: "Montserrat";
                 color: #222;
-                text-align: justify;
-                hyphens: auto;
             }
 
             h1,
