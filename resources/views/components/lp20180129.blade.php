@@ -13,10 +13,8 @@
             }
 
             body {
-                font-family: "Montserrat", sans-serif;
+                font-family: "Montserrat", sans-serif !important;;
                 color: #222;
-                font-feature-settings: normal;
-                -ms-font-feature-settings: normal;
             }
 
             h1,
@@ -41,14 +39,21 @@
 
             .light {
                 font-weight: 300;
+                font-family: "Montserrat", sans-serif;
             }
 
             .regular {
                 font-weight: 400;
+                font-family: "Montserrat", sans-serif;
             }
 
             .bold {
                 font-weight: 700;
+                font-family: "Montserrat", sans-serif;
+            }
+
+            li {
+                font-family: "Montserrat", sans-serif !important;
             }
 
             .form-control {
@@ -124,7 +129,7 @@
                         <h1 class="h2 mb-0">
                             {{ $lead_magnet }}
                         </h1>
-                        <div class="py-4">
+                        <div class="py-4 regular">
                             {{ $details }}
                         </div>
 
