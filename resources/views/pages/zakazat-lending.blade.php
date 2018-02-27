@@ -120,10 +120,10 @@
                         {{ $image_path}}-1.jpg
                     @endslot
                     @slot('link_primer')
-                        http://ashmedia-ru.lpio.ru/
+                        http://ashmedia-ru-0.lpio.ru/
                     @endslot
                     @slot('title')
-                        <a href="http://ashmedia-ru.lpio.ru/" target="_blank">Создание видеороликов для бизнеса</a>
+                        <a href="http://ashmedia-ru-0.lpio.ru/" target="_blank">Создание видеороликов для бизнеса</a>
                     @endslot
                 @endcomponent
 
