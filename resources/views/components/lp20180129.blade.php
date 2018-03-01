@@ -87,7 +87,7 @@
         <title>
             {{ $title }}
         </title>
-        <noindex><script async src="https://stats.lptracker.ru/code/new/49777"></script></noindex>
+        <noindex><script async src="https://stats.lptracker.ru/code/new/50584"></script></noindex>
     </head>
     <body>
         {{ $yandex or '' }}
@@ -101,7 +101,7 @@
                     <span>{{ $description }}</span>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                    <a href="tel:88129824772" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;"><span class="lptracker_phone">+7 (812) 325 39 09</span></a><br>
+                    <a href="tel:88129830046" class="h4-a light" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;"><span class="lptracker_phone">+7 (812) 983 00 46</span></a><br>
                     {{ $header_email }}<br>
                     {{ $header_address }}
                 </div>
@@ -188,7 +188,7 @@
                     {{ $footer }}
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-xl-right text-lg-right text-md-right text-sm-center text-center">
-                        <a href="tel:88129824772" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;"><span class="lptracker_phone">+7 (812) 325 39 09</span></a><br>
+                        <a href="tel:88129830046" onclick="yaCounter44736544.reachGoal('clickPhone'); return true;"><span class="lptracker_phone">+7 (812) 983 00 46</span></a><br>
                     {{ $footer_email }}<br>
                     {{ $footer_address }}
                 </div>
